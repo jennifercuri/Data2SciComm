@@ -1,0 +1,17 @@
+---
+title: "D2SC ICMA Notebook"
+output: html_notebook
+author: Jennifer Curi
+date: "`r Sys.Date()`"
+
+---
+#ICMA September 9 2024
+
+```{r}
+
+# this is a comment
+plot(cars)
+```
+
+
+
