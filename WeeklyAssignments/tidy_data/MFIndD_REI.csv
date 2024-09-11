@@ -1,0 +1,4001 @@
+qualtrics_id,sub_type,item_number,rev_scoring,response,scored_response
+R_1lnLF0rQ3biXSbK,RE,1,neg,2,4
+R_1lnLF0rQ3biXSbK,RA,1,neg,4,2
+R_1lnLF0rQ3biXSbK,RE,2,NA,3,3
+R_1lnLF0rQ3biXSbK,RA,2,neg,3,3
+R_1lnLF0rQ3biXSbK,RE,3,neg,2,4
+R_1lnLF0rQ3biXSbK,RE,4,NA,2,2
+R_1lnLF0rQ3biXSbK,RE,5,neg,2,4
+R_1lnLF0rQ3biXSbK,RA,3,neg,2,4
+R_1lnLF0rQ3biXSbK,RA,4,neg,2,4
+R_1lnLF0rQ3biXSbK,RE,6,NA,2,2
+R_1lnLF0rQ3biXSbK,RE,7,neg,4,2
+R_1lnLF0rQ3biXSbK,RA,5,neg,4,2
+R_1lnLF0rQ3biXSbK,RA,6,NA,3,3
+R_1lnLF0rQ3biXSbK,RA,7,NA,3,3
+R_1lnLF0rQ3biXSbK,RE,8,NA,4,4
+R_1lnLF0rQ3biXSbK,RA,8,NA,3,3
+R_1lnLF0rQ3biXSbK,RA,9,NA,3,3
+R_1lnLF0rQ3biXSbK,RE,9,neg,4,2
+R_1lnLF0rQ3biXSbK,RA,10,NA,NA,NA
+R_1lnLF0rQ3biXSbK,RE,10,NA,4,4
+R_1lnLF0rQ3biXSbK,EE,1,NA,3,3
+R_1lnLF0rQ3biXSbK,EA,1,neg,3,3
+R_1lnLF0rQ3biXSbK,EA,2,NA,3,3
+R_1lnLF0rQ3biXSbK,EA,3,NA,3,3
+R_1lnLF0rQ3biXSbK,EE,2,NA,4,4
+R_1lnLF0rQ3biXSbK,EE,3,NA,3,3
+R_1lnLF0rQ3biXSbK,EA,4,NA,4,4
+R_1lnLF0rQ3biXSbK,EA,5,NA,3,3
+R_1lnLF0rQ3biXSbK,EA,6,neg,2,4
+R_1lnLF0rQ3biXSbK,EE,4,neg,4,2
+R_1lnLF0rQ3biXSbK,EE,5,NA,4,4
+R_1lnLF0rQ3biXSbK,EE,6,neg,3,3
+R_1lnLF0rQ3biXSbK,EE,7,neg,4,2
+R_1lnLF0rQ3biXSbK,EE,8,neg,3,3
+R_1lnLF0rQ3biXSbK,EA,7,NA,2,2
+R_1lnLF0rQ3biXSbK,EE,9,neg,3,3
+R_1lnLF0rQ3biXSbK,EA,8,neg,3,3
+R_1lnLF0rQ3biXSbK,EE,10,NA,4,4
+R_1lnLF0rQ3biXSbK,EA,9,NA,3,3
+R_1lnLF0rQ3biXSbK,EA,10,neg,2,4
+R_3NV67BeT8swOBOf,RE,1,neg,Strongly Disagree,5
+R_3NV67BeT8swOBOf,RA,1,neg,Strongly Disagree,5
+R_3NV67BeT8swOBOf,RE,2,NA,Strongly Agree,5
+R_3NV67BeT8swOBOf,RA,2,neg,Strongly Disagree,5
+R_3NV67BeT8swOBOf,RE,3,neg,2,4
+R_3NV67BeT8swOBOf,RE,4,NA,Strongly Agree,5
+R_3NV67BeT8swOBOf,RE,5,neg,Strongly Disagree,5
+R_3NV67BeT8swOBOf,RA,3,neg,Strongly Disagree,5
+R_3NV67BeT8swOBOf,RA,4,neg,Strongly Disagree,5
+R_3NV67BeT8swOBOf,RE,6,NA,Strongly Agree,5
+R_3NV67BeT8swOBOf,RE,7,neg,Strongly Disagree,5
+R_3NV67BeT8swOBOf,RA,5,neg,3,3
+R_3NV67BeT8swOBOf,RA,6,NA,Strongly Agree,5
+R_3NV67BeT8swOBOf,RA,7,NA,NA,NA
+R_3NV67BeT8swOBOf,RE,8,NA,3,3
+R_3NV67BeT8swOBOf,RA,8,NA,Strongly Agree,5
+R_3NV67BeT8swOBOf,RA,9,NA,Strongly Agree,5
+R_3NV67BeT8swOBOf,RE,9,neg,2,4
+R_3NV67BeT8swOBOf,RA,10,NA,Strongly Agree,5
+R_3NV67BeT8swOBOf,RE,10,NA,4,4
+R_3NV67BeT8swOBOf,EE,1,NA,2,2
+R_3NV67BeT8swOBOf,EA,1,neg,4,2
+R_3NV67BeT8swOBOf,EA,2,NA,2,2
+R_3NV67BeT8swOBOf,EA,3,NA,2,2
+R_3NV67BeT8swOBOf,EE,2,NA,2,2
+R_3NV67BeT8swOBOf,EE,3,NA,2,2
+R_3NV67BeT8swOBOf,EA,4,NA,3,3
+R_3NV67BeT8swOBOf,EA,5,NA,2,2
+R_3NV67BeT8swOBOf,EA,6,neg,4,2
+R_3NV67BeT8swOBOf,EE,4,neg,3,3
+R_3NV67BeT8swOBOf,EE,5,NA,3,3
+R_3NV67BeT8swOBOf,EE,6,neg,4,2
+R_3NV67BeT8swOBOf,EE,7,neg,3,3
+R_3NV67BeT8swOBOf,EE,8,neg,4,2
+R_3NV67BeT8swOBOf,EA,7,NA,2,2
+R_3NV67BeT8swOBOf,EE,9,neg,3,3
+R_3NV67BeT8swOBOf,EA,8,neg,3,3
+R_3NV67BeT8swOBOf,EE,10,NA,2,2
+R_3NV67BeT8swOBOf,EA,9,NA,2,2
+R_3NV67BeT8swOBOf,EA,10,neg,4,2
+R_2dlRKzx851f1Yd9,RE,1,neg,3,3
+R_2dlRKzx851f1Yd9,RA,1,neg,3,3
+R_2dlRKzx851f1Yd9,RE,2,NA,4,4
+R_2dlRKzx851f1Yd9,RA,2,neg,2,4
+R_2dlRKzx851f1Yd9,RE,3,neg,3,3
+R_2dlRKzx851f1Yd9,RE,4,NA,2,2
+R_2dlRKzx851f1Yd9,RE,5,neg,3,3
+R_2dlRKzx851f1Yd9,RA,3,neg,3,3
+R_2dlRKzx851f1Yd9,RA,4,neg,3,3
+R_2dlRKzx851f1Yd9,RE,6,NA,2,2
+R_2dlRKzx851f1Yd9,RE,7,neg,3,3
+R_2dlRKzx851f1Yd9,RA,5,neg,3,3
+R_2dlRKzx851f1Yd9,RA,6,NA,3,3
+R_2dlRKzx851f1Yd9,RA,7,NA,4,4
+R_2dlRKzx851f1Yd9,RE,8,NA,3,3
+R_2dlRKzx851f1Yd9,RA,8,NA,4,4
+R_2dlRKzx851f1Yd9,RA,9,NA,3,3
+R_2dlRKzx851f1Yd9,RE,9,neg,2,4
+R_2dlRKzx851f1Yd9,RA,10,NA,4,4
+R_2dlRKzx851f1Yd9,RE,10,NA,3,3
+R_2dlRKzx851f1Yd9,EE,1,NA,3,3
+R_2dlRKzx851f1Yd9,EA,1,neg,3,3
+R_2dlRKzx851f1Yd9,EA,2,NA,3,3
+R_2dlRKzx851f1Yd9,EA,3,NA,3,3
+R_2dlRKzx851f1Yd9,EE,2,NA,3,3
+R_2dlRKzx851f1Yd9,EE,3,NA,3,3
+R_2dlRKzx851f1Yd9,EA,4,NA,4,4
+R_2dlRKzx851f1Yd9,EA,5,NA,4,4
+R_2dlRKzx851f1Yd9,EA,6,neg,2,4
+R_2dlRKzx851f1Yd9,EE,4,neg,3,3
+R_2dlRKzx851f1Yd9,EE,5,NA,4,4
+R_2dlRKzx851f1Yd9,EE,6,neg,2,4
+R_2dlRKzx851f1Yd9,EE,7,neg,3,3
+R_2dlRKzx851f1Yd9,EE,8,neg,3,3
+R_2dlRKzx851f1Yd9,EA,7,NA,2,2
+R_2dlRKzx851f1Yd9,EE,9,neg,3,3
+R_2dlRKzx851f1Yd9,EA,8,neg,3,3
+R_2dlRKzx851f1Yd9,EE,10,NA,3,3
+R_2dlRKzx851f1Yd9,EA,9,NA,4,4
+R_2dlRKzx851f1Yd9,EA,10,neg,2,4
+R_3Mm44PUN5bz3OjI,RE,1,neg,Strongly Disagree,5
+R_3Mm44PUN5bz3OjI,RA,1,neg,Strongly Disagree,5
+R_3Mm44PUN5bz3OjI,RE,2,NA,Strongly Agree,5
+R_3Mm44PUN5bz3OjI,RA,2,neg,Strongly Disagree,5
+R_3Mm44PUN5bz3OjI,RE,3,neg,Strongly Disagree,5
+R_3Mm44PUN5bz3OjI,RE,4,NA,Strongly Agree,5
+R_3Mm44PUN5bz3OjI,RE,5,neg,Strongly Disagree,5
+R_3Mm44PUN5bz3OjI,RA,3,neg,Strongly Disagree,5
+R_3Mm44PUN5bz3OjI,RA,4,neg,Strongly Disagree,5
+R_3Mm44PUN5bz3OjI,RE,6,NA,Strongly Agree,5
+R_3Mm44PUN5bz3OjI,RE,7,neg,3,3
+R_3Mm44PUN5bz3OjI,RA,5,neg,Strongly Disagree,5
+R_3Mm44PUN5bz3OjI,RA,6,NA,Strongly Agree,5
+R_3Mm44PUN5bz3OjI,RA,7,NA,Strongly Agree,5
+R_3Mm44PUN5bz3OjI,RE,8,NA,4,4
+R_3Mm44PUN5bz3OjI,RA,8,NA,Strongly Agree,5
+R_3Mm44PUN5bz3OjI,RA,9,NA,Strongly Agree,5
+R_3Mm44PUN5bz3OjI,RE,9,neg,Strongly Disagree,5
+R_3Mm44PUN5bz3OjI,RA,10,NA,Strongly Agree,5
+R_3Mm44PUN5bz3OjI,RE,10,NA,Strongly Disagree,1
+R_3Mm44PUN5bz3OjI,EE,1,NA,Strongly Agree,5
+R_3Mm44PUN5bz3OjI,EA,1,neg,Strongly Disagree,5
+R_3Mm44PUN5bz3OjI,EA,2,NA,Strongly Agree,5
+R_3Mm44PUN5bz3OjI,EA,3,NA,Strongly Agree,5
+R_3Mm44PUN5bz3OjI,EE,2,NA,Strongly Agree,5
+R_3Mm44PUN5bz3OjI,EE,3,NA,Strongly Agree,5
+R_3Mm44PUN5bz3OjI,EA,4,NA,Strongly Agree,5
+R_3Mm44PUN5bz3OjI,EA,5,NA,Strongly Agree,5
+R_3Mm44PUN5bz3OjI,EA,6,neg,Strongly Disagree,5
+R_3Mm44PUN5bz3OjI,EE,4,neg,Strongly Disagree,5
+R_3Mm44PUN5bz3OjI,EE,5,NA,Strongly Agree,5
+R_3Mm44PUN5bz3OjI,EE,6,neg,Strongly Disagree,5
+R_3Mm44PUN5bz3OjI,EE,7,neg,Strongly Disagree,5
+R_3Mm44PUN5bz3OjI,EE,8,neg,Strongly Disagree,5
+R_3Mm44PUN5bz3OjI,EA,7,NA,Strongly Agree,5
+R_3Mm44PUN5bz3OjI,EE,9,neg,Strongly Disagree,5
+R_3Mm44PUN5bz3OjI,EA,8,neg,3,3
+R_3Mm44PUN5bz3OjI,EE,10,NA,Strongly Agree,5
+R_3Mm44PUN5bz3OjI,EA,9,NA,Strongly Agree,5
+R_3Mm44PUN5bz3OjI,EA,10,neg,3,3
+R_3kiI8D41vqe0qhI,RE,1,neg,4,2
+R_3kiI8D41vqe0qhI,RA,1,neg,2,4
+R_3kiI8D41vqe0qhI,RE,2,NA,3,3
+R_3kiI8D41vqe0qhI,RA,2,neg,Strongly Disagree,5
+R_3kiI8D41vqe0qhI,RE,3,neg,3,3
+R_3kiI8D41vqe0qhI,RE,4,NA,3,3
+R_3kiI8D41vqe0qhI,RE,5,neg,3,3
+R_3kiI8D41vqe0qhI,RA,3,neg,2,4
+R_3kiI8D41vqe0qhI,RA,4,neg,2,4
+R_3kiI8D41vqe0qhI,RE,6,NA,2,2
+R_3kiI8D41vqe0qhI,RE,7,neg,4,2
+R_3kiI8D41vqe0qhI,RA,5,neg,4,2
+R_3kiI8D41vqe0qhI,RA,6,NA,4,4
+R_3kiI8D41vqe0qhI,RA,7,NA,4,4
+R_3kiI8D41vqe0qhI,RE,8,NA,3,3
+R_3kiI8D41vqe0qhI,RA,8,NA,4,4
+R_3kiI8D41vqe0qhI,RA,9,NA,Strongly Agree,5
+R_3kiI8D41vqe0qhI,RE,9,neg,2,4
+R_3kiI8D41vqe0qhI,RA,10,NA,4,4
+R_3kiI8D41vqe0qhI,RE,10,NA,4,4
+R_3kiI8D41vqe0qhI,EE,1,NA,2,2
+R_3kiI8D41vqe0qhI,EA,1,neg,2,4
+R_3kiI8D41vqe0qhI,EA,2,NA,4,4
+R_3kiI8D41vqe0qhI,EA,3,NA,3,3
+R_3kiI8D41vqe0qhI,EE,2,NA,4,4
+R_3kiI8D41vqe0qhI,EE,3,NA,4,4
+R_3kiI8D41vqe0qhI,EA,4,NA,4,4
+R_3kiI8D41vqe0qhI,EA,5,NA,Strongly Agree,5
+R_3kiI8D41vqe0qhI,EA,6,neg,3,3
+R_3kiI8D41vqe0qhI,EE,4,neg,4,2
+R_3kiI8D41vqe0qhI,EE,5,NA,4,4
+R_3kiI8D41vqe0qhI,EE,6,neg,3,3
+R_3kiI8D41vqe0qhI,EE,7,neg,3,3
+R_3kiI8D41vqe0qhI,EE,8,neg,2,4
+R_3kiI8D41vqe0qhI,EA,7,NA,4,4
+R_3kiI8D41vqe0qhI,EE,9,neg,3,3
+R_3kiI8D41vqe0qhI,EA,8,neg,4,2
+R_3kiI8D41vqe0qhI,EE,10,NA,2,2
+R_3kiI8D41vqe0qhI,EA,9,NA,4,4
+R_3kiI8D41vqe0qhI,EA,10,neg,2,4
+R_0SrX3uRtXaupbhv,RE,1,neg,2,4
+R_0SrX3uRtXaupbhv,RA,1,neg,Strongly Disagree,5
+R_0SrX3uRtXaupbhv,RE,2,NA,4,4
+R_0SrX3uRtXaupbhv,RA,2,neg,Strongly Disagree,5
+R_0SrX3uRtXaupbhv,RE,3,neg,2,4
+R_0SrX3uRtXaupbhv,RE,4,NA,3,3
+R_0SrX3uRtXaupbhv,RE,5,neg,2,4
+R_0SrX3uRtXaupbhv,RA,3,neg,2,4
+R_0SrX3uRtXaupbhv,RA,4,neg,2,4
+R_0SrX3uRtXaupbhv,RE,6,NA,3,3
+R_0SrX3uRtXaupbhv,RE,7,neg,2,4
+R_0SrX3uRtXaupbhv,RA,5,neg,Strongly Disagree,5
+R_0SrX3uRtXaupbhv,RA,6,NA,2,2
+R_0SrX3uRtXaupbhv,RA,7,NA,3,3
+R_0SrX3uRtXaupbhv,RE,8,NA,3,3
+R_0SrX3uRtXaupbhv,RA,8,NA,4,4
+R_0SrX3uRtXaupbhv,RA,9,NA,3,3
+R_0SrX3uRtXaupbhv,RE,9,neg,2,4
+R_0SrX3uRtXaupbhv,RA,10,NA,3,3
+R_0SrX3uRtXaupbhv,RE,10,NA,4,4
+R_0SrX3uRtXaupbhv,EE,1,NA,2,2
+R_0SrX3uRtXaupbhv,EA,1,neg,3,3
+R_0SrX3uRtXaupbhv,EA,2,NA,2,2
+R_0SrX3uRtXaupbhv,EA,3,NA,2,2
+R_0SrX3uRtXaupbhv,EE,2,NA,2,2
+R_0SrX3uRtXaupbhv,EE,3,NA,2,2
+R_0SrX3uRtXaupbhv,EA,4,NA,3,3
+R_0SrX3uRtXaupbhv,EA,5,NA,3,3
+R_0SrX3uRtXaupbhv,EA,6,neg,2,4
+R_0SrX3uRtXaupbhv,EE,4,neg,3,3
+R_0SrX3uRtXaupbhv,EE,5,NA,2,2
+R_0SrX3uRtXaupbhv,EE,6,neg,4,2
+R_0SrX3uRtXaupbhv,EE,7,neg,2,4
+R_0SrX3uRtXaupbhv,EE,8,neg,3,3
+R_0SrX3uRtXaupbhv,EA,7,NA,2,2
+R_0SrX3uRtXaupbhv,EE,9,neg,3,3
+R_0SrX3uRtXaupbhv,EA,8,neg,2,4
+R_0SrX3uRtXaupbhv,EE,10,NA,2,2
+R_0SrX3uRtXaupbhv,EA,9,NA,3,3
+R_0SrX3uRtXaupbhv,EA,10,neg,Strongly Disagree,5
+R_1jE3EICtKRqcSDb,RE,1,neg,2,4
+R_1jE3EICtKRqcSDb,RA,1,neg,4,2
+R_1jE3EICtKRqcSDb,RE,2,NA,3,3
+R_1jE3EICtKRqcSDb,RA,2,neg,3,3
+R_1jE3EICtKRqcSDb,RE,3,neg,3,3
+R_1jE3EICtKRqcSDb,RE,4,NA,2,2
+R_1jE3EICtKRqcSDb,RE,5,neg,2,4
+R_1jE3EICtKRqcSDb,RA,3,neg,2,4
+R_1jE3EICtKRqcSDb,RA,4,neg,2,4
+R_1jE3EICtKRqcSDb,RE,6,NA,2,2
+R_1jE3EICtKRqcSDb,RE,7,neg,3,3
+R_1jE3EICtKRqcSDb,RA,5,neg,3,3
+R_1jE3EICtKRqcSDb,RA,6,NA,2,2
+R_1jE3EICtKRqcSDb,RA,7,NA,4,4
+R_1jE3EICtKRqcSDb,RE,8,NA,Strongly Disagree,1
+R_1jE3EICtKRqcSDb,RA,8,NA,3,3
+R_1jE3EICtKRqcSDb,RA,9,NA,4,4
+R_1jE3EICtKRqcSDb,RE,9,neg,2,4
+R_1jE3EICtKRqcSDb,RA,10,NA,3,3
+R_1jE3EICtKRqcSDb,RE,10,NA,Strongly Agree,5
+R_1jE3EICtKRqcSDb,EE,1,NA,4,4
+R_1jE3EICtKRqcSDb,EA,1,neg,2,4
+R_1jE3EICtKRqcSDb,EA,2,NA,4,4
+R_1jE3EICtKRqcSDb,EA,3,NA,4,4
+R_1jE3EICtKRqcSDb,EE,2,NA,4,4
+R_1jE3EICtKRqcSDb,EE,3,NA,4,4
+R_1jE3EICtKRqcSDb,EA,4,NA,2,2
+R_1jE3EICtKRqcSDb,EA,5,NA,Strongly Disagree,1
+R_1jE3EICtKRqcSDb,EA,6,neg,3,3
+R_1jE3EICtKRqcSDb,EE,4,neg,3,3
+R_1jE3EICtKRqcSDb,EE,5,NA,4,4
+R_1jE3EICtKRqcSDb,EE,6,neg,3,3
+R_1jE3EICtKRqcSDb,EE,7,neg,2,4
+R_1jE3EICtKRqcSDb,EE,8,neg,2,4
+R_1jE3EICtKRqcSDb,EA,7,NA,3,3
+R_1jE3EICtKRqcSDb,EE,9,neg,4,2
+R_1jE3EICtKRqcSDb,EA,8,neg,3,3
+R_1jE3EICtKRqcSDb,EE,10,NA,4,4
+R_1jE3EICtKRqcSDb,EA,9,NA,4,4
+R_1jE3EICtKRqcSDb,EA,10,neg,3,3
+R_u4J8rwDfOmm4gYV,RE,1,neg,Strongly Disagree,5
+R_u4J8rwDfOmm4gYV,RA,1,neg,Strongly Disagree,5
+R_u4J8rwDfOmm4gYV,RE,2,NA,Strongly Agree,5
+R_u4J8rwDfOmm4gYV,RA,2,neg,Strongly Disagree,5
+R_u4J8rwDfOmm4gYV,RE,3,neg,Strongly Disagree,5
+R_u4J8rwDfOmm4gYV,RE,4,NA,NA,NA
+R_u4J8rwDfOmm4gYV,RE,5,neg,Strongly Disagree,5
+R_u4J8rwDfOmm4gYV,RA,3,neg,Strongly Disagree,5
+R_u4J8rwDfOmm4gYV,RA,4,neg,Strongly Disagree,5
+R_u4J8rwDfOmm4gYV,RE,6,NA,Strongly Agree,5
+R_u4J8rwDfOmm4gYV,RE,7,neg,Strongly Disagree,5
+R_u4J8rwDfOmm4gYV,RA,5,neg,Strongly Disagree,5
+R_u4J8rwDfOmm4gYV,RA,6,NA,4,4
+R_u4J8rwDfOmm4gYV,RA,7,NA,Strongly Agree,5
+R_u4J8rwDfOmm4gYV,RE,8,NA,Strongly Agree,5
+R_u4J8rwDfOmm4gYV,RA,8,NA,Strongly Agree,5
+R_u4J8rwDfOmm4gYV,RA,9,NA,4,4
+R_u4J8rwDfOmm4gYV,RE,9,neg,3,3
+R_u4J8rwDfOmm4gYV,RA,10,NA,Strongly Agree,5
+R_u4J8rwDfOmm4gYV,RE,10,NA,Strongly Agree,5
+R_u4J8rwDfOmm4gYV,EE,1,NA,4,4
+R_u4J8rwDfOmm4gYV,EA,1,neg,Strongly Disagree,5
+R_u4J8rwDfOmm4gYV,EA,2,NA,4,4
+R_u4J8rwDfOmm4gYV,EA,3,NA,4,4
+R_u4J8rwDfOmm4gYV,EE,2,NA,4,4
+R_u4J8rwDfOmm4gYV,EE,3,NA,3,3
+R_u4J8rwDfOmm4gYV,EA,4,NA,4,4
+R_u4J8rwDfOmm4gYV,EA,5,NA,4,4
+R_u4J8rwDfOmm4gYV,EA,6,neg,2,4
+R_u4J8rwDfOmm4gYV,EE,4,neg,Strongly Disagree,5
+R_u4J8rwDfOmm4gYV,EE,5,NA,4,4
+R_u4J8rwDfOmm4gYV,EE,6,neg,4,2
+R_u4J8rwDfOmm4gYV,EE,7,neg,2,4
+R_u4J8rwDfOmm4gYV,EE,8,neg,2,4
+R_u4J8rwDfOmm4gYV,EA,7,NA,4,4
+R_u4J8rwDfOmm4gYV,EE,9,neg,2,4
+R_u4J8rwDfOmm4gYV,EA,8,neg,2,4
+R_u4J8rwDfOmm4gYV,EE,10,NA,4,4
+R_u4J8rwDfOmm4gYV,EA,9,NA,Strongly Agree,5
+R_u4J8rwDfOmm4gYV,EA,10,neg,2,4
+R_1F9e3CRe4Tb8JhE,RE,1,neg,Strongly Disagree,5
+R_1F9e3CRe4Tb8JhE,RA,1,neg,Strongly Disagree,5
+R_1F9e3CRe4Tb8JhE,RE,2,NA,Strongly Agree,5
+R_1F9e3CRe4Tb8JhE,RA,2,neg,Strongly Disagree,5
+R_1F9e3CRe4Tb8JhE,RE,3,neg,Strongly Disagree,5
+R_1F9e3CRe4Tb8JhE,RE,4,NA,4,4
+R_1F9e3CRe4Tb8JhE,RE,5,neg,2,4
+R_1F9e3CRe4Tb8JhE,RA,3,neg,Strongly Disagree,5
+R_1F9e3CRe4Tb8JhE,RA,4,neg,2,4
+R_1F9e3CRe4Tb8JhE,RE,6,NA,4,4
+R_1F9e3CRe4Tb8JhE,RE,7,neg,2,4
+R_1F9e3CRe4Tb8JhE,RA,5,neg,Strongly Disagree,5
+R_1F9e3CRe4Tb8JhE,RA,6,NA,Strongly Agree,5
+R_1F9e3CRe4Tb8JhE,RA,7,NA,Strongly Agree,5
+R_1F9e3CRe4Tb8JhE,RE,8,NA,4,4
+R_1F9e3CRe4Tb8JhE,RA,8,NA,Strongly Disagree,1
+R_1F9e3CRe4Tb8JhE,RA,9,NA,4,4
+R_1F9e3CRe4Tb8JhE,RE,9,neg,NA,NA
+R_1F9e3CRe4Tb8JhE,RA,10,NA,Strongly Agree,5
+R_1F9e3CRe4Tb8JhE,RE,10,NA,Strongly Agree,5
+R_1F9e3CRe4Tb8JhE,EE,1,NA,3,3
+R_1F9e3CRe4Tb8JhE,EA,1,neg,Strongly Disagree,5
+R_1F9e3CRe4Tb8JhE,EA,2,NA,2,2
+R_1F9e3CRe4Tb8JhE,EA,3,NA,3,3
+R_1F9e3CRe4Tb8JhE,EE,2,NA,3,3
+R_1F9e3CRe4Tb8JhE,EE,3,NA,4,4
+R_1F9e3CRe4Tb8JhE,EA,4,NA,4,4
+R_1F9e3CRe4Tb8JhE,EA,5,NA,3,3
+R_1F9e3CRe4Tb8JhE,EA,6,neg,Strongly Disagree,5
+R_1F9e3CRe4Tb8JhE,EE,4,neg,Strongly Disagree,5
+R_1F9e3CRe4Tb8JhE,EE,5,NA,4,4
+R_1F9e3CRe4Tb8JhE,EE,6,neg,Strongly Disagree,5
+R_1F9e3CRe4Tb8JhE,EE,7,neg,Strongly Disagree,5
+R_1F9e3CRe4Tb8JhE,EE,8,neg,2,4
+R_1F9e3CRe4Tb8JhE,EA,7,NA,4,4
+R_1F9e3CRe4Tb8JhE,EE,9,neg,3,3
+R_1F9e3CRe4Tb8JhE,EA,8,neg,Strongly Disagree,5
+R_1F9e3CRe4Tb8JhE,EE,10,NA,3,3
+R_1F9e3CRe4Tb8JhE,EA,9,NA,2,2
+R_1F9e3CRe4Tb8JhE,EA,10,neg,3,3
+R_Qb1tzaskoeU0kLf,RE,1,neg,Strongly Disagree,5
+R_Qb1tzaskoeU0kLf,RA,1,neg,Strongly Disagree,5
+R_Qb1tzaskoeU0kLf,RE,2,NA,Strongly Agree,5
+R_Qb1tzaskoeU0kLf,RA,2,neg,Strongly Disagree,5
+R_Qb1tzaskoeU0kLf,RE,3,neg,Strongly Disagree,5
+R_Qb1tzaskoeU0kLf,RE,4,NA,Strongly Agree,5
+R_Qb1tzaskoeU0kLf,RE,5,neg,Strongly Disagree,5
+R_Qb1tzaskoeU0kLf,RA,3,neg,Strongly Disagree,5
+R_Qb1tzaskoeU0kLf,RA,4,neg,Strongly Disagree,5
+R_Qb1tzaskoeU0kLf,RE,6,NA,Strongly Agree,5
+R_Qb1tzaskoeU0kLf,RE,7,neg,Strongly Disagree,5
+R_Qb1tzaskoeU0kLf,RA,5,neg,4,2
+R_Qb1tzaskoeU0kLf,RA,6,NA,4,4
+R_Qb1tzaskoeU0kLf,RA,7,NA,Strongly Agree,5
+R_Qb1tzaskoeU0kLf,RE,8,NA,Strongly Agree,5
+R_Qb1tzaskoeU0kLf,RA,8,NA,Strongly Agree,5
+R_Qb1tzaskoeU0kLf,RA,9,NA,4,4
+R_Qb1tzaskoeU0kLf,RE,9,neg,Strongly Disagree,5
+R_Qb1tzaskoeU0kLf,RA,10,NA,Strongly Agree,5
+R_Qb1tzaskoeU0kLf,RE,10,NA,4,4
+R_Qb1tzaskoeU0kLf,EE,1,NA,3,3
+R_Qb1tzaskoeU0kLf,EA,1,neg,2,4
+R_Qb1tzaskoeU0kLf,EA,2,NA,3,3
+R_Qb1tzaskoeU0kLf,EA,3,NA,3,3
+R_Qb1tzaskoeU0kLf,EE,2,NA,3,3
+R_Qb1tzaskoeU0kLf,EE,3,NA,2,2
+R_Qb1tzaskoeU0kLf,EA,4,NA,2,2
+R_Qb1tzaskoeU0kLf,EA,5,NA,3,3
+R_Qb1tzaskoeU0kLf,EA,6,neg,4,2
+R_Qb1tzaskoeU0kLf,EE,4,neg,2,4
+R_Qb1tzaskoeU0kLf,EE,5,NA,4,4
+R_Qb1tzaskoeU0kLf,EE,6,neg,4,2
+R_Qb1tzaskoeU0kLf,EE,7,neg,4,2
+R_Qb1tzaskoeU0kLf,EE,8,neg,2,4
+R_Qb1tzaskoeU0kLf,EA,7,NA,3,3
+R_Qb1tzaskoeU0kLf,EE,9,neg,3,3
+R_Qb1tzaskoeU0kLf,EA,8,neg,Strongly Agree,1
+R_Qb1tzaskoeU0kLf,EE,10,NA,2,2
+R_Qb1tzaskoeU0kLf,EA,9,NA,3,3
+R_Qb1tzaskoeU0kLf,EA,10,neg,3,3
+R_1rkpS180enmUysj,RE,1,neg,2,4
+R_1rkpS180enmUysj,RA,1,neg,4,2
+R_1rkpS180enmUysj,RE,2,NA,3,3
+R_1rkpS180enmUysj,RA,2,neg,2,4
+R_1rkpS180enmUysj,RE,3,neg,3,3
+R_1rkpS180enmUysj,RE,4,NA,2,2
+R_1rkpS180enmUysj,RE,5,neg,2,4
+R_1rkpS180enmUysj,RA,3,neg,3,3
+R_1rkpS180enmUysj,RA,4,neg,4,2
+R_1rkpS180enmUysj,RE,6,NA,2,2
+R_1rkpS180enmUysj,RE,7,neg,4,2
+R_1rkpS180enmUysj,RA,5,neg,Strongly Agree,1
+R_1rkpS180enmUysj,RA,6,NA,Strongly Disagree,1
+R_1rkpS180enmUysj,RA,7,NA,2,2
+R_1rkpS180enmUysj,RE,8,NA,4,4
+R_1rkpS180enmUysj,RA,8,NA,2,2
+R_1rkpS180enmUysj,RA,9,NA,2,2
+R_1rkpS180enmUysj,RE,9,neg,4,2
+R_1rkpS180enmUysj,RA,10,NA,2,2
+R_1rkpS180enmUysj,RE,10,NA,3,3
+R_1rkpS180enmUysj,EE,1,NA,3,3
+R_1rkpS180enmUysj,EA,1,neg,2,4
+R_1rkpS180enmUysj,EA,2,NA,4,4
+R_1rkpS180enmUysj,EA,3,NA,3,3
+R_1rkpS180enmUysj,EE,2,NA,4,4
+R_1rkpS180enmUysj,EE,3,NA,4,4
+R_1rkpS180enmUysj,EA,4,NA,3,3
+R_1rkpS180enmUysj,EA,5,NA,2,2
+R_1rkpS180enmUysj,EA,6,neg,3,3
+R_1rkpS180enmUysj,EE,4,neg,2,4
+R_1rkpS180enmUysj,EE,5,NA,4,4
+R_1rkpS180enmUysj,EE,6,neg,3,3
+R_1rkpS180enmUysj,EE,7,neg,3,3
+R_1rkpS180enmUysj,EE,8,neg,2,4
+R_1rkpS180enmUysj,EA,7,NA,4,4
+R_1rkpS180enmUysj,EE,9,neg,2,4
+R_1rkpS180enmUysj,EA,8,neg,4,2
+R_1rkpS180enmUysj,EE,10,NA,Strongly Agree,5
+R_1rkpS180enmUysj,EA,9,NA,2,2
+R_1rkpS180enmUysj,EA,10,neg,3,3
+R_2EE1eoKCYITmD0x,RE,1,neg,2,4
+R_2EE1eoKCYITmD0x,RA,1,neg,2,4
+R_2EE1eoKCYITmD0x,RE,2,NA,4,4
+R_2EE1eoKCYITmD0x,RA,2,neg,2,4
+R_2EE1eoKCYITmD0x,RE,3,neg,2,4
+R_2EE1eoKCYITmD0x,RE,4,NA,4,4
+R_2EE1eoKCYITmD0x,RE,5,neg,2,4
+R_2EE1eoKCYITmD0x,RA,3,neg,Strongly Disagree,5
+R_2EE1eoKCYITmD0x,RA,4,neg,2,4
+R_2EE1eoKCYITmD0x,RE,6,NA,4,4
+R_2EE1eoKCYITmD0x,RE,7,neg,2,4
+R_2EE1eoKCYITmD0x,RA,5,neg,2,4
+R_2EE1eoKCYITmD0x,RA,6,NA,4,4
+R_2EE1eoKCYITmD0x,RA,7,NA,4,4
+R_2EE1eoKCYITmD0x,RE,8,NA,Strongly Agree,5
+R_2EE1eoKCYITmD0x,RA,8,NA,Strongly Agree,5
+R_2EE1eoKCYITmD0x,RA,9,NA,3,3
+R_2EE1eoKCYITmD0x,RE,9,neg,2,4
+R_2EE1eoKCYITmD0x,RA,10,NA,4,4
+R_2EE1eoKCYITmD0x,RE,10,NA,2,2
+R_2EE1eoKCYITmD0x,EE,1,NA,4,4
+R_2EE1eoKCYITmD0x,EA,1,neg,2,4
+R_2EE1eoKCYITmD0x,EA,2,NA,4,4
+R_2EE1eoKCYITmD0x,EA,3,NA,4,4
+R_2EE1eoKCYITmD0x,EE,2,NA,4,4
+R_2EE1eoKCYITmD0x,EE,3,NA,4,4
+R_2EE1eoKCYITmD0x,EA,4,NA,4,4
+R_2EE1eoKCYITmD0x,EA,5,NA,4,4
+R_2EE1eoKCYITmD0x,EA,6,neg,Strongly Disagree,5
+R_2EE1eoKCYITmD0x,EE,4,neg,2,4
+R_2EE1eoKCYITmD0x,EE,5,NA,3,3
+R_2EE1eoKCYITmD0x,EE,6,neg,2,4
+R_2EE1eoKCYITmD0x,EE,7,neg,2,4
+R_2EE1eoKCYITmD0x,EE,8,neg,2,4
+R_2EE1eoKCYITmD0x,EA,7,NA,Strongly Agree,5
+R_2EE1eoKCYITmD0x,EE,9,neg,2,4
+R_2EE1eoKCYITmD0x,EA,8,neg,3,3
+R_2EE1eoKCYITmD0x,EE,10,NA,4,4
+R_2EE1eoKCYITmD0x,EA,9,NA,4,4
+R_2EE1eoKCYITmD0x,EA,10,neg,2,4
+R_2cbkPzQkCJBHWyP,RE,1,neg,2,4
+R_2cbkPzQkCJBHWyP,RA,1,neg,2,4
+R_2cbkPzQkCJBHWyP,RE,2,NA,Strongly Agree,5
+R_2cbkPzQkCJBHWyP,RA,2,neg,2,4
+R_2cbkPzQkCJBHWyP,RE,3,neg,2,4
+R_2cbkPzQkCJBHWyP,RE,4,NA,4,4
+R_2cbkPzQkCJBHWyP,RE,5,neg,Strongly Disagree,5
+R_2cbkPzQkCJBHWyP,RA,3,neg,2,4
+R_2cbkPzQkCJBHWyP,RA,4,neg,2,4
+R_2cbkPzQkCJBHWyP,RE,6,NA,3,3
+R_2cbkPzQkCJBHWyP,RE,7,neg,2,4
+R_2cbkPzQkCJBHWyP,RA,5,neg,2,4
+R_2cbkPzQkCJBHWyP,RA,6,NA,4,4
+R_2cbkPzQkCJBHWyP,RA,7,NA,4,4
+R_2cbkPzQkCJBHWyP,RE,8,NA,4,4
+R_2cbkPzQkCJBHWyP,RA,8,NA,4,4
+R_2cbkPzQkCJBHWyP,RA,9,NA,4,4
+R_2cbkPzQkCJBHWyP,RE,9,neg,Strongly Disagree,5
+R_2cbkPzQkCJBHWyP,RA,10,NA,4,4
+R_2cbkPzQkCJBHWyP,RE,10,NA,4,4
+R_2cbkPzQkCJBHWyP,EE,1,NA,2,2
+R_2cbkPzQkCJBHWyP,EA,1,neg,3,3
+R_2cbkPzQkCJBHWyP,EA,2,NA,2,2
+R_2cbkPzQkCJBHWyP,EA,3,NA,2,2
+R_2cbkPzQkCJBHWyP,EE,2,NA,3,3
+R_2cbkPzQkCJBHWyP,EE,3,NA,2,2
+R_2cbkPzQkCJBHWyP,EA,4,NA,2,2
+R_2cbkPzQkCJBHWyP,EA,5,NA,3,3
+R_2cbkPzQkCJBHWyP,EA,6,neg,3,3
+R_2cbkPzQkCJBHWyP,EE,4,neg,4,2
+R_2cbkPzQkCJBHWyP,EE,5,NA,3,3
+R_2cbkPzQkCJBHWyP,EE,6,neg,Strongly Agree,1
+R_2cbkPzQkCJBHWyP,EE,7,neg,4,2
+R_2cbkPzQkCJBHWyP,EE,8,neg,3,3
+R_2cbkPzQkCJBHWyP,EA,7,NA,2,2
+R_2cbkPzQkCJBHWyP,EE,9,neg,2,4
+R_2cbkPzQkCJBHWyP,EA,8,neg,3,3
+R_2cbkPzQkCJBHWyP,EE,10,NA,3,3
+R_2cbkPzQkCJBHWyP,EA,9,NA,2,2
+R_2cbkPzQkCJBHWyP,EA,10,neg,Strongly Agree,1
+R_1jTzy25ZCEPdmH8,RE,1,neg,Strongly Disagree,5
+R_1jTzy25ZCEPdmH8,RA,1,neg,Strongly Disagree,5
+R_1jTzy25ZCEPdmH8,RE,2,NA,Strongly Agree,5
+R_1jTzy25ZCEPdmH8,RA,2,neg,Strongly Disagree,5
+R_1jTzy25ZCEPdmH8,RE,3,neg,Strongly Disagree,5
+R_1jTzy25ZCEPdmH8,RE,4,NA,Strongly Agree,5
+R_1jTzy25ZCEPdmH8,RE,5,neg,Strongly Disagree,5
+R_1jTzy25ZCEPdmH8,RA,3,neg,2,4
+R_1jTzy25ZCEPdmH8,RA,4,neg,Strongly Disagree,5
+R_1jTzy25ZCEPdmH8,RE,6,NA,Strongly Agree,5
+R_1jTzy25ZCEPdmH8,RE,7,neg,3,3
+R_1jTzy25ZCEPdmH8,RA,5,neg,2,4
+R_1jTzy25ZCEPdmH8,RA,6,NA,3,3
+R_1jTzy25ZCEPdmH8,RA,7,NA,Strongly Agree,5
+R_1jTzy25ZCEPdmH8,RE,8,NA,3,3
+R_1jTzy25ZCEPdmH8,RA,8,NA,Strongly Agree,5
+R_1jTzy25ZCEPdmH8,RA,9,NA,Strongly Agree,5
+R_1jTzy25ZCEPdmH8,RE,9,neg,Strongly Disagree,5
+R_1jTzy25ZCEPdmH8,RA,10,NA,4,4
+R_1jTzy25ZCEPdmH8,RE,10,NA,3,3
+R_1jTzy25ZCEPdmH8,EE,1,NA,Strongly Disagree,1
+R_1jTzy25ZCEPdmH8,EA,1,neg,4,2
+R_1jTzy25ZCEPdmH8,EA,2,NA,Strongly Disagree,1
+R_1jTzy25ZCEPdmH8,EA,3,NA,2,2
+R_1jTzy25ZCEPdmH8,EE,2,NA,Strongly Disagree,1
+R_1jTzy25ZCEPdmH8,EE,3,NA,Strongly Disagree,1
+R_1jTzy25ZCEPdmH8,EA,4,NA,2,2
+R_1jTzy25ZCEPdmH8,EA,5,NA,2,2
+R_1jTzy25ZCEPdmH8,EA,6,neg,Strongly Agree,1
+R_1jTzy25ZCEPdmH8,EE,4,neg,Strongly Agree,1
+R_1jTzy25ZCEPdmH8,EE,5,NA,Strongly Disagree,1
+R_1jTzy25ZCEPdmH8,EE,6,neg,Strongly Agree,1
+R_1jTzy25ZCEPdmH8,EE,7,neg,Strongly Agree,1
+R_1jTzy25ZCEPdmH8,EE,8,neg,Strongly Agree,1
+R_1jTzy25ZCEPdmH8,EA,7,NA,Strongly Disagree,1
+R_1jTzy25ZCEPdmH8,EE,9,neg,Strongly Agree,1
+R_1jTzy25ZCEPdmH8,EA,8,neg,Strongly Disagree,5
+R_1jTzy25ZCEPdmH8,EE,10,NA,Strongly Disagree,1
+R_1jTzy25ZCEPdmH8,EA,9,NA,Strongly Disagree,1
+R_1jTzy25ZCEPdmH8,EA,10,neg,Strongly Agree,1
+R_tFgpQ636MClxHSV,RE,1,neg,Strongly Agree,1
+R_tFgpQ636MClxHSV,RA,1,neg,Strongly Agree,1
+R_tFgpQ636MClxHSV,RE,2,NA,Strongly Disagree,1
+R_tFgpQ636MClxHSV,RA,2,neg,2,4
+R_tFgpQ636MClxHSV,RE,3,neg,Strongly Agree,1
+R_tFgpQ636MClxHSV,RE,4,NA,Strongly Disagree,1
+R_tFgpQ636MClxHSV,RE,5,neg,Strongly Agree,1
+R_tFgpQ636MClxHSV,RA,3,neg,2,4
+R_tFgpQ636MClxHSV,RA,4,neg,2,4
+R_tFgpQ636MClxHSV,RE,6,NA,Strongly Disagree,1
+R_tFgpQ636MClxHSV,RE,7,neg,Strongly Agree,1
+R_tFgpQ636MClxHSV,RA,5,neg,Strongly Agree,1
+R_tFgpQ636MClxHSV,RA,6,NA,3,3
+R_tFgpQ636MClxHSV,RA,7,NA,4,4
+R_tFgpQ636MClxHSV,RE,8,NA,2,2
+R_tFgpQ636MClxHSV,RA,8,NA,4,4
+R_tFgpQ636MClxHSV,RA,9,NA,4,4
+R_tFgpQ636MClxHSV,RE,9,neg,Strongly Disagree,5
+R_tFgpQ636MClxHSV,RA,10,NA,Strongly Agree,5
+R_tFgpQ636MClxHSV,RE,10,NA,2,2
+R_tFgpQ636MClxHSV,EE,1,NA,Strongly Disagree,1
+R_tFgpQ636MClxHSV,EA,1,neg,Strongly Agree,1
+R_tFgpQ636MClxHSV,EA,2,NA,Strongly Disagree,1
+R_tFgpQ636MClxHSV,EA,3,NA,Strongly Disagree,1
+R_tFgpQ636MClxHSV,EE,2,NA,Strongly Disagree,1
+R_tFgpQ636MClxHSV,EE,3,NA,Strongly Disagree,1
+R_tFgpQ636MClxHSV,EA,4,NA,2,2
+R_tFgpQ636MClxHSV,EA,5,NA,2,2
+R_tFgpQ636MClxHSV,EA,6,neg,Strongly Agree,1
+R_tFgpQ636MClxHSV,EE,4,neg,Strongly Agree,1
+R_tFgpQ636MClxHSV,EE,5,NA,2,2
+R_tFgpQ636MClxHSV,EE,6,neg,Strongly Agree,1
+R_tFgpQ636MClxHSV,EE,7,neg,Strongly Agree,1
+R_tFgpQ636MClxHSV,EE,8,neg,4,2
+R_tFgpQ636MClxHSV,EA,7,NA,Strongly Disagree,1
+R_tFgpQ636MClxHSV,EE,9,neg,4,2
+R_tFgpQ636MClxHSV,EA,8,neg,Strongly Agree,1
+R_tFgpQ636MClxHSV,EE,10,NA,Strongly Disagree,1
+R_tFgpQ636MClxHSV,EA,9,NA,Strongly Disagree,1
+R_tFgpQ636MClxHSV,EA,10,neg,2,4
+R_8AGSWBQpPasvjmp,RE,1,neg,2,4
+R_8AGSWBQpPasvjmp,RA,1,neg,2,4
+R_8AGSWBQpPasvjmp,RE,2,NA,4,4
+R_8AGSWBQpPasvjmp,RA,2,neg,2,4
+R_8AGSWBQpPasvjmp,RE,3,neg,Strongly Disagree,5
+R_8AGSWBQpPasvjmp,RE,4,NA,2,2
+R_8AGSWBQpPasvjmp,RE,5,neg,2,4
+R_8AGSWBQpPasvjmp,RA,3,neg,2,4
+R_8AGSWBQpPasvjmp,RA,4,neg,2,4
+R_8AGSWBQpPasvjmp,RE,6,NA,2,2
+R_8AGSWBQpPasvjmp,RE,7,neg,3,3
+R_8AGSWBQpPasvjmp,RA,5,neg,3,3
+R_8AGSWBQpPasvjmp,RA,6,NA,3,3
+R_8AGSWBQpPasvjmp,RA,7,NA,4,4
+R_8AGSWBQpPasvjmp,RE,8,NA,3,3
+R_8AGSWBQpPasvjmp,RA,8,NA,2,2
+R_8AGSWBQpPasvjmp,RA,9,NA,3,3
+R_8AGSWBQpPasvjmp,RE,9,neg,4,2
+R_8AGSWBQpPasvjmp,RA,10,NA,2,2
+R_8AGSWBQpPasvjmp,RE,10,NA,4,4
+R_8AGSWBQpPasvjmp,EE,1,NA,4,4
+R_8AGSWBQpPasvjmp,EA,1,neg,Strongly Disagree,5
+R_8AGSWBQpPasvjmp,EA,2,NA,4,4
+R_8AGSWBQpPasvjmp,EA,3,NA,4,4
+R_8AGSWBQpPasvjmp,EE,2,NA,4,4
+R_8AGSWBQpPasvjmp,EE,3,NA,4,4
+R_8AGSWBQpPasvjmp,EA,4,NA,4,4
+R_8AGSWBQpPasvjmp,EA,5,NA,Strongly Agree,5
+R_8AGSWBQpPasvjmp,EA,6,neg,Strongly Disagree,5
+R_8AGSWBQpPasvjmp,EE,4,neg,2,4
+R_8AGSWBQpPasvjmp,EE,5,NA,4,4
+R_8AGSWBQpPasvjmp,EE,6,neg,2,4
+R_8AGSWBQpPasvjmp,EE,7,neg,2,4
+R_8AGSWBQpPasvjmp,EE,8,neg,Strongly Disagree,5
+R_8AGSWBQpPasvjmp,EA,7,NA,Strongly Agree,5
+R_8AGSWBQpPasvjmp,EE,9,neg,2,4
+R_8AGSWBQpPasvjmp,EA,8,neg,2,4
+R_8AGSWBQpPasvjmp,EE,10,NA,3,3
+R_8AGSWBQpPasvjmp,EA,9,NA,4,4
+R_8AGSWBQpPasvjmp,EA,10,neg,3,3
+R_1lid60axyi9vYiM,RE,1,neg,3,3
+R_1lid60axyi9vYiM,RA,1,neg,2,4
+R_1lid60axyi9vYiM,RE,2,NA,4,4
+R_1lid60axyi9vYiM,RA,2,neg,2,4
+R_1lid60axyi9vYiM,RE,3,neg,2,4
+R_1lid60axyi9vYiM,RE,4,NA,3,3
+R_1lid60axyi9vYiM,RE,5,neg,3,3
+R_1lid60axyi9vYiM,RA,3,neg,3,3
+R_1lid60axyi9vYiM,RA,4,neg,3,3
+R_1lid60axyi9vYiM,RE,6,NA,3,3
+R_1lid60axyi9vYiM,RE,7,neg,3,3
+R_1lid60axyi9vYiM,RA,5,neg,2,4
+R_1lid60axyi9vYiM,RA,6,NA,3,3
+R_1lid60axyi9vYiM,RA,7,NA,3,3
+R_1lid60axyi9vYiM,RE,8,NA,4,4
+R_1lid60axyi9vYiM,RA,8,NA,3,3
+R_1lid60axyi9vYiM,RA,9,NA,3,3
+R_1lid60axyi9vYiM,RE,9,neg,3,3
+R_1lid60axyi9vYiM,RA,10,NA,3,3
+R_1lid60axyi9vYiM,RE,10,NA,3,3
+R_1lid60axyi9vYiM,EE,1,NA,4,4
+R_1lid60axyi9vYiM,EA,1,neg,Strongly Disagree,5
+R_1lid60axyi9vYiM,EA,2,NA,4,4
+R_1lid60axyi9vYiM,EA,3,NA,4,4
+R_1lid60axyi9vYiM,EE,2,NA,4,4
+R_1lid60axyi9vYiM,EE,3,NA,4,4
+R_1lid60axyi9vYiM,EA,4,NA,4,4
+R_1lid60axyi9vYiM,EA,5,NA,4,4
+R_1lid60axyi9vYiM,EA,6,neg,2,4
+R_1lid60axyi9vYiM,EE,4,neg,2,4
+R_1lid60axyi9vYiM,EE,5,NA,4,4
+R_1lid60axyi9vYiM,EE,6,neg,Strongly Disagree,5
+R_1lid60axyi9vYiM,EE,7,neg,2,4
+R_1lid60axyi9vYiM,EE,8,neg,2,4
+R_1lid60axyi9vYiM,EA,7,NA,3,3
+R_1lid60axyi9vYiM,EE,9,neg,2,4
+R_1lid60axyi9vYiM,EA,8,neg,2,4
+R_1lid60axyi9vYiM,EE,10,NA,3,3
+R_1lid60axyi9vYiM,EA,9,NA,3,3
+R_1lid60axyi9vYiM,EA,10,neg,2,4
+R_1gdWv5GX938t7rt,RE,1,neg,2,4
+R_1gdWv5GX938t7rt,RA,1,neg,2,4
+R_1gdWv5GX938t7rt,RE,2,NA,4,4
+R_1gdWv5GX938t7rt,RA,2,neg,2,4
+R_1gdWv5GX938t7rt,RE,3,neg,2,4
+R_1gdWv5GX938t7rt,RE,4,NA,4,4
+R_1gdWv5GX938t7rt,RE,5,neg,2,4
+R_1gdWv5GX938t7rt,RA,3,neg,2,4
+R_1gdWv5GX938t7rt,RA,4,neg,2,4
+R_1gdWv5GX938t7rt,RE,6,NA,4,4
+R_1gdWv5GX938t7rt,RE,7,neg,3,3
+R_1gdWv5GX938t7rt,RA,5,neg,2,4
+R_1gdWv5GX938t7rt,RA,6,NA,4,4
+R_1gdWv5GX938t7rt,RA,7,NA,4,4
+R_1gdWv5GX938t7rt,RE,8,NA,4,4
+R_1gdWv5GX938t7rt,RA,8,NA,4,4
+R_1gdWv5GX938t7rt,RA,9,NA,4,4
+R_1gdWv5GX938t7rt,RE,9,neg,4,2
+R_1gdWv5GX938t7rt,RA,10,NA,4,4
+R_1gdWv5GX938t7rt,RE,10,NA,2,2
+R_1gdWv5GX938t7rt,EE,1,NA,4,4
+R_1gdWv5GX938t7rt,EA,1,neg,2,4
+R_1gdWv5GX938t7rt,EA,2,NA,3,3
+R_1gdWv5GX938t7rt,EA,3,NA,3,3
+R_1gdWv5GX938t7rt,EE,2,NA,4,4
+R_1gdWv5GX938t7rt,EE,3,NA,4,4
+R_1gdWv5GX938t7rt,EA,4,NA,Strongly Agree,5
+R_1gdWv5GX938t7rt,EA,5,NA,Strongly Agree,5
+R_1gdWv5GX938t7rt,EA,6,neg,4,2
+R_1gdWv5GX938t7rt,EE,4,neg,2,4
+R_1gdWv5GX938t7rt,EE,5,NA,4,4
+R_1gdWv5GX938t7rt,EE,6,neg,Strongly Disagree,5
+R_1gdWv5GX938t7rt,EE,7,neg,4,2
+R_1gdWv5GX938t7rt,EE,8,neg,Strongly Disagree,5
+R_1gdWv5GX938t7rt,EA,7,NA,2,2
+R_1gdWv5GX938t7rt,EE,9,neg,Strongly Agree,1
+R_1gdWv5GX938t7rt,EA,8,neg,2,4
+R_1gdWv5GX938t7rt,EE,10,NA,3,3
+R_1gdWv5GX938t7rt,EA,9,NA,2,2
+R_1gdWv5GX938t7rt,EA,10,neg,4,2
+R_2Yhxe1EG3CUlYJK,RE,1,neg,3,3
+R_2Yhxe1EG3CUlYJK,RA,1,neg,2,4
+R_2Yhxe1EG3CUlYJK,RE,2,NA,4,4
+R_2Yhxe1EG3CUlYJK,RA,2,neg,2,4
+R_2Yhxe1EG3CUlYJK,RE,3,neg,3,3
+R_2Yhxe1EG3CUlYJK,RE,4,NA,4,4
+R_2Yhxe1EG3CUlYJK,RE,5,neg,2,4
+R_2Yhxe1EG3CUlYJK,RA,3,neg,2,4
+R_2Yhxe1EG3CUlYJK,RA,4,neg,2,4
+R_2Yhxe1EG3CUlYJK,RE,6,NA,4,4
+R_2Yhxe1EG3CUlYJK,RE,7,neg,3,3
+R_2Yhxe1EG3CUlYJK,RA,5,neg,Strongly Agree,1
+R_2Yhxe1EG3CUlYJK,RA,6,NA,3,3
+R_2Yhxe1EG3CUlYJK,RA,7,NA,4,4
+R_2Yhxe1EG3CUlYJK,RE,8,NA,4,4
+R_2Yhxe1EG3CUlYJK,RA,8,NA,Strongly Agree,5
+R_2Yhxe1EG3CUlYJK,RA,9,NA,4,4
+R_2Yhxe1EG3CUlYJK,RE,9,neg,2,4
+R_2Yhxe1EG3CUlYJK,RA,10,NA,2,2
+R_2Yhxe1EG3CUlYJK,RE,10,NA,4,4
+R_2Yhxe1EG3CUlYJK,EE,1,NA,4,4
+R_2Yhxe1EG3CUlYJK,EA,1,neg,4,2
+R_2Yhxe1EG3CUlYJK,EA,2,NA,3,3
+R_2Yhxe1EG3CUlYJK,EA,3,NA,4,4
+R_2Yhxe1EG3CUlYJK,EE,2,NA,4,4
+R_2Yhxe1EG3CUlYJK,EE,3,NA,3,3
+R_2Yhxe1EG3CUlYJK,EA,4,NA,2,2
+R_2Yhxe1EG3CUlYJK,EA,5,NA,3,3
+R_2Yhxe1EG3CUlYJK,EA,6,neg,2,4
+R_2Yhxe1EG3CUlYJK,EE,4,neg,3,3
+R_2Yhxe1EG3CUlYJK,EE,5,NA,4,4
+R_2Yhxe1EG3CUlYJK,EE,6,neg,2,4
+R_2Yhxe1EG3CUlYJK,EE,7,neg,3,3
+R_2Yhxe1EG3CUlYJK,EE,8,neg,2,4
+R_2Yhxe1EG3CUlYJK,EA,7,NA,3,3
+R_2Yhxe1EG3CUlYJK,EE,9,neg,3,3
+R_2Yhxe1EG3CUlYJK,EA,8,neg,2,4
+R_2Yhxe1EG3CUlYJK,EE,10,NA,4,4
+R_2Yhxe1EG3CUlYJK,EA,9,NA,2,2
+R_2Yhxe1EG3CUlYJK,EA,10,neg,3,3
+R_1Tv8RlXGXRDH6BX,RE,1,neg,3,3
+R_1Tv8RlXGXRDH6BX,RA,1,neg,2,4
+R_1Tv8RlXGXRDH6BX,RE,2,NA,4,4
+R_1Tv8RlXGXRDH6BX,RA,2,neg,2,4
+R_1Tv8RlXGXRDH6BX,RE,3,neg,2,4
+R_1Tv8RlXGXRDH6BX,RE,4,NA,4,4
+R_1Tv8RlXGXRDH6BX,RE,5,neg,4,2
+R_1Tv8RlXGXRDH6BX,RA,3,neg,2,4
+R_1Tv8RlXGXRDH6BX,RA,4,neg,2,4
+R_1Tv8RlXGXRDH6BX,RE,6,NA,4,4
+R_1Tv8RlXGXRDH6BX,RE,7,neg,2,4
+R_1Tv8RlXGXRDH6BX,RA,5,neg,3,3
+R_1Tv8RlXGXRDH6BX,RA,6,NA,4,4
+R_1Tv8RlXGXRDH6BX,RA,7,NA,4,4
+R_1Tv8RlXGXRDH6BX,RE,8,NA,4,4
+R_1Tv8RlXGXRDH6BX,RA,8,NA,4,4
+R_1Tv8RlXGXRDH6BX,RA,9,NA,4,4
+R_1Tv8RlXGXRDH6BX,RE,9,neg,Strongly Disagree,5
+R_1Tv8RlXGXRDH6BX,RA,10,NA,4,4
+R_1Tv8RlXGXRDH6BX,RE,10,NA,4,4
+R_1Tv8RlXGXRDH6BX,EE,1,NA,3,3
+R_1Tv8RlXGXRDH6BX,EA,1,neg,2,4
+R_1Tv8RlXGXRDH6BX,EA,2,NA,3,3
+R_1Tv8RlXGXRDH6BX,EA,3,NA,2,2
+R_1Tv8RlXGXRDH6BX,EE,2,NA,3,3
+R_1Tv8RlXGXRDH6BX,EE,3,NA,2,2
+R_1Tv8RlXGXRDH6BX,EA,4,NA,4,4
+R_1Tv8RlXGXRDH6BX,EA,5,NA,3,3
+R_1Tv8RlXGXRDH6BX,EA,6,neg,2,4
+R_1Tv8RlXGXRDH6BX,EE,4,neg,2,4
+R_1Tv8RlXGXRDH6BX,EE,5,NA,3,3
+R_1Tv8RlXGXRDH6BX,EE,6,neg,4,2
+R_1Tv8RlXGXRDH6BX,EE,7,neg,4,2
+R_1Tv8RlXGXRDH6BX,EE,8,neg,2,4
+R_1Tv8RlXGXRDH6BX,EA,7,NA,4,4
+R_1Tv8RlXGXRDH6BX,EE,9,neg,4,2
+R_1Tv8RlXGXRDH6BX,EA,8,neg,2,4
+R_1Tv8RlXGXRDH6BX,EE,10,NA,3,3
+R_1Tv8RlXGXRDH6BX,EA,9,NA,4,4
+R_1Tv8RlXGXRDH6BX,EA,10,neg,2,4
+R_2Vsg4M2YZmMyKjz,RE,1,neg,4,2
+R_2Vsg4M2YZmMyKjz,RA,1,neg,2,4
+R_2Vsg4M2YZmMyKjz,RE,2,NA,Strongly Agree,5
+R_2Vsg4M2YZmMyKjz,RA,2,neg,2,4
+R_2Vsg4M2YZmMyKjz,RE,3,neg,2,4
+R_2Vsg4M2YZmMyKjz,RE,4,NA,Strongly Agree,5
+R_2Vsg4M2YZmMyKjz,RE,5,neg,Strongly Disagree,5
+R_2Vsg4M2YZmMyKjz,RA,3,neg,4,2
+R_2Vsg4M2YZmMyKjz,RA,4,neg,2,4
+R_2Vsg4M2YZmMyKjz,RE,6,NA,Strongly Agree,5
+R_2Vsg4M2YZmMyKjz,RE,7,neg,2,4
+R_2Vsg4M2YZmMyKjz,RA,5,neg,2,4
+R_2Vsg4M2YZmMyKjz,RA,6,NA,4,4
+R_2Vsg4M2YZmMyKjz,RA,7,NA,Strongly Agree,5
+R_2Vsg4M2YZmMyKjz,RE,8,NA,4,4
+R_2Vsg4M2YZmMyKjz,RA,8,NA,Strongly Agree,5
+R_2Vsg4M2YZmMyKjz,RA,9,NA,4,4
+R_2Vsg4M2YZmMyKjz,RE,9,neg,Strongly Disagree,5
+R_2Vsg4M2YZmMyKjz,RA,10,NA,4,4
+R_2Vsg4M2YZmMyKjz,RE,10,NA,Strongly Agree,5
+R_2Vsg4M2YZmMyKjz,EE,1,NA,3,3
+R_2Vsg4M2YZmMyKjz,EA,1,neg,3,3
+R_2Vsg4M2YZmMyKjz,EA,2,NA,3,3
+R_2Vsg4M2YZmMyKjz,EA,3,NA,3,3
+R_2Vsg4M2YZmMyKjz,EE,2,NA,2,2
+R_2Vsg4M2YZmMyKjz,EE,3,NA,2,2
+R_2Vsg4M2YZmMyKjz,EA,4,NA,4,4
+R_2Vsg4M2YZmMyKjz,EA,5,NA,2,2
+R_2Vsg4M2YZmMyKjz,EA,6,neg,4,2
+R_2Vsg4M2YZmMyKjz,EE,4,neg,4,2
+R_2Vsg4M2YZmMyKjz,EE,5,NA,3,3
+R_2Vsg4M2YZmMyKjz,EE,6,neg,Strongly Agree,1
+R_2Vsg4M2YZmMyKjz,EE,7,neg,Strongly Agree,1
+R_2Vsg4M2YZmMyKjz,EE,8,neg,4,2
+R_2Vsg4M2YZmMyKjz,EA,7,NA,3,3
+R_2Vsg4M2YZmMyKjz,EE,9,neg,3,3
+R_2Vsg4M2YZmMyKjz,EA,8,neg,3,3
+R_2Vsg4M2YZmMyKjz,EE,10,NA,3,3
+R_2Vsg4M2YZmMyKjz,EA,9,NA,3,3
+R_2Vsg4M2YZmMyKjz,EA,10,neg,3,3
+R_2zJceBDE6LOaCWz,RE,1,neg,Strongly Disagree,5
+R_2zJceBDE6LOaCWz,RA,1,neg,Strongly Disagree,5
+R_2zJceBDE6LOaCWz,RE,2,NA,3,3
+R_2zJceBDE6LOaCWz,RA,2,neg,Strongly Disagree,5
+R_2zJceBDE6LOaCWz,RE,3,neg,Strongly Disagree,5
+R_2zJceBDE6LOaCWz,RE,4,NA,3,3
+R_2zJceBDE6LOaCWz,RE,5,neg,Strongly Disagree,5
+R_2zJceBDE6LOaCWz,RA,3,neg,Strongly Disagree,5
+R_2zJceBDE6LOaCWz,RA,4,neg,Strongly Disagree,5
+R_2zJceBDE6LOaCWz,RE,6,NA,Strongly Disagree,1
+R_2zJceBDE6LOaCWz,RE,7,neg,Strongly Disagree,5
+R_2zJceBDE6LOaCWz,RA,5,neg,Strongly Disagree,5
+R_2zJceBDE6LOaCWz,RA,6,NA,3,3
+R_2zJceBDE6LOaCWz,RA,7,NA,4,4
+R_2zJceBDE6LOaCWz,RE,8,NA,Strongly Disagree,1
+R_2zJceBDE6LOaCWz,RA,8,NA,4,4
+R_2zJceBDE6LOaCWz,RA,9,NA,4,4
+R_2zJceBDE6LOaCWz,RE,9,neg,Strongly Disagree,5
+R_2zJceBDE6LOaCWz,RA,10,NA,Strongly Agree,5
+R_2zJceBDE6LOaCWz,RE,10,NA,4,4
+R_2zJceBDE6LOaCWz,EE,1,NA,4,4
+R_2zJceBDE6LOaCWz,EA,1,neg,Strongly Disagree,5
+R_2zJceBDE6LOaCWz,EA,2,NA,4,4
+R_2zJceBDE6LOaCWz,EA,3,NA,4,4
+R_2zJceBDE6LOaCWz,EE,2,NA,4,4
+R_2zJceBDE6LOaCWz,EE,3,NA,4,4
+R_2zJceBDE6LOaCWz,EA,4,NA,4,4
+R_2zJceBDE6LOaCWz,EA,5,NA,Strongly Agree,5
+R_2zJceBDE6LOaCWz,EA,6,neg,Strongly Disagree,5
+R_2zJceBDE6LOaCWz,EE,4,neg,Strongly Disagree,5
+R_2zJceBDE6LOaCWz,EE,5,NA,4,4
+R_2zJceBDE6LOaCWz,EE,6,neg,Strongly Disagree,5
+R_2zJceBDE6LOaCWz,EE,7,neg,Strongly Disagree,5
+R_2zJceBDE6LOaCWz,EE,8,neg,Strongly Disagree,5
+R_2zJceBDE6LOaCWz,EA,7,NA,4,4
+R_2zJceBDE6LOaCWz,EE,9,neg,Strongly Disagree,5
+R_2zJceBDE6LOaCWz,EA,8,neg,Strongly Disagree,5
+R_2zJceBDE6LOaCWz,EE,10,NA,Strongly Disagree,1
+R_2zJceBDE6LOaCWz,EA,9,NA,Strongly Disagree,1
+R_2zJceBDE6LOaCWz,EA,10,neg,Strongly Disagree,5
+R_stJitSzH6fcoJQl,RE,1,neg,Strongly Disagree,5
+R_stJitSzH6fcoJQl,RA,1,neg,Strongly Disagree,5
+R_stJitSzH6fcoJQl,RE,2,NA,Strongly Agree,5
+R_stJitSzH6fcoJQl,RA,2,neg,Strongly Disagree,5
+R_stJitSzH6fcoJQl,RE,3,neg,Strongly Disagree,5
+R_stJitSzH6fcoJQl,RE,4,NA,Strongly Agree,5
+R_stJitSzH6fcoJQl,RE,5,neg,Strongly Disagree,5
+R_stJitSzH6fcoJQl,RA,3,neg,Strongly Disagree,5
+R_stJitSzH6fcoJQl,RA,4,neg,Strongly Disagree,5
+R_stJitSzH6fcoJQl,RE,6,NA,Strongly Agree,5
+R_stJitSzH6fcoJQl,RE,7,neg,Strongly Disagree,5
+R_stJitSzH6fcoJQl,RA,5,neg,Strongly Disagree,5
+R_stJitSzH6fcoJQl,RA,6,NA,Strongly Agree,5
+R_stJitSzH6fcoJQl,RA,7,NA,Strongly Agree,5
+R_stJitSzH6fcoJQl,RE,8,NA,Strongly Agree,5
+R_stJitSzH6fcoJQl,RA,8,NA,Strongly Agree,5
+R_stJitSzH6fcoJQl,RA,9,NA,Strongly Agree,5
+R_stJitSzH6fcoJQl,RE,9,neg,Strongly Disagree,5
+R_stJitSzH6fcoJQl,RA,10,NA,Strongly Agree,5
+R_stJitSzH6fcoJQl,RE,10,NA,3,3
+R_stJitSzH6fcoJQl,EE,1,NA,2,2
+R_stJitSzH6fcoJQl,EA,1,neg,Strongly Disagree,5
+R_stJitSzH6fcoJQl,EA,2,NA,Strongly Disagree,1
+R_stJitSzH6fcoJQl,EA,3,NA,2,2
+R_stJitSzH6fcoJQl,EE,2,NA,Strongly Disagree,1
+R_stJitSzH6fcoJQl,EE,3,NA,Strongly Disagree,1
+R_stJitSzH6fcoJQl,EA,4,NA,4,4
+R_stJitSzH6fcoJQl,EA,5,NA,Strongly Disagree,1
+R_stJitSzH6fcoJQl,EA,6,neg,3,3
+R_stJitSzH6fcoJQl,EE,4,neg,3,3
+R_stJitSzH6fcoJQl,EE,5,NA,4,4
+R_stJitSzH6fcoJQl,EE,6,neg,Strongly Agree,1
+R_stJitSzH6fcoJQl,EE,7,neg,3,3
+R_stJitSzH6fcoJQl,EE,8,neg,2,4
+R_stJitSzH6fcoJQl,EA,7,NA,Strongly Agree,5
+R_stJitSzH6fcoJQl,EE,9,neg,4,2
+R_stJitSzH6fcoJQl,EA,8,neg,Strongly Disagree,5
+R_stJitSzH6fcoJQl,EE,10,NA,Strongly Disagree,1
+R_stJitSzH6fcoJQl,EA,9,NA,Strongly Disagree,1
+R_stJitSzH6fcoJQl,EA,10,neg,Strongly Agree,1
+R_3KGtFOTeQp59TIC,RE,1,neg,2,4
+R_3KGtFOTeQp59TIC,RA,1,neg,2,4
+R_3KGtFOTeQp59TIC,RE,2,NA,4,4
+R_3KGtFOTeQp59TIC,RA,2,neg,2,4
+R_3KGtFOTeQp59TIC,RE,3,neg,Strongly Disagree,5
+R_3KGtFOTeQp59TIC,RE,4,NA,3,3
+R_3KGtFOTeQp59TIC,RE,5,neg,2,4
+R_3KGtFOTeQp59TIC,RA,3,neg,3,3
+R_3KGtFOTeQp59TIC,RA,4,neg,2,4
+R_3KGtFOTeQp59TIC,RE,6,NA,3,3
+R_3KGtFOTeQp59TIC,RE,7,neg,2,4
+R_3KGtFOTeQp59TIC,RA,5,neg,3,3
+R_3KGtFOTeQp59TIC,RA,6,NA,4,4
+R_3KGtFOTeQp59TIC,RA,7,NA,4,4
+R_3KGtFOTeQp59TIC,RE,8,NA,3,3
+R_3KGtFOTeQp59TIC,RA,8,NA,4,4
+R_3KGtFOTeQp59TIC,RA,9,NA,4,4
+R_3KGtFOTeQp59TIC,RE,9,neg,3,3
+R_3KGtFOTeQp59TIC,RA,10,NA,3,3
+R_3KGtFOTeQp59TIC,RE,10,NA,4,4
+R_3KGtFOTeQp59TIC,EE,1,NA,3,3
+R_3KGtFOTeQp59TIC,EA,1,neg,4,2
+R_3KGtFOTeQp59TIC,EA,2,NA,3,3
+R_3KGtFOTeQp59TIC,EA,3,NA,3,3
+R_3KGtFOTeQp59TIC,EE,2,NA,3,3
+R_3KGtFOTeQp59TIC,EE,3,NA,3,3
+R_3KGtFOTeQp59TIC,EA,4,NA,3,3
+R_3KGtFOTeQp59TIC,EA,5,NA,3,3
+R_3KGtFOTeQp59TIC,EA,6,neg,2,4
+R_3KGtFOTeQp59TIC,EE,4,neg,2,4
+R_3KGtFOTeQp59TIC,EE,5,NA,3,3
+R_3KGtFOTeQp59TIC,EE,6,neg,3,3
+R_3KGtFOTeQp59TIC,EE,7,neg,3,3
+R_3KGtFOTeQp59TIC,EE,8,neg,3,3
+R_3KGtFOTeQp59TIC,EA,7,NA,4,4
+R_3KGtFOTeQp59TIC,EE,9,neg,2,4
+R_3KGtFOTeQp59TIC,EA,8,neg,2,4
+R_3KGtFOTeQp59TIC,EE,10,NA,3,3
+R_3KGtFOTeQp59TIC,EA,9,NA,4,4
+R_3KGtFOTeQp59TIC,EA,10,neg,2,4
+R_2BmMaK6qZ72JwUo,RE,1,neg,Strongly Disagree,5
+R_2BmMaK6qZ72JwUo,RA,1,neg,Strongly Disagree,5
+R_2BmMaK6qZ72JwUo,RE,2,NA,Strongly Agree,5
+R_2BmMaK6qZ72JwUo,RA,2,neg,Strongly Agree,1
+R_2BmMaK6qZ72JwUo,RE,3,neg,Strongly Disagree,5
+R_2BmMaK6qZ72JwUo,RE,4,NA,Strongly Agree,5
+R_2BmMaK6qZ72JwUo,RE,5,neg,Strongly Agree,1
+R_2BmMaK6qZ72JwUo,RA,3,neg,Strongly Disagree,5
+R_2BmMaK6qZ72JwUo,RA,4,neg,Strongly Agree,1
+R_2BmMaK6qZ72JwUo,RE,6,NA,Strongly Agree,5
+R_2BmMaK6qZ72JwUo,RE,7,neg,Strongly Disagree,5
+R_2BmMaK6qZ72JwUo,RA,5,neg,Strongly Disagree,5
+R_2BmMaK6qZ72JwUo,RA,6,NA,Strongly Agree,5
+R_2BmMaK6qZ72JwUo,RA,7,NA,Strongly Agree,5
+R_2BmMaK6qZ72JwUo,RE,8,NA,Strongly Agree,5
+R_2BmMaK6qZ72JwUo,RA,8,NA,Strongly Agree,5
+R_2BmMaK6qZ72JwUo,RA,9,NA,Strongly Agree,5
+R_2BmMaK6qZ72JwUo,RE,9,neg,Strongly Disagree,5
+R_2BmMaK6qZ72JwUo,RA,10,NA,Strongly Agree,5
+R_2BmMaK6qZ72JwUo,RE,10,NA,Strongly Agree,5
+R_2BmMaK6qZ72JwUo,EE,1,NA,Strongly Agree,5
+R_2BmMaK6qZ72JwUo,EA,1,neg,Strongly Disagree,5
+R_2BmMaK6qZ72JwUo,EA,2,NA,Strongly Agree,5
+R_2BmMaK6qZ72JwUo,EA,3,NA,Strongly Agree,5
+R_2BmMaK6qZ72JwUo,EE,2,NA,Strongly Agree,5
+R_2BmMaK6qZ72JwUo,EE,3,NA,Strongly Agree,5
+R_2BmMaK6qZ72JwUo,EA,4,NA,Strongly Agree,5
+R_2BmMaK6qZ72JwUo,EA,5,NA,Strongly Agree,5
+R_2BmMaK6qZ72JwUo,EA,6,neg,Strongly Agree,1
+R_2BmMaK6qZ72JwUo,EE,4,neg,Strongly Agree,1
+R_2BmMaK6qZ72JwUo,EE,5,NA,Strongly Agree,5
+R_2BmMaK6qZ72JwUo,EE,6,neg,Strongly Disagree,5
+R_2BmMaK6qZ72JwUo,EE,7,neg,Strongly Disagree,5
+R_2BmMaK6qZ72JwUo,EE,8,neg,Strongly Agree,1
+R_2BmMaK6qZ72JwUo,EA,7,NA,Strongly Agree,5
+R_2BmMaK6qZ72JwUo,EE,9,neg,Strongly Agree,1
+R_2BmMaK6qZ72JwUo,EA,8,neg,Strongly Disagree,5
+R_2BmMaK6qZ72JwUo,EE,10,NA,Strongly Agree,5
+R_2BmMaK6qZ72JwUo,EA,9,NA,Strongly Agree,5
+R_2BmMaK6qZ72JwUo,EA,10,neg,Strongly Disagree,5
+R_3MGMh9Sgp0iytxz,RE,1,neg,2,4
+R_3MGMh9Sgp0iytxz,RA,1,neg,2,4
+R_3MGMh9Sgp0iytxz,RE,2,NA,4,4
+R_3MGMh9Sgp0iytxz,RA,2,neg,2,4
+R_3MGMh9Sgp0iytxz,RE,3,neg,2,4
+R_3MGMh9Sgp0iytxz,RE,4,NA,4,4
+R_3MGMh9Sgp0iytxz,RE,5,neg,2,4
+R_3MGMh9Sgp0iytxz,RA,3,neg,2,4
+R_3MGMh9Sgp0iytxz,RA,4,neg,2,4
+R_3MGMh9Sgp0iytxz,RE,6,NA,4,4
+R_3MGMh9Sgp0iytxz,RE,7,neg,3,3
+R_3MGMh9Sgp0iytxz,RA,5,neg,3,3
+R_3MGMh9Sgp0iytxz,RA,6,NA,4,4
+R_3MGMh9Sgp0iytxz,RA,7,NA,4,4
+R_3MGMh9Sgp0iytxz,RE,8,NA,3,3
+R_3MGMh9Sgp0iytxz,RA,8,NA,4,4
+R_3MGMh9Sgp0iytxz,RA,9,NA,4,4
+R_3MGMh9Sgp0iytxz,RE,9,neg,2,4
+R_3MGMh9Sgp0iytxz,RA,10,NA,4,4
+R_3MGMh9Sgp0iytxz,RE,10,NA,4,4
+R_3MGMh9Sgp0iytxz,EE,1,NA,3,3
+R_3MGMh9Sgp0iytxz,EA,1,neg,2,4
+R_3MGMh9Sgp0iytxz,EA,2,NA,3,3
+R_3MGMh9Sgp0iytxz,EA,3,NA,3,3
+R_3MGMh9Sgp0iytxz,EE,2,NA,3,3
+R_3MGMh9Sgp0iytxz,EE,3,NA,3,3
+R_3MGMh9Sgp0iytxz,EA,4,NA,3,3
+R_3MGMh9Sgp0iytxz,EA,5,NA,3,3
+R_3MGMh9Sgp0iytxz,EA,6,neg,3,3
+R_3MGMh9Sgp0iytxz,EE,4,neg,4,2
+R_3MGMh9Sgp0iytxz,EE,5,NA,4,4
+R_3MGMh9Sgp0iytxz,EE,6,neg,4,2
+R_3MGMh9Sgp0iytxz,EE,7,neg,4,2
+R_3MGMh9Sgp0iytxz,EE,8,neg,4,2
+R_3MGMh9Sgp0iytxz,EA,7,NA,4,4
+R_3MGMh9Sgp0iytxz,EE,9,neg,4,2
+R_3MGMh9Sgp0iytxz,EA,8,neg,3,3
+R_3MGMh9Sgp0iytxz,EE,10,NA,2,2
+R_3MGMh9Sgp0iytxz,EA,9,NA,2,2
+R_3MGMh9Sgp0iytxz,EA,10,neg,3,3
+R_3nNkwMznbY5izlu,RE,1,neg,Strongly Disagree,5
+R_3nNkwMznbY5izlu,RA,1,neg,2,4
+R_3nNkwMznbY5izlu,RE,2,NA,Strongly Agree,5
+R_3nNkwMznbY5izlu,RA,2,neg,Strongly Disagree,5
+R_3nNkwMznbY5izlu,RE,3,neg,Strongly Disagree,5
+R_3nNkwMznbY5izlu,RE,4,NA,4,4
+R_3nNkwMznbY5izlu,RE,5,neg,2,4
+R_3nNkwMznbY5izlu,RA,3,neg,Strongly Disagree,5
+R_3nNkwMznbY5izlu,RA,4,neg,2,4
+R_3nNkwMznbY5izlu,RE,6,NA,3,3
+R_3nNkwMznbY5izlu,RE,7,neg,4,2
+R_3nNkwMznbY5izlu,RA,5,neg,3,3
+R_3nNkwMznbY5izlu,RA,6,NA,3,3
+R_3nNkwMznbY5izlu,RA,7,NA,3,3
+R_3nNkwMznbY5izlu,RE,8,NA,4,4
+R_3nNkwMznbY5izlu,RA,8,NA,Strongly Agree,5
+R_3nNkwMznbY5izlu,RA,9,NA,4,4
+R_3nNkwMznbY5izlu,RE,9,neg,2,4
+R_3nNkwMznbY5izlu,RA,10,NA,4,4
+R_3nNkwMznbY5izlu,RE,10,NA,Strongly Agree,5
+R_3nNkwMznbY5izlu,EE,1,NA,3,3
+R_3nNkwMznbY5izlu,EA,1,neg,2,4
+R_3nNkwMznbY5izlu,EA,2,NA,3,3
+R_3nNkwMznbY5izlu,EA,3,NA,3,3
+R_3nNkwMznbY5izlu,EE,2,NA,4,4
+R_3nNkwMznbY5izlu,EE,3,NA,3,3
+R_3nNkwMznbY5izlu,EA,4,NA,4,4
+R_3nNkwMznbY5izlu,EA,5,NA,4,4
+R_3nNkwMznbY5izlu,EA,6,neg,3,3
+R_3nNkwMznbY5izlu,EE,4,neg,4,2
+R_3nNkwMznbY5izlu,EE,5,NA,4,4
+R_3nNkwMznbY5izlu,EE,6,neg,2,4
+R_3nNkwMznbY5izlu,EE,7,neg,3,3
+R_3nNkwMznbY5izlu,EE,8,neg,2,4
+R_3nNkwMznbY5izlu,EA,7,NA,3,3
+R_3nNkwMznbY5izlu,EE,9,neg,3,3
+R_3nNkwMznbY5izlu,EA,8,neg,3,3
+R_3nNkwMznbY5izlu,EE,10,NA,3,3
+R_3nNkwMznbY5izlu,EA,9,NA,3,3
+R_3nNkwMznbY5izlu,EA,10,neg,3,3
+R_3CEjKH1BmzA1CDY,RE,1,neg,2,4
+R_3CEjKH1BmzA1CDY,RA,1,neg,2,4
+R_3CEjKH1BmzA1CDY,RE,2,NA,4,4
+R_3CEjKH1BmzA1CDY,RA,2,neg,2,4
+R_3CEjKH1BmzA1CDY,RE,3,neg,2,4
+R_3CEjKH1BmzA1CDY,RE,4,NA,4,4
+R_3CEjKH1BmzA1CDY,RE,5,neg,2,4
+R_3CEjKH1BmzA1CDY,RA,3,neg,2,4
+R_3CEjKH1BmzA1CDY,RA,4,neg,2,4
+R_3CEjKH1BmzA1CDY,RE,6,NA,4,4
+R_3CEjKH1BmzA1CDY,RE,7,neg,3,3
+R_3CEjKH1BmzA1CDY,RA,5,neg,2,4
+R_3CEjKH1BmzA1CDY,RA,6,NA,4,4
+R_3CEjKH1BmzA1CDY,RA,7,NA,4,4
+R_3CEjKH1BmzA1CDY,RE,8,NA,3,3
+R_3CEjKH1BmzA1CDY,RA,8,NA,4,4
+R_3CEjKH1BmzA1CDY,RA,9,NA,3,3
+R_3CEjKH1BmzA1CDY,RE,9,neg,2,4
+R_3CEjKH1BmzA1CDY,RA,10,NA,4,4
+R_3CEjKH1BmzA1CDY,RE,10,NA,4,4
+R_3CEjKH1BmzA1CDY,EE,1,NA,4,4
+R_3CEjKH1BmzA1CDY,EA,1,neg,2,4
+R_3CEjKH1BmzA1CDY,EA,2,NA,4,4
+R_3CEjKH1BmzA1CDY,EA,3,NA,4,4
+R_3CEjKH1BmzA1CDY,EE,2,NA,4,4
+R_3CEjKH1BmzA1CDY,EE,3,NA,4,4
+R_3CEjKH1BmzA1CDY,EA,4,NA,4,4
+R_3CEjKH1BmzA1CDY,EA,5,NA,4,4
+R_3CEjKH1BmzA1CDY,EA,6,neg,2,4
+R_3CEjKH1BmzA1CDY,EE,4,neg,2,4
+R_3CEjKH1BmzA1CDY,EE,5,NA,4,4
+R_3CEjKH1BmzA1CDY,EE,6,neg,2,4
+R_3CEjKH1BmzA1CDY,EE,7,neg,3,3
+R_3CEjKH1BmzA1CDY,EE,8,neg,2,4
+R_3CEjKH1BmzA1CDY,EA,7,NA,4,4
+R_3CEjKH1BmzA1CDY,EE,9,neg,2,4
+R_3CEjKH1BmzA1CDY,EA,8,neg,2,4
+R_3CEjKH1BmzA1CDY,EE,10,NA,4,4
+R_3CEjKH1BmzA1CDY,EA,9,NA,4,4
+R_3CEjKH1BmzA1CDY,EA,10,neg,2,4
+R_1megTnQP8WMXclK,RE,1,neg,3,3
+R_1megTnQP8WMXclK,RA,1,neg,3,3
+R_1megTnQP8WMXclK,RE,2,NA,3,3
+R_1megTnQP8WMXclK,RA,2,neg,3,3
+R_1megTnQP8WMXclK,RE,3,neg,3,3
+R_1megTnQP8WMXclK,RE,4,NA,3,3
+R_1megTnQP8WMXclK,RE,5,neg,3,3
+R_1megTnQP8WMXclK,RA,3,neg,3,3
+R_1megTnQP8WMXclK,RA,4,neg,3,3
+R_1megTnQP8WMXclK,RE,6,NA,2,2
+R_1megTnQP8WMXclK,RE,7,neg,3,3
+R_1megTnQP8WMXclK,RA,5,neg,4,2
+R_1megTnQP8WMXclK,RA,6,NA,3,3
+R_1megTnQP8WMXclK,RA,7,NA,3,3
+R_1megTnQP8WMXclK,RE,8,NA,3,3
+R_1megTnQP8WMXclK,RA,8,NA,3,3
+R_1megTnQP8WMXclK,RA,9,NA,3,3
+R_1megTnQP8WMXclK,RE,9,neg,3,3
+R_1megTnQP8WMXclK,RA,10,NA,3,3
+R_1megTnQP8WMXclK,RE,10,NA,3,3
+R_1megTnQP8WMXclK,EE,1,NA,3,3
+R_1megTnQP8WMXclK,EA,1,neg,3,3
+R_1megTnQP8WMXclK,EA,2,NA,3,3
+R_1megTnQP8WMXclK,EA,3,NA,3,3
+R_1megTnQP8WMXclK,EE,2,NA,3,3
+R_1megTnQP8WMXclK,EE,3,NA,3,3
+R_1megTnQP8WMXclK,EA,4,NA,3,3
+R_1megTnQP8WMXclK,EA,5,NA,3,3
+R_1megTnQP8WMXclK,EA,6,neg,3,3
+R_1megTnQP8WMXclK,EE,4,neg,3,3
+R_1megTnQP8WMXclK,EE,5,NA,3,3
+R_1megTnQP8WMXclK,EE,6,neg,3,3
+R_1megTnQP8WMXclK,EE,7,neg,4,2
+R_1megTnQP8WMXclK,EE,8,neg,2,4
+R_1megTnQP8WMXclK,EA,7,NA,3,3
+R_1megTnQP8WMXclK,EE,9,neg,3,3
+R_1megTnQP8WMXclK,EA,8,neg,3,3
+R_1megTnQP8WMXclK,EE,10,NA,3,3
+R_1megTnQP8WMXclK,EA,9,NA,2,2
+R_1megTnQP8WMXclK,EA,10,neg,4,2
+R_OcAp18mvbm16c3T,RE,1,neg,3,3
+R_OcAp18mvbm16c3T,RA,1,neg,4,2
+R_OcAp18mvbm16c3T,RE,2,NA,3,3
+R_OcAp18mvbm16c3T,RA,2,neg,4,2
+R_OcAp18mvbm16c3T,RE,3,neg,2,4
+R_OcAp18mvbm16c3T,RE,4,NA,3,3
+R_OcAp18mvbm16c3T,RE,5,neg,3,3
+R_OcAp18mvbm16c3T,RA,3,neg,Strongly Agree,1
+R_OcAp18mvbm16c3T,RA,4,neg,4,2
+R_OcAp18mvbm16c3T,RE,6,NA,2,2
+R_OcAp18mvbm16c3T,RE,7,neg,4,2
+R_OcAp18mvbm16c3T,RA,5,neg,2,4
+R_OcAp18mvbm16c3T,RA,6,NA,2,2
+R_OcAp18mvbm16c3T,RA,7,NA,3,3
+R_OcAp18mvbm16c3T,RE,8,NA,Strongly Disagree,1
+R_OcAp18mvbm16c3T,RA,8,NA,4,4
+R_OcAp18mvbm16c3T,RA,9,NA,4,4
+R_OcAp18mvbm16c3T,RE,9,neg,4,2
+R_OcAp18mvbm16c3T,RA,10,NA,4,4
+R_OcAp18mvbm16c3T,RE,10,NA,2,2
+R_OcAp18mvbm16c3T,EE,1,NA,3,3
+R_OcAp18mvbm16c3T,EA,1,neg,3,3
+R_OcAp18mvbm16c3T,EA,2,NA,2,2
+R_OcAp18mvbm16c3T,EA,3,NA,3,3
+R_OcAp18mvbm16c3T,EE,2,NA,2,2
+R_OcAp18mvbm16c3T,EE,3,NA,3,3
+R_OcAp18mvbm16c3T,EA,4,NA,4,4
+R_OcAp18mvbm16c3T,EA,5,NA,4,4
+R_OcAp18mvbm16c3T,EA,6,neg,4,2
+R_OcAp18mvbm16c3T,EE,4,neg,3,3
+R_OcAp18mvbm16c3T,EE,5,NA,3,3
+R_OcAp18mvbm16c3T,EE,6,neg,4,2
+R_OcAp18mvbm16c3T,EE,7,neg,4,2
+R_OcAp18mvbm16c3T,EE,8,neg,2,4
+R_OcAp18mvbm16c3T,EA,7,NA,3,3
+R_OcAp18mvbm16c3T,EE,9,neg,4,2
+R_OcAp18mvbm16c3T,EA,8,neg,3,3
+R_OcAp18mvbm16c3T,EE,10,NA,4,4
+R_OcAp18mvbm16c3T,EA,9,NA,3,3
+R_OcAp18mvbm16c3T,EA,10,neg,4,2
+R_1jwVt6I2kp6hzC1,RE,1,neg,2,4
+R_1jwVt6I2kp6hzC1,RA,1,neg,3,3
+R_1jwVt6I2kp6hzC1,RE,2,NA,3,3
+R_1jwVt6I2kp6hzC1,RA,2,neg,3,3
+R_1jwVt6I2kp6hzC1,RE,3,neg,3,3
+R_1jwVt6I2kp6hzC1,RE,4,NA,3,3
+R_1jwVt6I2kp6hzC1,RE,5,neg,2,4
+R_1jwVt6I2kp6hzC1,RA,3,neg,2,4
+R_1jwVt6I2kp6hzC1,RA,4,neg,3,3
+R_1jwVt6I2kp6hzC1,RE,6,NA,2,2
+R_1jwVt6I2kp6hzC1,RE,7,neg,2,4
+R_1jwVt6I2kp6hzC1,RA,5,neg,4,2
+R_1jwVt6I2kp6hzC1,RA,6,NA,3,3
+R_1jwVt6I2kp6hzC1,RA,7,NA,3,3
+R_1jwVt6I2kp6hzC1,RE,8,NA,3,3
+R_1jwVt6I2kp6hzC1,RA,8,NA,3,3
+R_1jwVt6I2kp6hzC1,RA,9,NA,3,3
+R_1jwVt6I2kp6hzC1,RE,9,neg,4,2
+R_1jwVt6I2kp6hzC1,RA,10,NA,3,3
+R_1jwVt6I2kp6hzC1,RE,10,NA,3,3
+R_1jwVt6I2kp6hzC1,EE,1,NA,2,2
+R_1jwVt6I2kp6hzC1,EA,1,neg,2,4
+R_1jwVt6I2kp6hzC1,EA,2,NA,2,2
+R_1jwVt6I2kp6hzC1,EA,3,NA,3,3
+R_1jwVt6I2kp6hzC1,EE,2,NA,3,3
+R_1jwVt6I2kp6hzC1,EE,3,NA,4,4
+R_1jwVt6I2kp6hzC1,EA,4,NA,4,4
+R_1jwVt6I2kp6hzC1,EA,5,NA,3,3
+R_1jwVt6I2kp6hzC1,EA,6,neg,4,2
+R_1jwVt6I2kp6hzC1,EE,4,neg,4,2
+R_1jwVt6I2kp6hzC1,EE,5,NA,3,3
+R_1jwVt6I2kp6hzC1,EE,6,neg,4,2
+R_1jwVt6I2kp6hzC1,EE,7,neg,4,2
+R_1jwVt6I2kp6hzC1,EE,8,neg,2,4
+R_1jwVt6I2kp6hzC1,EA,7,NA,Strongly Disagree,1
+R_1jwVt6I2kp6hzC1,EE,9,neg,Strongly Agree,1
+R_1jwVt6I2kp6hzC1,EA,8,neg,3,3
+R_1jwVt6I2kp6hzC1,EE,10,NA,3,3
+R_1jwVt6I2kp6hzC1,EA,9,NA,4,4
+R_1jwVt6I2kp6hzC1,EA,10,neg,Strongly Agree,1
+R_0V8O8mrLiHO3Ghj,RE,1,neg,Strongly Disagree,5
+R_0V8O8mrLiHO3Ghj,RA,1,neg,Strongly Disagree,5
+R_0V8O8mrLiHO3Ghj,RE,2,NA,4,4
+R_0V8O8mrLiHO3Ghj,RA,2,neg,2,4
+R_0V8O8mrLiHO3Ghj,RE,3,neg,Strongly Disagree,5
+R_0V8O8mrLiHO3Ghj,RE,4,NA,4,4
+R_0V8O8mrLiHO3Ghj,RE,5,neg,Strongly Disagree,5
+R_0V8O8mrLiHO3Ghj,RA,3,neg,Strongly Disagree,5
+R_0V8O8mrLiHO3Ghj,RA,4,neg,Strongly Disagree,5
+R_0V8O8mrLiHO3Ghj,RE,6,NA,4,4
+R_0V8O8mrLiHO3Ghj,RE,7,neg,4,2
+R_0V8O8mrLiHO3Ghj,RA,5,neg,2,4
+R_0V8O8mrLiHO3Ghj,RA,6,NA,3,3
+R_0V8O8mrLiHO3Ghj,RA,7,NA,4,4
+R_0V8O8mrLiHO3Ghj,RE,8,NA,4,4
+R_0V8O8mrLiHO3Ghj,RA,8,NA,4,4
+R_0V8O8mrLiHO3Ghj,RA,9,NA,4,4
+R_0V8O8mrLiHO3Ghj,RE,9,neg,2,4
+R_0V8O8mrLiHO3Ghj,RA,10,NA,4,4
+R_0V8O8mrLiHO3Ghj,RE,10,NA,Strongly Agree,5
+R_0V8O8mrLiHO3Ghj,EE,1,NA,4,4
+R_0V8O8mrLiHO3Ghj,EA,1,neg,2,4
+R_0V8O8mrLiHO3Ghj,EA,2,NA,Strongly Disagree,1
+R_0V8O8mrLiHO3Ghj,EA,3,NA,2,2
+R_0V8O8mrLiHO3Ghj,EE,2,NA,Strongly Disagree,1
+R_0V8O8mrLiHO3Ghj,EE,3,NA,2,2
+R_0V8O8mrLiHO3Ghj,EA,4,NA,2,2
+R_0V8O8mrLiHO3Ghj,EA,5,NA,2,2
+R_0V8O8mrLiHO3Ghj,EA,6,neg,4,2
+R_0V8O8mrLiHO3Ghj,EE,4,neg,Strongly Agree,1
+R_0V8O8mrLiHO3Ghj,EE,5,NA,2,2
+R_0V8O8mrLiHO3Ghj,EE,6,neg,4,2
+R_0V8O8mrLiHO3Ghj,EE,7,neg,4,2
+R_0V8O8mrLiHO3Ghj,EE,8,neg,4,2
+R_0V8O8mrLiHO3Ghj,EA,7,NA,2,2
+R_0V8O8mrLiHO3Ghj,EE,9,neg,2,4
+R_0V8O8mrLiHO3Ghj,EA,8,neg,3,3
+R_0V8O8mrLiHO3Ghj,EE,10,NA,2,2
+R_0V8O8mrLiHO3Ghj,EA,9,NA,2,2
+R_0V8O8mrLiHO3Ghj,EA,10,neg,4,2
+R_3p3Glk1o4y2BcRe,RE,1,neg,Strongly Disagree,5
+R_3p3Glk1o4y2BcRe,RA,1,neg,Strongly Disagree,5
+R_3p3Glk1o4y2BcRe,RE,2,NA,4,4
+R_3p3Glk1o4y2BcRe,RA,2,neg,Strongly Disagree,5
+R_3p3Glk1o4y2BcRe,RE,3,neg,Strongly Disagree,5
+R_3p3Glk1o4y2BcRe,RE,4,NA,4,4
+R_3p3Glk1o4y2BcRe,RE,5,neg,Strongly Disagree,5
+R_3p3Glk1o4y2BcRe,RA,3,neg,Strongly Disagree,5
+R_3p3Glk1o4y2BcRe,RA,4,neg,Strongly Disagree,5
+R_3p3Glk1o4y2BcRe,RE,6,NA,4,4
+R_3p3Glk1o4y2BcRe,RE,7,neg,2,4
+R_3p3Glk1o4y2BcRe,RA,5,neg,Strongly Disagree,5
+R_3p3Glk1o4y2BcRe,RA,6,NA,4,4
+R_3p3Glk1o4y2BcRe,RA,7,NA,4,4
+R_3p3Glk1o4y2BcRe,RE,8,NA,4,4
+R_3p3Glk1o4y2BcRe,RA,8,NA,4,4
+R_3p3Glk1o4y2BcRe,RA,9,NA,4,4
+R_3p3Glk1o4y2BcRe,RE,9,neg,Strongly Disagree,5
+R_3p3Glk1o4y2BcRe,RA,10,NA,Strongly Agree,5
+R_3p3Glk1o4y2BcRe,RE,10,NA,Strongly Agree,5
+R_3p3Glk1o4y2BcRe,EE,1,NA,3,3
+R_3p3Glk1o4y2BcRe,EA,1,neg,Strongly Disagree,5
+R_3p3Glk1o4y2BcRe,EA,2,NA,3,3
+R_3p3Glk1o4y2BcRe,EA,3,NA,4,4
+R_3p3Glk1o4y2BcRe,EE,2,NA,4,4
+R_3p3Glk1o4y2BcRe,EE,3,NA,4,4
+R_3p3Glk1o4y2BcRe,EA,4,NA,4,4
+R_3p3Glk1o4y2BcRe,EA,5,NA,4,4
+R_3p3Glk1o4y2BcRe,EA,6,neg,Strongly Disagree,5
+R_3p3Glk1o4y2BcRe,EE,4,neg,2,4
+R_3p3Glk1o4y2BcRe,EE,5,NA,4,4
+R_3p3Glk1o4y2BcRe,EE,6,neg,3,3
+R_3p3Glk1o4y2BcRe,EE,7,neg,Strongly Disagree,5
+R_3p3Glk1o4y2BcRe,EE,8,neg,Strongly Disagree,5
+R_3p3Glk1o4y2BcRe,EA,7,NA,2,2
+R_3p3Glk1o4y2BcRe,EE,9,neg,2,4
+R_3p3Glk1o4y2BcRe,EA,8,neg,3,3
+R_3p3Glk1o4y2BcRe,EE,10,NA,2,2
+R_3p3Glk1o4y2BcRe,EA,9,NA,4,4
+R_3p3Glk1o4y2BcRe,EA,10,neg,2,4
+R_BSs3rMfzpVPA9vH,RE,1,neg,Strongly Disagree,5
+R_BSs3rMfzpVPA9vH,RA,1,neg,2,4
+R_BSs3rMfzpVPA9vH,RE,2,NA,4,4
+R_BSs3rMfzpVPA9vH,RA,2,neg,2,4
+R_BSs3rMfzpVPA9vH,RE,3,neg,Strongly Disagree,5
+R_BSs3rMfzpVPA9vH,RE,4,NA,4,4
+R_BSs3rMfzpVPA9vH,RE,5,neg,Strongly Disagree,5
+R_BSs3rMfzpVPA9vH,RA,3,neg,Strongly Disagree,5
+R_BSs3rMfzpVPA9vH,RA,4,neg,2,4
+R_BSs3rMfzpVPA9vH,RE,6,NA,4,4
+R_BSs3rMfzpVPA9vH,RE,7,neg,Strongly Disagree,5
+R_BSs3rMfzpVPA9vH,RA,5,neg,Strongly Disagree,5
+R_BSs3rMfzpVPA9vH,RA,6,NA,3,3
+R_BSs3rMfzpVPA9vH,RA,7,NA,4,4
+R_BSs3rMfzpVPA9vH,RE,8,NA,4,4
+R_BSs3rMfzpVPA9vH,RA,8,NA,4,4
+R_BSs3rMfzpVPA9vH,RA,9,NA,4,4
+R_BSs3rMfzpVPA9vH,RE,9,neg,2,4
+R_BSs3rMfzpVPA9vH,RA,10,NA,4,4
+R_BSs3rMfzpVPA9vH,RE,10,NA,4,4
+R_BSs3rMfzpVPA9vH,EE,1,NA,4,4
+R_BSs3rMfzpVPA9vH,EA,1,neg,Strongly Disagree,5
+R_BSs3rMfzpVPA9vH,EA,2,NA,Strongly Agree,5
+R_BSs3rMfzpVPA9vH,EA,3,NA,4,4
+R_BSs3rMfzpVPA9vH,EE,2,NA,Strongly Agree,5
+R_BSs3rMfzpVPA9vH,EE,3,NA,4,4
+R_BSs3rMfzpVPA9vH,EA,4,NA,Strongly Agree,5
+R_BSs3rMfzpVPA9vH,EA,5,NA,4,4
+R_BSs3rMfzpVPA9vH,EA,6,neg,Strongly Disagree,5
+R_BSs3rMfzpVPA9vH,EE,4,neg,Strongly Disagree,5
+R_BSs3rMfzpVPA9vH,EE,5,NA,4,4
+R_BSs3rMfzpVPA9vH,EE,6,neg,Strongly Disagree,5
+R_BSs3rMfzpVPA9vH,EE,7,neg,2,4
+R_BSs3rMfzpVPA9vH,EE,8,neg,2,4
+R_BSs3rMfzpVPA9vH,EA,7,NA,4,4
+R_BSs3rMfzpVPA9vH,EE,9,neg,Strongly Disagree,5
+R_BSs3rMfzpVPA9vH,EA,8,neg,2,4
+R_BSs3rMfzpVPA9vH,EE,10,NA,4,4
+R_BSs3rMfzpVPA9vH,EA,9,NA,2,2
+R_BSs3rMfzpVPA9vH,EA,10,neg,Strongly Disagree,5
+R_38d0yOIMg2IDKPD,RE,1,neg,Strongly Disagree,5
+R_38d0yOIMg2IDKPD,RA,1,neg,Strongly Disagree,5
+R_38d0yOIMg2IDKPD,RE,2,NA,Strongly Agree,5
+R_38d0yOIMg2IDKPD,RA,2,neg,Strongly Disagree,5
+R_38d0yOIMg2IDKPD,RE,3,neg,Strongly Disagree,5
+R_38d0yOIMg2IDKPD,RE,4,NA,Strongly Agree,5
+R_38d0yOIMg2IDKPD,RE,5,neg,Strongly Agree,1
+R_38d0yOIMg2IDKPD,RA,3,neg,Strongly Disagree,5
+R_38d0yOIMg2IDKPD,RA,4,neg,Strongly Agree,1
+R_38d0yOIMg2IDKPD,RE,6,NA,Strongly Agree,5
+R_38d0yOIMg2IDKPD,RE,7,neg,Strongly Disagree,5
+R_38d0yOIMg2IDKPD,RA,5,neg,Strongly Disagree,5
+R_38d0yOIMg2IDKPD,RA,6,NA,Strongly Agree,5
+R_38d0yOIMg2IDKPD,RA,7,NA,Strongly Agree,5
+R_38d0yOIMg2IDKPD,RE,8,NA,Strongly Agree,5
+R_38d0yOIMg2IDKPD,RA,8,NA,Strongly Agree,5
+R_38d0yOIMg2IDKPD,RA,9,NA,Strongly Agree,5
+R_38d0yOIMg2IDKPD,RE,9,neg,Strongly Disagree,5
+R_38d0yOIMg2IDKPD,RA,10,NA,Strongly Agree,5
+R_38d0yOIMg2IDKPD,RE,10,NA,Strongly Agree,5
+R_38d0yOIMg2IDKPD,EE,1,NA,Strongly Agree,5
+R_38d0yOIMg2IDKPD,EA,1,neg,Strongly Disagree,5
+R_38d0yOIMg2IDKPD,EA,2,NA,Strongly Agree,5
+R_38d0yOIMg2IDKPD,EA,3,NA,Strongly Agree,5
+R_38d0yOIMg2IDKPD,EE,2,NA,Strongly Agree,5
+R_38d0yOIMg2IDKPD,EE,3,NA,Strongly Agree,5
+R_38d0yOIMg2IDKPD,EA,4,NA,Strongly Agree,5
+R_38d0yOIMg2IDKPD,EA,5,NA,Strongly Agree,5
+R_38d0yOIMg2IDKPD,EA,6,neg,Strongly Agree,1
+R_38d0yOIMg2IDKPD,EE,4,neg,Strongly Disagree,5
+R_38d0yOIMg2IDKPD,EE,5,NA,Strongly Agree,5
+R_38d0yOIMg2IDKPD,EE,6,neg,Strongly Disagree,5
+R_38d0yOIMg2IDKPD,EE,7,neg,Strongly Disagree,5
+R_38d0yOIMg2IDKPD,EE,8,neg,Strongly Agree,1
+R_38d0yOIMg2IDKPD,EA,7,NA,Strongly Agree,5
+R_38d0yOIMg2IDKPD,EE,9,neg,Strongly Agree,1
+R_38d0yOIMg2IDKPD,EA,8,neg,Strongly Disagree,5
+R_38d0yOIMg2IDKPD,EE,10,NA,Strongly Agree,5
+R_38d0yOIMg2IDKPD,EA,9,NA,Strongly Agree,5
+R_38d0yOIMg2IDKPD,EA,10,neg,Strongly Disagree,5
+R_2EygJSPG6ZHxoZT,RE,1,neg,4,2
+R_2EygJSPG6ZHxoZT,RA,1,neg,3,3
+R_2EygJSPG6ZHxoZT,RE,2,NA,2,2
+R_2EygJSPG6ZHxoZT,RA,2,neg,2,4
+R_2EygJSPG6ZHxoZT,RE,3,neg,4,2
+R_2EygJSPG6ZHxoZT,RE,4,NA,2,2
+R_2EygJSPG6ZHxoZT,RE,5,neg,4,2
+R_2EygJSPG6ZHxoZT,RA,3,neg,2,4
+R_2EygJSPG6ZHxoZT,RA,4,neg,Strongly Disagree,5
+R_2EygJSPG6ZHxoZT,RE,6,NA,Strongly Disagree,1
+R_2EygJSPG6ZHxoZT,RE,7,neg,4,2
+R_2EygJSPG6ZHxoZT,RA,5,neg,2,4
+R_2EygJSPG6ZHxoZT,RA,6,NA,4,4
+R_2EygJSPG6ZHxoZT,RA,7,NA,Strongly Agree,5
+R_2EygJSPG6ZHxoZT,RE,8,NA,Strongly Disagree,1
+R_2EygJSPG6ZHxoZT,RA,8,NA,Strongly Agree,5
+R_2EygJSPG6ZHxoZT,RA,9,NA,Strongly Agree,5
+R_2EygJSPG6ZHxoZT,RE,9,neg,4,2
+R_2EygJSPG6ZHxoZT,RA,10,NA,Strongly Agree,5
+R_2EygJSPG6ZHxoZT,RE,10,NA,3,3
+R_2EygJSPG6ZHxoZT,EE,1,NA,Strongly Disagree,1
+R_2EygJSPG6ZHxoZT,EA,1,neg,4,2
+R_2EygJSPG6ZHxoZT,EA,2,NA,Strongly Disagree,1
+R_2EygJSPG6ZHxoZT,EA,3,NA,2,2
+R_2EygJSPG6ZHxoZT,EE,2,NA,2,2
+R_2EygJSPG6ZHxoZT,EE,3,NA,Strongly Disagree,1
+R_2EygJSPG6ZHxoZT,EA,4,NA,Strongly Disagree,1
+R_2EygJSPG6ZHxoZT,EA,5,NA,Strongly Disagree,1
+R_2EygJSPG6ZHxoZT,EA,6,neg,Strongly Agree,1
+R_2EygJSPG6ZHxoZT,EE,4,neg,Strongly Agree,1
+R_2EygJSPG6ZHxoZT,EE,5,NA,3,3
+R_2EygJSPG6ZHxoZT,EE,6,neg,Strongly Agree,1
+R_2EygJSPG6ZHxoZT,EE,7,neg,Strongly Agree,1
+R_2EygJSPG6ZHxoZT,EE,8,neg,Strongly Agree,1
+R_2EygJSPG6ZHxoZT,EA,7,NA,Strongly Disagree,1
+R_2EygJSPG6ZHxoZT,EE,9,neg,4,2
+R_2EygJSPG6ZHxoZT,EA,8,neg,Strongly Agree,1
+R_2EygJSPG6ZHxoZT,EE,10,NA,2,2
+R_2EygJSPG6ZHxoZT,EA,9,NA,Strongly Disagree,1
+R_2EygJSPG6ZHxoZT,EA,10,neg,Strongly Agree,1
+R_27UO1S0s3ieEoLA,RE,1,neg,Strongly Disagree,5
+R_27UO1S0s3ieEoLA,RA,1,neg,2,4
+R_27UO1S0s3ieEoLA,RE,2,NA,Strongly Agree,5
+R_27UO1S0s3ieEoLA,RA,2,neg,Strongly Disagree,5
+R_27UO1S0s3ieEoLA,RE,3,neg,Strongly Disagree,5
+R_27UO1S0s3ieEoLA,RE,4,NA,Strongly Agree,5
+R_27UO1S0s3ieEoLA,RE,5,neg,Strongly Disagree,5
+R_27UO1S0s3ieEoLA,RA,3,neg,Strongly Disagree,5
+R_27UO1S0s3ieEoLA,RA,4,neg,3,3
+R_27UO1S0s3ieEoLA,RE,6,NA,4,4
+R_27UO1S0s3ieEoLA,RE,7,neg,3,3
+R_27UO1S0s3ieEoLA,RA,5,neg,Strongly Disagree,5
+R_27UO1S0s3ieEoLA,RA,6,NA,4,4
+R_27UO1S0s3ieEoLA,RA,7,NA,4,4
+R_27UO1S0s3ieEoLA,RE,8,NA,Strongly Agree,5
+R_27UO1S0s3ieEoLA,RA,8,NA,Strongly Agree,5
+R_27UO1S0s3ieEoLA,RA,9,NA,Strongly Agree,5
+R_27UO1S0s3ieEoLA,RE,9,neg,3,3
+R_27UO1S0s3ieEoLA,RA,10,NA,Strongly Agree,5
+R_27UO1S0s3ieEoLA,RE,10,NA,Strongly Agree,5
+R_27UO1S0s3ieEoLA,EE,1,NA,4,4
+R_27UO1S0s3ieEoLA,EA,1,neg,Strongly Disagree,5
+R_27UO1S0s3ieEoLA,EA,2,NA,Strongly Agree,5
+R_27UO1S0s3ieEoLA,EA,3,NA,Strongly Agree,5
+R_27UO1S0s3ieEoLA,EE,2,NA,Strongly Agree,5
+R_27UO1S0s3ieEoLA,EE,3,NA,4,4
+R_27UO1S0s3ieEoLA,EA,4,NA,Strongly Agree,5
+R_27UO1S0s3ieEoLA,EA,5,NA,Strongly Agree,5
+R_27UO1S0s3ieEoLA,EA,6,neg,Strongly Disagree,5
+R_27UO1S0s3ieEoLA,EE,4,neg,Strongly Disagree,5
+R_27UO1S0s3ieEoLA,EE,5,NA,Strongly Agree,5
+R_27UO1S0s3ieEoLA,EE,6,neg,2,4
+R_27UO1S0s3ieEoLA,EE,7,neg,4,2
+R_27UO1S0s3ieEoLA,EE,8,neg,3,3
+R_27UO1S0s3ieEoLA,EA,7,NA,4,4
+R_27UO1S0s3ieEoLA,EE,9,neg,3,3
+R_27UO1S0s3ieEoLA,EA,8,neg,2,4
+R_27UO1S0s3ieEoLA,EE,10,NA,3,3
+R_27UO1S0s3ieEoLA,EA,9,NA,Strongly Agree,5
+R_27UO1S0s3ieEoLA,EA,10,neg,Strongly Disagree,5
+R_1HhiPBhEZlHHZjR,RE,1,neg,Strongly Disagree,5
+R_1HhiPBhEZlHHZjR,RA,1,neg,3,3
+R_1HhiPBhEZlHHZjR,RE,2,NA,4,4
+R_1HhiPBhEZlHHZjR,RA,2,neg,2,4
+R_1HhiPBhEZlHHZjR,RE,3,neg,2,4
+R_1HhiPBhEZlHHZjR,RE,4,NA,3,3
+R_1HhiPBhEZlHHZjR,RE,5,neg,2,4
+R_1HhiPBhEZlHHZjR,RA,3,neg,3,3
+R_1HhiPBhEZlHHZjR,RA,4,neg,2,4
+R_1HhiPBhEZlHHZjR,RE,6,NA,2,2
+R_1HhiPBhEZlHHZjR,RE,7,neg,2,4
+R_1HhiPBhEZlHHZjR,RA,5,neg,4,2
+R_1HhiPBhEZlHHZjR,RA,6,NA,2,2
+R_1HhiPBhEZlHHZjR,RA,7,NA,3,3
+R_1HhiPBhEZlHHZjR,RE,8,NA,3,3
+R_1HhiPBhEZlHHZjR,RA,8,NA,3,3
+R_1HhiPBhEZlHHZjR,RA,9,NA,4,4
+R_1HhiPBhEZlHHZjR,RE,9,neg,3,3
+R_1HhiPBhEZlHHZjR,RA,10,NA,4,4
+R_1HhiPBhEZlHHZjR,RE,10,NA,3,3
+R_1HhiPBhEZlHHZjR,EE,1,NA,3,3
+R_1HhiPBhEZlHHZjR,EA,1,neg,3,3
+R_1HhiPBhEZlHHZjR,EA,2,NA,3,3
+R_1HhiPBhEZlHHZjR,EA,3,NA,2,2
+R_1HhiPBhEZlHHZjR,EE,2,NA,3,3
+R_1HhiPBhEZlHHZjR,EE,3,NA,2,2
+R_1HhiPBhEZlHHZjR,EA,4,NA,3,3
+R_1HhiPBhEZlHHZjR,EA,5,NA,2,2
+R_1HhiPBhEZlHHZjR,EA,6,neg,3,3
+R_1HhiPBhEZlHHZjR,EE,4,neg,2,4
+R_1HhiPBhEZlHHZjR,EE,5,NA,3,3
+R_1HhiPBhEZlHHZjR,EE,6,neg,3,3
+R_1HhiPBhEZlHHZjR,EE,7,neg,3,3
+R_1HhiPBhEZlHHZjR,EE,8,neg,2,4
+R_1HhiPBhEZlHHZjR,EA,7,NA,2,2
+R_1HhiPBhEZlHHZjR,EE,9,neg,Strongly Disagree,5
+R_1HhiPBhEZlHHZjR,EA,8,neg,2,4
+R_1HhiPBhEZlHHZjR,EE,10,NA,3,3
+R_1HhiPBhEZlHHZjR,EA,9,NA,Strongly Disagree,1
+R_1HhiPBhEZlHHZjR,EA,10,neg,3,3
+R_erJc3hejUWXXmtb,RE,1,neg,Strongly Disagree,5
+R_erJc3hejUWXXmtb,RA,1,neg,Strongly Disagree,5
+R_erJc3hejUWXXmtb,RE,2,NA,Strongly Agree,5
+R_erJc3hejUWXXmtb,RA,2,neg,Strongly Disagree,5
+R_erJc3hejUWXXmtb,RE,3,neg,Strongly Disagree,5
+R_erJc3hejUWXXmtb,RE,4,NA,Strongly Agree,5
+R_erJc3hejUWXXmtb,RE,5,neg,Strongly Disagree,5
+R_erJc3hejUWXXmtb,RA,3,neg,Strongly Disagree,5
+R_erJc3hejUWXXmtb,RA,4,neg,Strongly Disagree,5
+R_erJc3hejUWXXmtb,RE,6,NA,Strongly Agree,5
+R_erJc3hejUWXXmtb,RE,7,neg,Strongly Disagree,5
+R_erJc3hejUWXXmtb,RA,5,neg,3,3
+R_erJc3hejUWXXmtb,RA,6,NA,Strongly Agree,5
+R_erJc3hejUWXXmtb,RA,7,NA,Strongly Agree,5
+R_erJc3hejUWXXmtb,RE,8,NA,Strongly Agree,5
+R_erJc3hejUWXXmtb,RA,8,NA,Strongly Agree,5
+R_erJc3hejUWXXmtb,RA,9,NA,Strongly Agree,5
+R_erJc3hejUWXXmtb,RE,9,neg,2,4
+R_erJc3hejUWXXmtb,RA,10,NA,4,4
+R_erJc3hejUWXXmtb,RE,10,NA,Strongly Agree,5
+R_erJc3hejUWXXmtb,EE,1,NA,3,3
+R_erJc3hejUWXXmtb,EA,1,neg,3,3
+R_erJc3hejUWXXmtb,EA,2,NA,2,2
+R_erJc3hejUWXXmtb,EA,3,NA,3,3
+R_erJc3hejUWXXmtb,EE,2,NA,2,2
+R_erJc3hejUWXXmtb,EE,3,NA,2,2
+R_erJc3hejUWXXmtb,EA,4,NA,3,3
+R_erJc3hejUWXXmtb,EA,5,NA,4,4
+R_erJc3hejUWXXmtb,EA,6,neg,4,2
+R_erJc3hejUWXXmtb,EE,4,neg,3,3
+R_erJc3hejUWXXmtb,EE,5,NA,4,4
+R_erJc3hejUWXXmtb,EE,6,neg,4,2
+R_erJc3hejUWXXmtb,EE,7,neg,Strongly Agree,1
+R_erJc3hejUWXXmtb,EE,8,neg,4,2
+R_erJc3hejUWXXmtb,EA,7,NA,3,3
+R_erJc3hejUWXXmtb,EE,9,neg,3,3
+R_erJc3hejUWXXmtb,EA,8,neg,3,3
+R_erJc3hejUWXXmtb,EE,10,NA,2,2
+R_erJc3hejUWXXmtb,EA,9,NA,4,4
+R_erJc3hejUWXXmtb,EA,10,neg,3,3
+R_NVYrJklfFqRVOnv,RE,1,neg,3,3
+R_NVYrJklfFqRVOnv,RA,1,neg,2,4
+R_NVYrJklfFqRVOnv,RE,2,NA,4,4
+R_NVYrJklfFqRVOnv,RA,2,neg,2,4
+R_NVYrJklfFqRVOnv,RE,3,neg,2,4
+R_NVYrJklfFqRVOnv,RE,4,NA,4,4
+R_NVYrJklfFqRVOnv,RE,5,neg,4,2
+R_NVYrJklfFqRVOnv,RA,3,neg,Strongly Disagree,5
+R_NVYrJklfFqRVOnv,RA,4,neg,3,3
+R_NVYrJklfFqRVOnv,RE,6,NA,4,4
+R_NVYrJklfFqRVOnv,RE,7,neg,Strongly Disagree,5
+R_NVYrJklfFqRVOnv,RA,5,neg,2,4
+R_NVYrJklfFqRVOnv,RA,6,NA,4,4
+R_NVYrJklfFqRVOnv,RA,7,NA,Strongly Agree,5
+R_NVYrJklfFqRVOnv,RE,8,NA,3,3
+R_NVYrJklfFqRVOnv,RA,8,NA,4,4
+R_NVYrJklfFqRVOnv,RA,9,NA,4,4
+R_NVYrJklfFqRVOnv,RE,9,neg,2,4
+R_NVYrJklfFqRVOnv,RA,10,NA,4,4
+R_NVYrJklfFqRVOnv,RE,10,NA,3,3
+R_NVYrJklfFqRVOnv,EE,1,NA,2,2
+R_NVYrJklfFqRVOnv,EA,1,neg,2,4
+R_NVYrJklfFqRVOnv,EA,2,NA,3,3
+R_NVYrJklfFqRVOnv,EA,3,NA,2,2
+R_NVYrJklfFqRVOnv,EE,2,NA,3,3
+R_NVYrJklfFqRVOnv,EE,3,NA,4,4
+R_NVYrJklfFqRVOnv,EA,4,NA,4,4
+R_NVYrJklfFqRVOnv,EA,5,NA,4,4
+R_NVYrJklfFqRVOnv,EA,6,neg,2,4
+R_NVYrJklfFqRVOnv,EE,4,neg,4,2
+R_NVYrJklfFqRVOnv,EE,5,NA,3,3
+R_NVYrJklfFqRVOnv,EE,6,neg,3,3
+R_NVYrJklfFqRVOnv,EE,7,neg,3,3
+R_NVYrJklfFqRVOnv,EE,8,neg,2,4
+R_NVYrJklfFqRVOnv,EA,7,NA,4,4
+R_NVYrJklfFqRVOnv,EE,9,neg,3,3
+R_NVYrJklfFqRVOnv,EA,8,neg,2,4
+R_NVYrJklfFqRVOnv,EE,10,NA,3,3
+R_NVYrJklfFqRVOnv,EA,9,NA,3,3
+R_NVYrJklfFqRVOnv,EA,10,neg,2,4
+R_1E0SHQwiV6CXRoo,RE,1,neg,2,4
+R_1E0SHQwiV6CXRoo,RA,1,neg,3,3
+R_1E0SHQwiV6CXRoo,RE,2,NA,4,4
+R_1E0SHQwiV6CXRoo,RA,2,neg,2,4
+R_1E0SHQwiV6CXRoo,RE,3,neg,2,4
+R_1E0SHQwiV6CXRoo,RE,4,NA,3,3
+R_1E0SHQwiV6CXRoo,RE,5,neg,2,4
+R_1E0SHQwiV6CXRoo,RA,3,neg,Strongly Disagree,5
+R_1E0SHQwiV6CXRoo,RA,4,neg,2,4
+R_1E0SHQwiV6CXRoo,RE,6,NA,3,3
+R_1E0SHQwiV6CXRoo,RE,7,neg,2,4
+R_1E0SHQwiV6CXRoo,RA,5,neg,3,3
+R_1E0SHQwiV6CXRoo,RA,6,NA,3,3
+R_1E0SHQwiV6CXRoo,RA,7,NA,Strongly Agree,5
+R_1E0SHQwiV6CXRoo,RE,8,NA,3,3
+R_1E0SHQwiV6CXRoo,RA,8,NA,4,4
+R_1E0SHQwiV6CXRoo,RA,9,NA,3,3
+R_1E0SHQwiV6CXRoo,RE,9,neg,3,3
+R_1E0SHQwiV6CXRoo,RA,10,NA,3,3
+R_1E0SHQwiV6CXRoo,RE,10,NA,4,4
+R_1E0SHQwiV6CXRoo,EE,1,NA,3,3
+R_1E0SHQwiV6CXRoo,EA,1,neg,3,3
+R_1E0SHQwiV6CXRoo,EA,2,NA,3,3
+R_1E0SHQwiV6CXRoo,EA,3,NA,3,3
+R_1E0SHQwiV6CXRoo,EE,2,NA,3,3
+R_1E0SHQwiV6CXRoo,EE,3,NA,2,2
+R_1E0SHQwiV6CXRoo,EA,4,NA,4,4
+R_1E0SHQwiV6CXRoo,EA,5,NA,4,4
+R_1E0SHQwiV6CXRoo,EA,6,neg,Strongly Agree,1
+R_1E0SHQwiV6CXRoo,EE,4,neg,4,2
+R_1E0SHQwiV6CXRoo,EE,5,NA,4,4
+R_1E0SHQwiV6CXRoo,EE,6,neg,4,2
+R_1E0SHQwiV6CXRoo,EE,7,neg,4,2
+R_1E0SHQwiV6CXRoo,EE,8,neg,2,4
+R_1E0SHQwiV6CXRoo,EA,7,NA,2,2
+R_1E0SHQwiV6CXRoo,EE,9,neg,3,3
+R_1E0SHQwiV6CXRoo,EA,8,neg,3,3
+R_1E0SHQwiV6CXRoo,EE,10,NA,3,3
+R_1E0SHQwiV6CXRoo,EA,9,NA,3,3
+R_1E0SHQwiV6CXRoo,EA,10,neg,4,2
+R_3frS5bkaT1hzbPh,RE,1,neg,Strongly Disagree,5
+R_3frS5bkaT1hzbPh,RA,1,neg,2,4
+R_3frS5bkaT1hzbPh,RE,2,NA,Strongly Agree,5
+R_3frS5bkaT1hzbPh,RA,2,neg,Strongly Disagree,5
+R_3frS5bkaT1hzbPh,RE,3,neg,Strongly Disagree,5
+R_3frS5bkaT1hzbPh,RE,4,NA,Strongly Agree,5
+R_3frS5bkaT1hzbPh,RE,5,neg,Strongly Agree,1
+R_3frS5bkaT1hzbPh,RA,3,neg,Strongly Disagree,5
+R_3frS5bkaT1hzbPh,RA,4,neg,Strongly Disagree,5
+R_3frS5bkaT1hzbPh,RE,6,NA,4,4
+R_3frS5bkaT1hzbPh,RE,7,neg,Strongly Disagree,5
+R_3frS5bkaT1hzbPh,RA,5,neg,NA,NA
+R_3frS5bkaT1hzbPh,RA,6,NA,Strongly Agree,5
+R_3frS5bkaT1hzbPh,RA,7,NA,4,4
+R_3frS5bkaT1hzbPh,RE,8,NA,4,4
+R_3frS5bkaT1hzbPh,RA,8,NA,Strongly Agree,5
+R_3frS5bkaT1hzbPh,RA,9,NA,Strongly Agree,5
+R_3frS5bkaT1hzbPh,RE,9,neg,Strongly Disagree,5
+R_3frS5bkaT1hzbPh,RA,10,NA,Strongly Agree,5
+R_3frS5bkaT1hzbPh,RE,10,NA,3,3
+R_3frS5bkaT1hzbPh,EE,1,NA,3,3
+R_3frS5bkaT1hzbPh,EA,1,neg,Strongly Disagree,5
+R_3frS5bkaT1hzbPh,EA,2,NA,Strongly Disagree,1
+R_3frS5bkaT1hzbPh,EA,3,NA,Strongly Disagree,1
+R_3frS5bkaT1hzbPh,EE,2,NA,Strongly Agree,5
+R_3frS5bkaT1hzbPh,EE,3,NA,Strongly Disagree,1
+R_3frS5bkaT1hzbPh,EA,4,NA,3,3
+R_3frS5bkaT1hzbPh,EA,5,NA,NA,NA
+R_3frS5bkaT1hzbPh,EA,6,neg,Strongly Agree,1
+R_3frS5bkaT1hzbPh,EE,4,neg,Strongly Disagree,5
+R_3frS5bkaT1hzbPh,EE,5,NA,Strongly Agree,5
+R_3frS5bkaT1hzbPh,EE,6,neg,NA,NA
+R_3frS5bkaT1hzbPh,EE,7,neg,Strongly Agree,1
+R_3frS5bkaT1hzbPh,EE,8,neg,4,2
+R_3frS5bkaT1hzbPh,EA,7,NA,4,4
+R_3frS5bkaT1hzbPh,EE,9,neg,4,2
+R_3frS5bkaT1hzbPh,EA,8,neg,4,2
+R_3frS5bkaT1hzbPh,EE,10,NA,3,3
+R_3frS5bkaT1hzbPh,EA,9,NA,Strongly Disagree,1
+R_3frS5bkaT1hzbPh,EA,10,neg,Strongly Disagree,5
+R_2xUVpbmJeDe1jXl,RE,1,neg,Strongly Agree,1
+R_2xUVpbmJeDe1jXl,RA,1,neg,Strongly Disagree,5
+R_2xUVpbmJeDe1jXl,RE,2,NA,3,3
+R_2xUVpbmJeDe1jXl,RA,2,neg,Strongly Disagree,5
+R_2xUVpbmJeDe1jXl,RE,3,neg,Strongly Agree,1
+R_2xUVpbmJeDe1jXl,RE,4,NA,2,2
+R_2xUVpbmJeDe1jXl,RE,5,neg,Strongly Agree,1
+R_2xUVpbmJeDe1jXl,RA,3,neg,4,2
+R_2xUVpbmJeDe1jXl,RA,4,neg,Strongly Disagree,5
+R_2xUVpbmJeDe1jXl,RE,6,NA,Strongly Disagree,1
+R_2xUVpbmJeDe1jXl,RE,7,neg,Strongly Disagree,5
+R_2xUVpbmJeDe1jXl,RA,5,neg,2,4
+R_2xUVpbmJeDe1jXl,RA,6,NA,3,3
+R_2xUVpbmJeDe1jXl,RA,7,NA,4,4
+R_2xUVpbmJeDe1jXl,RE,8,NA,2,2
+R_2xUVpbmJeDe1jXl,RA,8,NA,4,4
+R_2xUVpbmJeDe1jXl,RA,9,NA,4,4
+R_2xUVpbmJeDe1jXl,RE,9,neg,Strongly Agree,1
+R_2xUVpbmJeDe1jXl,RA,10,NA,4,4
+R_2xUVpbmJeDe1jXl,RE,10,NA,3,3
+R_2xUVpbmJeDe1jXl,EE,1,NA,4,4
+R_2xUVpbmJeDe1jXl,EA,1,neg,Strongly Disagree,5
+R_2xUVpbmJeDe1jXl,EA,2,NA,4,4
+R_2xUVpbmJeDe1jXl,EA,3,NA,4,4
+R_2xUVpbmJeDe1jXl,EE,2,NA,3,3
+R_2xUVpbmJeDe1jXl,EE,3,NA,3,3
+R_2xUVpbmJeDe1jXl,EA,4,NA,4,4
+R_2xUVpbmJeDe1jXl,EA,5,NA,Strongly Agree,5
+R_2xUVpbmJeDe1jXl,EA,6,neg,Strongly Disagree,5
+R_2xUVpbmJeDe1jXl,EE,4,neg,3,3
+R_2xUVpbmJeDe1jXl,EE,5,NA,Strongly Agree,5
+R_2xUVpbmJeDe1jXl,EE,6,neg,3,3
+R_2xUVpbmJeDe1jXl,EE,7,neg,Strongly Disagree,5
+R_2xUVpbmJeDe1jXl,EE,8,neg,Strongly Disagree,5
+R_2xUVpbmJeDe1jXl,EA,7,NA,4,4
+R_2xUVpbmJeDe1jXl,EE,9,neg,Strongly Disagree,5
+R_2xUVpbmJeDe1jXl,EA,8,neg,2,4
+R_2xUVpbmJeDe1jXl,EE,10,NA,Strongly Agree,5
+R_2xUVpbmJeDe1jXl,EA,9,NA,Strongly Agree,5
+R_2xUVpbmJeDe1jXl,EA,10,neg,2,4
+R_2EbOvBx5lJjFEVs,RE,1,neg,Strongly Disagree,5
+R_2EbOvBx5lJjFEVs,RA,1,neg,Strongly Disagree,5
+R_2EbOvBx5lJjFEVs,RE,2,NA,4,4
+R_2EbOvBx5lJjFEVs,RA,2,neg,Strongly Disagree,5
+R_2EbOvBx5lJjFEVs,RE,3,neg,Strongly Disagree,5
+R_2EbOvBx5lJjFEVs,RE,4,NA,4,4
+R_2EbOvBx5lJjFEVs,RE,5,neg,Strongly Disagree,5
+R_2EbOvBx5lJjFEVs,RA,3,neg,Strongly Disagree,5
+R_2EbOvBx5lJjFEVs,RA,4,neg,Strongly Disagree,5
+R_2EbOvBx5lJjFEVs,RE,6,NA,4,4
+R_2EbOvBx5lJjFEVs,RE,7,neg,4,2
+R_2EbOvBx5lJjFEVs,RA,5,neg,Strongly Disagree,5
+R_2EbOvBx5lJjFEVs,RA,6,NA,3,3
+R_2EbOvBx5lJjFEVs,RA,7,NA,4,4
+R_2EbOvBx5lJjFEVs,RE,8,NA,Strongly Agree,5
+R_2EbOvBx5lJjFEVs,RA,8,NA,4,4
+R_2EbOvBx5lJjFEVs,RA,9,NA,4,4
+R_2EbOvBx5lJjFEVs,RE,9,neg,Strongly Disagree,5
+R_2EbOvBx5lJjFEVs,RA,10,NA,Strongly Agree,5
+R_2EbOvBx5lJjFEVs,RE,10,NA,4,4
+R_2EbOvBx5lJjFEVs,EE,1,NA,3,3
+R_2EbOvBx5lJjFEVs,EA,1,neg,3,3
+R_2EbOvBx5lJjFEVs,EA,2,NA,3,3
+R_2EbOvBx5lJjFEVs,EA,3,NA,3,3
+R_2EbOvBx5lJjFEVs,EE,2,NA,3,3
+R_2EbOvBx5lJjFEVs,EE,3,NA,2,2
+R_2EbOvBx5lJjFEVs,EA,4,NA,4,4
+R_2EbOvBx5lJjFEVs,EA,5,NA,3,3
+R_2EbOvBx5lJjFEVs,EA,6,neg,3,3
+R_2EbOvBx5lJjFEVs,EE,4,neg,4,2
+R_2EbOvBx5lJjFEVs,EE,5,NA,Strongly Agree,5
+R_2EbOvBx5lJjFEVs,EE,6,neg,3,3
+R_2EbOvBx5lJjFEVs,EE,7,neg,3,3
+R_2EbOvBx5lJjFEVs,EE,8,neg,4,2
+R_2EbOvBx5lJjFEVs,EA,7,NA,3,3
+R_2EbOvBx5lJjFEVs,EE,9,neg,Strongly Disagree,5
+R_2EbOvBx5lJjFEVs,EA,8,neg,4,2
+R_2EbOvBx5lJjFEVs,EE,10,NA,2,2
+R_2EbOvBx5lJjFEVs,EA,9,NA,4,4
+R_2EbOvBx5lJjFEVs,EA,10,neg,4,2
+R_STy7opVLSgSa2uB,RE,1,neg,Strongly Disagree,5
+R_STy7opVLSgSa2uB,RA,1,neg,Strongly Disagree,5
+R_STy7opVLSgSa2uB,RE,2,NA,Strongly Agree,5
+R_STy7opVLSgSa2uB,RA,2,neg,Strongly Disagree,5
+R_STy7opVLSgSa2uB,RE,3,neg,Strongly Disagree,5
+R_STy7opVLSgSa2uB,RE,4,NA,Strongly Agree,5
+R_STy7opVLSgSa2uB,RE,5,neg,Strongly Disagree,5
+R_STy7opVLSgSa2uB,RA,3,neg,Strongly Disagree,5
+R_STy7opVLSgSa2uB,RA,4,neg,Strongly Disagree,5
+R_STy7opVLSgSa2uB,RE,6,NA,3,3
+R_STy7opVLSgSa2uB,RE,7,neg,Strongly Disagree,5
+R_STy7opVLSgSa2uB,RA,5,neg,Strongly Disagree,5
+R_STy7opVLSgSa2uB,RA,6,NA,3,3
+R_STy7opVLSgSa2uB,RA,7,NA,Strongly Agree,5
+R_STy7opVLSgSa2uB,RE,8,NA,3,3
+R_STy7opVLSgSa2uB,RA,8,NA,Strongly Agree,5
+R_STy7opVLSgSa2uB,RA,9,NA,Strongly Agree,5
+R_STy7opVLSgSa2uB,RE,9,neg,Strongly Disagree,5
+R_STy7opVLSgSa2uB,RA,10,NA,Strongly Agree,5
+R_STy7opVLSgSa2uB,RE,10,NA,Strongly Agree,5
+R_STy7opVLSgSa2uB,EE,1,NA,Strongly Agree,5
+R_STy7opVLSgSa2uB,EA,1,neg,Strongly Disagree,5
+R_STy7opVLSgSa2uB,EA,2,NA,Strongly Agree,5
+R_STy7opVLSgSa2uB,EA,3,NA,3,3
+R_STy7opVLSgSa2uB,EE,2,NA,3,3
+R_STy7opVLSgSa2uB,EE,3,NA,2,2
+R_STy7opVLSgSa2uB,EA,4,NA,4,4
+R_STy7opVLSgSa2uB,EA,5,NA,4,4
+R_STy7opVLSgSa2uB,EA,6,neg,Strongly Disagree,5
+R_STy7opVLSgSa2uB,EE,4,neg,Strongly Disagree,5
+R_STy7opVLSgSa2uB,EE,5,NA,Strongly Agree,5
+R_STy7opVLSgSa2uB,EE,6,neg,2,4
+R_STy7opVLSgSa2uB,EE,7,neg,Strongly Disagree,5
+R_STy7opVLSgSa2uB,EE,8,neg,3,3
+R_STy7opVLSgSa2uB,EA,7,NA,3,3
+R_STy7opVLSgSa2uB,EE,9,neg,3,3
+R_STy7opVLSgSa2uB,EA,8,neg,Strongly Disagree,5
+R_STy7opVLSgSa2uB,EE,10,NA,NA,NA
+R_STy7opVLSgSa2uB,EA,9,NA,3,3
+R_STy7opVLSgSa2uB,EA,10,neg,Strongly Disagree,5
+R_diIFyEHcBgROYzn,RE,1,neg,Strongly Disagree,5
+R_diIFyEHcBgROYzn,RA,1,neg,Strongly Disagree,5
+R_diIFyEHcBgROYzn,RE,2,NA,4,4
+R_diIFyEHcBgROYzn,RA,2,neg,Strongly Disagree,5
+R_diIFyEHcBgROYzn,RE,3,neg,2,4
+R_diIFyEHcBgROYzn,RE,4,NA,4,4
+R_diIFyEHcBgROYzn,RE,5,neg,2,4
+R_diIFyEHcBgROYzn,RA,3,neg,Strongly Disagree,5
+R_diIFyEHcBgROYzn,RA,4,neg,Strongly Disagree,5
+R_diIFyEHcBgROYzn,RE,6,NA,3,3
+R_diIFyEHcBgROYzn,RE,7,neg,3,3
+R_diIFyEHcBgROYzn,RA,5,neg,Strongly Disagree,5
+R_diIFyEHcBgROYzn,RA,6,NA,3,3
+R_diIFyEHcBgROYzn,RA,7,NA,4,4
+R_diIFyEHcBgROYzn,RE,8,NA,4,4
+R_diIFyEHcBgROYzn,RA,8,NA,Strongly Agree,5
+R_diIFyEHcBgROYzn,RA,9,NA,Strongly Agree,5
+R_diIFyEHcBgROYzn,RE,9,neg,Strongly Disagree,5
+R_diIFyEHcBgROYzn,RA,10,NA,4,4
+R_diIFyEHcBgROYzn,RE,10,NA,4,4
+R_diIFyEHcBgROYzn,EE,1,NA,3,3
+R_diIFyEHcBgROYzn,EA,1,neg,Strongly Disagree,5
+R_diIFyEHcBgROYzn,EA,2,NA,4,4
+R_diIFyEHcBgROYzn,EA,3,NA,4,4
+R_diIFyEHcBgROYzn,EE,2,NA,4,4
+R_diIFyEHcBgROYzn,EE,3,NA,2,2
+R_diIFyEHcBgROYzn,EA,4,NA,4,4
+R_diIFyEHcBgROYzn,EA,5,NA,4,4
+R_diIFyEHcBgROYzn,EA,6,neg,2,4
+R_diIFyEHcBgROYzn,EE,4,neg,Strongly Disagree,5
+R_diIFyEHcBgROYzn,EE,5,NA,Strongly Agree,5
+R_diIFyEHcBgROYzn,EE,6,neg,Strongly Disagree,5
+R_diIFyEHcBgROYzn,EE,7,neg,Strongly Disagree,5
+R_diIFyEHcBgROYzn,EE,8,neg,Strongly Disagree,5
+R_diIFyEHcBgROYzn,EA,7,NA,4,4
+R_diIFyEHcBgROYzn,EE,9,neg,Strongly Disagree,5
+R_diIFyEHcBgROYzn,EA,8,neg,2,4
+R_diIFyEHcBgROYzn,EE,10,NA,3,3
+R_diIFyEHcBgROYzn,EA,9,NA,4,4
+R_diIFyEHcBgROYzn,EA,10,neg,2,4
+R_3QK5ztYed67Jvtt,RE,1,neg,2,4
+R_3QK5ztYed67Jvtt,RA,1,neg,Strongly Disagree,5
+R_3QK5ztYed67Jvtt,RE,2,NA,Strongly Disagree,1
+R_3QK5ztYed67Jvtt,RA,2,neg,Strongly Disagree,5
+R_3QK5ztYed67Jvtt,RE,3,neg,3,3
+R_3QK5ztYed67Jvtt,RE,4,NA,3,3
+R_3QK5ztYed67Jvtt,RE,5,neg,3,3
+R_3QK5ztYed67Jvtt,RA,3,neg,Strongly Disagree,5
+R_3QK5ztYed67Jvtt,RA,4,neg,Strongly Disagree,5
+R_3QK5ztYed67Jvtt,RE,6,NA,3,3
+R_3QK5ztYed67Jvtt,RE,7,neg,3,3
+R_3QK5ztYed67Jvtt,RA,5,neg,2,4
+R_3QK5ztYed67Jvtt,RA,6,NA,4,4
+R_3QK5ztYed67Jvtt,RA,7,NA,4,4
+R_3QK5ztYed67Jvtt,RE,8,NA,4,4
+R_3QK5ztYed67Jvtt,RA,8,NA,Strongly Disagree,1
+R_3QK5ztYed67Jvtt,RA,9,NA,4,4
+R_3QK5ztYed67Jvtt,RE,9,neg,Strongly Disagree,5
+R_3QK5ztYed67Jvtt,RA,10,NA,4,4
+R_3QK5ztYed67Jvtt,RE,10,NA,Strongly Agree,5
+R_3QK5ztYed67Jvtt,EE,1,NA,4,4
+R_3QK5ztYed67Jvtt,EA,1,neg,Strongly Disagree,5
+R_3QK5ztYed67Jvtt,EA,2,NA,4,4
+R_3QK5ztYed67Jvtt,EA,3,NA,4,4
+R_3QK5ztYed67Jvtt,EE,2,NA,4,4
+R_3QK5ztYed67Jvtt,EE,3,NA,4,4
+R_3QK5ztYed67Jvtt,EA,4,NA,4,4
+R_3QK5ztYed67Jvtt,EA,5,NA,4,4
+R_3QK5ztYed67Jvtt,EA,6,neg,2,4
+R_3QK5ztYed67Jvtt,EE,4,neg,2,4
+R_3QK5ztYed67Jvtt,EE,5,NA,Strongly Agree,5
+R_3QK5ztYed67Jvtt,EE,6,neg,2,4
+R_3QK5ztYed67Jvtt,EE,7,neg,3,3
+R_3QK5ztYed67Jvtt,EE,8,neg,2,4
+R_3QK5ztYed67Jvtt,EA,7,NA,4,4
+R_3QK5ztYed67Jvtt,EE,9,neg,3,3
+R_3QK5ztYed67Jvtt,EA,8,neg,Strongly Disagree,5
+R_3QK5ztYed67Jvtt,EE,10,NA,4,4
+R_3QK5ztYed67Jvtt,EA,9,NA,4,4
+R_3QK5ztYed67Jvtt,EA,10,neg,Strongly Disagree,5
+R_241VRfsvJFmogaX,RE,1,neg,Strongly Disagree,5
+R_241VRfsvJFmogaX,RA,1,neg,Strongly Disagree,5
+R_241VRfsvJFmogaX,RE,2,NA,4,4
+R_241VRfsvJFmogaX,RA,2,neg,Strongly Disagree,5
+R_241VRfsvJFmogaX,RE,3,neg,4,2
+R_241VRfsvJFmogaX,RE,4,NA,3,3
+R_241VRfsvJFmogaX,RE,5,neg,3,3
+R_241VRfsvJFmogaX,RA,3,neg,Strongly Disagree,5
+R_241VRfsvJFmogaX,RA,4,neg,Strongly Disagree,5
+R_241VRfsvJFmogaX,RE,6,NA,Strongly Disagree,1
+R_241VRfsvJFmogaX,RE,7,neg,3,3
+R_241VRfsvJFmogaX,RA,5,neg,Strongly Disagree,5
+R_241VRfsvJFmogaX,RA,6,NA,3,3
+R_241VRfsvJFmogaX,RA,7,NA,Strongly Agree,5
+R_241VRfsvJFmogaX,RE,8,NA,4,4
+R_241VRfsvJFmogaX,RA,8,NA,Strongly Agree,5
+R_241VRfsvJFmogaX,RA,9,NA,Strongly Agree,5
+R_241VRfsvJFmogaX,RE,9,neg,2,4
+R_241VRfsvJFmogaX,RA,10,NA,Strongly Agree,5
+R_241VRfsvJFmogaX,RE,10,NA,4,4
+R_241VRfsvJFmogaX,EE,1,NA,3,3
+R_241VRfsvJFmogaX,EA,1,neg,Strongly Disagree,5
+R_241VRfsvJFmogaX,EA,2,NA,4,4
+R_241VRfsvJFmogaX,EA,3,NA,4,4
+R_241VRfsvJFmogaX,EE,2,NA,3,3
+R_241VRfsvJFmogaX,EE,3,NA,3,3
+R_241VRfsvJFmogaX,EA,4,NA,4,4
+R_241VRfsvJFmogaX,EA,5,NA,4,4
+R_241VRfsvJFmogaX,EA,6,neg,3,3
+R_241VRfsvJFmogaX,EE,4,neg,Strongly Disagree,5
+R_241VRfsvJFmogaX,EE,5,NA,4,4
+R_241VRfsvJFmogaX,EE,6,neg,Strongly Disagree,5
+R_241VRfsvJFmogaX,EE,7,neg,Strongly Disagree,5
+R_241VRfsvJFmogaX,EE,8,neg,Strongly Disagree,5
+R_241VRfsvJFmogaX,EA,7,NA,Strongly Agree,5
+R_241VRfsvJFmogaX,EE,9,neg,Strongly Disagree,5
+R_241VRfsvJFmogaX,EA,8,neg,2,4
+R_241VRfsvJFmogaX,EE,10,NA,4,4
+R_241VRfsvJFmogaX,EA,9,NA,4,4
+R_241VRfsvJFmogaX,EA,10,neg,3,3
+R_Z4dlGjBixAkvcWZ,RE,1,neg,Strongly Disagree,5
+R_Z4dlGjBixAkvcWZ,RA,1,neg,Strongly Disagree,5
+R_Z4dlGjBixAkvcWZ,RE,2,NA,3,3
+R_Z4dlGjBixAkvcWZ,RA,2,neg,Strongly Disagree,5
+R_Z4dlGjBixAkvcWZ,RE,3,neg,Strongly Disagree,5
+R_Z4dlGjBixAkvcWZ,RE,4,NA,3,3
+R_Z4dlGjBixAkvcWZ,RE,5,neg,3,3
+R_Z4dlGjBixAkvcWZ,RA,3,neg,Strongly Disagree,5
+R_Z4dlGjBixAkvcWZ,RA,4,neg,Strongly Disagree,5
+R_Z4dlGjBixAkvcWZ,RE,6,NA,2,2
+R_Z4dlGjBixAkvcWZ,RE,7,neg,3,3
+R_Z4dlGjBixAkvcWZ,RA,5,neg,Strongly Disagree,5
+R_Z4dlGjBixAkvcWZ,RA,6,NA,3,3
+R_Z4dlGjBixAkvcWZ,RA,7,NA,4,4
+R_Z4dlGjBixAkvcWZ,RE,8,NA,Strongly Disagree,1
+R_Z4dlGjBixAkvcWZ,RA,8,NA,Strongly Agree,5
+R_Z4dlGjBixAkvcWZ,RA,9,NA,Strongly Disagree,1
+R_Z4dlGjBixAkvcWZ,RE,9,neg,3,3
+R_Z4dlGjBixAkvcWZ,RA,10,NA,3,3
+R_Z4dlGjBixAkvcWZ,RE,10,NA,3,3
+R_Z4dlGjBixAkvcWZ,EE,1,NA,3,3
+R_Z4dlGjBixAkvcWZ,EA,1,neg,Strongly Disagree,5
+R_Z4dlGjBixAkvcWZ,EA,2,NA,3,3
+R_Z4dlGjBixAkvcWZ,EA,3,NA,4,4
+R_Z4dlGjBixAkvcWZ,EE,2,NA,3,3
+R_Z4dlGjBixAkvcWZ,EE,3,NA,3,3
+R_Z4dlGjBixAkvcWZ,EA,4,NA,4,4
+R_Z4dlGjBixAkvcWZ,EA,5,NA,3,3
+R_Z4dlGjBixAkvcWZ,EA,6,neg,2,4
+R_Z4dlGjBixAkvcWZ,EE,4,neg,Strongly Disagree,5
+R_Z4dlGjBixAkvcWZ,EE,5,NA,4,4
+R_Z4dlGjBixAkvcWZ,EE,6,neg,3,3
+R_Z4dlGjBixAkvcWZ,EE,7,neg,3,3
+R_Z4dlGjBixAkvcWZ,EE,8,neg,Strongly Disagree,5
+R_Z4dlGjBixAkvcWZ,EA,7,NA,3,3
+R_Z4dlGjBixAkvcWZ,EE,9,neg,2,4
+R_Z4dlGjBixAkvcWZ,EA,8,neg,Strongly Disagree,5
+R_Z4dlGjBixAkvcWZ,EE,10,NA,3,3
+R_Z4dlGjBixAkvcWZ,EA,9,NA,3,3
+R_Z4dlGjBixAkvcWZ,EA,10,neg,Strongly Disagree,5
+R_1kH6NuS3MFdCgvH,RE,1,neg,3,3
+R_1kH6NuS3MFdCgvH,RA,1,neg,Strongly Disagree,5
+R_1kH6NuS3MFdCgvH,RE,2,NA,4,4
+R_1kH6NuS3MFdCgvH,RA,2,neg,3,3
+R_1kH6NuS3MFdCgvH,RE,3,neg,2,4
+R_1kH6NuS3MFdCgvH,RE,4,NA,2,2
+R_1kH6NuS3MFdCgvH,RE,5,neg,2,4
+R_1kH6NuS3MFdCgvH,RA,3,neg,3,3
+R_1kH6NuS3MFdCgvH,RA,4,neg,3,3
+R_1kH6NuS3MFdCgvH,RE,6,NA,3,3
+R_1kH6NuS3MFdCgvH,RE,7,neg,2,4
+R_1kH6NuS3MFdCgvH,RA,5,neg,3,3
+R_1kH6NuS3MFdCgvH,RA,6,NA,3,3
+R_1kH6NuS3MFdCgvH,RA,7,NA,Strongly Agree,5
+R_1kH6NuS3MFdCgvH,RE,8,NA,3,3
+R_1kH6NuS3MFdCgvH,RA,8,NA,3,3
+R_1kH6NuS3MFdCgvH,RA,9,NA,2,2
+R_1kH6NuS3MFdCgvH,RE,9,neg,3,3
+R_1kH6NuS3MFdCgvH,RA,10,NA,2,2
+R_1kH6NuS3MFdCgvH,RE,10,NA,2,2
+R_1kH6NuS3MFdCgvH,EE,1,NA,3,3
+R_1kH6NuS3MFdCgvH,EA,1,neg,2,4
+R_1kH6NuS3MFdCgvH,EA,2,NA,3,3
+R_1kH6NuS3MFdCgvH,EA,3,NA,3,3
+R_1kH6NuS3MFdCgvH,EE,2,NA,3,3
+R_1kH6NuS3MFdCgvH,EE,3,NA,2,2
+R_1kH6NuS3MFdCgvH,EA,4,NA,3,3
+R_1kH6NuS3MFdCgvH,EA,5,NA,2,2
+R_1kH6NuS3MFdCgvH,EA,6,neg,2,4
+R_1kH6NuS3MFdCgvH,EE,4,neg,Strongly Disagree,5
+R_1kH6NuS3MFdCgvH,EE,5,NA,3,3
+R_1kH6NuS3MFdCgvH,EE,6,neg,3,3
+R_1kH6NuS3MFdCgvH,EE,7,neg,3,3
+R_1kH6NuS3MFdCgvH,EE,8,neg,3,3
+R_1kH6NuS3MFdCgvH,EA,7,NA,2,2
+R_1kH6NuS3MFdCgvH,EE,9,neg,2,4
+R_1kH6NuS3MFdCgvH,EA,8,neg,2,4
+R_1kH6NuS3MFdCgvH,EE,10,NA,2,2
+R_1kH6NuS3MFdCgvH,EA,9,NA,2,2
+R_1kH6NuS3MFdCgvH,EA,10,neg,3,3
+R_2c60t6KOIDTWPQb,RE,1,neg,Strongly Disagree,5
+R_2c60t6KOIDTWPQb,RA,1,neg,Strongly Disagree,5
+R_2c60t6KOIDTWPQb,RE,2,NA,NA,NA
+R_2c60t6KOIDTWPQb,RA,2,neg,Strongly Disagree,5
+R_2c60t6KOIDTWPQb,RE,3,neg,2,4
+R_2c60t6KOIDTWPQb,RE,4,NA,4,4
+R_2c60t6KOIDTWPQb,RE,5,neg,Strongly Disagree,5
+R_2c60t6KOIDTWPQb,RA,3,neg,4,2
+R_2c60t6KOIDTWPQb,RA,4,neg,4,2
+R_2c60t6KOIDTWPQb,RE,6,NA,4,4
+R_2c60t6KOIDTWPQb,RE,7,neg,4,2
+R_2c60t6KOIDTWPQb,RA,5,neg,Strongly Disagree,5
+R_2c60t6KOIDTWPQb,RA,6,NA,Strongly Agree,5
+R_2c60t6KOIDTWPQb,RA,7,NA,4,4
+R_2c60t6KOIDTWPQb,RE,8,NA,2,2
+R_2c60t6KOIDTWPQb,RA,8,NA,4,4
+R_2c60t6KOIDTWPQb,RA,9,NA,Strongly Agree,5
+R_2c60t6KOIDTWPQb,RE,9,neg,4,2
+R_2c60t6KOIDTWPQb,RA,10,NA,4,4
+R_2c60t6KOIDTWPQb,RE,10,NA,3,3
+R_2c60t6KOIDTWPQb,EE,1,NA,3,3
+R_2c60t6KOIDTWPQb,EA,1,neg,Strongly Disagree,5
+R_2c60t6KOIDTWPQb,EA,2,NA,3,3
+R_2c60t6KOIDTWPQb,EA,3,NA,Strongly Agree,5
+R_2c60t6KOIDTWPQb,EE,2,NA,4,4
+R_2c60t6KOIDTWPQb,EE,3,NA,4,4
+R_2c60t6KOIDTWPQb,EA,4,NA,Strongly Agree,5
+R_2c60t6KOIDTWPQb,EA,5,NA,4,4
+R_2c60t6KOIDTWPQb,EA,6,neg,Strongly Disagree,5
+R_2c60t6KOIDTWPQb,EE,4,neg,Strongly Disagree,5
+R_2c60t6KOIDTWPQb,EE,5,NA,4,4
+R_2c60t6KOIDTWPQb,EE,6,neg,Strongly Disagree,5
+R_2c60t6KOIDTWPQb,EE,7,neg,4,2
+R_2c60t6KOIDTWPQb,EE,8,neg,Strongly Disagree,5
+R_2c60t6KOIDTWPQb,EA,7,NA,Strongly Agree,5
+R_2c60t6KOIDTWPQb,EE,9,neg,4,2
+R_2c60t6KOIDTWPQb,EA,8,neg,2,4
+R_2c60t6KOIDTWPQb,EE,10,NA,4,4
+R_2c60t6KOIDTWPQb,EA,9,NA,4,4
+R_2c60t6KOIDTWPQb,EA,10,neg,Strongly Disagree,5
+R_3NxnmHwGoDxtu4s,RE,1,neg,2,4
+R_3NxnmHwGoDxtu4s,RA,1,neg,2,4
+R_3NxnmHwGoDxtu4s,RE,2,NA,4,4
+R_3NxnmHwGoDxtu4s,RA,2,neg,2,4
+R_3NxnmHwGoDxtu4s,RE,3,neg,2,4
+R_3NxnmHwGoDxtu4s,RE,4,NA,4,4
+R_3NxnmHwGoDxtu4s,RE,5,neg,2,4
+R_3NxnmHwGoDxtu4s,RA,3,neg,2,4
+R_3NxnmHwGoDxtu4s,RA,4,neg,2,4
+R_3NxnmHwGoDxtu4s,RE,6,NA,3,3
+R_3NxnmHwGoDxtu4s,RE,7,neg,2,4
+R_3NxnmHwGoDxtu4s,RA,5,neg,2,4
+R_3NxnmHwGoDxtu4s,RA,6,NA,4,4
+R_3NxnmHwGoDxtu4s,RA,7,NA,4,4
+R_3NxnmHwGoDxtu4s,RE,8,NA,4,4
+R_3NxnmHwGoDxtu4s,RA,8,NA,4,4
+R_3NxnmHwGoDxtu4s,RA,9,NA,4,4
+R_3NxnmHwGoDxtu4s,RE,9,neg,4,2
+R_3NxnmHwGoDxtu4s,RA,10,NA,Strongly Agree,5
+R_3NxnmHwGoDxtu4s,RE,10,NA,4,4
+R_3NxnmHwGoDxtu4s,EE,1,NA,4,4
+R_3NxnmHwGoDxtu4s,EA,1,neg,2,4
+R_3NxnmHwGoDxtu4s,EA,2,NA,3,3
+R_3NxnmHwGoDxtu4s,EA,3,NA,4,4
+R_3NxnmHwGoDxtu4s,EE,2,NA,4,4
+R_3NxnmHwGoDxtu4s,EE,3,NA,Strongly Agree,5
+R_3NxnmHwGoDxtu4s,EA,4,NA,4,4
+R_3NxnmHwGoDxtu4s,EA,5,NA,4,4
+R_3NxnmHwGoDxtu4s,EA,6,neg,2,4
+R_3NxnmHwGoDxtu4s,EE,4,neg,4,2
+R_3NxnmHwGoDxtu4s,EE,5,NA,Strongly Agree,5
+R_3NxnmHwGoDxtu4s,EE,6,neg,2,4
+R_3NxnmHwGoDxtu4s,EE,7,neg,Strongly Disagree,5
+R_3NxnmHwGoDxtu4s,EE,8,neg,4,2
+R_3NxnmHwGoDxtu4s,EA,7,NA,3,3
+R_3NxnmHwGoDxtu4s,EE,9,neg,2,4
+R_3NxnmHwGoDxtu4s,EA,8,neg,2,4
+R_3NxnmHwGoDxtu4s,EE,10,NA,Strongly Disagree,1
+R_3NxnmHwGoDxtu4s,EA,9,NA,4,4
+R_3NxnmHwGoDxtu4s,EA,10,neg,2,4
+R_3imx2cnhkoJOQDk,RE,1,neg,3,3
+R_3imx2cnhkoJOQDk,RA,1,neg,Strongly Disagree,5
+R_3imx2cnhkoJOQDk,RE,2,NA,4,4
+R_3imx2cnhkoJOQDk,RA,2,neg,Strongly Disagree,5
+R_3imx2cnhkoJOQDk,RE,3,neg,3,3
+R_3imx2cnhkoJOQDk,RE,4,NA,4,4
+R_3imx2cnhkoJOQDk,RE,5,neg,2,4
+R_3imx2cnhkoJOQDk,RA,3,neg,Strongly Disagree,5
+R_3imx2cnhkoJOQDk,RA,4,neg,Strongly Disagree,5
+R_3imx2cnhkoJOQDk,RE,6,NA,3,3
+R_3imx2cnhkoJOQDk,RE,7,neg,3,3
+R_3imx2cnhkoJOQDk,RA,5,neg,Strongly Disagree,5
+R_3imx2cnhkoJOQDk,RA,6,NA,Strongly Agree,5
+R_3imx2cnhkoJOQDk,RA,7,NA,Strongly Agree,5
+R_3imx2cnhkoJOQDk,RE,8,NA,Strongly Agree,5
+R_3imx2cnhkoJOQDk,RA,8,NA,Strongly Agree,5
+R_3imx2cnhkoJOQDk,RA,9,NA,Strongly Agree,5
+R_3imx2cnhkoJOQDk,RE,9,neg,Strongly Disagree,5
+R_3imx2cnhkoJOQDk,RA,10,NA,Strongly Agree,5
+R_3imx2cnhkoJOQDk,RE,10,NA,4,4
+R_3imx2cnhkoJOQDk,EE,1,NA,3,3
+R_3imx2cnhkoJOQDk,EA,1,neg,Strongly Disagree,5
+R_3imx2cnhkoJOQDk,EA,2,NA,3,3
+R_3imx2cnhkoJOQDk,EA,3,NA,3,3
+R_3imx2cnhkoJOQDk,EE,2,NA,2,2
+R_3imx2cnhkoJOQDk,EE,3,NA,2,2
+R_3imx2cnhkoJOQDk,EA,4,NA,3,3
+R_3imx2cnhkoJOQDk,EA,5,NA,3,3
+R_3imx2cnhkoJOQDk,EA,6,neg,2,4
+R_3imx2cnhkoJOQDk,EE,4,neg,3,3
+R_3imx2cnhkoJOQDk,EE,5,NA,2,2
+R_3imx2cnhkoJOQDk,EE,6,neg,Strongly Agree,1
+R_3imx2cnhkoJOQDk,EE,7,neg,Strongly Agree,1
+R_3imx2cnhkoJOQDk,EE,8,neg,Strongly Agree,1
+R_3imx2cnhkoJOQDk,EA,7,NA,4,4
+R_3imx2cnhkoJOQDk,EE,9,neg,4,2
+R_3imx2cnhkoJOQDk,EA,8,neg,2,4
+R_3imx2cnhkoJOQDk,EE,10,NA,3,3
+R_3imx2cnhkoJOQDk,EA,9,NA,3,3
+R_3imx2cnhkoJOQDk,EA,10,neg,2,4
+R_2UbCC7xz1UziliD,RE,1,neg,2,4
+R_2UbCC7xz1UziliD,RA,1,neg,3,3
+R_2UbCC7xz1UziliD,RE,2,NA,4,4
+R_2UbCC7xz1UziliD,RA,2,neg,Strongly Disagree,5
+R_2UbCC7xz1UziliD,RE,3,neg,2,4
+R_2UbCC7xz1UziliD,RE,4,NA,4,4
+R_2UbCC7xz1UziliD,RE,5,neg,2,4
+R_2UbCC7xz1UziliD,RA,3,neg,Strongly Disagree,5
+R_2UbCC7xz1UziliD,RA,4,neg,Strongly Disagree,5
+R_2UbCC7xz1UziliD,RE,6,NA,4,4
+R_2UbCC7xz1UziliD,RE,7,neg,3,3
+R_2UbCC7xz1UziliD,RA,5,neg,Strongly Disagree,5
+R_2UbCC7xz1UziliD,RA,6,NA,4,4
+R_2UbCC7xz1UziliD,RA,7,NA,4,4
+R_2UbCC7xz1UziliD,RE,8,NA,3,3
+R_2UbCC7xz1UziliD,RA,8,NA,Strongly Agree,5
+R_2UbCC7xz1UziliD,RA,9,NA,Strongly Agree,5
+R_2UbCC7xz1UziliD,RE,9,neg,3,3
+R_2UbCC7xz1UziliD,RA,10,NA,4,4
+R_2UbCC7xz1UziliD,RE,10,NA,4,4
+R_2UbCC7xz1UziliD,EE,1,NA,3,3
+R_2UbCC7xz1UziliD,EA,1,neg,2,4
+R_2UbCC7xz1UziliD,EA,2,NA,3,3
+R_2UbCC7xz1UziliD,EA,3,NA,3,3
+R_2UbCC7xz1UziliD,EE,2,NA,3,3
+R_2UbCC7xz1UziliD,EE,3,NA,3,3
+R_2UbCC7xz1UziliD,EA,4,NA,3,3
+R_2UbCC7xz1UziliD,EA,5,NA,3,3
+R_2UbCC7xz1UziliD,EA,6,neg,3,3
+R_2UbCC7xz1UziliD,EE,4,neg,2,4
+R_2UbCC7xz1UziliD,EE,5,NA,3,3
+R_2UbCC7xz1UziliD,EE,6,neg,3,3
+R_2UbCC7xz1UziliD,EE,7,neg,3,3
+R_2UbCC7xz1UziliD,EE,8,neg,4,2
+R_2UbCC7xz1UziliD,EA,7,NA,3,3
+R_2UbCC7xz1UziliD,EE,9,neg,2,4
+R_2UbCC7xz1UziliD,EA,8,neg,2,4
+R_2UbCC7xz1UziliD,EE,10,NA,2,2
+R_2UbCC7xz1UziliD,EA,9,NA,3,3
+R_2UbCC7xz1UziliD,EA,10,neg,3,3
+R_3e4uf0BTRRix7Q1,RE,1,neg,Strongly Disagree,5
+R_3e4uf0BTRRix7Q1,RA,1,neg,3,3
+R_3e4uf0BTRRix7Q1,RE,2,NA,3,3
+R_3e4uf0BTRRix7Q1,RA,2,neg,2,4
+R_3e4uf0BTRRix7Q1,RE,3,neg,2,4
+R_3e4uf0BTRRix7Q1,RE,4,NA,3,3
+R_3e4uf0BTRRix7Q1,RE,5,neg,2,4
+R_3e4uf0BTRRix7Q1,RA,3,neg,2,4
+R_3e4uf0BTRRix7Q1,RA,4,neg,2,4
+R_3e4uf0BTRRix7Q1,RE,6,NA,4,4
+R_3e4uf0BTRRix7Q1,RE,7,neg,2,4
+R_3e4uf0BTRRix7Q1,RA,5,neg,3,3
+R_3e4uf0BTRRix7Q1,RA,6,NA,3,3
+R_3e4uf0BTRRix7Q1,RA,7,NA,3,3
+R_3e4uf0BTRRix7Q1,RE,8,NA,4,4
+R_3e4uf0BTRRix7Q1,RA,8,NA,3,3
+R_3e4uf0BTRRix7Q1,RA,9,NA,3,3
+R_3e4uf0BTRRix7Q1,RE,9,neg,3,3
+R_3e4uf0BTRRix7Q1,RA,10,NA,3,3
+R_3e4uf0BTRRix7Q1,RE,10,NA,3,3
+R_3e4uf0BTRRix7Q1,EE,1,NA,4,4
+R_3e4uf0BTRRix7Q1,EA,1,neg,2,4
+R_3e4uf0BTRRix7Q1,EA,2,NA,4,4
+R_3e4uf0BTRRix7Q1,EA,3,NA,4,4
+R_3e4uf0BTRRix7Q1,EE,2,NA,4,4
+R_3e4uf0BTRRix7Q1,EE,3,NA,4,4
+R_3e4uf0BTRRix7Q1,EA,4,NA,Strongly Agree,5
+R_3e4uf0BTRRix7Q1,EA,5,NA,4,4
+R_3e4uf0BTRRix7Q1,EA,6,neg,2,4
+R_3e4uf0BTRRix7Q1,EE,4,neg,2,4
+R_3e4uf0BTRRix7Q1,EE,5,NA,Strongly Agree,5
+R_3e4uf0BTRRix7Q1,EE,6,neg,2,4
+R_3e4uf0BTRRix7Q1,EE,7,neg,2,4
+R_3e4uf0BTRRix7Q1,EE,8,neg,2,4
+R_3e4uf0BTRRix7Q1,EA,7,NA,4,4
+R_3e4uf0BTRRix7Q1,EE,9,neg,2,4
+R_3e4uf0BTRRix7Q1,EA,8,neg,2,4
+R_3e4uf0BTRRix7Q1,EE,10,NA,4,4
+R_3e4uf0BTRRix7Q1,EA,9,NA,Strongly Agree,5
+R_3e4uf0BTRRix7Q1,EA,10,neg,Strongly Disagree,5
+R_25FgHNiNx7jLHy1,RE,1,neg,3,3
+R_25FgHNiNx7jLHy1,RA,1,neg,2,4
+R_25FgHNiNx7jLHy1,RE,2,NA,4,4
+R_25FgHNiNx7jLHy1,RA,2,neg,2,4
+R_25FgHNiNx7jLHy1,RE,3,neg,2,4
+R_25FgHNiNx7jLHy1,RE,4,NA,3,3
+R_25FgHNiNx7jLHy1,RE,5,neg,2,4
+R_25FgHNiNx7jLHy1,RA,3,neg,2,4
+R_25FgHNiNx7jLHy1,RA,4,neg,3,3
+R_25FgHNiNx7jLHy1,RE,6,NA,3,3
+R_25FgHNiNx7jLHy1,RE,7,neg,3,3
+R_25FgHNiNx7jLHy1,RA,5,neg,3,3
+R_25FgHNiNx7jLHy1,RA,6,NA,3,3
+R_25FgHNiNx7jLHy1,RA,7,NA,4,4
+R_25FgHNiNx7jLHy1,RE,8,NA,3,3
+R_25FgHNiNx7jLHy1,RA,8,NA,3,3
+R_25FgHNiNx7jLHy1,RA,9,NA,3,3
+R_25FgHNiNx7jLHy1,RE,9,neg,3,3
+R_25FgHNiNx7jLHy1,RA,10,NA,4,4
+R_25FgHNiNx7jLHy1,RE,10,NA,3,3
+R_25FgHNiNx7jLHy1,EE,1,NA,3,3
+R_25FgHNiNx7jLHy1,EA,1,neg,3,3
+R_25FgHNiNx7jLHy1,EA,2,NA,3,3
+R_25FgHNiNx7jLHy1,EA,3,NA,2,2
+R_25FgHNiNx7jLHy1,EE,2,NA,4,4
+R_25FgHNiNx7jLHy1,EE,3,NA,2,2
+R_25FgHNiNx7jLHy1,EA,4,NA,3,3
+R_25FgHNiNx7jLHy1,EA,5,NA,2,2
+R_25FgHNiNx7jLHy1,EA,6,neg,NA,NA
+R_25FgHNiNx7jLHy1,EE,4,neg,4,2
+R_25FgHNiNx7jLHy1,EE,5,NA,3,3
+R_25FgHNiNx7jLHy1,EE,6,neg,3,3
+R_25FgHNiNx7jLHy1,EE,7,neg,3,3
+R_25FgHNiNx7jLHy1,EE,8,neg,3,3
+R_25FgHNiNx7jLHy1,EA,7,NA,2,2
+R_25FgHNiNx7jLHy1,EE,9,neg,3,3
+R_25FgHNiNx7jLHy1,EA,8,neg,3,3
+R_25FgHNiNx7jLHy1,EE,10,NA,2,2
+R_25FgHNiNx7jLHy1,EA,9,NA,3,3
+R_25FgHNiNx7jLHy1,EA,10,neg,3,3
+R_tMnOA18LivcWZTH,RE,1,neg,4,2
+R_tMnOA18LivcWZTH,RA,1,neg,2,4
+R_tMnOA18LivcWZTH,RE,2,NA,4,4
+R_tMnOA18LivcWZTH,RA,2,neg,2,4
+R_tMnOA18LivcWZTH,RE,3,neg,2,4
+R_tMnOA18LivcWZTH,RE,4,NA,3,3
+R_tMnOA18LivcWZTH,RE,5,neg,3,3
+R_tMnOA18LivcWZTH,RA,3,neg,2,4
+R_tMnOA18LivcWZTH,RA,4,neg,4,2
+R_tMnOA18LivcWZTH,RE,6,NA,2,2
+R_tMnOA18LivcWZTH,RE,7,neg,2,4
+R_tMnOA18LivcWZTH,RA,5,neg,Strongly Disagree,5
+R_tMnOA18LivcWZTH,RA,6,NA,4,4
+R_tMnOA18LivcWZTH,RA,7,NA,4,4
+R_tMnOA18LivcWZTH,RE,8,NA,4,4
+R_tMnOA18LivcWZTH,RA,8,NA,4,4
+R_tMnOA18LivcWZTH,RA,9,NA,2,2
+R_tMnOA18LivcWZTH,RE,9,neg,4,2
+R_tMnOA18LivcWZTH,RA,10,NA,3,3
+R_tMnOA18LivcWZTH,RE,10,NA,4,4
+R_tMnOA18LivcWZTH,EE,1,NA,2,2
+R_tMnOA18LivcWZTH,EA,1,neg,2,4
+R_tMnOA18LivcWZTH,EA,2,NA,4,4
+R_tMnOA18LivcWZTH,EA,3,NA,2,2
+R_tMnOA18LivcWZTH,EE,2,NA,2,2
+R_tMnOA18LivcWZTH,EE,3,NA,3,3
+R_tMnOA18LivcWZTH,EA,4,NA,2,2
+R_tMnOA18LivcWZTH,EA,5,NA,4,4
+R_tMnOA18LivcWZTH,EA,6,neg,4,2
+R_tMnOA18LivcWZTH,EE,4,neg,2,4
+R_tMnOA18LivcWZTH,EE,5,NA,2,2
+R_tMnOA18LivcWZTH,EE,6,neg,4,2
+R_tMnOA18LivcWZTH,EE,7,neg,2,4
+R_tMnOA18LivcWZTH,EE,8,neg,4,2
+R_tMnOA18LivcWZTH,EA,7,NA,4,4
+R_tMnOA18LivcWZTH,EE,9,neg,4,2
+R_tMnOA18LivcWZTH,EA,8,neg,2,4
+R_tMnOA18LivcWZTH,EE,10,NA,3,3
+R_tMnOA18LivcWZTH,EA,9,NA,4,4
+R_tMnOA18LivcWZTH,EA,10,neg,3,3
+R_ZrhKf7z3vIvV5Dj,RE,1,neg,Strongly Disagree,5
+R_ZrhKf7z3vIvV5Dj,RA,1,neg,Strongly Disagree,5
+R_ZrhKf7z3vIvV5Dj,RE,2,NA,Strongly Agree,5
+R_ZrhKf7z3vIvV5Dj,RA,2,neg,Strongly Disagree,5
+R_ZrhKf7z3vIvV5Dj,RE,3,neg,Strongly Disagree,5
+R_ZrhKf7z3vIvV5Dj,RE,4,NA,Strongly Agree,5
+R_ZrhKf7z3vIvV5Dj,RE,5,neg,Strongly Disagree,5
+R_ZrhKf7z3vIvV5Dj,RA,3,neg,Strongly Disagree,5
+R_ZrhKf7z3vIvV5Dj,RA,4,neg,Strongly Disagree,5
+R_ZrhKf7z3vIvV5Dj,RE,6,NA,Strongly Agree,5
+R_ZrhKf7z3vIvV5Dj,RE,7,neg,Strongly Disagree,5
+R_ZrhKf7z3vIvV5Dj,RA,5,neg,2,4
+R_ZrhKf7z3vIvV5Dj,RA,6,NA,Strongly Agree,5
+R_ZrhKf7z3vIvV5Dj,RA,7,NA,Strongly Agree,5
+R_ZrhKf7z3vIvV5Dj,RE,8,NA,Strongly Agree,5
+R_ZrhKf7z3vIvV5Dj,RA,8,NA,Strongly Agree,5
+R_ZrhKf7z3vIvV5Dj,RA,9,NA,Strongly Agree,5
+R_ZrhKf7z3vIvV5Dj,RE,9,neg,Strongly Disagree,5
+R_ZrhKf7z3vIvV5Dj,RA,10,NA,Strongly Agree,5
+R_ZrhKf7z3vIvV5Dj,RE,10,NA,Strongly Agree,5
+R_ZrhKf7z3vIvV5Dj,EE,1,NA,Strongly Agree,5
+R_ZrhKf7z3vIvV5Dj,EA,1,neg,Strongly Disagree,5
+R_ZrhKf7z3vIvV5Dj,EA,2,NA,4,4
+R_ZrhKf7z3vIvV5Dj,EA,3,NA,Strongly Agree,5
+R_ZrhKf7z3vIvV5Dj,EE,2,NA,4,4
+R_ZrhKf7z3vIvV5Dj,EE,3,NA,3,3
+R_ZrhKf7z3vIvV5Dj,EA,4,NA,4,4
+R_ZrhKf7z3vIvV5Dj,EA,5,NA,4,4
+R_ZrhKf7z3vIvV5Dj,EA,6,neg,2,4
+R_ZrhKf7z3vIvV5Dj,EE,4,neg,Strongly Disagree,5
+R_ZrhKf7z3vIvV5Dj,EE,5,NA,Strongly Agree,5
+R_ZrhKf7z3vIvV5Dj,EE,6,neg,3,3
+R_ZrhKf7z3vIvV5Dj,EE,7,neg,2,4
+R_ZrhKf7z3vIvV5Dj,EE,8,neg,2,4
+R_ZrhKf7z3vIvV5Dj,EA,7,NA,4,4
+R_ZrhKf7z3vIvV5Dj,EE,9,neg,2,4
+R_ZrhKf7z3vIvV5Dj,EA,8,neg,Strongly Disagree,5
+R_ZrhKf7z3vIvV5Dj,EE,10,NA,2,2
+R_ZrhKf7z3vIvV5Dj,EA,9,NA,4,4
+R_ZrhKf7z3vIvV5Dj,EA,10,neg,2,4
+R_3qQgm6HU6SzL5rW,RE,1,neg,2,4
+R_3qQgm6HU6SzL5rW,RA,1,neg,4,2
+R_3qQgm6HU6SzL5rW,RE,2,NA,Strongly Agree,5
+R_3qQgm6HU6SzL5rW,RA,2,neg,2,4
+R_3qQgm6HU6SzL5rW,RE,3,neg,2,4
+R_3qQgm6HU6SzL5rW,RE,4,NA,4,4
+R_3qQgm6HU6SzL5rW,RE,5,neg,Strongly Disagree,5
+R_3qQgm6HU6SzL5rW,RA,3,neg,2,4
+R_3qQgm6HU6SzL5rW,RA,4,neg,2,4
+R_3qQgm6HU6SzL5rW,RE,6,NA,3,3
+R_3qQgm6HU6SzL5rW,RE,7,neg,4,2
+R_3qQgm6HU6SzL5rW,RA,5,neg,4,2
+R_3qQgm6HU6SzL5rW,RA,6,NA,4,4
+R_3qQgm6HU6SzL5rW,RA,7,NA,3,3
+R_3qQgm6HU6SzL5rW,RE,8,NA,3,3
+R_3qQgm6HU6SzL5rW,RA,8,NA,4,4
+R_3qQgm6HU6SzL5rW,RA,9,NA,4,4
+R_3qQgm6HU6SzL5rW,RE,9,neg,4,2
+R_3qQgm6HU6SzL5rW,RA,10,NA,2,2
+R_3qQgm6HU6SzL5rW,RE,10,NA,Strongly Agree,5
+R_3qQgm6HU6SzL5rW,EE,1,NA,4,4
+R_3qQgm6HU6SzL5rW,EA,1,neg,2,4
+R_3qQgm6HU6SzL5rW,EA,2,NA,3,3
+R_3qQgm6HU6SzL5rW,EA,3,NA,Strongly Agree,5
+R_3qQgm6HU6SzL5rW,EE,2,NA,4,4
+R_3qQgm6HU6SzL5rW,EE,3,NA,2,2
+R_3qQgm6HU6SzL5rW,EA,4,NA,4,4
+R_3qQgm6HU6SzL5rW,EA,5,NA,2,2
+R_3qQgm6HU6SzL5rW,EA,6,neg,3,3
+R_3qQgm6HU6SzL5rW,EE,4,neg,2,4
+R_3qQgm6HU6SzL5rW,EE,5,NA,4,4
+R_3qQgm6HU6SzL5rW,EE,6,neg,4,2
+R_3qQgm6HU6SzL5rW,EE,7,neg,3,3
+R_3qQgm6HU6SzL5rW,EE,8,neg,3,3
+R_3qQgm6HU6SzL5rW,EA,7,NA,2,2
+R_3qQgm6HU6SzL5rW,EE,9,neg,2,4
+R_3qQgm6HU6SzL5rW,EA,8,neg,2,4
+R_3qQgm6HU6SzL5rW,EE,10,NA,2,2
+R_3qQgm6HU6SzL5rW,EA,9,NA,Strongly Agree,5
+R_3qQgm6HU6SzL5rW,EA,10,neg,3,3
+R_RgdaG1r6ySaED3b,RE,1,neg,Strongly Disagree,5
+R_RgdaG1r6ySaED3b,RA,1,neg,Strongly Disagree,5
+R_RgdaG1r6ySaED3b,RE,2,NA,Strongly Agree,5
+R_RgdaG1r6ySaED3b,RA,2,neg,Strongly Disagree,5
+R_RgdaG1r6ySaED3b,RE,3,neg,Strongly Disagree,5
+R_RgdaG1r6ySaED3b,RE,4,NA,Strongly Agree,5
+R_RgdaG1r6ySaED3b,RE,5,neg,Strongly Disagree,5
+R_RgdaG1r6ySaED3b,RA,3,neg,Strongly Disagree,5
+R_RgdaG1r6ySaED3b,RA,4,neg,Strongly Disagree,5
+R_RgdaG1r6ySaED3b,RE,6,NA,3,3
+R_RgdaG1r6ySaED3b,RE,7,neg,Strongly Disagree,5
+R_RgdaG1r6ySaED3b,RA,5,neg,Strongly Disagree,5
+R_RgdaG1r6ySaED3b,RA,6,NA,Strongly Agree,5
+R_RgdaG1r6ySaED3b,RA,7,NA,Strongly Agree,5
+R_RgdaG1r6ySaED3b,RE,8,NA,Strongly Agree,5
+R_RgdaG1r6ySaED3b,RA,8,NA,Strongly Agree,5
+R_RgdaG1r6ySaED3b,RA,9,NA,Strongly Agree,5
+R_RgdaG1r6ySaED3b,RE,9,neg,Strongly Disagree,5
+R_RgdaG1r6ySaED3b,RA,10,NA,Strongly Agree,5
+R_RgdaG1r6ySaED3b,RE,10,NA,Strongly Agree,5
+R_RgdaG1r6ySaED3b,EE,1,NA,Strongly Disagree,1
+R_RgdaG1r6ySaED3b,EA,1,neg,3,3
+R_RgdaG1r6ySaED3b,EA,2,NA,3,3
+R_RgdaG1r6ySaED3b,EA,3,NA,Strongly Disagree,1
+R_RgdaG1r6ySaED3b,EE,2,NA,2,2
+R_RgdaG1r6ySaED3b,EE,3,NA,2,2
+R_RgdaG1r6ySaED3b,EA,4,NA,2,2
+R_RgdaG1r6ySaED3b,EA,5,NA,Strongly Disagree,1
+R_RgdaG1r6ySaED3b,EA,6,neg,Strongly Agree,1
+R_RgdaG1r6ySaED3b,EE,4,neg,Strongly Agree,1
+R_RgdaG1r6ySaED3b,EE,5,NA,3,3
+R_RgdaG1r6ySaED3b,EE,6,neg,Strongly Agree,1
+R_RgdaG1r6ySaED3b,EE,7,neg,Strongly Agree,1
+R_RgdaG1r6ySaED3b,EE,8,neg,Strongly Agree,1
+R_RgdaG1r6ySaED3b,EA,7,NA,2,2
+R_RgdaG1r6ySaED3b,EE,9,neg,Strongly Agree,1
+R_RgdaG1r6ySaED3b,EA,8,neg,3,3
+R_RgdaG1r6ySaED3b,EE,10,NA,Strongly Disagree,1
+R_RgdaG1r6ySaED3b,EA,9,NA,Strongly Disagree,1
+R_RgdaG1r6ySaED3b,EA,10,neg,Strongly Agree,1
+R_1dLxziNIY5kGLjd,RE,1,neg,2,4
+R_1dLxziNIY5kGLjd,RA,1,neg,2,4
+R_1dLxziNIY5kGLjd,RE,2,NA,Strongly Agree,5
+R_1dLxziNIY5kGLjd,RA,2,neg,2,4
+R_1dLxziNIY5kGLjd,RE,3,neg,Strongly Disagree,5
+R_1dLxziNIY5kGLjd,RE,4,NA,2,2
+R_1dLxziNIY5kGLjd,RE,5,neg,2,4
+R_1dLxziNIY5kGLjd,RA,3,neg,Strongly Disagree,5
+R_1dLxziNIY5kGLjd,RA,4,neg,3,3
+R_1dLxziNIY5kGLjd,RE,6,NA,Strongly Disagree,1
+R_1dLxziNIY5kGLjd,RE,7,neg,3,3
+R_1dLxziNIY5kGLjd,RA,5,neg,Strongly Disagree,5
+R_1dLxziNIY5kGLjd,RA,6,NA,4,4
+R_1dLxziNIY5kGLjd,RA,7,NA,Strongly Agree,5
+R_1dLxziNIY5kGLjd,RE,8,NA,Strongly Disagree,1
+R_1dLxziNIY5kGLjd,RA,8,NA,Strongly Disagree,1
+R_1dLxziNIY5kGLjd,RA,9,NA,Strongly Agree,5
+R_1dLxziNIY5kGLjd,RE,9,neg,2,4
+R_1dLxziNIY5kGLjd,RA,10,NA,Strongly Disagree,1
+R_1dLxziNIY5kGLjd,RE,10,NA,4,4
+R_1dLxziNIY5kGLjd,EE,1,NA,4,4
+R_1dLxziNIY5kGLjd,EA,1,neg,3,3
+R_1dLxziNIY5kGLjd,EA,2,NA,2,2
+R_1dLxziNIY5kGLjd,EA,3,NA,Strongly Agree,5
+R_1dLxziNIY5kGLjd,EE,2,NA,2,2
+R_1dLxziNIY5kGLjd,EE,3,NA,Strongly Disagree,1
+R_1dLxziNIY5kGLjd,EA,4,NA,4,4
+R_1dLxziNIY5kGLjd,EA,5,NA,2,2
+R_1dLxziNIY5kGLjd,EA,6,neg,4,2
+R_1dLxziNIY5kGLjd,EE,4,neg,2,4
+R_1dLxziNIY5kGLjd,EE,5,NA,3,3
+R_1dLxziNIY5kGLjd,EE,6,neg,2,4
+R_1dLxziNIY5kGLjd,EE,7,neg,Strongly Disagree,5
+R_1dLxziNIY5kGLjd,EE,8,neg,Strongly Disagree,5
+R_1dLxziNIY5kGLjd,EA,7,NA,2,2
+R_1dLxziNIY5kGLjd,EE,9,neg,2,4
+R_1dLxziNIY5kGLjd,EA,8,neg,Strongly Disagree,5
+R_1dLxziNIY5kGLjd,EE,10,NA,2,2
+R_1dLxziNIY5kGLjd,EA,9,NA,2,2
+R_1dLxziNIY5kGLjd,EA,10,neg,3,3
+R_3NCjdjlKV3JNqyx,RE,1,neg,Strongly Disagree,5
+R_3NCjdjlKV3JNqyx,RA,1,neg,4,2
+R_3NCjdjlKV3JNqyx,RE,2,NA,3,3
+R_3NCjdjlKV3JNqyx,RA,2,neg,Strongly Disagree,5
+R_3NCjdjlKV3JNqyx,RE,3,neg,Strongly Disagree,5
+R_3NCjdjlKV3JNqyx,RE,4,NA,4,4
+R_3NCjdjlKV3JNqyx,RE,5,neg,Strongly Disagree,5
+R_3NCjdjlKV3JNqyx,RA,3,neg,3,3
+R_3NCjdjlKV3JNqyx,RA,4,neg,Strongly Disagree,5
+R_3NCjdjlKV3JNqyx,RE,6,NA,3,3
+R_3NCjdjlKV3JNqyx,RE,7,neg,4,2
+R_3NCjdjlKV3JNqyx,RA,5,neg,Strongly Agree,1
+R_3NCjdjlKV3JNqyx,RA,6,NA,4,4
+R_3NCjdjlKV3JNqyx,RA,7,NA,4,4
+R_3NCjdjlKV3JNqyx,RE,8,NA,Strongly Disagree,1
+R_3NCjdjlKV3JNqyx,RA,8,NA,Strongly Agree,5
+R_3NCjdjlKV3JNqyx,RA,9,NA,Strongly Agree,5
+R_3NCjdjlKV3JNqyx,RE,9,neg,Strongly Disagree,5
+R_3NCjdjlKV3JNqyx,RA,10,NA,2,2
+R_3NCjdjlKV3JNqyx,RE,10,NA,Strongly Agree,5
+R_3NCjdjlKV3JNqyx,EE,1,NA,4,4
+R_3NCjdjlKV3JNqyx,EA,1,neg,2,4
+R_3NCjdjlKV3JNqyx,EA,2,NA,2,2
+R_3NCjdjlKV3JNqyx,EA,3,NA,Strongly Disagree,1
+R_3NCjdjlKV3JNqyx,EE,2,NA,3,3
+R_3NCjdjlKV3JNqyx,EE,3,NA,Strongly Agree,5
+R_3NCjdjlKV3JNqyx,EA,4,NA,2,2
+R_3NCjdjlKV3JNqyx,EA,5,NA,Strongly Disagree,1
+R_3NCjdjlKV3JNqyx,EA,6,neg,4,2
+R_3NCjdjlKV3JNqyx,EE,4,neg,Strongly Disagree,5
+R_3NCjdjlKV3JNqyx,EE,5,NA,Strongly Agree,5
+R_3NCjdjlKV3JNqyx,EE,6,neg,Strongly Agree,1
+R_3NCjdjlKV3JNqyx,EE,7,neg,3,3
+R_3NCjdjlKV3JNqyx,EE,8,neg,Strongly Disagree,5
+R_3NCjdjlKV3JNqyx,EA,7,NA,Strongly Disagree,1
+R_3NCjdjlKV3JNqyx,EE,9,neg,Strongly Disagree,5
+R_3NCjdjlKV3JNqyx,EA,8,neg,2,4
+R_3NCjdjlKV3JNqyx,EE,10,NA,3,3
+R_3NCjdjlKV3JNqyx,EA,9,NA,3,3
+R_3NCjdjlKV3JNqyx,EA,10,neg,4,2
+R_1pRLQotumrUJQrp,RE,1,neg,Strongly Disagree,5
+R_1pRLQotumrUJQrp,RA,1,neg,Strongly Disagree,5
+R_1pRLQotumrUJQrp,RE,2,NA,Strongly Agree,5
+R_1pRLQotumrUJQrp,RA,2,neg,Strongly Disagree,5
+R_1pRLQotumrUJQrp,RE,3,neg,Strongly Disagree,5
+R_1pRLQotumrUJQrp,RE,4,NA,Strongly Agree,5
+R_1pRLQotumrUJQrp,RE,5,neg,4,2
+R_1pRLQotumrUJQrp,RA,3,neg,2,4
+R_1pRLQotumrUJQrp,RA,4,neg,4,2
+R_1pRLQotumrUJQrp,RE,6,NA,2,2
+R_1pRLQotumrUJQrp,RE,7,neg,3,3
+R_1pRLQotumrUJQrp,RA,5,neg,2,4
+R_1pRLQotumrUJQrp,RA,6,NA,Strongly Agree,5
+R_1pRLQotumrUJQrp,RA,7,NA,Strongly Agree,5
+R_1pRLQotumrUJQrp,RE,8,NA,2,2
+R_1pRLQotumrUJQrp,RA,8,NA,Strongly Disagree,1
+R_1pRLQotumrUJQrp,RA,9,NA,3,3
+R_1pRLQotumrUJQrp,RE,9,neg,2,4
+R_1pRLQotumrUJQrp,RA,10,NA,4,4
+R_1pRLQotumrUJQrp,RE,10,NA,4,4
+R_1pRLQotumrUJQrp,EE,1,NA,Strongly Agree,5
+R_1pRLQotumrUJQrp,EA,1,neg,2,4
+R_1pRLQotumrUJQrp,EA,2,NA,3,3
+R_1pRLQotumrUJQrp,EA,3,NA,2,2
+R_1pRLQotumrUJQrp,EE,2,NA,4,4
+R_1pRLQotumrUJQrp,EE,3,NA,4,4
+R_1pRLQotumrUJQrp,EA,4,NA,Strongly Agree,5
+R_1pRLQotumrUJQrp,EA,5,NA,Strongly Agree,5
+R_1pRLQotumrUJQrp,EA,6,neg,4,2
+R_1pRLQotumrUJQrp,EE,4,neg,Strongly Disagree,5
+R_1pRLQotumrUJQrp,EE,5,NA,2,2
+R_1pRLQotumrUJQrp,EE,6,neg,Strongly Agree,1
+R_1pRLQotumrUJQrp,EE,7,neg,2,4
+R_1pRLQotumrUJQrp,EE,8,neg,Strongly Disagree,5
+R_1pRLQotumrUJQrp,EA,7,NA,Strongly Agree,5
+R_1pRLQotumrUJQrp,EE,9,neg,2,4
+R_1pRLQotumrUJQrp,EA,8,neg,2,4
+R_1pRLQotumrUJQrp,EE,10,NA,Strongly Agree,5
+R_1pRLQotumrUJQrp,EA,9,NA,2,2
+R_1pRLQotumrUJQrp,EA,10,neg,Strongly Disagree,5
+R_28zFXIh1LYIaHcN,RE,1,neg,2,4
+R_28zFXIh1LYIaHcN,RA,1,neg,2,4
+R_28zFXIh1LYIaHcN,RE,2,NA,Strongly Agree,5
+R_28zFXIh1LYIaHcN,RA,2,neg,2,4
+R_28zFXIh1LYIaHcN,RE,3,neg,2,4
+R_28zFXIh1LYIaHcN,RE,4,NA,4,4
+R_28zFXIh1LYIaHcN,RE,5,neg,2,4
+R_28zFXIh1LYIaHcN,RA,3,neg,2,4
+R_28zFXIh1LYIaHcN,RA,4,neg,2,4
+R_28zFXIh1LYIaHcN,RE,6,NA,4,4
+R_28zFXIh1LYIaHcN,RE,7,neg,2,4
+R_28zFXIh1LYIaHcN,RA,5,neg,4,2
+R_28zFXIh1LYIaHcN,RA,6,NA,Strongly Agree,5
+R_28zFXIh1LYIaHcN,RA,7,NA,4,4
+R_28zFXIh1LYIaHcN,RE,8,NA,4,4
+R_28zFXIh1LYIaHcN,RA,8,NA,4,4
+R_28zFXIh1LYIaHcN,RA,9,NA,4,4
+R_28zFXIh1LYIaHcN,RE,9,neg,4,2
+R_28zFXIh1LYIaHcN,RA,10,NA,4,4
+R_28zFXIh1LYIaHcN,RE,10,NA,Strongly Agree,5
+R_28zFXIh1LYIaHcN,EE,1,NA,4,4
+R_28zFXIh1LYIaHcN,EA,1,neg,2,4
+R_28zFXIh1LYIaHcN,EA,2,NA,4,4
+R_28zFXIh1LYIaHcN,EA,3,NA,4,4
+R_28zFXIh1LYIaHcN,EE,2,NA,4,4
+R_28zFXIh1LYIaHcN,EE,3,NA,4,4
+R_28zFXIh1LYIaHcN,EA,4,NA,4,4
+R_28zFXIh1LYIaHcN,EA,5,NA,4,4
+R_28zFXIh1LYIaHcN,EA,6,neg,4,2
+R_28zFXIh1LYIaHcN,EE,4,neg,2,4
+R_28zFXIh1LYIaHcN,EE,5,NA,4,4
+R_28zFXIh1LYIaHcN,EE,6,neg,2,4
+R_28zFXIh1LYIaHcN,EE,7,neg,2,4
+R_28zFXIh1LYIaHcN,EE,8,neg,2,4
+R_28zFXIh1LYIaHcN,EA,7,NA,4,4
+R_28zFXIh1LYIaHcN,EE,9,neg,3,3
+R_28zFXIh1LYIaHcN,EA,8,neg,2,4
+R_28zFXIh1LYIaHcN,EE,10,NA,4,4
+R_28zFXIh1LYIaHcN,EA,9,NA,4,4
+R_28zFXIh1LYIaHcN,EA,10,neg,Strongly Agree,1
+R_powEV8HrAm5kefT,RE,1,neg,Strongly Disagree,5
+R_powEV8HrAm5kefT,RA,1,neg,Strongly Disagree,5
+R_powEV8HrAm5kefT,RE,2,NA,Strongly Agree,5
+R_powEV8HrAm5kefT,RA,2,neg,Strongly Disagree,5
+R_powEV8HrAm5kefT,RE,3,neg,Strongly Disagree,5
+R_powEV8HrAm5kefT,RE,4,NA,Strongly Agree,5
+R_powEV8HrAm5kefT,RE,5,neg,Strongly Disagree,5
+R_powEV8HrAm5kefT,RA,3,neg,Strongly Disagree,5
+R_powEV8HrAm5kefT,RA,4,neg,Strongly Disagree,5
+R_powEV8HrAm5kefT,RE,6,NA,Strongly Agree,5
+R_powEV8HrAm5kefT,RE,7,neg,Strongly Disagree,5
+R_powEV8HrAm5kefT,RA,5,neg,Strongly Agree,1
+R_powEV8HrAm5kefT,RA,6,NA,Strongly Agree,5
+R_powEV8HrAm5kefT,RA,7,NA,Strongly Agree,5
+R_powEV8HrAm5kefT,RE,8,NA,Strongly Agree,5
+R_powEV8HrAm5kefT,RA,8,NA,Strongly Agree,5
+R_powEV8HrAm5kefT,RA,9,NA,4,4
+R_powEV8HrAm5kefT,RE,9,neg,Strongly Disagree,5
+R_powEV8HrAm5kefT,RA,10,NA,2,2
+R_powEV8HrAm5kefT,RE,10,NA,Strongly Agree,5
+R_powEV8HrAm5kefT,EE,1,NA,2,2
+R_powEV8HrAm5kefT,EA,1,neg,3,3
+R_powEV8HrAm5kefT,EA,2,NA,4,4
+R_powEV8HrAm5kefT,EA,3,NA,2,2
+R_powEV8HrAm5kefT,EE,2,NA,4,4
+R_powEV8HrAm5kefT,EE,3,NA,2,2
+R_powEV8HrAm5kefT,EA,4,NA,2,2
+R_powEV8HrAm5kefT,EA,5,NA,2,2
+R_powEV8HrAm5kefT,EA,6,neg,Strongly Disagree,5
+R_powEV8HrAm5kefT,EE,4,neg,4,2
+R_powEV8HrAm5kefT,EE,5,NA,Strongly Agree,5
+R_powEV8HrAm5kefT,EE,6,neg,Strongly Disagree,5
+R_powEV8HrAm5kefT,EE,7,neg,Strongly Disagree,5
+R_powEV8HrAm5kefT,EE,8,neg,2,4
+R_powEV8HrAm5kefT,EA,7,NA,4,4
+R_powEV8HrAm5kefT,EE,9,neg,4,2
+R_powEV8HrAm5kefT,EA,8,neg,2,4
+R_powEV8HrAm5kefT,EE,10,NA,2,2
+R_powEV8HrAm5kefT,EA,9,NA,4,4
+R_powEV8HrAm5kefT,EA,10,neg,2,4
+R_2SeJv2phDwASPUs,RE,1,neg,4,2
+R_2SeJv2phDwASPUs,RA,1,neg,4,2
+R_2SeJv2phDwASPUs,RE,2,NA,3,3
+R_2SeJv2phDwASPUs,RA,2,neg,4,2
+R_2SeJv2phDwASPUs,RE,3,neg,4,2
+R_2SeJv2phDwASPUs,RE,4,NA,2,2
+R_2SeJv2phDwASPUs,RE,5,neg,4,2
+R_2SeJv2phDwASPUs,RA,3,neg,2,4
+R_2SeJv2phDwASPUs,RA,4,neg,2,4
+R_2SeJv2phDwASPUs,RE,6,NA,2,2
+R_2SeJv2phDwASPUs,RE,7,neg,3,3
+R_2SeJv2phDwASPUs,RA,5,neg,Strongly Agree,1
+R_2SeJv2phDwASPUs,RA,6,NA,3,3
+R_2SeJv2phDwASPUs,RA,7,NA,Strongly Agree,5
+R_2SeJv2phDwASPUs,RE,8,NA,2,2
+R_2SeJv2phDwASPUs,RA,8,NA,4,4
+R_2SeJv2phDwASPUs,RA,9,NA,4,4
+R_2SeJv2phDwASPUs,RE,9,neg,Strongly Agree,1
+R_2SeJv2phDwASPUs,RA,10,NA,4,4
+R_2SeJv2phDwASPUs,RE,10,NA,Strongly Agree,5
+R_2SeJv2phDwASPUs,EE,1,NA,3,3
+R_2SeJv2phDwASPUs,EA,1,neg,3,3
+R_2SeJv2phDwASPUs,EA,2,NA,3,3
+R_2SeJv2phDwASPUs,EA,3,NA,3,3
+R_2SeJv2phDwASPUs,EE,2,NA,3,3
+R_2SeJv2phDwASPUs,EE,3,NA,3,3
+R_2SeJv2phDwASPUs,EA,4,NA,3,3
+R_2SeJv2phDwASPUs,EA,5,NA,3,3
+R_2SeJv2phDwASPUs,EA,6,neg,3,3
+R_2SeJv2phDwASPUs,EE,4,neg,4,2
+R_2SeJv2phDwASPUs,EE,5,NA,3,3
+R_2SeJv2phDwASPUs,EE,6,neg,2,4
+R_2SeJv2phDwASPUs,EE,7,neg,4,2
+R_2SeJv2phDwASPUs,EE,8,neg,2,4
+R_2SeJv2phDwASPUs,EA,7,NA,Strongly Disagree,1
+R_2SeJv2phDwASPUs,EE,9,neg,3,3
+R_2SeJv2phDwASPUs,EA,8,neg,4,2
+R_2SeJv2phDwASPUs,EE,10,NA,4,4
+R_2SeJv2phDwASPUs,EA,9,NA,4,4
+R_2SeJv2phDwASPUs,EA,10,neg,Strongly Agree,1
+R_AhTggtRHxH6xrTb,RE,1,neg,3,3
+R_AhTggtRHxH6xrTb,RA,1,neg,3,3
+R_AhTggtRHxH6xrTb,RE,2,NA,4,4
+R_AhTggtRHxH6xrTb,RA,2,neg,3,3
+R_AhTggtRHxH6xrTb,RE,3,neg,3,3
+R_AhTggtRHxH6xrTb,RE,4,NA,2,2
+R_AhTggtRHxH6xrTb,RE,5,neg,4,2
+R_AhTggtRHxH6xrTb,RA,3,neg,2,4
+R_AhTggtRHxH6xrTb,RA,4,neg,2,4
+R_AhTggtRHxH6xrTb,RE,6,NA,3,3
+R_AhTggtRHxH6xrTb,RE,7,neg,4,2
+R_AhTggtRHxH6xrTb,RA,5,neg,3,3
+R_AhTggtRHxH6xrTb,RA,6,NA,4,4
+R_AhTggtRHxH6xrTb,RA,7,NA,3,3
+R_AhTggtRHxH6xrTb,RE,8,NA,3,3
+R_AhTggtRHxH6xrTb,RA,8,NA,Strongly Agree,5
+R_AhTggtRHxH6xrTb,RA,9,NA,4,4
+R_AhTggtRHxH6xrTb,RE,9,neg,4,2
+R_AhTggtRHxH6xrTb,RA,10,NA,4,4
+R_AhTggtRHxH6xrTb,RE,10,NA,3,3
+R_AhTggtRHxH6xrTb,EE,1,NA,3,3
+R_AhTggtRHxH6xrTb,EA,1,neg,Strongly Disagree,5
+R_AhTggtRHxH6xrTb,EA,2,NA,4,4
+R_AhTggtRHxH6xrTb,EA,3,NA,3,3
+R_AhTggtRHxH6xrTb,EE,2,NA,4,4
+R_AhTggtRHxH6xrTb,EE,3,NA,4,4
+R_AhTggtRHxH6xrTb,EA,4,NA,Strongly Agree,5
+R_AhTggtRHxH6xrTb,EA,5,NA,4,4
+R_AhTggtRHxH6xrTb,EA,6,neg,2,4
+R_AhTggtRHxH6xrTb,EE,4,neg,2,4
+R_AhTggtRHxH6xrTb,EE,5,NA,4,4
+R_AhTggtRHxH6xrTb,EE,6,neg,4,2
+R_AhTggtRHxH6xrTb,EE,7,neg,3,3
+R_AhTggtRHxH6xrTb,EE,8,neg,3,3
+R_AhTggtRHxH6xrTb,EA,7,NA,4,4
+R_AhTggtRHxH6xrTb,EE,9,neg,2,4
+R_AhTggtRHxH6xrTb,EA,8,neg,2,4
+R_AhTggtRHxH6xrTb,EE,10,NA,4,4
+R_AhTggtRHxH6xrTb,EA,9,NA,3,3
+R_AhTggtRHxH6xrTb,EA,10,neg,2,4
+R_OxLEJkniZlsCYut,RE,1,neg,Strongly Disagree,5
+R_OxLEJkniZlsCYut,RA,1,neg,2,4
+R_OxLEJkniZlsCYut,RE,2,NA,Strongly Agree,5
+R_OxLEJkniZlsCYut,RA,2,neg,Strongly Disagree,5
+R_OxLEJkniZlsCYut,RE,3,neg,Strongly Disagree,5
+R_OxLEJkniZlsCYut,RE,4,NA,Strongly Agree,5
+R_OxLEJkniZlsCYut,RE,5,neg,Strongly Disagree,5
+R_OxLEJkniZlsCYut,RA,3,neg,Strongly Disagree,5
+R_OxLEJkniZlsCYut,RA,4,neg,Strongly Disagree,5
+R_OxLEJkniZlsCYut,RE,6,NA,4,4
+R_OxLEJkniZlsCYut,RE,7,neg,Strongly Disagree,5
+R_OxLEJkniZlsCYut,RA,5,neg,2,4
+R_OxLEJkniZlsCYut,RA,6,NA,4,4
+R_OxLEJkniZlsCYut,RA,7,NA,4,4
+R_OxLEJkniZlsCYut,RE,8,NA,Strongly Agree,5
+R_OxLEJkniZlsCYut,RA,8,NA,4,4
+R_OxLEJkniZlsCYut,RA,9,NA,4,4
+R_OxLEJkniZlsCYut,RE,9,neg,Strongly Disagree,5
+R_OxLEJkniZlsCYut,RA,10,NA,3,3
+R_OxLEJkniZlsCYut,RE,10,NA,Strongly Agree,5
+R_OxLEJkniZlsCYut,EE,1,NA,3,3
+R_OxLEJkniZlsCYut,EA,1,neg,3,3
+R_OxLEJkniZlsCYut,EA,2,NA,2,2
+R_OxLEJkniZlsCYut,EA,3,NA,2,2
+R_OxLEJkniZlsCYut,EE,2,NA,4,4
+R_OxLEJkniZlsCYut,EE,3,NA,3,3
+R_OxLEJkniZlsCYut,EA,4,NA,3,3
+R_OxLEJkniZlsCYut,EA,5,NA,3,3
+R_OxLEJkniZlsCYut,EA,6,neg,4,2
+R_OxLEJkniZlsCYut,EE,4,neg,4,2
+R_OxLEJkniZlsCYut,EE,5,NA,3,3
+R_OxLEJkniZlsCYut,EE,6,neg,NA,NA
+R_OxLEJkniZlsCYut,EE,7,neg,3,3
+R_OxLEJkniZlsCYut,EE,8,neg,NA,NA
+R_OxLEJkniZlsCYut,EA,7,NA,2,2
+R_OxLEJkniZlsCYut,EE,9,neg,3,3
+R_OxLEJkniZlsCYut,EA,8,neg,3,3
+R_OxLEJkniZlsCYut,EE,10,NA,Strongly Disagree,1
+R_OxLEJkniZlsCYut,EA,9,NA,2,2
+R_OxLEJkniZlsCYut,EA,10,neg,2,4
+R_3CE2gCFZK0jtWCd,RE,1,neg,Strongly Agree,1
+R_3CE2gCFZK0jtWCd,RA,1,neg,Strongly Agree,1
+R_3CE2gCFZK0jtWCd,RE,2,NA,2,2
+R_3CE2gCFZK0jtWCd,RA,2,neg,Strongly Agree,1
+R_3CE2gCFZK0jtWCd,RE,3,neg,Strongly Agree,1
+R_3CE2gCFZK0jtWCd,RE,4,NA,Strongly Disagree,1
+R_3CE2gCFZK0jtWCd,RE,5,neg,Strongly Agree,1
+R_3CE2gCFZK0jtWCd,RA,3,neg,4,2
+R_3CE2gCFZK0jtWCd,RA,4,neg,Strongly Disagree,5
+R_3CE2gCFZK0jtWCd,RE,6,NA,Strongly Disagree,1
+R_3CE2gCFZK0jtWCd,RE,7,neg,4,2
+R_3CE2gCFZK0jtWCd,RA,5,neg,Strongly Agree,1
+R_3CE2gCFZK0jtWCd,RA,6,NA,4,4
+R_3CE2gCFZK0jtWCd,RA,7,NA,Strongly Agree,5
+R_3CE2gCFZK0jtWCd,RE,8,NA,Strongly Disagree,1
+R_3CE2gCFZK0jtWCd,RA,8,NA,4,4
+R_3CE2gCFZK0jtWCd,RA,9,NA,2,2
+R_3CE2gCFZK0jtWCd,RE,9,neg,Strongly Agree,1
+R_3CE2gCFZK0jtWCd,RA,10,NA,Strongly Agree,5
+R_3CE2gCFZK0jtWCd,RE,10,NA,Strongly Disagree,1
+R_3CE2gCFZK0jtWCd,EE,1,NA,Strongly Agree,5
+R_3CE2gCFZK0jtWCd,EA,1,neg,Strongly Disagree,5
+R_3CE2gCFZK0jtWCd,EA,2,NA,4,4
+R_3CE2gCFZK0jtWCd,EA,3,NA,Strongly Agree,5
+R_3CE2gCFZK0jtWCd,EE,2,NA,4,4
+R_3CE2gCFZK0jtWCd,EE,3,NA,4,4
+R_3CE2gCFZK0jtWCd,EA,4,NA,Strongly Agree,5
+R_3CE2gCFZK0jtWCd,EA,5,NA,Strongly Agree,5
+R_3CE2gCFZK0jtWCd,EA,6,neg,2,4
+R_3CE2gCFZK0jtWCd,EE,4,neg,2,4
+R_3CE2gCFZK0jtWCd,EE,5,NA,4,4
+R_3CE2gCFZK0jtWCd,EE,6,neg,Strongly Disagree,5
+R_3CE2gCFZK0jtWCd,EE,7,neg,2,4
+R_3CE2gCFZK0jtWCd,EE,8,neg,Strongly Disagree,5
+R_3CE2gCFZK0jtWCd,EA,7,NA,4,4
+R_3CE2gCFZK0jtWCd,EE,9,neg,2,4
+R_3CE2gCFZK0jtWCd,EA,8,neg,4,2
+R_3CE2gCFZK0jtWCd,EE,10,NA,Strongly Agree,5
+R_3CE2gCFZK0jtWCd,EA,9,NA,4,4
+R_3CE2gCFZK0jtWCd,EA,10,neg,4,2
+R_1GPuj1DFOUqlnm3,RE,1,neg,3,3
+R_1GPuj1DFOUqlnm3,RA,1,neg,3,3
+R_1GPuj1DFOUqlnm3,RE,2,NA,3,3
+R_1GPuj1DFOUqlnm3,RA,2,neg,2,4
+R_1GPuj1DFOUqlnm3,RE,3,neg,3,3
+R_1GPuj1DFOUqlnm3,RE,4,NA,3,3
+R_1GPuj1DFOUqlnm3,RE,5,neg,2,4
+R_1GPuj1DFOUqlnm3,RA,3,neg,2,4
+R_1GPuj1DFOUqlnm3,RA,4,neg,2,4
+R_1GPuj1DFOUqlnm3,RE,6,NA,2,2
+R_1GPuj1DFOUqlnm3,RE,7,neg,Strongly Agree,1
+R_1GPuj1DFOUqlnm3,RA,5,neg,3,3
+R_1GPuj1DFOUqlnm3,RA,6,NA,2,2
+R_1GPuj1DFOUqlnm3,RA,7,NA,3,3
+R_1GPuj1DFOUqlnm3,RE,8,NA,3,3
+R_1GPuj1DFOUqlnm3,RA,8,NA,3,3
+R_1GPuj1DFOUqlnm3,RA,9,NA,3,3
+R_1GPuj1DFOUqlnm3,RE,9,neg,3,3
+R_1GPuj1DFOUqlnm3,RA,10,NA,3,3
+R_1GPuj1DFOUqlnm3,RE,10,NA,4,4
+R_1GPuj1DFOUqlnm3,EE,1,NA,3,3
+R_1GPuj1DFOUqlnm3,EA,1,neg,2,4
+R_1GPuj1DFOUqlnm3,EA,2,NA,3,3
+R_1GPuj1DFOUqlnm3,EA,3,NA,3,3
+R_1GPuj1DFOUqlnm3,EE,2,NA,4,4
+R_1GPuj1DFOUqlnm3,EE,3,NA,3,3
+R_1GPuj1DFOUqlnm3,EA,4,NA,3,3
+R_1GPuj1DFOUqlnm3,EA,5,NA,3,3
+R_1GPuj1DFOUqlnm3,EA,6,neg,2,4
+R_1GPuj1DFOUqlnm3,EE,4,neg,2,4
+R_1GPuj1DFOUqlnm3,EE,5,NA,4,4
+R_1GPuj1DFOUqlnm3,EE,6,neg,2,4
+R_1GPuj1DFOUqlnm3,EE,7,neg,2,4
+R_1GPuj1DFOUqlnm3,EE,8,neg,2,4
+R_1GPuj1DFOUqlnm3,EA,7,NA,2,2
+R_1GPuj1DFOUqlnm3,EE,9,neg,2,4
+R_1GPuj1DFOUqlnm3,EA,8,neg,2,4
+R_1GPuj1DFOUqlnm3,EE,10,NA,3,3
+R_1GPuj1DFOUqlnm3,EA,9,NA,3,3
+R_1GPuj1DFOUqlnm3,EA,10,neg,2,4
+R_3fN584buVNFokdb,RE,1,neg,2,4
+R_3fN584buVNFokdb,RA,1,neg,4,2
+R_3fN584buVNFokdb,RE,2,NA,4,4
+R_3fN584buVNFokdb,RA,2,neg,4,2
+R_3fN584buVNFokdb,RE,3,neg,2,4
+R_3fN584buVNFokdb,RE,4,NA,Strongly Disagree,1
+R_3fN584buVNFokdb,RE,5,neg,Strongly Disagree,5
+R_3fN584buVNFokdb,RA,3,neg,2,4
+R_3fN584buVNFokdb,RA,4,neg,4,2
+R_3fN584buVNFokdb,RE,6,NA,2,2
+R_3fN584buVNFokdb,RE,7,neg,4,2
+R_3fN584buVNFokdb,RA,5,neg,4,2
+R_3fN584buVNFokdb,RA,6,NA,2,2
+R_3fN584buVNFokdb,RA,7,NA,2,2
+R_3fN584buVNFokdb,RE,8,NA,Strongly Agree,5
+R_3fN584buVNFokdb,RA,8,NA,2,2
+R_3fN584buVNFokdb,RA,9,NA,4,4
+R_3fN584buVNFokdb,RE,9,neg,4,2
+R_3fN584buVNFokdb,RA,10,NA,2,2
+R_3fN584buVNFokdb,RE,10,NA,Strongly Agree,5
+R_3fN584buVNFokdb,EE,1,NA,4,4
+R_3fN584buVNFokdb,EA,1,neg,2,4
+R_3fN584buVNFokdb,EA,2,NA,3,3
+R_3fN584buVNFokdb,EA,3,NA,4,4
+R_3fN584buVNFokdb,EE,2,NA,4,4
+R_3fN584buVNFokdb,EE,3,NA,4,4
+R_3fN584buVNFokdb,EA,4,NA,4,4
+R_3fN584buVNFokdb,EA,5,NA,4,4
+R_3fN584buVNFokdb,EA,6,neg,2,4
+R_3fN584buVNFokdb,EE,4,neg,2,4
+R_3fN584buVNFokdb,EE,5,NA,4,4
+R_3fN584buVNFokdb,EE,6,neg,2,4
+R_3fN584buVNFokdb,EE,7,neg,3,3
+R_3fN584buVNFokdb,EE,8,neg,2,4
+R_3fN584buVNFokdb,EA,7,NA,4,4
+R_3fN584buVNFokdb,EE,9,neg,2,4
+R_3fN584buVNFokdb,EA,8,neg,2,4
+R_3fN584buVNFokdb,EE,10,NA,4,4
+R_3fN584buVNFokdb,EA,9,NA,2,2
+R_3fN584buVNFokdb,EA,10,neg,2,4
+R_Zn7GJrKUdp5u6EV,RE,1,neg,3,3
+R_Zn7GJrKUdp5u6EV,RA,1,neg,4,2
+R_Zn7GJrKUdp5u6EV,RE,2,NA,Strongly Agree,5
+R_Zn7GJrKUdp5u6EV,RA,2,neg,Strongly Disagree,5
+R_Zn7GJrKUdp5u6EV,RE,3,neg,Strongly Agree,1
+R_Zn7GJrKUdp5u6EV,RE,4,NA,3,3
+R_Zn7GJrKUdp5u6EV,RE,5,neg,Strongly Disagree,5
+R_Zn7GJrKUdp5u6EV,RA,3,neg,Strongly Disagree,5
+R_Zn7GJrKUdp5u6EV,RA,4,neg,4,2
+R_Zn7GJrKUdp5u6EV,RE,6,NA,Strongly Agree,5
+R_Zn7GJrKUdp5u6EV,RE,7,neg,3,3
+R_Zn7GJrKUdp5u6EV,RA,5,neg,Strongly Agree,1
+R_Zn7GJrKUdp5u6EV,RA,6,NA,4,4
+R_Zn7GJrKUdp5u6EV,RA,7,NA,Strongly Agree,5
+R_Zn7GJrKUdp5u6EV,RE,8,NA,Strongly Agree,5
+R_Zn7GJrKUdp5u6EV,RA,8,NA,Strongly Agree,5
+R_Zn7GJrKUdp5u6EV,RA,9,NA,Strongly Agree,5
+R_Zn7GJrKUdp5u6EV,RE,9,neg,Strongly Disagree,5
+R_Zn7GJrKUdp5u6EV,RA,10,NA,Strongly Agree,5
+R_Zn7GJrKUdp5u6EV,RE,10,NA,Strongly Agree,5
+R_Zn7GJrKUdp5u6EV,EE,1,NA,Strongly Disagree,1
+R_Zn7GJrKUdp5u6EV,EA,1,neg,3,3
+R_Zn7GJrKUdp5u6EV,EA,2,NA,Strongly Disagree,1
+R_Zn7GJrKUdp5u6EV,EA,3,NA,Strongly Disagree,1
+R_Zn7GJrKUdp5u6EV,EE,2,NA,Strongly Disagree,1
+R_Zn7GJrKUdp5u6EV,EE,3,NA,Strongly Disagree,1
+R_Zn7GJrKUdp5u6EV,EA,4,NA,Strongly Disagree,1
+R_Zn7GJrKUdp5u6EV,EA,5,NA,Strongly Disagree,1
+R_Zn7GJrKUdp5u6EV,EA,6,neg,Strongly Agree,1
+R_Zn7GJrKUdp5u6EV,EE,4,neg,Strongly Agree,1
+R_Zn7GJrKUdp5u6EV,EE,5,NA,3,3
+R_Zn7GJrKUdp5u6EV,EE,6,neg,Strongly Agree,1
+R_Zn7GJrKUdp5u6EV,EE,7,neg,Strongly Agree,1
+R_Zn7GJrKUdp5u6EV,EE,8,neg,Strongly Agree,1
+R_Zn7GJrKUdp5u6EV,EA,7,NA,Strongly Disagree,1
+R_Zn7GJrKUdp5u6EV,EE,9,neg,Strongly Agree,1
+R_Zn7GJrKUdp5u6EV,EA,8,neg,Strongly Agree,1
+R_Zn7GJrKUdp5u6EV,EE,10,NA,Strongly Disagree,1
+R_Zn7GJrKUdp5u6EV,EA,9,NA,Strongly Agree,5
+R_Zn7GJrKUdp5u6EV,EA,10,neg,Strongly Agree,1
+R_3rMN6IUjtWzaYdA,RE,1,neg,4,2
+R_3rMN6IUjtWzaYdA,RA,1,neg,4,2
+R_3rMN6IUjtWzaYdA,RE,2,NA,2,2
+R_3rMN6IUjtWzaYdA,RA,2,neg,2,4
+R_3rMN6IUjtWzaYdA,RE,3,neg,Strongly Agree,1
+R_3rMN6IUjtWzaYdA,RE,4,NA,2,2
+R_3rMN6IUjtWzaYdA,RE,5,neg,3,3
+R_3rMN6IUjtWzaYdA,RA,3,neg,3,3
+R_3rMN6IUjtWzaYdA,RA,4,neg,3,3
+R_3rMN6IUjtWzaYdA,RE,6,NA,2,2
+R_3rMN6IUjtWzaYdA,RE,7,neg,Strongly Agree,1
+R_3rMN6IUjtWzaYdA,RA,5,neg,4,2
+R_3rMN6IUjtWzaYdA,RA,6,NA,4,4
+R_3rMN6IUjtWzaYdA,RA,7,NA,4,4
+R_3rMN6IUjtWzaYdA,RE,8,NA,3,3
+R_3rMN6IUjtWzaYdA,RA,8,NA,4,4
+R_3rMN6IUjtWzaYdA,RA,9,NA,4,4
+R_3rMN6IUjtWzaYdA,RE,9,neg,3,3
+R_3rMN6IUjtWzaYdA,RA,10,NA,3,3
+R_3rMN6IUjtWzaYdA,RE,10,NA,2,2
+R_3rMN6IUjtWzaYdA,EE,1,NA,2,2
+R_3rMN6IUjtWzaYdA,EA,1,neg,3,3
+R_3rMN6IUjtWzaYdA,EA,2,NA,3,3
+R_3rMN6IUjtWzaYdA,EA,3,NA,3,3
+R_3rMN6IUjtWzaYdA,EE,2,NA,3,3
+R_3rMN6IUjtWzaYdA,EE,3,NA,3,3
+R_3rMN6IUjtWzaYdA,EA,4,NA,4,4
+R_3rMN6IUjtWzaYdA,EA,5,NA,4,4
+R_3rMN6IUjtWzaYdA,EA,6,neg,4,2
+R_3rMN6IUjtWzaYdA,EE,4,neg,4,2
+R_3rMN6IUjtWzaYdA,EE,5,NA,4,4
+R_3rMN6IUjtWzaYdA,EE,6,neg,2,4
+R_3rMN6IUjtWzaYdA,EE,7,neg,3,3
+R_3rMN6IUjtWzaYdA,EE,8,neg,3,3
+R_3rMN6IUjtWzaYdA,EA,7,NA,3,3
+R_3rMN6IUjtWzaYdA,EE,9,neg,3,3
+R_3rMN6IUjtWzaYdA,EA,8,neg,3,3
+R_3rMN6IUjtWzaYdA,EE,10,NA,3,3
+R_3rMN6IUjtWzaYdA,EA,9,NA,3,3
+R_3rMN6IUjtWzaYdA,EA,10,neg,4,2
+R_3ltzn1PhZN7PqBn,RE,1,neg,Strongly Agree,1
+R_3ltzn1PhZN7PqBn,RA,1,neg,2,4
+R_3ltzn1PhZN7PqBn,RE,2,NA,4,4
+R_3ltzn1PhZN7PqBn,RA,2,neg,Strongly Disagree,5
+R_3ltzn1PhZN7PqBn,RE,3,neg,3,3
+R_3ltzn1PhZN7PqBn,RE,4,NA,3,3
+R_3ltzn1PhZN7PqBn,RE,5,neg,4,2
+R_3ltzn1PhZN7PqBn,RA,3,neg,2,4
+R_3ltzn1PhZN7PqBn,RA,4,neg,2,4
+R_3ltzn1PhZN7PqBn,RE,6,NA,4,4
+R_3ltzn1PhZN7PqBn,RE,7,neg,Strongly Agree,1
+R_3ltzn1PhZN7PqBn,RA,5,neg,2,4
+R_3ltzn1PhZN7PqBn,RA,6,NA,2,2
+R_3ltzn1PhZN7PqBn,RA,7,NA,4,4
+R_3ltzn1PhZN7PqBn,RE,8,NA,3,3
+R_3ltzn1PhZN7PqBn,RA,8,NA,2,2
+R_3ltzn1PhZN7PqBn,RA,9,NA,3,3
+R_3ltzn1PhZN7PqBn,RE,9,neg,2,4
+R_3ltzn1PhZN7PqBn,RA,10,NA,2,2
+R_3ltzn1PhZN7PqBn,RE,10,NA,Strongly Agree,5
+R_3ltzn1PhZN7PqBn,EE,1,NA,3,3
+R_3ltzn1PhZN7PqBn,EA,1,neg,2,4
+R_3ltzn1PhZN7PqBn,EA,2,NA,Strongly Disagree,1
+R_3ltzn1PhZN7PqBn,EA,3,NA,Strongly Agree,5
+R_3ltzn1PhZN7PqBn,EE,2,NA,2,2
+R_3ltzn1PhZN7PqBn,EE,3,NA,2,2
+R_3ltzn1PhZN7PqBn,EA,4,NA,Strongly Agree,5
+R_3ltzn1PhZN7PqBn,EA,5,NA,Strongly Agree,5
+R_3ltzn1PhZN7PqBn,EA,6,neg,3,3
+R_3ltzn1PhZN7PqBn,EE,4,neg,Strongly Disagree,5
+R_3ltzn1PhZN7PqBn,EE,5,NA,4,4
+R_3ltzn1PhZN7PqBn,EE,6,neg,Strongly Agree,1
+R_3ltzn1PhZN7PqBn,EE,7,neg,Strongly Agree,1
+R_3ltzn1PhZN7PqBn,EE,8,neg,2,4
+R_3ltzn1PhZN7PqBn,EA,7,NA,2,2
+R_3ltzn1PhZN7PqBn,EE,9,neg,2,4
+R_3ltzn1PhZN7PqBn,EA,8,neg,Strongly Disagree,5
+R_3ltzn1PhZN7PqBn,EE,10,NA,2,2
+R_3ltzn1PhZN7PqBn,EA,9,NA,2,2
+R_3ltzn1PhZN7PqBn,EA,10,neg,Strongly Agree,1
+R_pgCwFopl4N7tYjf,RE,1,neg,2,4
+R_pgCwFopl4N7tYjf,RA,1,neg,3,3
+R_pgCwFopl4N7tYjf,RE,2,NA,3,3
+R_pgCwFopl4N7tYjf,RA,2,neg,4,2
+R_pgCwFopl4N7tYjf,RE,3,neg,2,4
+R_pgCwFopl4N7tYjf,RE,4,NA,Strongly Disagree,1
+R_pgCwFopl4N7tYjf,RE,5,neg,NA,NA
+R_pgCwFopl4N7tYjf,RA,3,neg,3,3
+R_pgCwFopl4N7tYjf,RA,4,neg,3,3
+R_pgCwFopl4N7tYjf,RE,6,NA,Strongly Disagree,1
+R_pgCwFopl4N7tYjf,RE,7,neg,3,3
+R_pgCwFopl4N7tYjf,RA,5,neg,2,4
+R_pgCwFopl4N7tYjf,RA,6,NA,3,3
+R_pgCwFopl4N7tYjf,RA,7,NA,2,2
+R_pgCwFopl4N7tYjf,RE,8,NA,3,3
+R_pgCwFopl4N7tYjf,RA,8,NA,3,3
+R_pgCwFopl4N7tYjf,RA,9,NA,4,4
+R_pgCwFopl4N7tYjf,RE,9,neg,3,3
+R_pgCwFopl4N7tYjf,RA,10,NA,3,3
+R_pgCwFopl4N7tYjf,RE,10,NA,4,4
+R_pgCwFopl4N7tYjf,EE,1,NA,2,2
+R_pgCwFopl4N7tYjf,EA,1,neg,3,3
+R_pgCwFopl4N7tYjf,EA,2,NA,3,3
+R_pgCwFopl4N7tYjf,EA,3,NA,3,3
+R_pgCwFopl4N7tYjf,EE,2,NA,4,4
+R_pgCwFopl4N7tYjf,EE,3,NA,4,4
+R_pgCwFopl4N7tYjf,EA,4,NA,4,4
+R_pgCwFopl4N7tYjf,EA,5,NA,4,4
+R_pgCwFopl4N7tYjf,EA,6,neg,2,4
+R_pgCwFopl4N7tYjf,EE,4,neg,4,2
+R_pgCwFopl4N7tYjf,EE,5,NA,3,3
+R_pgCwFopl4N7tYjf,EE,6,neg,4,2
+R_pgCwFopl4N7tYjf,EE,7,neg,4,2
+R_pgCwFopl4N7tYjf,EE,8,neg,4,2
+R_pgCwFopl4N7tYjf,EA,7,NA,2,2
+R_pgCwFopl4N7tYjf,EE,9,neg,3,3
+R_pgCwFopl4N7tYjf,EA,8,neg,3,3
+R_pgCwFopl4N7tYjf,EE,10,NA,2,2
+R_pgCwFopl4N7tYjf,EA,9,NA,2,2
+R_pgCwFopl4N7tYjf,EA,10,neg,2,4
+R_22Jp6grkS81F9Gj,RE,1,neg,Strongly Disagree,5
+R_22Jp6grkS81F9Gj,RA,1,neg,Strongly Disagree,5
+R_22Jp6grkS81F9Gj,RE,2,NA,Strongly Agree,5
+R_22Jp6grkS81F9Gj,RA,2,neg,Strongly Disagree,5
+R_22Jp6grkS81F9Gj,RE,3,neg,Strongly Disagree,5
+R_22Jp6grkS81F9Gj,RE,4,NA,Strongly Agree,5
+R_22Jp6grkS81F9Gj,RE,5,neg,Strongly Disagree,5
+R_22Jp6grkS81F9Gj,RA,3,neg,Strongly Disagree,5
+R_22Jp6grkS81F9Gj,RA,4,neg,Strongly Disagree,5
+R_22Jp6grkS81F9Gj,RE,6,NA,Strongly Agree,5
+R_22Jp6grkS81F9Gj,RE,7,neg,Strongly Disagree,5
+R_22Jp6grkS81F9Gj,RA,5,neg,Strongly Disagree,5
+R_22Jp6grkS81F9Gj,RA,6,NA,Strongly Agree,5
+R_22Jp6grkS81F9Gj,RA,7,NA,Strongly Agree,5
+R_22Jp6grkS81F9Gj,RE,8,NA,Strongly Agree,5
+R_22Jp6grkS81F9Gj,RA,8,NA,Strongly Agree,5
+R_22Jp6grkS81F9Gj,RA,9,NA,Strongly Agree,5
+R_22Jp6grkS81F9Gj,RE,9,neg,Strongly Disagree,5
+R_22Jp6grkS81F9Gj,RA,10,NA,Strongly Agree,5
+R_22Jp6grkS81F9Gj,RE,10,NA,Strongly Agree,5
+R_22Jp6grkS81F9Gj,EE,1,NA,4,4
+R_22Jp6grkS81F9Gj,EA,1,neg,Strongly Disagree,5
+R_22Jp6grkS81F9Gj,EA,2,NA,4,4
+R_22Jp6grkS81F9Gj,EA,3,NA,4,4
+R_22Jp6grkS81F9Gj,EE,2,NA,Strongly Agree,5
+R_22Jp6grkS81F9Gj,EE,3,NA,4,4
+R_22Jp6grkS81F9Gj,EA,4,NA,4,4
+R_22Jp6grkS81F9Gj,EA,5,NA,4,4
+R_22Jp6grkS81F9Gj,EA,6,neg,2,4
+R_22Jp6grkS81F9Gj,EE,4,neg,Strongly Disagree,5
+R_22Jp6grkS81F9Gj,EE,5,NA,4,4
+R_22Jp6grkS81F9Gj,EE,6,neg,4,2
+R_22Jp6grkS81F9Gj,EE,7,neg,Strongly Disagree,5
+R_22Jp6grkS81F9Gj,EE,8,neg,4,2
+R_22Jp6grkS81F9Gj,EA,7,NA,4,4
+R_22Jp6grkS81F9Gj,EE,9,neg,Strongly Agree,1
+R_22Jp6grkS81F9Gj,EA,8,neg,Strongly Disagree,5
+R_22Jp6grkS81F9Gj,EE,10,NA,3,3
+R_22Jp6grkS81F9Gj,EA,9,NA,3,3
+R_22Jp6grkS81F9Gj,EA,10,neg,Strongly Disagree,5
+R_30pNjxW806uuPXi,RE,1,neg,3,3
+R_30pNjxW806uuPXi,RA,1,neg,3,3
+R_30pNjxW806uuPXi,RE,2,NA,3,3
+R_30pNjxW806uuPXi,RA,2,neg,3,3
+R_30pNjxW806uuPXi,RE,3,neg,2,4
+R_30pNjxW806uuPXi,RE,4,NA,3,3
+R_30pNjxW806uuPXi,RE,5,neg,2,4
+R_30pNjxW806uuPXi,RA,3,neg,3,3
+R_30pNjxW806uuPXi,RA,4,neg,3,3
+R_30pNjxW806uuPXi,RE,6,NA,3,3
+R_30pNjxW806uuPXi,RE,7,neg,3,3
+R_30pNjxW806uuPXi,RA,5,neg,3,3
+R_30pNjxW806uuPXi,RA,6,NA,3,3
+R_30pNjxW806uuPXi,RA,7,NA,3,3
+R_30pNjxW806uuPXi,RE,8,NA,4,4
+R_30pNjxW806uuPXi,RA,8,NA,4,4
+R_30pNjxW806uuPXi,RA,9,NA,3,3
+R_30pNjxW806uuPXi,RE,9,neg,3,3
+R_30pNjxW806uuPXi,RA,10,NA,3,3
+R_30pNjxW806uuPXi,RE,10,NA,3,3
+R_30pNjxW806uuPXi,EE,1,NA,3,3
+R_30pNjxW806uuPXi,EA,1,neg,2,4
+R_30pNjxW806uuPXi,EA,2,NA,3,3
+R_30pNjxW806uuPXi,EA,3,NA,3,3
+R_30pNjxW806uuPXi,EE,2,NA,4,4
+R_30pNjxW806uuPXi,EE,3,NA,4,4
+R_30pNjxW806uuPXi,EA,4,NA,3,3
+R_30pNjxW806uuPXi,EA,5,NA,3,3
+R_30pNjxW806uuPXi,EA,6,neg,3,3
+R_30pNjxW806uuPXi,EE,4,neg,4,2
+R_30pNjxW806uuPXi,EE,5,NA,3,3
+R_30pNjxW806uuPXi,EE,6,neg,3,3
+R_30pNjxW806uuPXi,EE,7,neg,3,3
+R_30pNjxW806uuPXi,EE,8,neg,3,3
+R_30pNjxW806uuPXi,EA,7,NA,3,3
+R_30pNjxW806uuPXi,EE,9,neg,3,3
+R_30pNjxW806uuPXi,EA,8,neg,3,3
+R_30pNjxW806uuPXi,EE,10,NA,3,3
+R_30pNjxW806uuPXi,EA,9,NA,3,3
+R_30pNjxW806uuPXi,EA,10,neg,4,2
+R_3mfbXcSlJMSlbJg,RE,1,neg,Strongly Disagree,5
+R_3mfbXcSlJMSlbJg,RA,1,neg,Strongly Disagree,5
+R_3mfbXcSlJMSlbJg,RE,2,NA,Strongly Agree,5
+R_3mfbXcSlJMSlbJg,RA,2,neg,2,4
+R_3mfbXcSlJMSlbJg,RE,3,neg,Strongly Disagree,5
+R_3mfbXcSlJMSlbJg,RE,4,NA,Strongly Agree,5
+R_3mfbXcSlJMSlbJg,RE,5,neg,Strongly Disagree,5
+R_3mfbXcSlJMSlbJg,RA,3,neg,Strongly Disagree,5
+R_3mfbXcSlJMSlbJg,RA,4,neg,Strongly Disagree,5
+R_3mfbXcSlJMSlbJg,RE,6,NA,Strongly Agree,5
+R_3mfbXcSlJMSlbJg,RE,7,neg,4,2
+R_3mfbXcSlJMSlbJg,RA,5,neg,3,3
+R_3mfbXcSlJMSlbJg,RA,6,NA,Strongly Agree,5
+R_3mfbXcSlJMSlbJg,RA,7,NA,Strongly Agree,5
+R_3mfbXcSlJMSlbJg,RE,8,NA,3,3
+R_3mfbXcSlJMSlbJg,RA,8,NA,4,4
+R_3mfbXcSlJMSlbJg,RA,9,NA,Strongly Agree,5
+R_3mfbXcSlJMSlbJg,RE,9,neg,Strongly Agree,1
+R_3mfbXcSlJMSlbJg,RA,10,NA,3,3
+R_3mfbXcSlJMSlbJg,RE,10,NA,Strongly Agree,5
+R_3mfbXcSlJMSlbJg,EE,1,NA,4,4
+R_3mfbXcSlJMSlbJg,EA,1,neg,3,3
+R_3mfbXcSlJMSlbJg,EA,2,NA,4,4
+R_3mfbXcSlJMSlbJg,EA,3,NA,3,3
+R_3mfbXcSlJMSlbJg,EE,2,NA,2,2
+R_3mfbXcSlJMSlbJg,EE,3,NA,Strongly Agree,5
+R_3mfbXcSlJMSlbJg,EA,4,NA,3,3
+R_3mfbXcSlJMSlbJg,EA,5,NA,4,4
+R_3mfbXcSlJMSlbJg,EA,6,neg,3,3
+R_3mfbXcSlJMSlbJg,EE,4,neg,2,4
+R_3mfbXcSlJMSlbJg,EE,5,NA,Strongly Agree,5
+R_3mfbXcSlJMSlbJg,EE,6,neg,Strongly Disagree,5
+R_3mfbXcSlJMSlbJg,EE,7,neg,Strongly Disagree,5
+R_3mfbXcSlJMSlbJg,EE,8,neg,2,4
+R_3mfbXcSlJMSlbJg,EA,7,NA,Strongly Agree,5
+R_3mfbXcSlJMSlbJg,EE,9,neg,Strongly Disagree,5
+R_3mfbXcSlJMSlbJg,EA,8,neg,Strongly Disagree,5
+R_3mfbXcSlJMSlbJg,EE,10,NA,2,2
+R_3mfbXcSlJMSlbJg,EA,9,NA,3,3
+R_3mfbXcSlJMSlbJg,EA,10,neg,4,2
+R_1eDGwWwkcJ4RcHh,RE,1,neg,Strongly Disagree,5
+R_1eDGwWwkcJ4RcHh,RA,1,neg,2,4
+R_1eDGwWwkcJ4RcHh,RE,2,NA,3,3
+R_1eDGwWwkcJ4RcHh,RA,2,neg,3,3
+R_1eDGwWwkcJ4RcHh,RE,3,neg,Strongly Disagree,5
+R_1eDGwWwkcJ4RcHh,RE,4,NA,4,4
+R_1eDGwWwkcJ4RcHh,RE,5,neg,2,4
+R_1eDGwWwkcJ4RcHh,RA,3,neg,2,4
+R_1eDGwWwkcJ4RcHh,RA,4,neg,Strongly Disagree,5
+R_1eDGwWwkcJ4RcHh,RE,6,NA,3,3
+R_1eDGwWwkcJ4RcHh,RE,7,neg,Strongly Disagree,5
+R_1eDGwWwkcJ4RcHh,RA,5,neg,3,3
+R_1eDGwWwkcJ4RcHh,RA,6,NA,3,3
+R_1eDGwWwkcJ4RcHh,RA,7,NA,4,4
+R_1eDGwWwkcJ4RcHh,RE,8,NA,3,3
+R_1eDGwWwkcJ4RcHh,RA,8,NA,4,4
+R_1eDGwWwkcJ4RcHh,RA,9,NA,4,4
+R_1eDGwWwkcJ4RcHh,RE,9,neg,Strongly Disagree,5
+R_1eDGwWwkcJ4RcHh,RA,10,NA,4,4
+R_1eDGwWwkcJ4RcHh,RE,10,NA,4,4
+R_1eDGwWwkcJ4RcHh,EE,1,NA,Strongly Disagree,1
+R_1eDGwWwkcJ4RcHh,EA,1,neg,2,4
+R_1eDGwWwkcJ4RcHh,EA,2,NA,Strongly Disagree,1
+R_1eDGwWwkcJ4RcHh,EA,3,NA,Strongly Disagree,1
+R_1eDGwWwkcJ4RcHh,EE,2,NA,Strongly Disagree,1
+R_1eDGwWwkcJ4RcHh,EE,3,NA,Strongly Disagree,1
+R_1eDGwWwkcJ4RcHh,EA,4,NA,Strongly Disagree,1
+R_1eDGwWwkcJ4RcHh,EA,5,NA,2,2
+R_1eDGwWwkcJ4RcHh,EA,6,neg,4,2
+R_1eDGwWwkcJ4RcHh,EE,4,neg,Strongly Agree,1
+R_1eDGwWwkcJ4RcHh,EE,5,NA,3,3
+R_1eDGwWwkcJ4RcHh,EE,6,neg,4,2
+R_1eDGwWwkcJ4RcHh,EE,7,neg,Strongly Agree,1
+R_1eDGwWwkcJ4RcHh,EE,8,neg,Strongly Agree,1
+R_1eDGwWwkcJ4RcHh,EA,7,NA,Strongly Disagree,1
+R_1eDGwWwkcJ4RcHh,EE,9,neg,4,2
+R_1eDGwWwkcJ4RcHh,EA,8,neg,3,3
+R_1eDGwWwkcJ4RcHh,EE,10,NA,Strongly Disagree,1
+R_1eDGwWwkcJ4RcHh,EA,9,NA,Strongly Disagree,1
+R_1eDGwWwkcJ4RcHh,EA,10,neg,4,2
+R_27qyv5Bel1mqFxf,RE,1,neg,2,4
+R_27qyv5Bel1mqFxf,RA,1,neg,2,4
+R_27qyv5Bel1mqFxf,RE,2,NA,4,4
+R_27qyv5Bel1mqFxf,RA,2,neg,2,4
+R_27qyv5Bel1mqFxf,RE,3,neg,2,4
+R_27qyv5Bel1mqFxf,RE,4,NA,4,4
+R_27qyv5Bel1mqFxf,RE,5,neg,2,4
+R_27qyv5Bel1mqFxf,RA,3,neg,2,4
+R_27qyv5Bel1mqFxf,RA,4,neg,3,3
+R_27qyv5Bel1mqFxf,RE,6,NA,3,3
+R_27qyv5Bel1mqFxf,RE,7,neg,2,4
+R_27qyv5Bel1mqFxf,RA,5,neg,4,2
+R_27qyv5Bel1mqFxf,RA,6,NA,4,4
+R_27qyv5Bel1mqFxf,RA,7,NA,3,3
+R_27qyv5Bel1mqFxf,RE,8,NA,Strongly Agree,5
+R_27qyv5Bel1mqFxf,RA,8,NA,Strongly Disagree,1
+R_27qyv5Bel1mqFxf,RA,9,NA,4,4
+R_27qyv5Bel1mqFxf,RE,9,neg,2,4
+R_27qyv5Bel1mqFxf,RA,10,NA,2,2
+R_27qyv5Bel1mqFxf,RE,10,NA,4,4
+R_27qyv5Bel1mqFxf,EE,1,NA,3,3
+R_27qyv5Bel1mqFxf,EA,1,neg,3,3
+R_27qyv5Bel1mqFxf,EA,2,NA,3,3
+R_27qyv5Bel1mqFxf,EA,3,NA,3,3
+R_27qyv5Bel1mqFxf,EE,2,NA,3,3
+R_27qyv5Bel1mqFxf,EE,3,NA,2,2
+R_27qyv5Bel1mqFxf,EA,4,NA,4,4
+R_27qyv5Bel1mqFxf,EA,5,NA,4,4
+R_27qyv5Bel1mqFxf,EA,6,neg,4,2
+R_27qyv5Bel1mqFxf,EE,4,neg,3,3
+R_27qyv5Bel1mqFxf,EE,5,NA,4,4
+R_27qyv5Bel1mqFxf,EE,6,neg,3,3
+R_27qyv5Bel1mqFxf,EE,7,neg,3,3
+R_27qyv5Bel1mqFxf,EE,8,neg,2,4
+R_27qyv5Bel1mqFxf,EA,7,NA,3,3
+R_27qyv5Bel1mqFxf,EE,9,neg,2,4
+R_27qyv5Bel1mqFxf,EA,8,neg,2,4
+R_27qyv5Bel1mqFxf,EE,10,NA,3,3
+R_27qyv5Bel1mqFxf,EA,9,NA,3,3
+R_27qyv5Bel1mqFxf,EA,10,neg,3,3
+R_AzBa4CxaQ0AUFP3,RE,1,neg,Strongly Disagree,5
+R_AzBa4CxaQ0AUFP3,RA,1,neg,2,4
+R_AzBa4CxaQ0AUFP3,RE,2,NA,Strongly Agree,5
+R_AzBa4CxaQ0AUFP3,RA,2,neg,Strongly Disagree,5
+R_AzBa4CxaQ0AUFP3,RE,3,neg,Strongly Disagree,5
+R_AzBa4CxaQ0AUFP3,RE,4,NA,4,4
+R_AzBa4CxaQ0AUFP3,RE,5,neg,Strongly Disagree,5
+R_AzBa4CxaQ0AUFP3,RA,3,neg,Strongly Disagree,5
+R_AzBa4CxaQ0AUFP3,RA,4,neg,Strongly Disagree,5
+R_AzBa4CxaQ0AUFP3,RE,6,NA,3,3
+R_AzBa4CxaQ0AUFP3,RE,7,neg,Strongly Disagree,5
+R_AzBa4CxaQ0AUFP3,RA,5,neg,2,4
+R_AzBa4CxaQ0AUFP3,RA,6,NA,4,4
+R_AzBa4CxaQ0AUFP3,RA,7,NA,Strongly Agree,5
+R_AzBa4CxaQ0AUFP3,RE,8,NA,4,4
+R_AzBa4CxaQ0AUFP3,RA,8,NA,Strongly Agree,5
+R_AzBa4CxaQ0AUFP3,RA,9,NA,Strongly Agree,5
+R_AzBa4CxaQ0AUFP3,RE,9,neg,3,3
+R_AzBa4CxaQ0AUFP3,RA,10,NA,4,4
+R_AzBa4CxaQ0AUFP3,RE,10,NA,4,4
+R_AzBa4CxaQ0AUFP3,EE,1,NA,4,4
+R_AzBa4CxaQ0AUFP3,EA,1,neg,Strongly Disagree,5
+R_AzBa4CxaQ0AUFP3,EA,2,NA,4,4
+R_AzBa4CxaQ0AUFP3,EA,3,NA,Strongly Agree,5
+R_AzBa4CxaQ0AUFP3,EE,2,NA,4,4
+R_AzBa4CxaQ0AUFP3,EE,3,NA,4,4
+R_AzBa4CxaQ0AUFP3,EA,4,NA,4,4
+R_AzBa4CxaQ0AUFP3,EA,5,NA,Strongly Agree,5
+R_AzBa4CxaQ0AUFP3,EA,6,neg,Strongly Disagree,5
+R_AzBa4CxaQ0AUFP3,EE,4,neg,2,4
+R_AzBa4CxaQ0AUFP3,EE,5,NA,Strongly Agree,5
+R_AzBa4CxaQ0AUFP3,EE,6,neg,2,4
+R_AzBa4CxaQ0AUFP3,EE,7,neg,Strongly Disagree,5
+R_AzBa4CxaQ0AUFP3,EE,8,neg,3,3
+R_AzBa4CxaQ0AUFP3,EA,7,NA,Strongly Agree,5
+R_AzBa4CxaQ0AUFP3,EE,9,neg,Strongly Disagree,5
+R_AzBa4CxaQ0AUFP3,EA,8,neg,2,4
+R_AzBa4CxaQ0AUFP3,EE,10,NA,3,3
+R_AzBa4CxaQ0AUFP3,EA,9,NA,3,3
+R_AzBa4CxaQ0AUFP3,EA,10,neg,2,4
+R_2TLxKvKECbsTFdR,RE,1,neg,2,4
+R_2TLxKvKECbsTFdR,RA,1,neg,3,3
+R_2TLxKvKECbsTFdR,RE,2,NA,Strongly Agree,5
+R_2TLxKvKECbsTFdR,RA,2,neg,4,2
+R_2TLxKvKECbsTFdR,RE,3,neg,2,4
+R_2TLxKvKECbsTFdR,RE,4,NA,3,3
+R_2TLxKvKECbsTFdR,RE,5,neg,2,4
+R_2TLxKvKECbsTFdR,RA,3,neg,3,3
+R_2TLxKvKECbsTFdR,RA,4,neg,4,2
+R_2TLxKvKECbsTFdR,RE,6,NA,4,4
+R_2TLxKvKECbsTFdR,RE,7,neg,2,4
+R_2TLxKvKECbsTFdR,RA,5,neg,4,2
+R_2TLxKvKECbsTFdR,RA,6,NA,2,2
+R_2TLxKvKECbsTFdR,RA,7,NA,2,2
+R_2TLxKvKECbsTFdR,RE,8,NA,3,3
+R_2TLxKvKECbsTFdR,RA,8,NA,2,2
+R_2TLxKvKECbsTFdR,RA,9,NA,3,3
+R_2TLxKvKECbsTFdR,RE,9,neg,4,2
+R_2TLxKvKECbsTFdR,RA,10,NA,3,3
+R_2TLxKvKECbsTFdR,RE,10,NA,Strongly Agree,5
+R_2TLxKvKECbsTFdR,EE,1,NA,4,4
+R_2TLxKvKECbsTFdR,EA,1,neg,3,3
+R_2TLxKvKECbsTFdR,EA,2,NA,4,4
+R_2TLxKvKECbsTFdR,EA,3,NA,3,3
+R_2TLxKvKECbsTFdR,EE,2,NA,4,4
+R_2TLxKvKECbsTFdR,EE,3,NA,3,3
+R_2TLxKvKECbsTFdR,EA,4,NA,4,4
+R_2TLxKvKECbsTFdR,EA,5,NA,4,4
+R_2TLxKvKECbsTFdR,EA,6,neg,4,2
+R_2TLxKvKECbsTFdR,EE,4,neg,4,2
+R_2TLxKvKECbsTFdR,EE,5,NA,4,4
+R_2TLxKvKECbsTFdR,EE,6,neg,2,4
+R_2TLxKvKECbsTFdR,EE,7,neg,2,4
+R_2TLxKvKECbsTFdR,EE,8,neg,2,4
+R_2TLxKvKECbsTFdR,EA,7,NA,Strongly Agree,5
+R_2TLxKvKECbsTFdR,EE,9,neg,Strongly Disagree,5
+R_2TLxKvKECbsTFdR,EA,8,neg,4,2
+R_2TLxKvKECbsTFdR,EE,10,NA,4,4
+R_2TLxKvKECbsTFdR,EA,9,NA,4,4
+R_2TLxKvKECbsTFdR,EA,10,neg,4,2
+R_1f41O3bT8d4qnCS,RE,1,neg,4,2
+R_1f41O3bT8d4qnCS,RA,1,neg,2,4
+R_1f41O3bT8d4qnCS,RE,2,NA,2,2
+R_1f41O3bT8d4qnCS,RA,2,neg,2,4
+R_1f41O3bT8d4qnCS,RE,3,neg,4,2
+R_1f41O3bT8d4qnCS,RE,4,NA,2,2
+R_1f41O3bT8d4qnCS,RE,5,neg,4,2
+R_1f41O3bT8d4qnCS,RA,3,neg,2,4
+R_1f41O3bT8d4qnCS,RA,4,neg,2,4
+R_1f41O3bT8d4qnCS,RE,6,NA,Strongly Disagree,1
+R_1f41O3bT8d4qnCS,RE,7,neg,3,3
+R_1f41O3bT8d4qnCS,RA,5,neg,3,3
+R_1f41O3bT8d4qnCS,RA,6,NA,3,3
+R_1f41O3bT8d4qnCS,RA,7,NA,4,4
+R_1f41O3bT8d4qnCS,RE,8,NA,2,2
+R_1f41O3bT8d4qnCS,RA,8,NA,Strongly Agree,5
+R_1f41O3bT8d4qnCS,RA,9,NA,Strongly Agree,5
+R_1f41O3bT8d4qnCS,RE,9,neg,Strongly Agree,1
+R_1f41O3bT8d4qnCS,RA,10,NA,4,4
+R_1f41O3bT8d4qnCS,RE,10,NA,3,3
+R_1f41O3bT8d4qnCS,EE,1,NA,4,4
+R_1f41O3bT8d4qnCS,EA,1,neg,Strongly Disagree,5
+R_1f41O3bT8d4qnCS,EA,2,NA,4,4
+R_1f41O3bT8d4qnCS,EA,3,NA,4,4
+R_1f41O3bT8d4qnCS,EE,2,NA,Strongly Agree,5
+R_1f41O3bT8d4qnCS,EE,3,NA,4,4
+R_1f41O3bT8d4qnCS,EA,4,NA,4,4
+R_1f41O3bT8d4qnCS,EA,5,NA,4,4
+R_1f41O3bT8d4qnCS,EA,6,neg,2,4
+R_1f41O3bT8d4qnCS,EE,4,neg,4,2
+R_1f41O3bT8d4qnCS,EE,5,NA,Strongly Agree,5
+R_1f41O3bT8d4qnCS,EE,6,neg,3,3
+R_1f41O3bT8d4qnCS,EE,7,neg,Strongly Disagree,5
+R_1f41O3bT8d4qnCS,EE,8,neg,3,3
+R_1f41O3bT8d4qnCS,EA,7,NA,4,4
+R_1f41O3bT8d4qnCS,EE,9,neg,Strongly Disagree,5
+R_1f41O3bT8d4qnCS,EA,8,neg,2,4
+R_1f41O3bT8d4qnCS,EE,10,NA,2,2
+R_1f41O3bT8d4qnCS,EA,9,NA,3,3
+R_1f41O3bT8d4qnCS,EA,10,neg,Strongly Disagree,5
+R_50hX07iWPUyBvdD,RE,1,neg,Strongly Disagree,5
+R_50hX07iWPUyBvdD,RA,1,neg,2,4
+R_50hX07iWPUyBvdD,RE,2,NA,Strongly Agree,5
+R_50hX07iWPUyBvdD,RA,2,neg,2,4
+R_50hX07iWPUyBvdD,RE,3,neg,Strongly Disagree,5
+R_50hX07iWPUyBvdD,RE,4,NA,4,4
+R_50hX07iWPUyBvdD,RE,5,neg,Strongly Disagree,5
+R_50hX07iWPUyBvdD,RA,3,neg,Strongly Disagree,5
+R_50hX07iWPUyBvdD,RA,4,neg,Strongly Disagree,5
+R_50hX07iWPUyBvdD,RE,6,NA,Strongly Agree,5
+R_50hX07iWPUyBvdD,RE,7,neg,2,4
+R_50hX07iWPUyBvdD,RA,5,neg,2,4
+R_50hX07iWPUyBvdD,RA,6,NA,4,4
+R_50hX07iWPUyBvdD,RA,7,NA,4,4
+R_50hX07iWPUyBvdD,RE,8,NA,4,4
+R_50hX07iWPUyBvdD,RA,8,NA,Strongly Agree,5
+R_50hX07iWPUyBvdD,RA,9,NA,Strongly Agree,5
+R_50hX07iWPUyBvdD,RE,9,neg,2,4
+R_50hX07iWPUyBvdD,RA,10,NA,Strongly Agree,5
+R_50hX07iWPUyBvdD,RE,10,NA,4,4
+R_50hX07iWPUyBvdD,EE,1,NA,Strongly Disagree,1
+R_50hX07iWPUyBvdD,EA,1,neg,2,4
+R_50hX07iWPUyBvdD,EA,2,NA,2,2
+R_50hX07iWPUyBvdD,EA,3,NA,Strongly Disagree,1
+R_50hX07iWPUyBvdD,EE,2,NA,4,4
+R_50hX07iWPUyBvdD,EE,3,NA,2,2
+R_50hX07iWPUyBvdD,EA,4,NA,3,3
+R_50hX07iWPUyBvdD,EA,5,NA,4,4
+R_50hX07iWPUyBvdD,EA,6,neg,4,2
+R_50hX07iWPUyBvdD,EE,4,neg,4,2
+R_50hX07iWPUyBvdD,EE,5,NA,4,4
+R_50hX07iWPUyBvdD,EE,6,neg,Strongly Agree,1
+R_50hX07iWPUyBvdD,EE,7,neg,Strongly Agree,1
+R_50hX07iWPUyBvdD,EE,8,neg,4,2
+R_50hX07iWPUyBvdD,EA,7,NA,2,2
+R_50hX07iWPUyBvdD,EE,9,neg,4,2
+R_50hX07iWPUyBvdD,EA,8,neg,2,4
+R_50hX07iWPUyBvdD,EE,10,NA,2,2
+R_50hX07iWPUyBvdD,EA,9,NA,4,4
+R_50hX07iWPUyBvdD,EA,10,neg,2,4
+R_1eE6wx2nF8cvSOT,RE,1,neg,3,3
+R_1eE6wx2nF8cvSOT,RA,1,neg,Strongly Agree,1
+R_1eE6wx2nF8cvSOT,RE,2,NA,Strongly Disagree,1
+R_1eE6wx2nF8cvSOT,RA,2,neg,Strongly Agree,1
+R_1eE6wx2nF8cvSOT,RE,3,neg,2,4
+R_1eE6wx2nF8cvSOT,RE,4,NA,Strongly Disagree,1
+R_1eE6wx2nF8cvSOT,RE,5,neg,3,3
+R_1eE6wx2nF8cvSOT,RA,3,neg,Strongly Agree,1
+R_1eE6wx2nF8cvSOT,RA,4,neg,Strongly Agree,1
+R_1eE6wx2nF8cvSOT,RE,6,NA,3,3
+R_1eE6wx2nF8cvSOT,RE,7,neg,Strongly Agree,1
+R_1eE6wx2nF8cvSOT,RA,5,neg,Strongly Agree,1
+R_1eE6wx2nF8cvSOT,RA,6,NA,Strongly Disagree,1
+R_1eE6wx2nF8cvSOT,RA,7,NA,Strongly Disagree,1
+R_1eE6wx2nF8cvSOT,RE,8,NA,3,3
+R_1eE6wx2nF8cvSOT,RA,8,NA,2,2
+R_1eE6wx2nF8cvSOT,RA,9,NA,3,3
+R_1eE6wx2nF8cvSOT,RE,9,neg,Strongly Disagree,5
+R_1eE6wx2nF8cvSOT,RA,10,NA,Strongly Disagree,1
+R_1eE6wx2nF8cvSOT,RE,10,NA,Strongly Agree,5
+R_1eE6wx2nF8cvSOT,EE,1,NA,2,2
+R_1eE6wx2nF8cvSOT,EA,1,neg,Strongly Agree,1
+R_1eE6wx2nF8cvSOT,EA,2,NA,Strongly Disagree,1
+R_1eE6wx2nF8cvSOT,EA,3,NA,4,4
+R_1eE6wx2nF8cvSOT,EE,2,NA,Strongly Disagree,1
+R_1eE6wx2nF8cvSOT,EE,3,NA,Strongly Agree,5
+R_1eE6wx2nF8cvSOT,EA,4,NA,4,4
+R_1eE6wx2nF8cvSOT,EA,5,NA,Strongly Disagree,1
+R_1eE6wx2nF8cvSOT,EA,6,neg,Strongly Agree,1
+R_1eE6wx2nF8cvSOT,EE,4,neg,Strongly Agree,1
+R_1eE6wx2nF8cvSOT,EE,5,NA,4,4
+R_1eE6wx2nF8cvSOT,EE,6,neg,Strongly Agree,1
+R_1eE6wx2nF8cvSOT,EE,7,neg,Strongly Agree,1
+R_1eE6wx2nF8cvSOT,EE,8,neg,Strongly Disagree,5
+R_1eE6wx2nF8cvSOT,EA,7,NA,Strongly Disagree,1
+R_1eE6wx2nF8cvSOT,EE,9,neg,3,3
+R_1eE6wx2nF8cvSOT,EA,8,neg,Strongly Agree,1
+R_1eE6wx2nF8cvSOT,EE,10,NA,4,4
+R_1eE6wx2nF8cvSOT,EA,9,NA,4,4
+R_1eE6wx2nF8cvSOT,EA,10,neg,Strongly Agree,1
+R_2P8cJ2lBsyjGTlB,RE,1,neg,Strongly Agree,1
+R_2P8cJ2lBsyjGTlB,RA,1,neg,2,4
+R_2P8cJ2lBsyjGTlB,RE,2,NA,3,3
+R_2P8cJ2lBsyjGTlB,RA,2,neg,2,4
+R_2P8cJ2lBsyjGTlB,RE,3,neg,Strongly Agree,1
+R_2P8cJ2lBsyjGTlB,RE,4,NA,Strongly Disagree,1
+R_2P8cJ2lBsyjGTlB,RE,5,neg,3,3
+R_2P8cJ2lBsyjGTlB,RA,3,neg,Strongly Disagree,5
+R_2P8cJ2lBsyjGTlB,RA,4,neg,Strongly Disagree,5
+R_2P8cJ2lBsyjGTlB,RE,6,NA,2,2
+R_2P8cJ2lBsyjGTlB,RE,7,neg,Strongly Disagree,5
+R_2P8cJ2lBsyjGTlB,RA,5,neg,Strongly Disagree,5
+R_2P8cJ2lBsyjGTlB,RA,6,NA,4,4
+R_2P8cJ2lBsyjGTlB,RA,7,NA,Strongly Agree,5
+R_2P8cJ2lBsyjGTlB,RE,8,NA,Strongly Disagree,1
+R_2P8cJ2lBsyjGTlB,RA,8,NA,Strongly Agree,5
+R_2P8cJ2lBsyjGTlB,RA,9,NA,Strongly Agree,5
+R_2P8cJ2lBsyjGTlB,RE,9,neg,Strongly Disagree,5
+R_2P8cJ2lBsyjGTlB,RA,10,NA,Strongly Agree,5
+R_2P8cJ2lBsyjGTlB,RE,10,NA,4,4
+R_2P8cJ2lBsyjGTlB,EE,1,NA,Strongly Disagree,1
+R_2P8cJ2lBsyjGTlB,EA,1,neg,3,3
+R_2P8cJ2lBsyjGTlB,EA,2,NA,Strongly Disagree,1
+R_2P8cJ2lBsyjGTlB,EA,3,NA,Strongly Disagree,1
+R_2P8cJ2lBsyjGTlB,EE,2,NA,Strongly Disagree,1
+R_2P8cJ2lBsyjGTlB,EE,3,NA,Strongly Disagree,1
+R_2P8cJ2lBsyjGTlB,EA,4,NA,Strongly Disagree,1
+R_2P8cJ2lBsyjGTlB,EA,5,NA,Strongly Disagree,1
+R_2P8cJ2lBsyjGTlB,EA,6,neg,Strongly Agree,1
+R_2P8cJ2lBsyjGTlB,EE,4,neg,Strongly Disagree,5
+R_2P8cJ2lBsyjGTlB,EE,5,NA,Strongly Disagree,1
+R_2P8cJ2lBsyjGTlB,EE,6,neg,Strongly Agree,1
+R_2P8cJ2lBsyjGTlB,EE,7,neg,Strongly Agree,1
+R_2P8cJ2lBsyjGTlB,EE,8,neg,Strongly Agree,1
+R_2P8cJ2lBsyjGTlB,EA,7,NA,Strongly Disagree,1
+R_2P8cJ2lBsyjGTlB,EE,9,neg,Strongly Agree,1
+R_2P8cJ2lBsyjGTlB,EA,8,neg,Strongly Disagree,5
+R_2P8cJ2lBsyjGTlB,EE,10,NA,Strongly Disagree,1
+R_2P8cJ2lBsyjGTlB,EA,9,NA,Strongly Disagree,1
+R_2P8cJ2lBsyjGTlB,EA,10,neg,Strongly Agree,1
+R_3sv4xw6L5zoVixI,RE,1,neg,3,3
+R_3sv4xw6L5zoVixI,RA,1,neg,3,3
+R_3sv4xw6L5zoVixI,RE,2,NA,2,2
+R_3sv4xw6L5zoVixI,RA,2,neg,3,3
+R_3sv4xw6L5zoVixI,RE,3,neg,3,3
+R_3sv4xw6L5zoVixI,RE,4,NA,2,2
+R_3sv4xw6L5zoVixI,RE,5,neg,4,2
+R_3sv4xw6L5zoVixI,RA,3,neg,3,3
+R_3sv4xw6L5zoVixI,RA,4,neg,3,3
+R_3sv4xw6L5zoVixI,RE,6,NA,Strongly Disagree,1
+R_3sv4xw6L5zoVixI,RE,7,neg,3,3
+R_3sv4xw6L5zoVixI,RA,5,neg,4,2
+R_3sv4xw6L5zoVixI,RA,6,NA,2,2
+R_3sv4xw6L5zoVixI,RA,7,NA,2,2
+R_3sv4xw6L5zoVixI,RE,8,NA,3,3
+R_3sv4xw6L5zoVixI,RA,8,NA,3,3
+R_3sv4xw6L5zoVixI,RA,9,NA,3,3
+R_3sv4xw6L5zoVixI,RE,9,neg,3,3
+R_3sv4xw6L5zoVixI,RA,10,NA,2,2
+R_3sv4xw6L5zoVixI,RE,10,NA,3,3
+R_3sv4xw6L5zoVixI,EE,1,NA,3,3
+R_3sv4xw6L5zoVixI,EA,1,neg,Strongly Disagree,5
+R_3sv4xw6L5zoVixI,EA,2,NA,3,3
+R_3sv4xw6L5zoVixI,EA,3,NA,3,3
+R_3sv4xw6L5zoVixI,EE,2,NA,3,3
+R_3sv4xw6L5zoVixI,EE,3,NA,3,3
+R_3sv4xw6L5zoVixI,EA,4,NA,4,4
+R_3sv4xw6L5zoVixI,EA,5,NA,3,3
+R_3sv4xw6L5zoVixI,EA,6,neg,3,3
+R_3sv4xw6L5zoVixI,EE,4,neg,2,4
+R_3sv4xw6L5zoVixI,EE,5,NA,3,3
+R_3sv4xw6L5zoVixI,EE,6,neg,4,2
+R_3sv4xw6L5zoVixI,EE,7,neg,3,3
+R_3sv4xw6L5zoVixI,EE,8,neg,2,4
+R_3sv4xw6L5zoVixI,EA,7,NA,3,3
+R_3sv4xw6L5zoVixI,EE,9,neg,3,3
+R_3sv4xw6L5zoVixI,EA,8,neg,2,4
+R_3sv4xw6L5zoVixI,EE,10,NA,4,4
+R_3sv4xw6L5zoVixI,EA,9,NA,4,4
+R_3sv4xw6L5zoVixI,EA,10,neg,3,3
+R_27PhNRrx7TiOnxL,RE,1,neg,Strongly Disagree,5
+R_27PhNRrx7TiOnxL,RA,1,neg,Strongly Disagree,5
+R_27PhNRrx7TiOnxL,RE,2,NA,Strongly Agree,5
+R_27PhNRrx7TiOnxL,RA,2,neg,Strongly Disagree,5
+R_27PhNRrx7TiOnxL,RE,3,neg,Strongly Disagree,5
+R_27PhNRrx7TiOnxL,RE,4,NA,Strongly Agree,5
+R_27PhNRrx7TiOnxL,RE,5,neg,Strongly Disagree,5
+R_27PhNRrx7TiOnxL,RA,3,neg,Strongly Disagree,5
+R_27PhNRrx7TiOnxL,RA,4,neg,Strongly Disagree,5
+R_27PhNRrx7TiOnxL,RE,6,NA,Strongly Agree,5
+R_27PhNRrx7TiOnxL,RE,7,neg,Strongly Disagree,5
+R_27PhNRrx7TiOnxL,RA,5,neg,2,4
+R_27PhNRrx7TiOnxL,RA,6,NA,3,3
+R_27PhNRrx7TiOnxL,RA,7,NA,Strongly Agree,5
+R_27PhNRrx7TiOnxL,RE,8,NA,Strongly Agree,5
+R_27PhNRrx7TiOnxL,RA,8,NA,Strongly Agree,5
+R_27PhNRrx7TiOnxL,RA,9,NA,Strongly Agree,5
+R_27PhNRrx7TiOnxL,RE,9,neg,Strongly Disagree,5
+R_27PhNRrx7TiOnxL,RA,10,NA,4,4
+R_27PhNRrx7TiOnxL,RE,10,NA,Strongly Agree,5
+R_27PhNRrx7TiOnxL,EE,1,NA,2,2
+R_27PhNRrx7TiOnxL,EA,1,neg,Strongly Disagree,5
+R_27PhNRrx7TiOnxL,EA,2,NA,3,3
+R_27PhNRrx7TiOnxL,EA,3,NA,4,4
+R_27PhNRrx7TiOnxL,EE,2,NA,3,3
+R_27PhNRrx7TiOnxL,EE,3,NA,3,3
+R_27PhNRrx7TiOnxL,EA,4,NA,3,3
+R_27PhNRrx7TiOnxL,EA,5,NA,3,3
+R_27PhNRrx7TiOnxL,EA,6,neg,3,3
+R_27PhNRrx7TiOnxL,EE,4,neg,4,2
+R_27PhNRrx7TiOnxL,EE,5,NA,4,4
+R_27PhNRrx7TiOnxL,EE,6,neg,4,2
+R_27PhNRrx7TiOnxL,EE,7,neg,4,2
+R_27PhNRrx7TiOnxL,EE,8,neg,Strongly Agree,1
+R_27PhNRrx7TiOnxL,EA,7,NA,4,4
+R_27PhNRrx7TiOnxL,EE,9,neg,2,4
+R_27PhNRrx7TiOnxL,EA,8,neg,2,4
+R_27PhNRrx7TiOnxL,EE,10,NA,3,3
+R_27PhNRrx7TiOnxL,EA,9,NA,3,3
+R_27PhNRrx7TiOnxL,EA,10,neg,3,3
+R_ZsMPn5XJ1D0EdDX,RE,1,neg,Strongly Disagree,5
+R_ZsMPn5XJ1D0EdDX,RA,1,neg,Strongly Disagree,5
+R_ZsMPn5XJ1D0EdDX,RE,2,NA,4,4
+R_ZsMPn5XJ1D0EdDX,RA,2,neg,Strongly Disagree,5
+R_ZsMPn5XJ1D0EdDX,RE,3,neg,Strongly Disagree,5
+R_ZsMPn5XJ1D0EdDX,RE,4,NA,4,4
+R_ZsMPn5XJ1D0EdDX,RE,5,neg,Strongly Disagree,5
+R_ZsMPn5XJ1D0EdDX,RA,3,neg,Strongly Disagree,5
+R_ZsMPn5XJ1D0EdDX,RA,4,neg,Strongly Disagree,5
+R_ZsMPn5XJ1D0EdDX,RE,6,NA,4,4
+R_ZsMPn5XJ1D0EdDX,RE,7,neg,2,4
+R_ZsMPn5XJ1D0EdDX,RA,5,neg,3,3
+R_ZsMPn5XJ1D0EdDX,RA,6,NA,Strongly Agree,5
+R_ZsMPn5XJ1D0EdDX,RA,7,NA,NA,NA
+R_ZsMPn5XJ1D0EdDX,RE,8,NA,4,4
+R_ZsMPn5XJ1D0EdDX,RA,8,NA,Strongly Agree,5
+R_ZsMPn5XJ1D0EdDX,RA,9,NA,Strongly Agree,5
+R_ZsMPn5XJ1D0EdDX,RE,9,neg,2,4
+R_ZsMPn5XJ1D0EdDX,RA,10,NA,Strongly Agree,5
+R_ZsMPn5XJ1D0EdDX,RE,10,NA,4,4
+R_ZsMPn5XJ1D0EdDX,EE,1,NA,3,3
+R_ZsMPn5XJ1D0EdDX,EA,1,neg,2,4
+R_ZsMPn5XJ1D0EdDX,EA,2,NA,3,3
+R_ZsMPn5XJ1D0EdDX,EA,3,NA,3,3
+R_ZsMPn5XJ1D0EdDX,EE,2,NA,2,2
+R_ZsMPn5XJ1D0EdDX,EE,3,NA,3,3
+R_ZsMPn5XJ1D0EdDX,EA,4,NA,2,2
+R_ZsMPn5XJ1D0EdDX,EA,5,NA,2,2
+R_ZsMPn5XJ1D0EdDX,EA,6,neg,4,2
+R_ZsMPn5XJ1D0EdDX,EE,4,neg,3,3
+R_ZsMPn5XJ1D0EdDX,EE,5,NA,4,4
+R_ZsMPn5XJ1D0EdDX,EE,6,neg,Strongly Agree,1
+R_ZsMPn5XJ1D0EdDX,EE,7,neg,4,2
+R_ZsMPn5XJ1D0EdDX,EE,8,neg,4,2
+R_ZsMPn5XJ1D0EdDX,EA,7,NA,2,2
+R_ZsMPn5XJ1D0EdDX,EE,9,neg,Strongly Agree,1
+R_ZsMPn5XJ1D0EdDX,EA,8,neg,Strongly Disagree,5
+R_ZsMPn5XJ1D0EdDX,EE,10,NA,2,2
+R_ZsMPn5XJ1D0EdDX,EA,9,NA,4,4
+R_ZsMPn5XJ1D0EdDX,EA,10,neg,3,3
+R_3qJsVNh0pu6O3Dv,RE,1,neg,2,4
+R_3qJsVNh0pu6O3Dv,RA,1,neg,2,4
+R_3qJsVNh0pu6O3Dv,RE,2,NA,4,4
+R_3qJsVNh0pu6O3Dv,RA,2,neg,2,4
+R_3qJsVNh0pu6O3Dv,RE,3,neg,2,4
+R_3qJsVNh0pu6O3Dv,RE,4,NA,4,4
+R_3qJsVNh0pu6O3Dv,RE,5,neg,2,4
+R_3qJsVNh0pu6O3Dv,RA,3,neg,2,4
+R_3qJsVNh0pu6O3Dv,RA,4,neg,2,4
+R_3qJsVNh0pu6O3Dv,RE,6,NA,3,3
+R_3qJsVNh0pu6O3Dv,RE,7,neg,2,4
+R_3qJsVNh0pu6O3Dv,RA,5,neg,2,4
+R_3qJsVNh0pu6O3Dv,RA,6,NA,2,2
+R_3qJsVNh0pu6O3Dv,RA,7,NA,3,3
+R_3qJsVNh0pu6O3Dv,RE,8,NA,3,3
+R_3qJsVNh0pu6O3Dv,RA,8,NA,4,4
+R_3qJsVNh0pu6O3Dv,RA,9,NA,4,4
+R_3qJsVNh0pu6O3Dv,RE,9,neg,2,4
+R_3qJsVNh0pu6O3Dv,RA,10,NA,4,4
+R_3qJsVNh0pu6O3Dv,RE,10,NA,4,4
+R_3qJsVNh0pu6O3Dv,EE,1,NA,3,3
+R_3qJsVNh0pu6O3Dv,EA,1,neg,2,4
+R_3qJsVNh0pu6O3Dv,EA,2,NA,3,3
+R_3qJsVNh0pu6O3Dv,EA,3,NA,3,3
+R_3qJsVNh0pu6O3Dv,EE,2,NA,4,4
+R_3qJsVNh0pu6O3Dv,EE,3,NA,3,3
+R_3qJsVNh0pu6O3Dv,EA,4,NA,3,3
+R_3qJsVNh0pu6O3Dv,EA,5,NA,4,4
+R_3qJsVNh0pu6O3Dv,EA,6,neg,3,3
+R_3qJsVNh0pu6O3Dv,EE,4,neg,2,4
+R_3qJsVNh0pu6O3Dv,EE,5,NA,4,4
+R_3qJsVNh0pu6O3Dv,EE,6,neg,2,4
+R_3qJsVNh0pu6O3Dv,EE,7,neg,2,4
+R_3qJsVNh0pu6O3Dv,EE,8,neg,2,4
+R_3qJsVNh0pu6O3Dv,EA,7,NA,3,3
+R_3qJsVNh0pu6O3Dv,EE,9,neg,2,4
+R_3qJsVNh0pu6O3Dv,EA,8,neg,2,4
+R_3qJsVNh0pu6O3Dv,EE,10,NA,3,3
+R_3qJsVNh0pu6O3Dv,EA,9,NA,3,3
+R_3qJsVNh0pu6O3Dv,EA,10,neg,2,4
+R_1BW5H5J1jQFEpuk,RE,1,neg,2,4
+R_1BW5H5J1jQFEpuk,RA,1,neg,2,4
+R_1BW5H5J1jQFEpuk,RE,2,NA,4,4
+R_1BW5H5J1jQFEpuk,RA,2,neg,2,4
+R_1BW5H5J1jQFEpuk,RE,3,neg,2,4
+R_1BW5H5J1jQFEpuk,RE,4,NA,4,4
+R_1BW5H5J1jQFEpuk,RE,5,neg,2,4
+R_1BW5H5J1jQFEpuk,RA,3,neg,2,4
+R_1BW5H5J1jQFEpuk,RA,4,neg,Strongly Disagree,5
+R_1BW5H5J1jQFEpuk,RE,6,NA,4,4
+R_1BW5H5J1jQFEpuk,RE,7,neg,2,4
+R_1BW5H5J1jQFEpuk,RA,5,neg,3,3
+R_1BW5H5J1jQFEpuk,RA,6,NA,4,4
+R_1BW5H5J1jQFEpuk,RA,7,NA,Strongly Agree,5
+R_1BW5H5J1jQFEpuk,RE,8,NA,3,3
+R_1BW5H5J1jQFEpuk,RA,8,NA,4,4
+R_1BW5H5J1jQFEpuk,RA,9,NA,Strongly Agree,5
+R_1BW5H5J1jQFEpuk,RE,9,neg,2,4
+R_1BW5H5J1jQFEpuk,RA,10,NA,Strongly Agree,5
+R_1BW5H5J1jQFEpuk,RE,10,NA,4,4
+R_1BW5H5J1jQFEpuk,EE,1,NA,2,2
+R_1BW5H5J1jQFEpuk,EA,1,neg,3,3
+R_1BW5H5J1jQFEpuk,EA,2,NA,3,3
+R_1BW5H5J1jQFEpuk,EA,3,NA,3,3
+R_1BW5H5J1jQFEpuk,EE,2,NA,2,2
+R_1BW5H5J1jQFEpuk,EE,3,NA,2,2
+R_1BW5H5J1jQFEpuk,EA,4,NA,4,4
+R_1BW5H5J1jQFEpuk,EA,5,NA,4,4
+R_1BW5H5J1jQFEpuk,EA,6,neg,3,3
+R_1BW5H5J1jQFEpuk,EE,4,neg,4,2
+R_1BW5H5J1jQFEpuk,EE,5,NA,3,3
+R_1BW5H5J1jQFEpuk,EE,6,neg,3,3
+R_1BW5H5J1jQFEpuk,EE,7,neg,3,3
+R_1BW5H5J1jQFEpuk,EE,8,neg,3,3
+R_1BW5H5J1jQFEpuk,EA,7,NA,2,2
+R_1BW5H5J1jQFEpuk,EE,9,neg,4,2
+R_1BW5H5J1jQFEpuk,EA,8,neg,2,4
+R_1BW5H5J1jQFEpuk,EE,10,NA,3,3
+R_1BW5H5J1jQFEpuk,EA,9,NA,3,3
+R_1BW5H5J1jQFEpuk,EA,10,neg,3,3
+R_s6iUmY4UoTzeaPv,RE,1,neg,Strongly Disagree,5
+R_s6iUmY4UoTzeaPv,RA,1,neg,2,4
+R_s6iUmY4UoTzeaPv,RE,2,NA,3,3
+R_s6iUmY4UoTzeaPv,RA,2,neg,2,4
+R_s6iUmY4UoTzeaPv,RE,3,neg,Strongly Disagree,5
+R_s6iUmY4UoTzeaPv,RE,4,NA,3,3
+R_s6iUmY4UoTzeaPv,RE,5,neg,Strongly Disagree,5
+R_s6iUmY4UoTzeaPv,RA,3,neg,Strongly Disagree,5
+R_s6iUmY4UoTzeaPv,RA,4,neg,Strongly Disagree,5
+R_s6iUmY4UoTzeaPv,RE,6,NA,3,3
+R_s6iUmY4UoTzeaPv,RE,7,neg,Strongly Disagree,5
+R_s6iUmY4UoTzeaPv,RA,5,neg,2,4
+R_s6iUmY4UoTzeaPv,RA,6,NA,4,4
+R_s6iUmY4UoTzeaPv,RA,7,NA,4,4
+R_s6iUmY4UoTzeaPv,RE,8,NA,Strongly Agree,5
+R_s6iUmY4UoTzeaPv,RA,8,NA,4,4
+R_s6iUmY4UoTzeaPv,RA,9,NA,4,4
+R_s6iUmY4UoTzeaPv,RE,9,neg,Strongly Disagree,5
+R_s6iUmY4UoTzeaPv,RA,10,NA,Strongly Agree,5
+R_s6iUmY4UoTzeaPv,RE,10,NA,Strongly Agree,5
+R_s6iUmY4UoTzeaPv,EE,1,NA,4,4
+R_s6iUmY4UoTzeaPv,EA,1,neg,Strongly Disagree,5
+R_s6iUmY4UoTzeaPv,EA,2,NA,4,4
+R_s6iUmY4UoTzeaPv,EA,3,NA,4,4
+R_s6iUmY4UoTzeaPv,EE,2,NA,4,4
+R_s6iUmY4UoTzeaPv,EE,3,NA,2,2
+R_s6iUmY4UoTzeaPv,EA,4,NA,4,4
+R_s6iUmY4UoTzeaPv,EA,5,NA,4,4
+R_s6iUmY4UoTzeaPv,EA,6,neg,Strongly Disagree,5
+R_s6iUmY4UoTzeaPv,EE,4,neg,2,4
+R_s6iUmY4UoTzeaPv,EE,5,NA,Strongly Agree,5
+R_s6iUmY4UoTzeaPv,EE,6,neg,Strongly Disagree,5
+R_s6iUmY4UoTzeaPv,EE,7,neg,Strongly Disagree,5
+R_s6iUmY4UoTzeaPv,EE,8,neg,4,2
+R_s6iUmY4UoTzeaPv,EA,7,NA,4,4
+R_s6iUmY4UoTzeaPv,EE,9,neg,4,2
+R_s6iUmY4UoTzeaPv,EA,8,neg,Strongly Disagree,5
+R_s6iUmY4UoTzeaPv,EE,10,NA,3,3
+R_s6iUmY4UoTzeaPv,EA,9,NA,Strongly Agree,5
+R_s6iUmY4UoTzeaPv,EA,10,neg,2,4
+R_9SPpgQJ7iKbQSKR,RE,1,neg,2,4
+R_9SPpgQJ7iKbQSKR,RA,1,neg,4,2
+R_9SPpgQJ7iKbQSKR,RE,2,NA,4,4
+R_9SPpgQJ7iKbQSKR,RA,2,neg,2,4
+R_9SPpgQJ7iKbQSKR,RE,3,neg,2,4
+R_9SPpgQJ7iKbQSKR,RE,4,NA,4,4
+R_9SPpgQJ7iKbQSKR,RE,5,neg,3,3
+R_9SPpgQJ7iKbQSKR,RA,3,neg,2,4
+R_9SPpgQJ7iKbQSKR,RA,4,neg,2,4
+R_9SPpgQJ7iKbQSKR,RE,6,NA,4,4
+R_9SPpgQJ7iKbQSKR,RE,7,neg,2,4
+R_9SPpgQJ7iKbQSKR,RA,5,neg,4,2
+R_9SPpgQJ7iKbQSKR,RA,6,NA,3,3
+R_9SPpgQJ7iKbQSKR,RA,7,NA,4,4
+R_9SPpgQJ7iKbQSKR,RE,8,NA,3,3
+R_9SPpgQJ7iKbQSKR,RA,8,NA,4,4
+R_9SPpgQJ7iKbQSKR,RA,9,NA,4,4
+R_9SPpgQJ7iKbQSKR,RE,9,neg,2,4
+R_9SPpgQJ7iKbQSKR,RA,10,NA,4,4
+R_9SPpgQJ7iKbQSKR,RE,10,NA,4,4
+R_9SPpgQJ7iKbQSKR,EE,1,NA,2,2
+R_9SPpgQJ7iKbQSKR,EA,1,neg,3,3
+R_9SPpgQJ7iKbQSKR,EA,2,NA,3,3
+R_9SPpgQJ7iKbQSKR,EA,3,NA,3,3
+R_9SPpgQJ7iKbQSKR,EE,2,NA,3,3
+R_9SPpgQJ7iKbQSKR,EE,3,NA,3,3
+R_9SPpgQJ7iKbQSKR,EA,4,NA,4,4
+R_9SPpgQJ7iKbQSKR,EA,5,NA,4,4
+R_9SPpgQJ7iKbQSKR,EA,6,neg,4,2
+R_9SPpgQJ7iKbQSKR,EE,4,neg,4,2
+R_9SPpgQJ7iKbQSKR,EE,5,NA,3,3
+R_9SPpgQJ7iKbQSKR,EE,6,neg,Strongly Agree,1
+R_9SPpgQJ7iKbQSKR,EE,7,neg,4,2
+R_9SPpgQJ7iKbQSKR,EE,8,neg,4,2
+R_9SPpgQJ7iKbQSKR,EA,7,NA,2,2
+R_9SPpgQJ7iKbQSKR,EE,9,neg,4,2
+R_9SPpgQJ7iKbQSKR,EA,8,neg,4,2
+R_9SPpgQJ7iKbQSKR,EE,10,NA,2,2
+R_9SPpgQJ7iKbQSKR,EA,9,NA,2,2
+R_9SPpgQJ7iKbQSKR,EA,10,neg,4,2
+R_DVkTUcJQPPTUhd7,RE,1,neg,2,4
+R_DVkTUcJQPPTUhd7,RA,1,neg,2,4
+R_DVkTUcJQPPTUhd7,RE,2,NA,4,4
+R_DVkTUcJQPPTUhd7,RA,2,neg,2,4
+R_DVkTUcJQPPTUhd7,RE,3,neg,3,3
+R_DVkTUcJQPPTUhd7,RE,4,NA,3,3
+R_DVkTUcJQPPTUhd7,RE,5,neg,2,4
+R_DVkTUcJQPPTUhd7,RA,3,neg,2,4
+R_DVkTUcJQPPTUhd7,RA,4,neg,2,4
+R_DVkTUcJQPPTUhd7,RE,6,NA,3,3
+R_DVkTUcJQPPTUhd7,RE,7,neg,3,3
+R_DVkTUcJQPPTUhd7,RA,5,neg,2,4
+R_DVkTUcJQPPTUhd7,RA,6,NA,3,3
+R_DVkTUcJQPPTUhd7,RA,7,NA,4,4
+R_DVkTUcJQPPTUhd7,RE,8,NA,3,3
+R_DVkTUcJQPPTUhd7,RA,8,NA,4,4
+R_DVkTUcJQPPTUhd7,RA,9,NA,4,4
+R_DVkTUcJQPPTUhd7,RE,9,neg,2,4
+R_DVkTUcJQPPTUhd7,RA,10,NA,4,4
+R_DVkTUcJQPPTUhd7,RE,10,NA,4,4
+R_DVkTUcJQPPTUhd7,EE,1,NA,2,2
+R_DVkTUcJQPPTUhd7,EA,1,neg,2,4
+R_DVkTUcJQPPTUhd7,EA,2,NA,2,2
+R_DVkTUcJQPPTUhd7,EA,3,NA,2,2
+R_DVkTUcJQPPTUhd7,EE,2,NA,3,3
+R_DVkTUcJQPPTUhd7,EE,3,NA,2,2
+R_DVkTUcJQPPTUhd7,EA,4,NA,2,2
+R_DVkTUcJQPPTUhd7,EA,5,NA,2,2
+R_DVkTUcJQPPTUhd7,EA,6,neg,3,3
+R_DVkTUcJQPPTUhd7,EE,4,neg,3,3
+R_DVkTUcJQPPTUhd7,EE,5,NA,3,3
+R_DVkTUcJQPPTUhd7,EE,6,neg,2,4
+R_DVkTUcJQPPTUhd7,EE,7,neg,3,3
+R_DVkTUcJQPPTUhd7,EE,8,neg,4,2
+R_DVkTUcJQPPTUhd7,EA,7,NA,2,2
+R_DVkTUcJQPPTUhd7,EE,9,neg,3,3
+R_DVkTUcJQPPTUhd7,EA,8,neg,3,3
+R_DVkTUcJQPPTUhd7,EE,10,NA,2,2
+R_DVkTUcJQPPTUhd7,EA,9,NA,3,3
+R_DVkTUcJQPPTUhd7,EA,10,neg,3,3
+R_qznZkCoLEOW5237,RE,1,neg,2,4
+R_qznZkCoLEOW5237,RA,1,neg,2,4
+R_qznZkCoLEOW5237,RE,2,NA,4,4
+R_qznZkCoLEOW5237,RA,2,neg,2,4
+R_qznZkCoLEOW5237,RE,3,neg,2,4
+R_qznZkCoLEOW5237,RE,4,NA,4,4
+R_qznZkCoLEOW5237,RE,5,neg,2,4
+R_qznZkCoLEOW5237,RA,3,neg,2,4
+R_qznZkCoLEOW5237,RA,4,neg,2,4
+R_qznZkCoLEOW5237,RE,6,NA,3,3
+R_qznZkCoLEOW5237,RE,7,neg,2,4
+R_qznZkCoLEOW5237,RA,5,neg,3,3
+R_qznZkCoLEOW5237,RA,6,NA,4,4
+R_qznZkCoLEOW5237,RA,7,NA,4,4
+R_qznZkCoLEOW5237,RE,8,NA,2,2
+R_qznZkCoLEOW5237,RA,8,NA,4,4
+R_qznZkCoLEOW5237,RA,9,NA,4,4
+R_qznZkCoLEOW5237,RE,9,neg,3,3
+R_qznZkCoLEOW5237,RA,10,NA,3,3
+R_qznZkCoLEOW5237,RE,10,NA,4,4
+R_qznZkCoLEOW5237,EE,1,NA,4,4
+R_qznZkCoLEOW5237,EA,1,neg,2,4
+R_qznZkCoLEOW5237,EA,2,NA,4,4
+R_qznZkCoLEOW5237,EA,3,NA,4,4
+R_qznZkCoLEOW5237,EE,2,NA,4,4
+R_qznZkCoLEOW5237,EE,3,NA,4,4
+R_qznZkCoLEOW5237,EA,4,NA,4,4
+R_qznZkCoLEOW5237,EA,5,NA,4,4
+R_qznZkCoLEOW5237,EA,6,neg,3,3
+R_qznZkCoLEOW5237,EE,4,neg,2,4
+R_qznZkCoLEOW5237,EE,5,NA,4,4
+R_qznZkCoLEOW5237,EE,6,neg,2,4
+R_qznZkCoLEOW5237,EE,7,neg,3,3
+R_qznZkCoLEOW5237,EE,8,neg,2,4
+R_qznZkCoLEOW5237,EA,7,NA,3,3
+R_qznZkCoLEOW5237,EE,9,neg,2,4
+R_qznZkCoLEOW5237,EA,8,neg,Strongly Disagree,5
+R_qznZkCoLEOW5237,EE,10,NA,4,4
+R_qznZkCoLEOW5237,EA,9,NA,4,4
+R_qznZkCoLEOW5237,EA,10,neg,3,3
+R_1ONTbHt5TJisuds,RE,1,neg,Strongly Agree,1
+R_1ONTbHt5TJisuds,RA,1,neg,2,4
+R_1ONTbHt5TJisuds,RE,2,NA,Strongly Disagree,1
+R_1ONTbHt5TJisuds,RA,2,neg,2,4
+R_1ONTbHt5TJisuds,RE,3,neg,Strongly Agree,1
+R_1ONTbHt5TJisuds,RE,4,NA,Strongly Disagree,1
+R_1ONTbHt5TJisuds,RE,5,neg,Strongly Agree,1
+R_1ONTbHt5TJisuds,RA,3,neg,Strongly Disagree,5
+R_1ONTbHt5TJisuds,RA,4,neg,Strongly Disagree,5
+R_1ONTbHt5TJisuds,RE,6,NA,Strongly Disagree,1
+R_1ONTbHt5TJisuds,RE,7,neg,Strongly Agree,1
+R_1ONTbHt5TJisuds,RA,5,neg,Strongly Disagree,5
+R_1ONTbHt5TJisuds,RA,6,NA,Strongly Agree,5
+R_1ONTbHt5TJisuds,RA,7,NA,4,4
+R_1ONTbHt5TJisuds,RE,8,NA,4,4
+R_1ONTbHt5TJisuds,RA,8,NA,4,4
+R_1ONTbHt5TJisuds,RA,9,NA,3,3
+R_1ONTbHt5TJisuds,RE,9,neg,Strongly Agree,1
+R_1ONTbHt5TJisuds,RA,10,NA,Strongly Agree,5
+R_1ONTbHt5TJisuds,RE,10,NA,Strongly Disagree,1
+R_1ONTbHt5TJisuds,EE,1,NA,4,4
+R_1ONTbHt5TJisuds,EA,1,neg,Strongly Disagree,5
+R_1ONTbHt5TJisuds,EA,2,NA,Strongly Agree,5
+R_1ONTbHt5TJisuds,EA,3,NA,Strongly Agree,5
+R_1ONTbHt5TJisuds,EE,2,NA,Strongly Agree,5
+R_1ONTbHt5TJisuds,EE,3,NA,4,4
+R_1ONTbHt5TJisuds,EA,4,NA,Strongly Agree,5
+R_1ONTbHt5TJisuds,EA,5,NA,Strongly Agree,5
+R_1ONTbHt5TJisuds,EA,6,neg,Strongly Disagree,5
+R_1ONTbHt5TJisuds,EE,4,neg,Strongly Disagree,5
+R_1ONTbHt5TJisuds,EE,5,NA,Strongly Agree,5
+R_1ONTbHt5TJisuds,EE,6,neg,Strongly Disagree,5
+R_1ONTbHt5TJisuds,EE,7,neg,Strongly Disagree,5
+R_1ONTbHt5TJisuds,EE,8,neg,Strongly Disagree,5
+R_1ONTbHt5TJisuds,EA,7,NA,Strongly Agree,5
+R_1ONTbHt5TJisuds,EE,9,neg,Strongly Disagree,5
+R_1ONTbHt5TJisuds,EA,8,neg,Strongly Disagree,5
+R_1ONTbHt5TJisuds,EE,10,NA,Strongly Agree,5
+R_1ONTbHt5TJisuds,EA,9,NA,Strongly Agree,5
+R_1ONTbHt5TJisuds,EA,10,neg,Strongly Disagree,5
+R_1OE4UYt6m2Rizjh,RE,1,neg,4,2
+R_1OE4UYt6m2Rizjh,RA,1,neg,2,4
+R_1OE4UYt6m2Rizjh,RE,2,NA,4,4
+R_1OE4UYt6m2Rizjh,RA,2,neg,2,4
+R_1OE4UYt6m2Rizjh,RE,3,neg,2,4
+R_1OE4UYt6m2Rizjh,RE,4,NA,4,4
+R_1OE4UYt6m2Rizjh,RE,5,neg,2,4
+R_1OE4UYt6m2Rizjh,RA,3,neg,2,4
+R_1OE4UYt6m2Rizjh,RA,4,neg,2,4
+R_1OE4UYt6m2Rizjh,RE,6,NA,4,4
+R_1OE4UYt6m2Rizjh,RE,7,neg,4,2
+R_1OE4UYt6m2Rizjh,RA,5,neg,2,4
+R_1OE4UYt6m2Rizjh,RA,6,NA,4,4
+R_1OE4UYt6m2Rizjh,RA,7,NA,3,3
+R_1OE4UYt6m2Rizjh,RE,8,NA,3,3
+R_1OE4UYt6m2Rizjh,RA,8,NA,4,4
+R_1OE4UYt6m2Rizjh,RA,9,NA,4,4
+R_1OE4UYt6m2Rizjh,RE,9,neg,3,3
+R_1OE4UYt6m2Rizjh,RA,10,NA,2,2
+R_1OE4UYt6m2Rizjh,RE,10,NA,2,2
+R_1OE4UYt6m2Rizjh,EE,1,NA,4,4
+R_1OE4UYt6m2Rizjh,EA,1,neg,2,4
+R_1OE4UYt6m2Rizjh,EA,2,NA,4,4
+R_1OE4UYt6m2Rizjh,EA,3,NA,4,4
+R_1OE4UYt6m2Rizjh,EE,2,NA,4,4
+R_1OE4UYt6m2Rizjh,EE,3,NA,3,3
+R_1OE4UYt6m2Rizjh,EA,4,NA,4,4
+R_1OE4UYt6m2Rizjh,EA,5,NA,4,4
+R_1OE4UYt6m2Rizjh,EA,6,neg,2,4
+R_1OE4UYt6m2Rizjh,EE,4,neg,2,4
+R_1OE4UYt6m2Rizjh,EE,5,NA,4,4
+R_1OE4UYt6m2Rizjh,EE,6,neg,2,4
+R_1OE4UYt6m2Rizjh,EE,7,neg,2,4
+R_1OE4UYt6m2Rizjh,EE,8,neg,2,4
+R_1OE4UYt6m2Rizjh,EA,7,NA,4,4
+R_1OE4UYt6m2Rizjh,EE,9,neg,2,4
+R_1OE4UYt6m2Rizjh,EA,8,neg,2,4
+R_1OE4UYt6m2Rizjh,EE,10,NA,2,2
+R_1OE4UYt6m2Rizjh,EA,9,NA,4,4
+R_1OE4UYt6m2Rizjh,EA,10,neg,2,4
+R_3382OQGsnwVdry2,RE,1,neg,4,2
+R_3382OQGsnwVdry2,RA,1,neg,4,2
+R_3382OQGsnwVdry2,RE,2,NA,Strongly Disagree,1
+R_3382OQGsnwVdry2,RA,2,neg,2,4
+R_3382OQGsnwVdry2,RE,3,neg,Strongly Agree,1
+R_3382OQGsnwVdry2,RE,4,NA,2,2
+R_3382OQGsnwVdry2,RE,5,neg,4,2
+R_3382OQGsnwVdry2,RA,3,neg,Strongly Disagree,5
+R_3382OQGsnwVdry2,RA,4,neg,2,4
+R_3382OQGsnwVdry2,RE,6,NA,2,2
+R_3382OQGsnwVdry2,RE,7,neg,4,2
+R_3382OQGsnwVdry2,RA,5,neg,4,2
+R_3382OQGsnwVdry2,RA,6,NA,4,4
+R_3382OQGsnwVdry2,RA,7,NA,3,3
+R_3382OQGsnwVdry2,RE,8,NA,Strongly Disagree,1
+R_3382OQGsnwVdry2,RA,8,NA,4,4
+R_3382OQGsnwVdry2,RA,9,NA,4,4
+R_3382OQGsnwVdry2,RE,9,neg,4,2
+R_3382OQGsnwVdry2,RA,10,NA,Strongly Agree,5
+R_3382OQGsnwVdry2,RE,10,NA,3,3
+R_3382OQGsnwVdry2,EE,1,NA,3,3
+R_3382OQGsnwVdry2,EA,1,neg,2,4
+R_3382OQGsnwVdry2,EA,2,NA,4,4
+R_3382OQGsnwVdry2,EA,3,NA,4,4
+R_3382OQGsnwVdry2,EE,2,NA,4,4
+R_3382OQGsnwVdry2,EE,3,NA,4,4
+R_3382OQGsnwVdry2,EA,4,NA,4,4
+R_3382OQGsnwVdry2,EA,5,NA,Strongly Agree,5
+R_3382OQGsnwVdry2,EA,6,neg,2,4
+R_3382OQGsnwVdry2,EE,4,neg,3,3
+R_3382OQGsnwVdry2,EE,5,NA,Strongly Agree,5
+R_3382OQGsnwVdry2,EE,6,neg,2,4
+R_3382OQGsnwVdry2,EE,7,neg,2,4
+R_3382OQGsnwVdry2,EE,8,neg,2,4
+R_3382OQGsnwVdry2,EA,7,NA,3,3
+R_3382OQGsnwVdry2,EE,9,neg,2,4
+R_3382OQGsnwVdry2,EA,8,neg,2,4
+R_3382OQGsnwVdry2,EE,10,NA,2,2
+R_3382OQGsnwVdry2,EA,9,NA,4,4
+R_3382OQGsnwVdry2,EA,10,neg,4,2
+R_2diK6ujlpXeIGGg,RE,1,neg,Strongly Disagree,5
+R_2diK6ujlpXeIGGg,RA,1,neg,Strongly Disagree,5
+R_2diK6ujlpXeIGGg,RE,2,NA,4,4
+R_2diK6ujlpXeIGGg,RA,2,neg,Strongly Disagree,5
+R_2diK6ujlpXeIGGg,RE,3,neg,3,3
+R_2diK6ujlpXeIGGg,RE,4,NA,4,4
+R_2diK6ujlpXeIGGg,RE,5,neg,2,4
+R_2diK6ujlpXeIGGg,RA,3,neg,2,4
+R_2diK6ujlpXeIGGg,RA,4,neg,2,4
+R_2diK6ujlpXeIGGg,RE,6,NA,3,3
+R_2diK6ujlpXeIGGg,RE,7,neg,2,4
+R_2diK6ujlpXeIGGg,RA,5,neg,2,4
+R_2diK6ujlpXeIGGg,RA,6,NA,4,4
+R_2diK6ujlpXeIGGg,RA,7,NA,Strongly Agree,5
+R_2diK6ujlpXeIGGg,RE,8,NA,4,4
+R_2diK6ujlpXeIGGg,RA,8,NA,4,4
+R_2diK6ujlpXeIGGg,RA,9,NA,3,3
+R_2diK6ujlpXeIGGg,RE,9,neg,Strongly Disagree,5
+R_2diK6ujlpXeIGGg,RA,10,NA,4,4
+R_2diK6ujlpXeIGGg,RE,10,NA,4,4
+R_2diK6ujlpXeIGGg,EE,1,NA,3,3
+R_2diK6ujlpXeIGGg,EA,1,neg,2,4
+R_2diK6ujlpXeIGGg,EA,2,NA,3,3
+R_2diK6ujlpXeIGGg,EA,3,NA,4,4
+R_2diK6ujlpXeIGGg,EE,2,NA,4,4
+R_2diK6ujlpXeIGGg,EE,3,NA,3,3
+R_2diK6ujlpXeIGGg,EA,4,NA,4,4
+R_2diK6ujlpXeIGGg,EA,5,NA,4,4
+R_2diK6ujlpXeIGGg,EA,6,neg,4,2
+R_2diK6ujlpXeIGGg,EE,4,neg,3,3
+R_2diK6ujlpXeIGGg,EE,5,NA,Strongly Agree,5
+R_2diK6ujlpXeIGGg,EE,6,neg,4,2
+R_2diK6ujlpXeIGGg,EE,7,neg,3,3
+R_2diK6ujlpXeIGGg,EE,8,neg,2,4
+R_2diK6ujlpXeIGGg,EA,7,NA,3,3
+R_2diK6ujlpXeIGGg,EE,9,neg,4,2
+R_2diK6ujlpXeIGGg,EA,8,neg,Strongly Disagree,5
+R_2diK6ujlpXeIGGg,EE,10,NA,3,3
+R_2diK6ujlpXeIGGg,EA,9,NA,4,4
+R_2diK6ujlpXeIGGg,EA,10,neg,2,4
+R_OxUZEqBHHiUOFot,RE,1,neg,2,4
+R_OxUZEqBHHiUOFot,RA,1,neg,2,4
+R_OxUZEqBHHiUOFot,RE,2,NA,Strongly Agree,5
+R_OxUZEqBHHiUOFot,RA,2,neg,2,4
+R_OxUZEqBHHiUOFot,RE,3,neg,2,4
+R_OxUZEqBHHiUOFot,RE,4,NA,4,4
+R_OxUZEqBHHiUOFot,RE,5,neg,3,3
+R_OxUZEqBHHiUOFot,RA,3,neg,2,4
+R_OxUZEqBHHiUOFot,RA,4,neg,2,4
+R_OxUZEqBHHiUOFot,RE,6,NA,3,3
+R_OxUZEqBHHiUOFot,RE,7,neg,3,3
+R_OxUZEqBHHiUOFot,RA,5,neg,3,3
+R_OxUZEqBHHiUOFot,RA,6,NA,3,3
+R_OxUZEqBHHiUOFot,RA,7,NA,4,4
+R_OxUZEqBHHiUOFot,RE,8,NA,3,3
+R_OxUZEqBHHiUOFot,RA,8,NA,4,4
+R_OxUZEqBHHiUOFot,RA,9,NA,Strongly Agree,5
+R_OxUZEqBHHiUOFot,RE,9,neg,4,2
+R_OxUZEqBHHiUOFot,RA,10,NA,Strongly Agree,5
+R_OxUZEqBHHiUOFot,RE,10,NA,Strongly Agree,5
+R_OxUZEqBHHiUOFot,EE,1,NA,4,4
+R_OxUZEqBHHiUOFot,EA,1,neg,2,4
+R_OxUZEqBHHiUOFot,EA,2,NA,4,4
+R_OxUZEqBHHiUOFot,EA,3,NA,4,4
+R_OxUZEqBHHiUOFot,EE,2,NA,4,4
+R_OxUZEqBHHiUOFot,EE,3,NA,4,4
+R_OxUZEqBHHiUOFot,EA,4,NA,4,4
+R_OxUZEqBHHiUOFot,EA,5,NA,4,4
+R_OxUZEqBHHiUOFot,EA,6,neg,3,3
+R_OxUZEqBHHiUOFot,EE,4,neg,2,4
+R_OxUZEqBHHiUOFot,EE,5,NA,Strongly Agree,5
+R_OxUZEqBHHiUOFot,EE,6,neg,2,4
+R_OxUZEqBHHiUOFot,EE,7,neg,2,4
+R_OxUZEqBHHiUOFot,EE,8,neg,2,4
+R_OxUZEqBHHiUOFot,EA,7,NA,3,3
+R_OxUZEqBHHiUOFot,EE,9,neg,2,4
+R_OxUZEqBHHiUOFot,EA,8,neg,Strongly Disagree,5
+R_OxUZEqBHHiUOFot,EE,10,NA,4,4
+R_OxUZEqBHHiUOFot,EA,9,NA,3,3
+R_OxUZEqBHHiUOFot,EA,10,neg,2,4
