@@ -13,5 +13,77 @@ date: "`r Sys.Date()`"
 plot(cars)
 ```
 
+#ICMA September 11 2024
+```{r}
+
+2+2
+
+```
+
+```{r}
+
+x <- 2+2
+
+```
+
+```{r}
+
+x 
+
+```
+```{r}
+
+?(mean)
+
+```
 
 
+```{r}
+
+help(mean)
+
+```
+
+```{r}
+
+mean(c(2,3,4))
+
+```
+
+```{r}
+
+myVector <- (c(2,3,4))
+
+```
+
+```{r}
+
+mean(my_vector)
+
+```
+doesnt initialize until after it is veab used
+
+```{r}
+
+my_vector <- (c(2,3,4))
+
+```
+
+```{r}
+
+myVector
+
+```
+
+```{r}
+
+?sd
+help(sd)
+
+```
+
+```{r}
+
+sd(1:2) ^2
+
+```
