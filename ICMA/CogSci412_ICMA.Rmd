@@ -5,7 +5,8 @@ author: "Jennifer Curi"
 date: "`r Sys.Date()`"
 
 ---
-#ICMA September 9 2024
+
+# ICMA September 9 2024
 
 ```{r}
 
@@ -13,7 +14,7 @@ date: "`r Sys.Date()`"
 plot(cars)
 ```
 
-#ICMA September 11 2024
+# ICMA September 11 2024
 ```{r}
 
 2+2
@@ -87,3 +88,122 @@ help(sd)
 sd(1:2) ^2
 
 ```
+
+
+
+# ICMA September 16 2024
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+
+stats::filter()
+
+```
+
+```{r}
+head(3, billboard)
+#does not work
+```
+
+```{r}
+
+#pipe -> takes outcome and passes it to the next function 
+
+
+```
+
+```{r}
+#create a vector of num
+
+my_numbers <- c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+```
+
+```{r}
+
+#without pipe
+mean(my_numbers)
+
+
+```
+
+
+```{r}
+my_numbers %>%
+  mean()
+```
+
+
+
+```{r}
+getwd()
+
+#working directory
+```
+
+
+```{r}
+help(mtcars)
+#description of dataset
+```
+
+
+```{r}
+mtcars
+```
+
+
+
+
+
+
+```{r}
+write_csv(mtcars, #object name
+          "mtcars_fromR.csv" #file name to save
+          )
+#writing data set
+#no columns
+```
+
+```{r}
+mtcars %>%
+  rownames_to_column() %>%
+  write_csv("mtcars_fromR_rownames.csv")
+
+#adds columns
+```
+
+
+```{r}
+mtcars_read <- read_csv("mtcars_fromR_rownames.csv")
+
+#read csv
+#assign as a variable
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
