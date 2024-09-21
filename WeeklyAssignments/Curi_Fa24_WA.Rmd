@@ -1,18 +1,18 @@
 ---
 title: "D2SC: Weekly Assignments"
 author: "Jennifer Curi"
-date: "2024-09-03"
+date: "`r Sys.Date()`"
 output: html_notebook
 ---
 
-#Initial Loading
+# Initial Loading
 
 ```{r}
 # loads tidyverse library
 library(tidyverse)
 ```
 
-#Week 1
+# Week 1
 
 I used Google to figure out how to load the tidyverse library. Specifically "How to add a 
 code chunk that loads the tidy verse library".From there, I made sure to to use different credible websites to ensure that I find the correct code. The first website I opened was 
@@ -73,3 +73,58 @@ Maintainer: Hadley Wickham <hadley@rstudio.com>
 Repository: CRAN
 Date/Publication: 2023-02-22 09:20:06 UTC
 Built: R 4.3.0; ; 2023-07-10 04:39:22 UTC; unix
+
+# Assignment 2 
+
+
+ 
+```{r}
+MFIndD_analogy_read <- read_csv("/Users/jencuri/Documents/GitHub/Data2SciComm/WeeklyAssignments/tidy_data/MFIndD_analogy.csv")
+```
+1. The column qualtrics_id contains the unique identifier for each participant.
+
+
+
+
+```{r}
+?(MFIndD_analogy_read)
+```
+
+```{r}
+glimpse(MFIndD_analogy_read)
+```
+2a. There are 792 rows in the dataset. There are 6 columns in the data set. I got this by using the ? function. Then I used the glimpse function to get the information. I verified by opening the csv file on excel to see the number of rows and numbers of columns. 
+
+
+```{r}
+
+MFIndD_analogy_read %>%
+  distinct(qualtrics_id) %>%
+  glimpse() 
+
+```
+
+
+```{r}
+
+MFIndD_analogy_read %>%
+   count(qualtrics_id) 
+    
+#Used to Verify
+```
+
+
+2b. There are 99 people in the dataset. 
+
+
+```{r}
+MFIndD_analogy_read %>%
+  group_by(qualtrics_id) %>%
+  summarise(num_of_trials = length(trial_number))
+  
+```
+2c. Yes, everyone has data from the same number of trials. 
+
+
+
+

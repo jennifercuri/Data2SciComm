@@ -177,7 +177,7 @@ mtcars %>%
 
 
 ```{r}
-mtcars_read <- read_csv("mtcars_fromR_rownames.csv")
+mtcars_read <- read_csv("data/mtcars_fromR_rownames.csv")
 
 #read csv
 #assign as a variable
