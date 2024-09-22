@@ -184,24 +184,168 @@ mtcars_read <- read_csv("data/mtcars_fromR_rownames.csv")
 
 ```
 
+# ICMA September 18 2024
+
+```{r}
+? ChickWeight
+```
+
+```{r}
+glimpse(ChickWeight)
+```
+
+```{r}
+ChickWeight %>%
+  select(Chick,weight) %>% #keep Chick and Weight
+  head(n=3) #view just three rows
+```
+
+```{r}
+ChickWeight %>%
+  select(age_days = Time, weight_gm = weight) %>% #renaming while keeping
+  head(n=3)
+```
+
+```{r}
+ChickWeight %>%
+  select(-weight) %>% #drop a column
+  head(n=3)
+```
+
+```{r}
+#will not change original object
+ChickWeight %>%
+  select(age_days = Time, weight_gm = weight) %>%
+  head() #to restrict preview
+```
+
+```{r}
+#will replace original object
+ChickWeight <- ChickWeight %>%
+  select(age_days = Time, weight_gm = weight)
+```
+
+```{r}
+#will save the modified object in a new object
+ChickWeightModified <- ChickWeight %>%
+  select(age_days = Time, weight_gm = weight)
+```
+
+```{r}
+chick_clean <- ChickWeight %>% #assigning to a new object chick_clean
+  select(chick_id = Chick,
+         diet = Diet,
+         age_days = Time,
+         weight_gm = weight) #renaming %re-ordering while keeping
+```
+
+```{r}
+chick_clean %>%
+  filter(age_days <10) %>%
+  head(n = 6)
+```
 
 
+```{r}
+chick_clean %>%
+  filter(chick_id == 1) %>%
+  head(n = 6)
+```
+
+```{r}
+chick_clean %>%
+  distinct(chick_id) %>%
+  glimpse()
+```
+
+```{r}
+chick_clean %>%
+  arrange(age_days) %>%
+  head() # just for preview
+```
 
 
+```{r}
+chick_clean %>%
+  arrange(chick_id) %>%
+  head() # just for preview
+```
 
 
+```{r}
+chick_clean %>%
+  mutate(new_column = "value") %>%
+  head(n = 3)
+```
+
+```{r}
+chick_clean %>%
+  mutate(weight_per_day = weight_gm/age_days) %>%
+  head(n = 3)
+```
 
 
+```{r}
+chick_clean %>%
+  mutate(session = case_when(age_days == 0 ~ "birth",
+                             age_days == 20 ~ "last1",
+                             age_days == 21 ~ "last2",
+                             TRUE           ~ as.character(age_days)))
+```
 
 
+```{r}
+chick_clean %>%
+  summarise(mean_weight = mean(weight_gm),
+            N = n())
+```
 
 
+```{r}
+chick_clean %>%
+  group_by(age_days) %>% ## grouping variable
+  summarise(mean_weight = mean(weight_gm),
+            N = n()) ## creates a column that summarizes the data based on the grouping variable
 
+```
 
+```{r}
+grouped <- chick_clean %>%
+  group_by(age_days)
+```
+```{r}
+chick_clean %>%
+  glimpse()
+```
 
+```{r}
+grouped %>%
+  glimpse()
+```
 
+```{r}
+chick_clean %>%
+  summarise(mean_weight = mean(weight_gm))
 
+```
 
+```{r}
+grouped %>%
+  summarise(mean_weight = mean(weight_gm))
+```
+
+```{r}
+grouped %>%
+  ungroup() %>%
+  summarise(mean_weight = mean(weight_gm))
+```
+
+```{r}
+ChickWeight %>%
+  distinct(Chick) %>%
+  count() %>%
+  head(n=3)
+```
 
 
 
