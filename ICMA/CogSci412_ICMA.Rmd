@@ -351,3 +351,63 @@ ChickWeight %>%
 
 
 
+
+# ICMA September 23 2024
+
+```{r}
+head(billboard)
+```
+
+```{r}
+billboard %>%
+  pivot_longer(wk1:wk76)
+
+```
+
+```{r}
+billboard_long <- billboard %>%
+  pivot_longer(cols=starts_with("wk"),
+               names_to = "week",
+               values_to = "position")
+
+```
+
+
+```{r}
+head(billboard_long)
+```
+```{r}
+dim(billboard)
+```
+
+```{r}
+billboard_long %>%
+  pivot_wider(names_from = week,
+              values_from = position)
+```
+
+```{r}
+?pivot_longer
+```
+
+
+```{r}
+billboard %>%
+  pivot_longer(cols=starts_with("wk"),
+               names_to = "week",
+               values_to = "position",
+               names_prefix = "wk",
+               values_drop_na = TRUE)
+```
+
+
+```{r}
+billboard %>%
+  separate(col = date.entered,
+          into = c("year", "month", "day"))
+             
+```
+
+
+
+
