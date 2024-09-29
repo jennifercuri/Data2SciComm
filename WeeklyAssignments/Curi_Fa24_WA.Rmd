@@ -121,9 +121,92 @@ MFIndD_analogy_read %>%
 MFIndD_analogy_read %>%
   group_by(qualtrics_id) %>%
   summarise(num_of_trials = length(trial_number))
-  
 ```
 2c. Yes, everyone has data from the same number of trials. 
+
+
+
+
+
+# Assignment 3 
+
+
+```{r}
+MFIndD_analogy_read %>%
+  ungroup()
+```
+
+```{r}
+summary_MFIndD_analogy <- MFIndD_analogy_read %>%
+  group_by(qualtrics_id) %>%
+  summarise(num_rel_matches = sum(response_type == "Rel"))
+ 
+ 
+```
+
+
+```{r}
+(summary_MFIndD_analogy)
+```
+
+
+
+```{r}
+summary_MFIndD_analogy %>%
+  ggplot(aes(x = num_rel_matches)) +
+  geom_histogram() +
+  labs( x = "number of relational matches",
+        y = "number of participants") +
+  theme_minimal(
+    
+  )
+```
+
+2. There is a lot of variation in the number of relational matches chosen by participants, no uniformity. It looks like some participants consistently chose relational matches and others picking object matches more often.
+
+
+
+```{r}
+MFIndD_analogy_wider <- MFIndD_analogy_read %>%
+  pivot_wider(id_cols = qualtrics_id,
+              names_from = trial_number,
+              values_from = response_type,
+              names_sort = TRUE,
+              names_prefix = "trial_")
+  
+```
+
+
+```{r}
+(MFIndD_analogy_wider)
+```
+
+
+```{r}
+
+
+In the beginning, I was struggling with running my code chunk. I then realized that i had to ungroup any groupings I made in the previous assignment in order to start with the orignial data. 
+
+I also tried to use count in this code chunk to try to show the numbers of trials for relational matches. But, it was not valid and I used sum instead. 
+summary_MFIndD_analogy <- MFIndD_analogy_read %>%
+  group_by(qualtrics_id) %>%
+  summarise(num_rel_matches = count(response_type == "Rel"),
+            eval=FALSE)
+
+With the histogram, I tried to add a y column in the aes parameter but it came out as an error, I was then able to use labs to label my axis. 
+summary_MFIndD_analogy %>%
+  ggplot(aes(y = qualtrics_id
+    x = num_rel_matches)) +
+  geom_histogram() +
+  labs( x = "number of relational matches",
+        y = "number of participants") +
+  theme_minimal(
+    
+  ),  eval=FALSE
+
+```
+
+
 
 
 
