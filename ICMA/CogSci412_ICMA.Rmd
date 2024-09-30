@@ -6,6 +6,10 @@ date: "`r Sys.Date()`"
 
 ---
 
+```{r}
+library(tidyverse)
+```
+
 # ICMA September 9 2024
 
 ```{r}
@@ -407,6 +411,66 @@ billboard %>%
           into = c("year", "month", "day"))
              
 ```
+
+
+
+
+
+# ICMA September 25 2024
+
+```{r}
+head(ChickWeight)
+```
+
+
+```{r}
+ChickWeight %>%
+  ggplot() #empty ggplot function
+```
+
+
+```{r}
+ChickWeight %>%
+  ggplot(aes(y = weight,
+             x = Time,
+             color = Diet)) +
+  geom_point(alpha = 0.5) + 
+  geom_smooth(se = FALSE) + 
+  theme_minimal() + 
+  
+  
+  labs(y = "weight in grams",
+       x = "days since birth",
+       title = "Weight Over Time Across Diets")
+```
+```{r}
+ggsave("chick_weightovertime.png",
+     width = 9,
+       height = 8)
+```
+
+```{r}
+ChickWeight %>%
+  ggplot(aes(y = weight,
+             x = Time,
+             color = Diet)) +
+  geom_boxplot(alpha = 0.5) + #make these a little transparent
+ # geom_smooth(se = FALSE) + #removing the error bands
+  theme_minimal() + # using a pre-made theme to change the appearance, which we can further modify!
+  
+  facet_grid(~Diet) + # faceting by diet group
+  
+  labs(y = "weight in grams",
+       x = "days since birth",
+       title = "Weight Over Time Across Diets")
+```
+
+
+
+
+
+
+
 
 
 
