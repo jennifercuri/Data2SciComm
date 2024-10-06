@@ -20,27 +20,26 @@ read_csv("CogSci412_DE1_data.csv")
 ```{r}
 de1 <- read_csv("CogSci412_DE1_data.csv") %>%
   filter(Progress == 100 & Status == "IP Address") %>%
+  mutate(condition = case_when(is.na(FL_39_DO) == FALSE ~ FL_39_DO, # first case
+                               is.na(FL_43_DO) == FALSE ~ FL_43_DO)) %>% # second case
   select(ResponseId,
          condition,
-        familiarity = Q10,
-         pencil_control = `Pencil Control`, 
+         familiarity = Q10, # new_name = old_name
+         pencil_control = `Pencil Control`,
          pencil_control_conf = `Conf. Pencil Control`,
          mag_stnd = `Magazine Standard`,
          mag_stnd_conf = `Conf. Mag. Stand.`,
-         mag_control = `Magazine_Control`,
+         mag_control = Magazine_Control,
          mag_control_conf = `Conf. Mag. Control`,
          pencil_stnd = Pencil_Standard,
          pencil_stnd_conf = `Conf. Pencil Stand.`) %>%
-    filter(ResponseId != "R_5R9cvvcJ5vFulLe") %>%
   
-    mutate(condition = case_when(is.na(FL_39_DO) == FALSE ~ FL_39_DO, 
-                                 is.na(FL_43_DO) == FALSE ~ FL_43_DO))
-  
+  filter(ResponseId != "R_5R9cvvcJ5vFulLe")
 
 ```
 
 ```{r}
-
+de1
 ```
 
 This in in WIDE form.
@@ -50,16 +49,71 @@ Goal is to get into long form
 
 
 ```{r}
-de1 %>%
-  pivot_longer(pencil_control:pencil,
-               names_to = ,
-               values_to = )
+de1_long <- de1 %>%
+  pivot_longer(pencil_control:pencil_stnd_conf, 
+               names_to = "old_column", 
+               values_to = "value") 
 ```
 
 
 ```{r}
-de1_long %>%
+de1_long_clean <- de1_long %>%
   filter(is.na(value) == FALSE) %>%
+
+  separate(into = c("content", "type", "DV"),
+           col = old_column) %>%
   
+  mutate(DV = case_when(is.na(DV) == TRUE ~ "resp",
+                        DV == "conf" ~ "conf"))
 ```
+
+```{r}
+de1_long_clean %>%
+  filter(DV == "resp") %>%
+  distinct(value)
+
+```
+
+```{r}
+de1_analysis <- de1_long_clean %>%
+  mutate(value = parse_number(value)) %>%
+  mutate(value = case_when(value < 1 ~ value*100, 
+                           value >= 1 ~ value)) %>% 
+  
+  mutate(correct_answer = case_when(content == "pencil" & type == "stnd" ~ 5,
+                                   content == "pencil" & type == "control" ~ 10,
+                                   content == "mag" & type == "stnd" ~ 45,
+                                   content == "mag" & type == "control" ~ 90),
+         
+        
+         accuracy = case_when(DV == "conf" ~ NA,
+                              value == correct_answer ~ TRUE,
+                              value != correct_answer ~ FALSE)
+         )
+```
+
+
+```{r}
+de1_analysis %>%
+  filter(DV == "resp") %>%
+  group_by(type, accuracy) %>%
+  summarise(n_responses = n()) %>%
+  ggplot(aes(x = type, y = n_responses, fill = accuracy)) +
+  geom_bar(stat = "identity")
+```
+
+```{r}
+de1_analysis %>%
+  filter(DV == "resp" 
+         & type == "stnd" 
+         & accuracy == FALSE) %>% 
+  ggplot(aes(x = as.factor(value))) + 
+  geom_bar() +
+  facet_grid(~content)
+```
+
+
+
+
+
 
