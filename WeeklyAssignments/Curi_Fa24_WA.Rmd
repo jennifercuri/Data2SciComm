@@ -211,3 +211,45 @@ summary_MFIndD_analogy %>%
 
 
 
+
+# Assignment 4 
+
+```{r}
+MFIndD_REI_read <- read_csv("/Users/jencuri/Documents/GitHub/Data2SciComm/WeeklyAssignments/tidy_data/MFIndD_REI.csv")
+```
+```{r}
+head(MFIndD_REI_read)
+```
+1. The column type of "response" is a character type and the column type for "scored_response" is a numeric (dbl). They are different because chr is assigned when a column contains mixed data types. For example, some values are numeric and some are strings. This classifies as chr. On the other hand, "scored_response" is classified as dbl bc the values are numeric values. 
+
+
+```{r}
+MFIndD_REI_read <- MFIndD_REI_read %>%
+  mutate(response_double = case_when(
+    response == "Strongly Disagree" ~ 1,
+    response == "Disagree" ~ 2,
+    response == "Neutral" ~ 3,
+    response == "Agree" ~ 4,
+    response == "Strongly Agree" ~ 5,
+    TRUE ~ as.double(response)
+    
+  )) 
+```
+
+```{r}
+MFIndD_REI_read <- MFIndD_REI_read %>%
+  mutate(new_scored_response = case_when(
+    rev_scoring == "neg" ~ 6 - as.numeric(scored_response),
+    TRUE ~ as.numeric(scored_response)
+))
+```
+
+```{r}
+head(MFIndD_REI_read)
+```
+
+```{r}
+MFIndD_REI_read %>%
+  filter(new_scored_response != scored_response)
+```
+
