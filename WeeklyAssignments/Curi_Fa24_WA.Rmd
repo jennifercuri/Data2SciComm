@@ -227,9 +227,6 @@ head(MFIndD_REI_read)
 MFIndD_REI_read <- MFIndD_REI_read %>%
   mutate(response_double = case_when(
     response == "Strongly Disagree" ~ 1,
-    response == "Disagree" ~ 2,
-    response == "Neutral" ~ 3,
-    response == "Agree" ~ 4,
     response == "Strongly Agree" ~ 5,
     TRUE ~ as.double(response)
     
@@ -239,8 +236,8 @@ MFIndD_REI_read <- MFIndD_REI_read %>%
 ```{r}
 MFIndD_REI_read <- MFIndD_REI_read %>%
   mutate(new_scored_response = case_when(
-    rev_scoring == "neg" ~ 6 - as.numeric(scored_response),
-    TRUE ~ as.numeric(scored_response)
+    rev_scoring == "neg" ~ 6 - as.numeric(response_double),
+    TRUE ~ as.numeric(response_double)
 ))
 ```
 
@@ -252,4 +249,78 @@ head(MFIndD_REI_read)
 MFIndD_REI_read %>%
   filter(new_scored_response != scored_response)
 ```
+
+
+# Assignment 5
+
+```{r}
+sum_MFIndD_REI_read <- MFIndD_REI_read %>%
+  group_by(qualtrics_id, sub_type) %>% 
+  summarize(score = sum(new_scored_response, na.rm = TRUE))
+
+```
+```{r}
+head(sum_MFIndD_REI_read)
+```
+
+
+```{r}
+is.na(sum_MFIndD_REI_read)
+
+```
+
+```{r}
+combined_data <- full_join(sum_MFIndD_REI_read, summary_MFIndD_analogy, by = "qualtrics_id")
+```
+
+
+
+```{r}
+ggplot(combined_data, aes(x = score, y = num_rel_matches, color = sub_type)) +
+  geom_point(alpha = 0.7) + 
+  geom_smooth(method = "lm", se = FALSE, color = "black") +  
+  labs(
+    title = "The Relation between REI Score and Analogy Score color coded by Subtype",
+    x = "REI Score",
+    y = "Analogy Score"
+  ) +
+  theme_minimal() +  
+  theme(
+    plot.title = element_text(hjust = 0.5)  # Center align the title
+  )
+```
+
+Observations:
+1. The subtypes are evenly distributed across both axes. No concentration of some sort. 
+2. The trend line increases very slightly. It looks like as the REI Score increases, so does the analogy score but very slighly. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
