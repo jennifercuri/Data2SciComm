@@ -475,3 +475,135 @@ ChickWeight %>%
 
 
 
+
+# ICMA October 7 2024
+```{r}
+as.numeric("eighteen")
+```
+
+```{r}
+((1 + 2) < -1000) | (TRUE & NA)
+```
+
+```{r}
+((1 + 2) < -1000) | (TRUE | NA)
+```
+
+```{r}
+(2 + 3 + 9 - 4 == 2 + 6 + as.integer("2.9")) & TRUE | NA
+```
+
+
+```{r}
+(TRUE && TRUE | FALSE) & (TRUE && FALSE && NA)
+```
+
+
+
+# ICMA October 9 2024
+
+```{r}
+my_number <- 12
+```
+
+```{r}
+age_data <- tribble(
+                    ~ id, ~ age,
+                    1, 8,
+                    2, 10,
+                    3, 8,
+                    5, 9
+            )
+
+gender_data <- tribble(
+                    ~ id, ~ gender,
+                    1, "f",
+                    2, "m",
+                    3, "nb",
+                    4, "m",
+                    6, "f"
+            )
+
+
+gender_data_BADID <- tribble(
+                    ~ id_x, ~ gender,
+                    1, "f",
+                    2, "m",
+                    3, "nb",
+                    4, "m",
+                    6, "f"
+            )
+```
+
+
+```{r}
+age_data
+```
+
+```{r}
+gender_data
+
+```
+
+
+```{r}
+full_join(age_data, gender_data)
+
+```
+
+```{r}
+full_join(gender_data_BADID, age_data, by = join_by(id_x == id))
+
+```
+
+```{r}
+full_join(age_data, gender_data_BADID, by = join_by(id == id_x))
+
+```
+
+```{r}
+right_join(age_data, gender_data)
+
+```
+
+
+```{r}
+left_join(age_data, gender_data)
+
+```
+
+```{r}
+inner_join(age_data, gender_data)
+
+```
+
+
+```{r}
+bind_cols(gender_data, age_data)
+
+```
+
+```{r}
+bind_cols(age_data_4, gender_data_4)
+
+```
+
+
+```{r}
+bind_rows(age_data_4, gender_data_4)
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
