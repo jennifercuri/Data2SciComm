@@ -351,7 +351,7 @@ for (i in seq_along(distinct_condition_values)) {
 print (mean_reaction_times)
 ```
 
-When I ran this I got "[1] 889.8202 879.6184 892.2855 847.5153      NaN      NaN      NaN      NaN". When I first, initialized my mean_reaction_loop, I had c() so I can store the values in here. But I realized I had to set it equal to the length of the vector of the distinct columns so there are no other values. In addition, i added the numeric().
+When I ran this I got "[1] 889.8202 879.6184 892.2855 847.5153      NaN      NaN      NaN      NaN". When I first initialized mean_reaction_time, I had c() so I can store the values in here. But I realized I had to set it equal to the length of the vector of the distinct columns so there are no other values. I also added the numeric().
 
 ```{r}
 accuracy_table_mean_across <- MFIndD_probtask_read %>%
