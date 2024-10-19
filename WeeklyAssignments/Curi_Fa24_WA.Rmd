@@ -253,6 +253,16 @@ MFIndD_REI_read %>%
 
 # Assignment 5
 
+
+```{r}
+sum_MFIndD_REI_read <- MFIndD_REI_read %>%
+  group_by(qualtrics_id, sub_type) %>% 
+  summarize(score = sum(new_scored_response))
+
+```
+Null Values
+
+
 ```{r}
 sum_MFIndD_REI_read <- MFIndD_REI_read %>%
   group_by(qualtrics_id, sub_type) %>% 
@@ -276,7 +286,7 @@ combined_data <- full_join(sum_MFIndD_REI_read, summary_MFIndD_analogy, by = "qu
 
 
 ```{r}
-ggplot(combined_data, aes(x = score, y = num_rel_matches, color = sub_type)) +
+ggplot(combined_data, aes(x = score, y = num_rel_matches, color = sub_type, lines = sub_type)) +
   geom_point(alpha = 0.7) + 
   geom_smooth(method = "lm", se = FALSE, color = "black") +  
   labs(
@@ -292,35 +302,78 @@ ggplot(combined_data, aes(x = score, y = num_rel_matches, color = sub_type)) +
 
 Observations:
 1. The subtypes are evenly distributed across both axes. No concentration of some sort. 
-2. The trend line increases very slightly. It looks like as the REI Score increases, so does the analogy score but very slighly. 
+2. The trend lines meet seem to cross paths near the 40 mark.
 
 
 
 
+# Assignment 6 
+
+```{r}
+MFIndD_probtask_read <-read.csv("/Users/jencuri/Documents/GitHub/Data2SciComm/WeeklyAssignments/tidy_data/MFIndD_probtask.csv")
+```
+
+```{r}
+head(MFIndD_probtask_read)
+```
+
+```{r}
+MFIndD_probtask_read %>%
+  distinct(condition) %>%
+  glimpse()
+```
+There are 4 distinct values in the "condition" column.
+
+```{r}
+distinct_condition_values <- c("dots_EqSizeSep","dots_EqSizeRand","blob_shifted","blob_stacked")
+print(distinct_condition_values)
+```
+
+Pseudocode/Plan/Logic:
+1. Vector with distinction condition values: Distinct_condition_values
+2. Initialize an empty vector for mean reaction time. This is so that when the loop iterates, it stores the value in this vector. **Learned that I need to set it to the length of distinct_condition_values to avoid any other values 
+3. Loop
+  a. iterate over each index of distinct_condition_value 
+  b. store the mean reaction time for the current condition at i. This makes sure that the mean is in the write place in the new vector. 
+  c. select and filter the rows where the condition from the intial table matches with distinct_condition_value 
+  d. now that the conditions matched, we can now look at corresponding rt
+  e. Take the mean from the rt
+  e. store in the vector mean_reaction_times
+
+```{r}
+mean_reaction_times <- numeric(length(distinct_condition_values))
+```
+
+```{r}
+for (i in seq_along(distinct_condition_values)) {
+  mean_reaction_times[i] <- mean(MFIndD_probtask_read$rt[MFIndD_probtask_read$condition == distinct_condition_values[i]])
+}
+print (mean_reaction_times)
+```
+
+When I ran this I got "[1] 889.8202 879.6184 892.2855 847.5153      NaN      NaN      NaN      NaN". When I first, initialized my mean_reaction_loop, I had c() so I can store the values in here. But I realized I had to set it equal to the length of the vector of the distinct columns so there are no other values. In addition, i added the numeric().
+
+```{r}
+accuracy_table_mean_across <- MFIndD_probtask_read %>%
+  group_by(condition) %>%
+  summarize(
+    across(c(rt, correct), mean, na.rm = TRUE)
+  )
+
+print(accuracy_table_mean_across)
+```
 
 
+```{r}
+accuracy_table_mean <- MFIndD_probtask_read %>%
+  group_by(condition) %>%
+  summarize(
+    mean_rt = mean(rt, na.rm = TRUE),
+    accuracy = mean(correct, na.rm = TRUE)
+  )
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print(accuracy_table_mean)
+```
 
 
