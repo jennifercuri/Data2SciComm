@@ -607,3 +607,116 @@ bind_rows(age_data_4, gender_data_4)
 
 
 
+
+# ICMA October 16 2024
+
+```{r}
+mean(c(1, 2, 3))
+```
+
+
+```{r}
+(1 + 2 + 3)/3
+```
+
+```{r}
+vec <- c(1, 2, 3)
+```
+
+```{r}
+(vec[1] + vec[2] + vec[3])/length(vec)
+```
+
+```{r}
+fave_number <- tribble(~name, ~number,
+                       "MC", 8,
+                       "AP", 9,
+                       "NG", 12,
+                       "VE", 6,
+                       "AL", 17,
+                       "AR", 3,
+                       "MC", 7,
+                       "RK", 8,
+                       "AC", 4,
+                       "SC", 21,
+                       "KK", 16,
+                       "RK", 28,
+                       "VK", 17,
+                       "MH", 12)
+```
+
+```{r}
+for (i in fave_number) {
+  print(i)
+}
+```
+
+```{r}
+class(fave_number)
+```
+
+```{r}
+for (i in fave_number["number"]) {
+  print(i)
+}
+```
+
+
+```{r}
+for (i in fave_number$number) {
+  print(i)
+}
+```
+```{r}
+length(fave_number$number)
+
+```
+
+```{r}
+length(fave_number["number"])
+
+```
+
+Why is the output different? How are fave_number[“number”] and fave_number$number different?
+```{r}
+typeof(fave_number["number"])
+
+```
+
+```{r}
+typeof(fave_number$number)
+```
+
+```{r}
+for (i in fave_number[["number"]]) {
+  print(i)
+}
+```
+
+```{r}
+str_c("takes vectors", "and puts them", "together", sep = " ")
+
+```
+
+```{r}
+for (i in seq_along(fave_number$name)) {
+  
+  print(str_c(fave_number$name[i], "'s favorite number is ", fave_number$number[i]))
+  
+}
+```
+```{r}
+mtcars
+
+```
+
+
+
+
+
+
+
+
+
+
+
