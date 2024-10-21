@@ -1,0 +1,118 @@
+---
+title: "Data Exercise 2: Mice jumping (Parker)"
+author: Jennifer Curi
+date: "`r Sys.Date()`"
+output: html_notebook
+---
+
+# libraries
+
+```{r}
+library(tidyverse)
+```
+
+
+#data
+```{r}
+
+files <- list.files(path = "jumping_data_parker/", 
+                         pattern = "*.csv",
+                         full.names = TRUE
+                         )
+
+```
+
+```{r}
+convert_columns <- function(file){
+  
+   file <- file %>%
+  mutate(sex = case_when(sex == FALSE ~ "F",
+                         sex == "M" ~ "M",
+                         date == as.character(date)))
+
+  
+}
+  
+```
+
+```{r}
+raw_data <- map(files, read_csv) %>%
+  map(convert_columns) %>%
+  bind_rows()
+```
+
+#explore data
+
+```{r}
+summary_data <- raw_data %>%
+  group_by(subject, distance) %>%
+  summarise(succ_rate = sum(outcome == 1)/n())
+```
+
+```{r}
+summary_data %>%
+  ggplot(aes(x = succ_rate)) +
+  geom_histogram()
+```
+
+
+
+# inspect data
+
+```{r}
+raw_data %>%
+  distinct(laster_trial)
+```
+
+# pivot the data
+```{r}
+summary_data %>%
+  ggplot(aes(x = distance, 
+             y = succ_rate,
+             group = subject)) +
+  geom_line() +
+  ylim(0, 1)
+  
+```
+
+```{r}
+raw_data %>%
+  group_by(subject, distance) %>%
+  #filter(outcome == 1 | outcome == 0)
+  #filter(outcome !=2)
+  filter(outcome %in% c(0, 1)) %>%
+  summarise(succ_rate_NOabort ==(n())
+```
+
+
+
+
+
+
+
+
+
+
+
+```{r}
+raw_data[[1]]
+raw_data[[2]]
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
