@@ -440,7 +440,7 @@ ggplot(prob_data_summarized, aes(x = condition, y = prop_corr)) +
 ```
 
 
-To make the groaph less misleading I included the jitter plot so that the distribution of answers is visible.   
+To make the graph less misleading I included the jitter plot so that the distribution of answers is visible.   
 
 
 3. 
