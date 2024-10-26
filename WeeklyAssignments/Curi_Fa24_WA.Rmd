@@ -5,11 +5,18 @@ date: "`r Sys.Date()`"
 output: html_notebook
 ---
 
-# Initial Loading
+# Initial Loadings (tidyverse and ggist)
 
 ```{r}
 # loads tidyverse library
 library(tidyverse)
+```
+
+
+```{r}
+# loads the ggdist library
+library(ggdist)
+
 ```
 
 # Week 1
@@ -376,4 +383,99 @@ accuracy_table_mean <- MFIndD_probtask_read %>%
 print(accuracy_table_mean)
 ```
 
+
+
+# Assignment 7
+
+```{r}
+prob_data <- read_csv("/Users/jencuri/Documents/GitHub/Data2SciComm/WeeklyAssignments/tidy_data/MFIndD_probtask.csv")
+```
+
+
+```{r}
+prob_data %>%
+group_by(condition) %>%
+summarise(across(c(rt, correct), mean)) %>%
+pivot_longer(c(rt, correct)) %>%
+ggplot(aes(y = value, x = condition)) +
+geom_point(color = "red") +
+facet_wrap(~name, scales = "free")
+```
+
+1a. Interpretations:
+
+Scores: there seems to be slight variation in the people's scores across the different conditions. It looks like blob_shifted and dots_EqSizeSep show lower accuracy and dots_EqSizeRand and blob_stacked have higher accuracy
+
+
+rt: it (almost) follows the same shape/patters as the "correct" table but flipped. (blob_shifted and dots_EqSizeSep) have slightly higher reaction times and (dots_EqSizeRand and blob_stacked) have lower reaction times. 
+
+overall, it looks like there is a correlation between the two tables. the plots suggests that different conditions can influence score and rt. Participants under certain conditions(blob_stacked) performed slightly better and took the least amount of time then others. In addition the participants that took the had the highest rt had the lowest accuracy scores. 
+
+
+1b. The first thing I noticed was the correlation between peoples score and rt. They (almost) follow the same pattern/shape, but rt is flipped. I also noticed that in the "score" plot, the mean is depicted as one point per condition, which makes me want to believe that those under certain conditions had the same (or close) accuracy score. For example, the score for those under blob_shifted is 0.62. This might make someone believe that those participants achieved (or was very close to) a score of 0.62.
+
+
+1c. The "correct" plots only shows the average scores for each condition, but it doesn’t show how much the scores varied (like with error bars or confidence intervals). This makes it harder to tell if participants performed similarly or if their results were very different within the same condition.
+
+
+2. 
+```{r}
+prob_data_summarized <- MFIndD_probtask_read %>%
+  group_by(SubID, condition) %>%
+  summarise(prop_corr = sum(correct == 1)/n()) 
+
+  
+```
+
+```{r}
+prob_data_summarized
+```
+
+```{r}
+ggplot(prob_data_summarized, aes(x = condition, y = prop_corr)) +
+  #stat_summary(fun.data = "mean_se", geom = "errorbar", width = 0.2, color = "red") +
+  stat_summary(fun.y = mean, geom = "point", color = "red") +
+  geom_jitter(alpha = 0.3, width = 0.1, height = 0)
+
+```
+
+
+To make the groaph less misleading I included the jitter plot so that the distribution of answers is visible.   
+
+
+3. 
+
+```{r}
+#Inatalling ggdist library
+install.packages("ggdist")
+```
+
+
+```{r}
+ggplot(prob_data_summarized, aes(x = condition, y = prop_corr)) +
+  stat_halfeye(                     #shows density and intervals so that we can speak see the spread of the data.   
+    aes(fill = condition),         
+    .width = 0.8,                    # makes data more clear
+    justification = -0.15,           # aligns the halfeye with the jitter points
+    interval_size = 1.2             # makes interval more clear
+  ) +
+  geom_jitter(                      # color coded so that its easier to visualize
+    aes(color = condition), 
+    size = 2, 
+    width = 0.05,  
+    alpha = 0.7    
+  ) +
+  stat_summary(                     # plot the mean point
+    fun.y = mean, 
+    geom = "point", 
+    color = "red", 
+    size = 4, 
+    shape = 21,    
+    fill = "white"                  # helps the point stand out more in contrast with the other graph
+  )  +
+  
+  theme_minimal()                   # my go to theme. makes everything prettier
+
+
+```
 
