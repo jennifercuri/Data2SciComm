@@ -1,0 +1,680 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={D2SC ICMA Notebook},
+  pdfauthor={Jennifer Curi},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{D2SC ICMA Notebook}
+\author{Jennifer Curi}
+\date{2024-10-30}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{knitr}\SpecialCharTok{::}\NormalTok{opts\_chunk}\SpecialCharTok{$}\FunctionTok{set}\NormalTok{(}\AttributeTok{echo=}\ConstantTok{FALSE}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Warning: package 'ggplot2' was built under R version 4.3.1
+\end{verbatim}
+
+\begin{verbatim}
+## Warning: package 'tidyr' was built under R version 4.3.1
+\end{verbatim}
+
+\begin{verbatim}
+## Warning: package 'readr' was built under R version 4.3.1
+\end{verbatim}
+
+\begin{verbatim}
+## Warning: package 'dplyr' was built under R version 4.3.1
+\end{verbatim}
+
+\begin{verbatim}
+## Warning: package 'stringr' was built under R version 4.3.1
+\end{verbatim}
+
+\begin{verbatim}
+## Warning: package 'lubridate' was built under R version 4.3.1
+\end{verbatim}
+
+\section{ICMA September 9 2024}\label{icma-september-9-2024}
+
+\includegraphics{CogSci412_ICMA_files/figure-latex/unnamed-chunk-2-1.pdf}
+
+\section{ICMA September 11 2024}\label{icma-september-11-2024}
+
+\begin{verbatim}
+## [1] 4
+\end{verbatim}
+
+\begin{verbatim}
+## [1] 4
+\end{verbatim}
+
+\begin{verbatim}
+## [1] 3
+\end{verbatim}
+
+doesnt initialize until after it is veab used
+
+\begin{verbatim}
+## [1] 2 3 4
+\end{verbatim}
+
+\begin{verbatim}
+## [1] 0.5
+\end{verbatim}
+
+\section{ICMA September 16 2024}\label{icma-september-16-2024}
+
+\begin{verbatim}
+## [1] 5.5
+\end{verbatim}
+
+\begin{verbatim}
+## [1] 5.5
+\end{verbatim}
+
+\begin{verbatim}
+## [1] "/Users/jencuri/Documents/GitHub/Data2SciComm/ICMA"
+\end{verbatim}
+
+\begin{verbatim}
+##                      mpg cyl  disp  hp drat    wt  qsec vs am gear carb
+## Mazda RX4           21.0   6 160.0 110 3.90 2.620 16.46  0  1    4    4
+## Mazda RX4 Wag       21.0   6 160.0 110 3.90 2.875 17.02  0  1    4    4
+## Datsun 710          22.8   4 108.0  93 3.85 2.320 18.61  1  1    4    1
+## Hornet 4 Drive      21.4   6 258.0 110 3.08 3.215 19.44  1  0    3    1
+## Hornet Sportabout   18.7   8 360.0 175 3.15 3.440 17.02  0  0    3    2
+## Valiant             18.1   6 225.0 105 2.76 3.460 20.22  1  0    3    1
+## Duster 360          14.3   8 360.0 245 3.21 3.570 15.84  0  0    3    4
+## Merc 240D           24.4   4 146.7  62 3.69 3.190 20.00  1  0    4    2
+## Merc 230            22.8   4 140.8  95 3.92 3.150 22.90  1  0    4    2
+## Merc 280            19.2   6 167.6 123 3.92 3.440 18.30  1  0    4    4
+## Merc 280C           17.8   6 167.6 123 3.92 3.440 18.90  1  0    4    4
+## Merc 450SE          16.4   8 275.8 180 3.07 4.070 17.40  0  0    3    3
+## Merc 450SL          17.3   8 275.8 180 3.07 3.730 17.60  0  0    3    3
+## Merc 450SLC         15.2   8 275.8 180 3.07 3.780 18.00  0  0    3    3
+## Cadillac Fleetwood  10.4   8 472.0 205 2.93 5.250 17.98  0  0    3    4
+## Lincoln Continental 10.4   8 460.0 215 3.00 5.424 17.82  0  0    3    4
+## Chrysler Imperial   14.7   8 440.0 230 3.23 5.345 17.42  0  0    3    4
+## Fiat 128            32.4   4  78.7  66 4.08 2.200 19.47  1  1    4    1
+## Honda Civic         30.4   4  75.7  52 4.93 1.615 18.52  1  1    4    2
+## Toyota Corolla      33.9   4  71.1  65 4.22 1.835 19.90  1  1    4    1
+## Toyota Corona       21.5   4 120.1  97 3.70 2.465 20.01  1  0    3    1
+## Dodge Challenger    15.5   8 318.0 150 2.76 3.520 16.87  0  0    3    2
+## AMC Javelin         15.2   8 304.0 150 3.15 3.435 17.30  0  0    3    2
+## Camaro Z28          13.3   8 350.0 245 3.73 3.840 15.41  0  0    3    4
+## Pontiac Firebird    19.2   8 400.0 175 3.08 3.845 17.05  0  0    3    2
+## Fiat X1-9           27.3   4  79.0  66 4.08 1.935 18.90  1  1    4    1
+## Porsche 914-2       26.0   4 120.3  91 4.43 2.140 16.70  0  1    5    2
+## Lotus Europa        30.4   4  95.1 113 3.77 1.513 16.90  1  1    5    2
+## Ford Pantera L      15.8   8 351.0 264 4.22 3.170 14.50  0  1    5    4
+## Ferrari Dino        19.7   6 145.0 175 3.62 2.770 15.50  0  1    5    6
+## Maserati Bora       15.0   8 301.0 335 3.54 3.570 14.60  0  1    5    8
+## Volvo 142E          21.4   4 121.0 109 4.11 2.780 18.60  1  1    4    2
+\end{verbatim}
+
+\begin{verbatim}
+## Rows: 32 Columns: 12
+## -- Column specification --------------------------------------------------------
+## Delimiter: ","
+## chr  (1): rowname
+## dbl (11): mpg, cyl, disp, hp, drat, wt, qsec, vs, am, gear, carb
+## 
+## i Use `spec()` to retrieve the full column specification for this data.
+## i Specify the column types or set `show_col_types = FALSE` to quiet this message.
+\end{verbatim}
+
+\section{ICMA September 18 2024}\label{icma-september-18-2024}
+
+\begin{verbatim}
+## Rows: 578
+## Columns: 4
+## $ weight <dbl> 42, 51, 59, 64, 76, 93, 106, 125, 149, 171, 199, 205, 40, 49, 5~
+## $ Time   <dbl> 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 21, 0, 2, 4, 6, 8, 10, 1~
+## $ Chick  <ord> 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, ~
+## $ Diet   <fct> 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ~
+\end{verbatim}
+
+\begin{verbatim}
+##   Chick weight
+## 1     1     42
+## 2     1     51
+## 3     1     59
+\end{verbatim}
+
+\begin{verbatim}
+##   age_days weight_gm
+## 1        0        42
+## 2        2        51
+## 3        4        59
+\end{verbatim}
+
+\begin{verbatim}
+##   Time Chick Diet
+## 1    0     1    1
+## 2    2     1    1
+## 3    4     1    1
+\end{verbatim}
+
+\begin{verbatim}
+##   age_days weight_gm
+## 1        0        42
+## 2        2        51
+## 3        4        59
+## 4        6        64
+## 5        8        76
+## 6       10        93
+\end{verbatim}
+
+\section{ICMA September 23 2024}\label{icma-september-23-2024}
+
+\begin{verbatim}
+## # A tibble: 6 x 79
+##   artist      track date.entered   wk1   wk2   wk3   wk4   wk5   wk6   wk7   wk8
+##   <chr>       <chr> <date>       <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl>
+## 1 2 Pac       Baby~ 2000-02-26      87    82    72    77    87    94    99    NA
+## 2 2Ge+her     The ~ 2000-09-02      91    87    92    NA    NA    NA    NA    NA
+## 3 3 Doors Do~ Kryp~ 2000-04-08      81    70    68    67    66    57    54    53
+## 4 3 Doors Do~ Loser 2000-10-21      76    76    72    69    67    65    55    59
+## 5 504 Boyz    Wobb~ 2000-04-15      57    34    25    17    17    31    36    49
+## 6 98^0        Give~ 2000-08-19      51    39    34    26    26    19     2     2
+## # i 68 more variables: wk9 <dbl>, wk10 <dbl>, wk11 <dbl>, wk12 <dbl>,
+## #   wk13 <dbl>, wk14 <dbl>, wk15 <dbl>, wk16 <dbl>, wk17 <dbl>, wk18 <dbl>,
+## #   wk19 <dbl>, wk20 <dbl>, wk21 <dbl>, wk22 <dbl>, wk23 <dbl>, wk24 <dbl>,
+## #   wk25 <dbl>, wk26 <dbl>, wk27 <dbl>, wk28 <dbl>, wk29 <dbl>, wk30 <dbl>,
+## #   wk31 <dbl>, wk32 <dbl>, wk33 <dbl>, wk34 <dbl>, wk35 <dbl>, wk36 <dbl>,
+## #   wk37 <dbl>, wk38 <dbl>, wk39 <dbl>, wk40 <dbl>, wk41 <dbl>, wk42 <dbl>,
+## #   wk43 <dbl>, wk44 <dbl>, wk45 <dbl>, wk46 <dbl>, wk47 <dbl>, wk48 <dbl>, ...
+\end{verbatim}
+
+\begin{verbatim}
+## # A tibble: 24,092 x 5
+##    artist track                   date.entered name  value
+##    <chr>  <chr>                   <date>       <chr> <dbl>
+##  1 2 Pac  Baby Don't Cry (Keep... 2000-02-26   wk1      87
+##  2 2 Pac  Baby Don't Cry (Keep... 2000-02-26   wk2      82
+##  3 2 Pac  Baby Don't Cry (Keep... 2000-02-26   wk3      72
+##  4 2 Pac  Baby Don't Cry (Keep... 2000-02-26   wk4      77
+##  5 2 Pac  Baby Don't Cry (Keep... 2000-02-26   wk5      87
+##  6 2 Pac  Baby Don't Cry (Keep... 2000-02-26   wk6      94
+##  7 2 Pac  Baby Don't Cry (Keep... 2000-02-26   wk7      99
+##  8 2 Pac  Baby Don't Cry (Keep... 2000-02-26   wk8      NA
+##  9 2 Pac  Baby Don't Cry (Keep... 2000-02-26   wk9      NA
+## 10 2 Pac  Baby Don't Cry (Keep... 2000-02-26   wk10     NA
+## # i 24,082 more rows
+\end{verbatim}
+
+\begin{verbatim}
+## # A tibble: 6 x 5
+##   artist track                   date.entered week  position
+##   <chr>  <chr>                   <date>       <chr>    <dbl>
+## 1 2 Pac  Baby Don't Cry (Keep... 2000-02-26   wk1         87
+## 2 2 Pac  Baby Don't Cry (Keep... 2000-02-26   wk2         82
+## 3 2 Pac  Baby Don't Cry (Keep... 2000-02-26   wk3         72
+## 4 2 Pac  Baby Don't Cry (Keep... 2000-02-26   wk4         77
+## 5 2 Pac  Baby Don't Cry (Keep... 2000-02-26   wk5         87
+## 6 2 Pac  Baby Don't Cry (Keep... 2000-02-26   wk6         94
+\end{verbatim}
+
+\begin{verbatim}
+## [1] 317  79
+\end{verbatim}
+
+\begin{verbatim}
+## # A tibble: 317 x 79
+##    artist     track date.entered   wk1   wk2   wk3   wk4   wk5   wk6   wk7   wk8
+##    <chr>      <chr> <date>       <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl>
+##  1 2 Pac      Baby~ 2000-02-26      87    82    72    77    87    94    99    NA
+##  2 2Ge+her    The ~ 2000-09-02      91    87    92    NA    NA    NA    NA    NA
+##  3 3 Doors D~ Kryp~ 2000-04-08      81    70    68    67    66    57    54    53
+##  4 3 Doors D~ Loser 2000-10-21      76    76    72    69    67    65    55    59
+##  5 504 Boyz   Wobb~ 2000-04-15      57    34    25    17    17    31    36    49
+##  6 98^0       Give~ 2000-08-19      51    39    34    26    26    19     2     2
+##  7 A*Teens    Danc~ 2000-07-08      97    97    96    95   100    NA    NA    NA
+##  8 Aaliyah    I Do~ 2000-01-29      84    62    51    41    38    35    35    38
+##  9 Aaliyah    Try ~ 2000-03-18      59    53    38    28    21    18    16    14
+## 10 Adams, Yo~ Open~ 2000-08-26      76    76    74    69    68    67    61    58
+## # i 307 more rows
+## # i 68 more variables: wk9 <dbl>, wk10 <dbl>, wk11 <dbl>, wk12 <dbl>,
+## #   wk13 <dbl>, wk14 <dbl>, wk15 <dbl>, wk16 <dbl>, wk17 <dbl>, wk18 <dbl>,
+## #   wk19 <dbl>, wk20 <dbl>, wk21 <dbl>, wk22 <dbl>, wk23 <dbl>, wk24 <dbl>,
+## #   wk25 <dbl>, wk26 <dbl>, wk27 <dbl>, wk28 <dbl>, wk29 <dbl>, wk30 <dbl>,
+## #   wk31 <dbl>, wk32 <dbl>, wk33 <dbl>, wk34 <dbl>, wk35 <dbl>, wk36 <dbl>,
+## #   wk37 <dbl>, wk38 <dbl>, wk39 <dbl>, wk40 <dbl>, wk41 <dbl>, wk42 <dbl>, ...
+\end{verbatim}
+
+\begin{verbatim}
+## # A tibble: 5,307 x 5
+##    artist  track                   date.entered week  position
+##    <chr>   <chr>                   <date>       <chr>    <dbl>
+##  1 2 Pac   Baby Don't Cry (Keep... 2000-02-26   1           87
+##  2 2 Pac   Baby Don't Cry (Keep... 2000-02-26   2           82
+##  3 2 Pac   Baby Don't Cry (Keep... 2000-02-26   3           72
+##  4 2 Pac   Baby Don't Cry (Keep... 2000-02-26   4           77
+##  5 2 Pac   Baby Don't Cry (Keep... 2000-02-26   5           87
+##  6 2 Pac   Baby Don't Cry (Keep... 2000-02-26   6           94
+##  7 2 Pac   Baby Don't Cry (Keep... 2000-02-26   7           99
+##  8 2Ge+her The Hardest Part Of ... 2000-09-02   1           91
+##  9 2Ge+her The Hardest Part Of ... 2000-09-02   2           87
+## 10 2Ge+her The Hardest Part Of ... 2000-09-02   3           92
+## # i 5,297 more rows
+\end{verbatim}
+
+\begin{verbatim}
+## # A tibble: 317 x 81
+##    artist      track year  month day     wk1   wk2   wk3   wk4   wk5   wk6   wk7
+##    <chr>       <chr> <chr> <chr> <chr> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl>
+##  1 2 Pac       Baby~ 2000  02    26       87    82    72    77    87    94    99
+##  2 2Ge+her     The ~ 2000  09    02       91    87    92    NA    NA    NA    NA
+##  3 3 Doors Do~ Kryp~ 2000  04    08       81    70    68    67    66    57    54
+##  4 3 Doors Do~ Loser 2000  10    21       76    76    72    69    67    65    55
+##  5 504 Boyz    Wobb~ 2000  04    15       57    34    25    17    17    31    36
+##  6 98^0        Give~ 2000  08    19       51    39    34    26    26    19     2
+##  7 A*Teens     Danc~ 2000  07    08       97    97    96    95   100    NA    NA
+##  8 Aaliyah     I Do~ 2000  01    29       84    62    51    41    38    35    35
+##  9 Aaliyah     Try ~ 2000  03    18       59    53    38    28    21    18    16
+## 10 Adams, Yol~ Open~ 2000  08    26       76    76    74    69    68    67    61
+## # i 307 more rows
+## # i 69 more variables: wk8 <dbl>, wk9 <dbl>, wk10 <dbl>, wk11 <dbl>,
+## #   wk12 <dbl>, wk13 <dbl>, wk14 <dbl>, wk15 <dbl>, wk16 <dbl>, wk17 <dbl>,
+## #   wk18 <dbl>, wk19 <dbl>, wk20 <dbl>, wk21 <dbl>, wk22 <dbl>, wk23 <dbl>,
+## #   wk24 <dbl>, wk25 <dbl>, wk26 <dbl>, wk27 <dbl>, wk28 <dbl>, wk29 <dbl>,
+## #   wk30 <dbl>, wk31 <dbl>, wk32 <dbl>, wk33 <dbl>, wk34 <dbl>, wk35 <dbl>,
+## #   wk36 <dbl>, wk37 <dbl>, wk38 <dbl>, wk39 <dbl>, wk40 <dbl>, wk41 <dbl>, ...
+\end{verbatim}
+
+\section{ICMA September 25 2024}\label{icma-september-25-2024}
+
+\begin{verbatim}
+##   age_days weight_gm
+## 1        0        42
+## 2        2        51
+## 3        4        59
+## 4        6        64
+## 5        8        76
+## 6       10        93
+\end{verbatim}
+
+\includegraphics{CogSci412_ICMA_files/figure-latex/unnamed-chunk-63-1.pdf}
+
+\section{ICMA October 7 2024}\label{icma-october-7-2024}
+
+\begin{verbatim}
+## Warning: NAs introduced by coercion
+\end{verbatim}
+
+\begin{verbatim}
+## [1] NA
+\end{verbatim}
+
+\begin{verbatim}
+## [1] NA
+\end{verbatim}
+
+\begin{verbatim}
+## [1] TRUE
+\end{verbatim}
+
+\begin{verbatim}
+## [1] TRUE
+\end{verbatim}
+
+\begin{verbatim}
+## [1] FALSE
+\end{verbatim}
+
+\section{ICMA October 9 2024}\label{icma-october-9-2024}
+
+\begin{verbatim}
+## # A tibble: 4 x 2
+##      id   age
+##   <dbl> <dbl>
+## 1     1     8
+## 2     2    10
+## 3     3     8
+## 4     5     9
+\end{verbatim}
+
+\begin{verbatim}
+## # A tibble: 5 x 2
+##      id gender
+##   <dbl> <chr> 
+## 1     1 f     
+## 2     2 m     
+## 3     3 nb    
+## 4     4 m     
+## 5     6 f
+\end{verbatim}
+
+\begin{verbatim}
+## Joining with `by = join_by(id)`
+\end{verbatim}
+
+\begin{verbatim}
+## # A tibble: 6 x 3
+##      id   age gender
+##   <dbl> <dbl> <chr> 
+## 1     1     8 f     
+## 2     2    10 m     
+## 3     3     8 nb    
+## 4     5     9 <NA>  
+## 5     4    NA m     
+## 6     6    NA f
+\end{verbatim}
+
+\begin{verbatim}
+## # A tibble: 6 x 3
+##    id_x gender   age
+##   <dbl> <chr>  <dbl>
+## 1     1 f          8
+## 2     2 m         10
+## 3     3 nb         8
+## 4     4 m         NA
+## 5     6 f         NA
+## 6     5 <NA>       9
+\end{verbatim}
+
+\begin{verbatim}
+## # A tibble: 6 x 3
+##      id   age gender
+##   <dbl> <dbl> <chr> 
+## 1     1     8 f     
+## 2     2    10 m     
+## 3     3     8 nb    
+## 4     5     9 <NA>  
+## 5     4    NA m     
+## 6     6    NA f
+\end{verbatim}
+
+\begin{verbatim}
+## Joining with `by = join_by(id)`
+\end{verbatim}
+
+\begin{verbatim}
+## # A tibble: 5 x 3
+##      id   age gender
+##   <dbl> <dbl> <chr> 
+## 1     1     8 f     
+## 2     2    10 m     
+## 3     3     8 nb    
+## 4     4    NA m     
+## 5     6    NA f
+\end{verbatim}
+
+\begin{verbatim}
+## Joining with `by = join_by(id)`
+\end{verbatim}
+
+\begin{verbatim}
+## # A tibble: 4 x 3
+##      id   age gender
+##   <dbl> <dbl> <chr> 
+## 1     1     8 f     
+## 2     2    10 m     
+## 3     3     8 nb    
+## 4     5     9 <NA>
+\end{verbatim}
+
+\begin{verbatim}
+## Joining with `by = join_by(id)`
+\end{verbatim}
+
+\begin{verbatim}
+## # A tibble: 3 x 3
+##      id   age gender
+##   <dbl> <dbl> <chr> 
+## 1     1     8 f     
+## 2     2    10 m     
+## 3     3     8 nb
+\end{verbatim}
+
+\section{ICMA October 16 2024}\label{icma-october-16-2024}
+
+\begin{verbatim}
+## [1] 2
+\end{verbatim}
+
+\begin{verbatim}
+## [1] 2
+\end{verbatim}
+
+\begin{verbatim}
+## [1] 2
+\end{verbatim}
+
+\begin{verbatim}
+##  [1] "MC" "AP" "NG" "VE" "AL" "AR" "MC" "RK" "AC" "SC" "KK" "RK" "VK" "MH"
+##  [1]  8  9 12  6 17  3  7  8  4 21 16 28 17 12
+\end{verbatim}
+
+\begin{verbatim}
+## [1] "tbl_df"     "tbl"        "data.frame"
+\end{verbatim}
+
+\begin{verbatim}
+##  [1]  8  9 12  6 17  3  7  8  4 21 16 28 17 12
+\end{verbatim}
+
+\begin{verbatim}
+## [1] 8
+## [1] 9
+## [1] 12
+## [1] 6
+## [1] 17
+## [1] 3
+## [1] 7
+## [1] 8
+## [1] 4
+## [1] 21
+## [1] 16
+## [1] 28
+## [1] 17
+## [1] 12
+\end{verbatim}
+
+\begin{verbatim}
+## [1] 14
+\end{verbatim}
+
+\begin{verbatim}
+## [1] 1
+\end{verbatim}
+
+Why is the output different? How are fave\_number{[}``number''{]} and
+fave\_number\$number different?
+
+\begin{verbatim}
+## [1] "list"
+\end{verbatim}
+
+\begin{verbatim}
+## [1] "double"
+\end{verbatim}
+
+\begin{verbatim}
+## [1] 8
+## [1] 9
+## [1] 12
+## [1] 6
+## [1] 17
+## [1] 3
+## [1] 7
+## [1] 8
+## [1] 4
+## [1] 21
+## [1] 16
+## [1] 28
+## [1] 17
+## [1] 12
+\end{verbatim}
+
+\begin{verbatim}
+## [1] "takes vectors and puts them together"
+\end{verbatim}
+
+\begin{verbatim}
+## [1] "MC's favorite number is 8"
+## [1] "AP's favorite number is 9"
+## [1] "NG's favorite number is 12"
+## [1] "VE's favorite number is 6"
+## [1] "AL's favorite number is 17"
+## [1] "AR's favorite number is 3"
+## [1] "MC's favorite number is 7"
+## [1] "RK's favorite number is 8"
+## [1] "AC's favorite number is 4"
+## [1] "SC's favorite number is 21"
+## [1] "KK's favorite number is 16"
+## [1] "RK's favorite number is 28"
+## [1] "VK's favorite number is 17"
+## [1] "MH's favorite number is 12"
+\end{verbatim}
+
+\begin{verbatim}
+##                      mpg cyl  disp  hp drat    wt  qsec vs am gear carb
+## Mazda RX4           21.0   6 160.0 110 3.90 2.620 16.46  0  1    4    4
+## Mazda RX4 Wag       21.0   6 160.0 110 3.90 2.875 17.02  0  1    4    4
+## Datsun 710          22.8   4 108.0  93 3.85 2.320 18.61  1  1    4    1
+## Hornet 4 Drive      21.4   6 258.0 110 3.08 3.215 19.44  1  0    3    1
+## Hornet Sportabout   18.7   8 360.0 175 3.15 3.440 17.02  0  0    3    2
+## Valiant             18.1   6 225.0 105 2.76 3.460 20.22  1  0    3    1
+## Duster 360          14.3   8 360.0 245 3.21 3.570 15.84  0  0    3    4
+## Merc 240D           24.4   4 146.7  62 3.69 3.190 20.00  1  0    4    2
+## Merc 230            22.8   4 140.8  95 3.92 3.150 22.90  1  0    4    2
+## Merc 280            19.2   6 167.6 123 3.92 3.440 18.30  1  0    4    4
+## Merc 280C           17.8   6 167.6 123 3.92 3.440 18.90  1  0    4    4
+## Merc 450SE          16.4   8 275.8 180 3.07 4.070 17.40  0  0    3    3
+## Merc 450SL          17.3   8 275.8 180 3.07 3.730 17.60  0  0    3    3
+## Merc 450SLC         15.2   8 275.8 180 3.07 3.780 18.00  0  0    3    3
+## Cadillac Fleetwood  10.4   8 472.0 205 2.93 5.250 17.98  0  0    3    4
+## Lincoln Continental 10.4   8 460.0 215 3.00 5.424 17.82  0  0    3    4
+## Chrysler Imperial   14.7   8 440.0 230 3.23 5.345 17.42  0  0    3    4
+## Fiat 128            32.4   4  78.7  66 4.08 2.200 19.47  1  1    4    1
+## Honda Civic         30.4   4  75.7  52 4.93 1.615 18.52  1  1    4    2
+## Toyota Corolla      33.9   4  71.1  65 4.22 1.835 19.90  1  1    4    1
+## Toyota Corona       21.5   4 120.1  97 3.70 2.465 20.01  1  0    3    1
+## Dodge Challenger    15.5   8 318.0 150 2.76 3.520 16.87  0  0    3    2
+## AMC Javelin         15.2   8 304.0 150 3.15 3.435 17.30  0  0    3    2
+## Camaro Z28          13.3   8 350.0 245 3.73 3.840 15.41  0  0    3    4
+## Pontiac Firebird    19.2   8 400.0 175 3.08 3.845 17.05  0  0    3    2
+## Fiat X1-9           27.3   4  79.0  66 4.08 1.935 18.90  1  1    4    1
+## Porsche 914-2       26.0   4 120.3  91 4.43 2.140 16.70  0  1    5    2
+## Lotus Europa        30.4   4  95.1 113 3.77 1.513 16.90  1  1    5    2
+## Ford Pantera L      15.8   8 351.0 264 4.22 3.170 14.50  0  1    5    4
+## Ferrari Dino        19.7   6 145.0 175 3.62 2.770 15.50  0  1    5    6
+## Maserati Bora       15.0   8 301.0 335 3.54 3.570 14.60  0  1    5    8
+## Volvo 142E          21.4   4 121.0 109 4.11 2.780 18.60  1  1    4    2
+\end{verbatim}
+
+\end{document}

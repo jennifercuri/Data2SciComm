@@ -1,12 +1,27 @@
 ---
 title: "D2SC ICMA Notebook"
-output: html_notebook
 author: "Jennifer Curi"
 date: "`r Sys.Date()`"
-
+output:
+  word_document:
+    
+    toc: yes
+  pdf_document:
+    toc: yes
+  html_document:
+    df_print: paged
+    toc: yes
+    toc_depth: 2
+    toc_float: 
+      collapsed: false
 ---
 
 ```{r}
+knitr::opts_chunk$set(echo=FALSE)
+```
+
+
+```{r load-libraries, echo=FALSE, message=FALSE}
 library(tidyverse)
 ```
 
@@ -61,10 +76,8 @@ myVector <- (c(2,3,4))
 
 ```
 
-```{r}
-
+```{r eval=FALSE}
 mean(my_vector)
-
 ```
 doesnt initialize until after it is veab used
 
@@ -101,13 +114,13 @@ sd(1:2) ^2
 library(tidyverse)
 ```
 
-```{r}
+```{r eval=FALSE}
 
 stats::filter()
 
 ```
 
-```{r}
+```{r eval=FALSE}
 head(3, billboard)
 #does not work
 ```
@@ -229,13 +242,13 @@ ChickWeight <- ChickWeight %>%
   select(age_days = Time, weight_gm = weight)
 ```
 
-```{r}
+```{r eval=FALSE}
 #will save the modified object in a new object
 ChickWeightModified <- ChickWeight %>%
   select(age_days = Time, weight_gm = weight)
 ```
 
-```{r}
+```{r eval=FALSE}
 chick_clean <- ChickWeight %>% #assigning to a new object chick_clean
   select(chick_id = Chick,
          diet = Diet,
@@ -243,53 +256,57 @@ chick_clean <- ChickWeight %>% #assigning to a new object chick_clean
          weight_gm = weight) #renaming %re-ordering while keeping
 ```
 
-```{r}
+```{r eval=FALSE}
 chick_clean %>%
   filter(age_days <10) %>%
   head(n = 6)
 ```
 
 
-```{r}
+```{r eval=FALSE}
 chick_clean %>%
   filter(chick_id == 1) %>%
   head(n = 6)
 ```
 
-```{r}
-chick_clean %>%
-  distinct(chick_id) %>%
-  glimpse()
-```
 
-```{r}
+
+
+
+
+
+
+
+
+
+```{r eval=FALSE}
 chick_clean %>%
   arrange(age_days) %>%
   head() # just for preview
 ```
 
 
-```{r}
+```{r eval=FALSE}
 chick_clean %>%
   arrange(chick_id) %>%
   head() # just for preview
 ```
 
 
-```{r}
+```{r eval=FALSE} 
 chick_clean %>%
   mutate(new_column = "value") %>%
   head(n = 3)
 ```
 
-```{r}
+```{r eval=FALSE}
 chick_clean %>%
   mutate(weight_per_day = weight_gm/age_days) %>%
   head(n = 3)
 ```
 
 
-```{r}
+```{r eval=FALSE}
 chick_clean %>%
   mutate(session = case_when(age_days == 0 ~ "birth",
                              age_days == 20 ~ "last1",
@@ -298,14 +315,14 @@ chick_clean %>%
 ```
 
 
-```{r}
+```{r eval=FALSE}
 chick_clean %>%
   summarise(mean_weight = mean(weight_gm),
             N = n())
 ```
 
 
-```{r}
+```{r eval=FALSE}
 chick_clean %>%
   group_by(age_days) %>% ## grouping variable
   summarise(mean_weight = mean(weight_gm),
@@ -313,47 +330,43 @@ chick_clean %>%
 
 ```
 
-```{r}
+```{r eval = FALSE}
 grouped <- chick_clean %>%
   group_by(age_days)
 ```
-```{r}
+```{r eval=FALSE}
 chick_clean %>%
   glimpse()
 ```
 
-```{r}
+```{r eval =FALSE}
 grouped %>%
   glimpse()
 ```
 
-```{r}
+```{r eval =FALSE}
 chick_clean %>%
   summarise(mean_weight = mean(weight_gm))
 
 ```
 
-```{r}
+```{r eval =FALSE}
 grouped %>%
   summarise(mean_weight = mean(weight_gm))
 ```
 
-```{r}
+```{r eval=FALSE}
 grouped %>%
   ungroup() %>%
   summarise(mean_weight = mean(weight_gm))
 ```
 
-```{r}
+```{r eval=FALSE}
 ChickWeight %>%
   distinct(Chick) %>%
   count() %>%
   head(n=3)
 ```
-
-
-
-
 
 
 # ICMA September 23 2024
@@ -429,7 +442,7 @@ ChickWeight %>%
 ```
 
 
-```{r}
+```{r eval=FALSE}
 ChickWeight %>%
   ggplot(aes(y = weight,
              x = Time,
@@ -449,7 +462,7 @@ ggsave("chick_weightovertime.png",
        height = 8)
 ```
 
-```{r}
+```{r eval=FALSE}
 ChickWeight %>%
   ggplot(aes(y = weight,
              x = Time,
@@ -578,18 +591,18 @@ inner_join(age_data, gender_data)
 ```
 
 
-```{r}
+```{r eval=FALSE}
 bind_cols(gender_data, age_data)
 
 ```
 
-```{r}
+```{r eval=FALSE}
 bind_cols(age_data_4, gender_data_4)
 
 ```
 
 
-```{r}
+```{r eval=FALSE}
 bind_rows(age_data_4, gender_data_4)
 
 ```
@@ -719,4 +732,27 @@ mtcars
 
 
 
+
+
+# ICMA October 30 2024
+
+write a sentence that has **bold** and *italics*
+
+Part 2: creatw a variable then write a sentance that uses that variable, bold and italics. 
+
+```{r}
+name <- "Jen"
+```
+
+My name is `r name` and I *like* **Chick-fil-a**
+
+```{r}
+ChickWeight <- ChickWeight
+```
+
+```{r chick-plot, fig.cap= "Weight across age days"}
+ChickWeight %>%
+  ggplot(aes(y= age_days, x= weight_gm)) +
+  geom_line()
+```
 
