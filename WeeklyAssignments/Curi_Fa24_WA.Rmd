@@ -8,7 +8,11 @@ output:
     df_print: paged
     toc_float: 
       collapsed: yes
-
+  html_notebook:
+    toc: true
+    df_print: paged
+    toc_float: 
+      collapsed: yes
 ---
 
 
