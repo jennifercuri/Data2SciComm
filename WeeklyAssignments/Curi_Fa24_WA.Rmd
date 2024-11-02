@@ -1,19 +1,25 @@
 ---
-title: "D2SC: Weekly Assignments"
+title: 'D2SC: Weekly Assignments'
 author: "Jennifer Curi"
 date: "`r Sys.Date()`"
-output: html_notebook
+output:
+  html_document:
+    toc: true
+    df_print: paged
+    toc_float: 
+      collapsed: yes
+
 ---
 
-# Initial Loadings (tidyverse and ggist)
 
-```{r}
+
+```{r echo=FALSE, message=FALSE}
 # loads tidyverse library
 library(tidyverse)
 ```
 
 
-```{r}
+```{r echo=FALSE, message=FALSE}
 # loads the ggdist library
 library(ggdist)
 
@@ -189,7 +195,7 @@ MFIndD_analogy_wider <- MFIndD_analogy_read %>%
 ```
 
 
-```{r}
+```{r eval=FALSE}
 
 
 In the beginning, I was struggling with running my code chunk. I then realized that i had to ungroup any groupings I made in the previous assignment in order to start with the orignial data. 
@@ -445,10 +451,14 @@ To make the graph less misleading I included the jitter plot so that the distrib
 
 3. 
 
-```{r}
-#Inatalling ggdist library
+```{r eval=FALSE}
 install.packages("ggdist")
 ```
+
+
+
+
+
 
 
 ```{r}
@@ -478,4 +488,54 @@ ggplot(prob_data_summarized, aes(x = condition, y = prop_corr)) +
 
 
 ```
+
+
+
+# Assignment 8 
+
+```{r}
+prob_data_summary <- prob_data %>%
+  group_by(SubID, condition) %>%
+  summarise(
+    rt = mean(rt, na.rm = TRUE),
+    correct = mean(correct, na.rm = TRUE)
+  ) %>%
+  mutate(
+    rt = round(rt,0),
+    correct = round(correct, 3)
+  )
+
+```
+
+```{r}
+head(prob_data_summary)
+```
+
+
+```{r}
+
+ggplot(prob_data_summary, aes(x = rt, y = correct, color = condition)) +
+  geom_point() +
+  labs(title = "The Relation between time and accuracy (Color Coded)",
+       x = "Average Reaction Time",
+       y = "Proportion Correct") +
+  theme_minimal()
+
+```
+
+
+
+```{r}
+ggplot(prob_data_summary, aes(x = rt, y = correct, color = condition)) +
+  geom_point() +
+  facet_wrap(~ condition) +
+  labs(title = "The Relation between time and accuracy (Faceted)",
+       x = "Average Reaction Time",
+       y = "Proportion Correct") +
+  theme_minimal()
+```
+
+
+**Observation**: The plot suggests that conditions with *higher* reaction times tend to show *lower* accuracy, which might mean that **taking more time could impact how accurate the responses are**.
+
 
