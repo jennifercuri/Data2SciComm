@@ -1,0 +1,55 @@
+---
+title: "Chick Weight Example"
+author: "Jennifer Curi"
+date: "`r Sys.Date()`"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r}
+library(tidyverse)
+```
+
+## Summary
+ Three slide presentation about Chick Weight
+ 
+## Slide 1
+ 
+ How does diet impact chick growh
+ 
+ 
+## Slide 2
+
+Also sometimes called a "fork
+
+- Descriptove: On day 21, chicks in which diet group had the highest weight?
+- As a research question: After 21 days, do the different diets lead to different weight
+## Slide 3
+ 
+ 
+```{r}
+ChickWeight %>%
+  filter(age_data == 2) %>%
+  ggplot(aes(y = weight, x = Diet)) + 
+  stat_summary("geom_bar",
+               fun.y = mean) +
+  stat_summary(geom = "errorbar",
+               fun.data = mean_se,
+               width = 0.2
+               
+               )
+```
+
+
+```{r}
+ChickWeight %>%
+  filter(Time == 21) %>%
+  ggplot(aes(y = weight, x = Diet)) +
+  stat_halfeye() +
+  labs(y = "Weight in Grams") +
+  theme_minimal()
+```
+
