@@ -1,0 +1,91 @@
+---
+title: "Curi_WA9"
+author: "Jennifer Curi"
+date: "`r Sys.Date()`"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+library(ggdist)
+MFIndD_probtask_read <- read_csv("/Users/jencuri/Documents/GitHub/Data2SciComm/WeeklyAssignments/tidy_data/MFIndD_probtask.csv")
+```
+
+
+```{r dataprep}
+
+prob_data_mod <- MFIndD_probtask_read %>%
+
+#a-b.
+separate(left_stim, into = c("left_numerator", "left_other"), sep = "_") %>%
+separate(right_stim, into = c("right_numerator", "right_other"), sep = "_") %>%
+  
+mutate(
+    left_numerator = as.numeric(left_numerator),
+    left_other = as.numeric(left_other),
+    right_numerator = as.numeric(right_numerator),
+    right_other = as.numeric(right_other)
+  ) %>%
+  
+# c. 
+  mutate(
+    left_proportion_value = left_numerator / (left_numerator + left_other),
+    right_proportion_value = right_numerator / (right_numerator + right_other)
+  ) %>%
+  
+  
+# d. 
+  mutate(
+    larger_numerator = if_else(left_numerator > right_numerator, "left", "right")
+  ) %>%
+  
+# e. 
+  mutate(
+    larger_proportion = if_else(left_proportion_value > right_proportion_value, "left", "right")
+  ) %>%
+  
+# f. 
+  mutate(
+    num_congruent = larger_numerator == larger_proportion
+  )
+
+
+```
+
+## Slide 1
+
+How do people think proportionally with different kinds of stimuli?
+
+## Slide 2
+How does the congruency between stimuli affect people's proportional judgements?
+
+## Slide 3
+
+```{r warning = FALSE, message=FALSE, echo=FALSE}
+
+summary_prob_data_mod <- prob_data_mod %>%
+  group_by(SubID, condition, num_congruent) %>%
+  summarize(
+    proportion_correct = mean(correct, na.rm = TRUE)
+  )
+
+ggplot(summary_prob_data_mod, aes(x = condition, y = proportion_correct, color = num_congruent)) +
+  stat_halfeye(alpha = 0.7, justification = -0.1) +
+  labs(
+    title = "Proportion Correct by Condition and Numerator Congruency",
+    x = "Condition",
+    y = "Proportion Correct",
+    color = "Numerator Congruency"
+  ) +
+  scale_color_manual(values = c("TRUE" = "blue", "FALSE" = "red"), 
+                     labels = c("Congruent", "Incongruent")) +
+  theme_minimal()
+
+```
+
+
+
+
+
+
