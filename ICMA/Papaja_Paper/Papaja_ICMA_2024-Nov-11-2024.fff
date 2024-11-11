@@ -1,0 +1,14 @@
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{Papaja_ICMA_2024-Nov-11-2024_files/figure-latex/chick-plot-1.pdf}
+\caption{\label{fig:chick-plot}then write the caption}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{Papaja_ICMA_2024-Nov-11-2024_files/figure-latex/red-plot-1.pdf}
+\caption{\label{fig:red-plot}This is my red plot}
+\end{figure*}
