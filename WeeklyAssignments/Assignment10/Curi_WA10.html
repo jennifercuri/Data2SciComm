@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+<title>Curi_WA10.knit</title>
+
+
+
+
+
+
+
+<!--
+Font-awesome icons ie github or twitter
+-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/brands.css" integrity="sha384-n9+6/aSqa9lBidZMRCQHTHKJscPq6NW4pCQBiMmHdUCvPN8ZOg2zJJTkC7WIezWv" crossorigin="anonymous">
+
+<!--
+Google fonts api stuff
+-->
+<link href='https://fonts.googleapis.com/css?family=Special Elite' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Rasa' rel='stylesheet'>
+
+<!--
+Here are the required style attributes for css to make this poster work :)
+-->
+<style>
+@page {
+size: 36in 48in;
+margin: 0;
+padding: 0;
+}
+body {
+margin: 0px;
+padding: 0px;
+width: 36in;
+height: 48in;
+text-align: justify;
+font-size: 45px;
+line-height: 1.05;
+}
+/* RMarkdown Class Styles */
+/* center align leaflet map,
+from https://stackoverflow.com/questions/52112119/center-leaflet-in-a-rmarkdown-document */
+.html-widget {
+margin: auto;
+position: sticky;
+margin-top: 2cm;
+margin-bottom: 2cm;
+}
+.leaflet.html-widget.html-widget-static-bound.leaflet-container.leaflet-touch.leaflet-fade-anim.leaflet-grab.leaflet-touch-drag.leaflet-touch-zoom {
+position: sticky;
+width: 100%;
+}
+pre.sourceCode.r {
+background-color: #dddddd40;
+border-radius: 4mm;
+padding: 4mm;
+width: 75%;
+margin: auto;
+margin-top: 1em;
+margin-bottom: 1em;
+/* align-items: center; */
+}
+code.sourceCode.r{
+background-color: transparent;
+font-size: 20pt;
+border-radius: 2mm;
+}
+code {
+font-size: 25pt;
+font-family: monospace;
+background-color: #00808024;
+color: #0b4545;
+padding: 1.2mm;
+line-height: 1;
+border-radius: 2mm;
+}
+caption {
+margin-bottom: 10px;
+font-size: 20pt;
+font-style: italic;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #00808020;
+}
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td{
+  border-spacing: 0;
+  font-size: 40%;
+  border-style: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 1em;
+  padding-left: 1em;
+  line-height: 1em;
+}
+table {
+  margin: auto;
+}
+th {
+  padding-left: 5mm;
+  padding-right: 5mm;
+}
+.caption {
+font-size: 20pt;
+font-style: italic;
+padding-top: 0;
+}
+.references {
+font-size: 20px;
+line-height: 90%;
+}
+/* Create three unequal columns that floats next to each other */
+.column {
+float: left;
+padding: 0px;
+}
+.outer {
+width: 36in;
+height: calc(48in *  (1 - 0.1 - 0 - 0.01) );
+-webkit-column-count: 3; /* Chrome, Safari, Opera */
+-moz-column-count: 3; /* Firefox */
+column-count: 3;
+-webkit-column-fill: auto;
+-moz-column-fill: auto;
+column-fill: auto;
+column-gap: 0;
+padding-left: 0cm;
+padding-right: 0cm;
+/* -webkit-column-rule-width: 50%;
+-moz-column-rule-width: 50%;
+column-rule-width: 50%; */
+-webkit-column-rule-style: none;
+-moz-column-rule-style: none;
+column-rule-style: none;
+-webkit-column-rule-color: black;
+-moz-column-rule-color: black;
+column-rule-color: black;
+background-color: #ffffff;
+font-family: Rasa;
+margin-top: calc(48in *  0.1 );
+padding-top: 1em;
+padding-bottom: 1em;
+}
+span.citation {
+  color: #008080;
+  font-weight: bold;
+}
+a {
+text-decoration: none;
+color: #008080;
+}
+#title {
+font-size: 125pt;
+text-align: left;
+margin: 0;
+line-height: 98%;
+border-bottom: 0;
+font-weight: normal;
+background: 0;
+}
+#author {
+color: #0b4545;
+margin: 0;
+line-height: 85%;
+font-size: 1.17em;
+}
+#affiliation {
+padding-top: 0.1em;
+color: ;
+font-style: italic;
+font-size: 25px;
+margin: 0;
+}
+sup {
+color: #cc0000;
+}
+.affiliation sup {
+font-size: 20px;
+}
+.author {
+text-align: left;
+}
+.author sup {
+font-size: 30px;
+}
+.author_extra {
+color: #008080;
+margin: 0;
+line-height: 85%;
+font-size: 35px;
+text-align: left;
+}
+.outer h1, h2, h3, h4, h5, h6 {
+text-align: center;
+margin: 0;
+font-weight: bold;
+}
+.section h1 {
+  text-align:center;
+  padding-bottom:5px;
+  background:
+    linear-gradient(
+      to left,
+      #ffffff 1%,
+      #ffffff 20%,
+      #0b454575 33%,
+      #0b4545 50%,
+      #0b454575 66%,
+      #ffffff 80%,
+      #ffffff 99%
+    )
+    left
+    bottom
+    #ffffff
+    no-repeat;
+  background-size:100% 5px ;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.outer h2 {
+text-align: center;
+}
+.outer p, .level2 {
+color: #000000;
+}
+.outer ol {
+padding-left: 8%;
+padding-right: 8%;
+text-align: left;
+}
+.main {
+width: 36in;
+height: calc(48in * 0.1);
+position: absolute;
+background-color: #0b4545;
+color: #ffffff90;
+font-family: Special Elite;
+background-image: linear-gradient(#0b4545 50%,#008080);
+}
+.main strong {
+color: #ffffff;
+}
+.main strong > sup {
+color: #ffffff;
+}
+.main sup {
+color: #ffffff90;
+}
+#main-img-left {
+width: 10%;
+left: 0.5in;
+bottom: 0.2in;
+position: absolute;
+}
+#main-img-center {
+width: 10%;
+left: calc(36in * 0.45);
+bottom: 0.5in;
+position: absolute;
+}
+#main-img-right {
+width: 10%;
+right: 0.5in;
+bottom: 0.2in;
+position: absolute;
+}
+.main p {
+font-size: 150px;
+font-family: Special Elite;
+text-align: center;
+margin: 0;
+position: absolute;
+top: 50%;
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+margin-left: 1em;
+}
+.fab {
+color: #00000030;
+font-size: 25px;
+}
+.twitter, i {
+color: #00000030;
+font-size: 35px;
+text-decoration: none;
+}
+a.email {
+text-decoration: none;
+color: #00000030;
+font-size: 35px;
+}
+.envelope {
+color: #00000030;
+font-size: 5px;
+text-decoration: none;
+}
+.poster_wrap {
+width: 36in;
+height: 48in;
+padding: 0cm;
+}
+.main_bottom {
+width: 36in;
+height: calc(48in * 0);
+margin-top: calc(48in * (1 - 0));
+position: absolute;
+background-color: #0b4545;
+background-image: linear-gradient(#008080 10%, #0b4545);
+}
+.section {
+  padding-left: 10mm;
+  padding-right: 10mm;
+}
+span > #tab:mytable {
+  font-weight: bold;
+}
+.orcid img {
+  width: 3%;
+}
+.emphasis {
+  background-color: #008080;
+  color: #ffffff;
+  border: solid #0b2045 3mm;
+  margin: 1em;
+  padding-left: 0;
+  padding-right: 0;
+}
+.emphasis h1 {
+  font-weight: bold;
+  background: none;
+  background-color: #0b2045;
+  padding-bottom: 5mm;
+  padding-top: 1mm;
+  margin-top: -1mm;
+  margin-right: -1mm;
+  margin-left: -1mm;
+}
+.emphasis blockquote {
+  border: 0;
+}
+.emphasis ol {
+  padding: 0;
+  padding-left: 8%;
+  font-size: 100%;
+  font-weight: bold;
+}
+.emphasis p {
+  color: #ffffff;
+}
+</style>
+</head>
+<body>
+
+
+<div class="poster_wrap">
+
+<div class="column outer">
+<div class="section">
+
+<h3 id="author" class="author">
+
+<strong>Jennifer Curi</strong><sup> 1</sup><br>
+
+</h3>
+
+<h5 id="author_extra", class="author_extra">
+</h5>
+
+
+<p id="affiliation" class="affiliation">
+<sup>1</sup> Rutgers University
+</p>
+</div>
+
+<div id="introduction" class="section level1">
+<h1>Introduction</h1>
+<p>Comparing proportions is sometimes very hard! But, even infants seem to be able to do it a little bit. The purpose of this science project was better understand how well people compare proportions when the proportions are presented in different formats. The purpose of this class assignment is to take the R-code and plots we’ve been generation over the last several weeks and put it all together into poster formal.</p>
+</div>
+<div id="research-objectives" class="section level1">
+<h1>Research Objectives</h1>
+<ol style="list-style-type: decimal">
+<li>Does average performance vary across format type?</li>
+<li>Does average performance vary across numerator congruency
+status?</li>
+<li>Does numerator congruency vary across format type? (i.e., is
+there an interaction)</li>
+</ol>
+</div>
+<div id="participants" class="section level1">
+<h1>Participants</h1>
+<p>A total of 99 adults participated in the study.</p>
+</div>
+<div id="methods" class="section level1">
+<h1>Methods</h1>
+<p>First, participants were introduced to a story about a magic ball and that the outcome (i.e, blue or orange) depended on the proportions. They were then asked to compare the proportions of different images.</p>
+<p>In other words, participants were shown two images of the same kind at the same time and asked to decide which had a higher proportion of the shape (or dots) colored in blue.</p>
+<p><img src="images_WA10/Probtask_Trial.png" width="100%" style="display: block; margin: auto;" /></p>
+<p>Conditions</p>
+<p>There were four different conditions that changed what kinds of
+images the participants saw:</p>
+<p>• divided blobs: blue and orange were entirely separate</p>
+<p>• integrated blob: one blob, divided to be part blue and part orange</p>
+<p>• separated dots: blue and orange dots were on opposite sides of
+the image</p>
+<p>• integrated dots: blue and orange dots were intermixed</p>
+<p><img src="images_WA10/Probtask_formats.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="results" class="section level1">
+<h1>Results</h1>
+<ol style="list-style-type: decimal">
+<li>Does average performance vary across format type, ignoring all other aspects of the stimuli?</li>
+</ol>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:plotone"></span>
+<img src="Curi_WA10_files/figure-html/plotone-1.png" alt="The plot shows the average performance for each condition with red dots, while grey dots show how individual responses are distributed around these averages. The average accuracy (proportion correct), varies slightly across different format conditions" width="100%" />
+<p class="caption">
+Figure 1: The plot shows the average performance for each condition with red dots, while grey dots show how individual responses are distributed around these averages. The average accuracy (proportion correct), varies slightly across different format conditions
+</p>
+</div>
+<ol start="2" style="list-style-type: decimal">
+<li>How are reaction time and accuracy related?
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:plottwo"></span>
+<img src="Curi_WA10_files/figure-html/plottwo-1.png" alt="The plot shows that people tend to be more accurate when they take longer to respond, with different colors showing the results for each condition." width="100%" />
+<p class="caption">
+Figure 2: The plot shows that people tend to be more accurate when they take longer to respond, with different colors showing the results for each condition.
+</p>
+</div></li>
+<li>How does numerator congruency interact with format type?
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:plotthree"></span>
+<img src="Curi_WA10_files/figure-html/plotthree-1.png" alt="The plot shows that people tend to be less accurate on congruent trials (red) compared to incongruent trials (blue), and the performance varies across different conditions." width="100%" />
+<p class="caption">
+Figure 3: The plot shows that people tend to be less accurate on congruent trials (red) compared to incongruent trials (blue), and the performance varies across different conditions.
+</p>
+</div></li>
+</ol>
+</div>
+<div id="interpretation" class="section level1">
+<h1>Interpretation</h1>
+<p><strong>Average Performance across format type:</strong> The red dots show the average performance for each condition, while the grey dots show how individual responses vary. Some conditions have responses that are close to the average, while others show more spread, meaning participants’ performance was less consistent.</p>
+<p><strong>The Correlation between reaction time and accuracy:</strong> This plot shows that people are usually more accurate when they take longer to respond. The different colors represent different conditions, and while the trend generally shows better accuracy with more time, there is still some variation between the conditions.</p>
+<p><strong>How numerator congruency interacts with format types:</strong> The plot compares performance on red (congruent) and blue (incongruent) trials. People tend to be less accurate on red trials compared to blue ones. The shaded areas show how much responses vary within each condition, with some conditions showing more spread than others.</p>
+</div>
+<div id="conclusion" class="section level1">
+<h1>Conclusion</h1>
+<p>The tedious part of the assignment was dealing with the formatting and getting everything to look right on the poster. It took a lot of time to make sure each section was in the correct place and that the plots were accurate and displayed clearly. Because this was a new file, I had to re-summarize the prodtask data set and then graph it, which introduced some errors.</p>
+<p>The most satisfying part was having a template to guide me, so I didn’t have to start from 0. It saved me time and made it easier to focus on putting the content together. It also felt great to see all my work come together in the end. Seeing the finished poster with everything in place was rewarding and gave me a sense of accomplishment.</p>
+</div>
+<div id="references" class="section level1">
+<h1>References</h1>
+</div>
+
+</div>
+<div class="main">
+<p>Proportional reasoning aross formats</p>
+</div>
+<div class="main_bottom">
+<img id="main-img-left" src=>
+<img id="main-img-center" src=>
+<img id="main-img-right" src=>
+</div>
+</div>
+
+
+
+</body>
+</html>
