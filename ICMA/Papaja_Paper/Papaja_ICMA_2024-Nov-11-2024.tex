@@ -3,7 +3,7 @@
 \PassOptionsToPackage{hyphens}{url}
 %
 \documentclass[
-  man]{apa6}
+  man,floatsintext]{apa6}
 \usepackage{amsmath,amssymb}
 \usepackage{iftex}
 \ifPDFTeX
@@ -170,12 +170,6 @@
 {}{\PatchFailed}
 \makeatother
 \keywords{keywords\newline\indent Word count: X}
-\DeclareDelayedFloatFlavor{ThreePartTable}{table}
-\DeclareDelayedFloatFlavor{lltable}{table}
-\DeclareDelayedFloatFlavor*{longtable}{table}
-\makeatletter
-\renewcommand{\efloat@iwrite}[1]{\immediate\expandafter\protected@write\csname efloat@post#1\endcsname{}}
-\makeatother
 \usepackage{lineno}
 
 \linenumbers
@@ -199,7 +193,7 @@
 \date{}
 
 
-\shorttitle{Alo is the best}
+\shorttitle{Alo is Cool}
 
 \authornote{
 
@@ -209,11 +203,11 @@ Enter author note here.
 
 The authors made the following contributions. Jennifer Curi: Conceptualization, Writing - Original Draft Preparation, Writing - Review \& Editing.
 
-Correspondence concerning this article should be addressed to Jennifer Curi, Postal address. E-mail: \href{mailto:jdc294@email.com}{\nolinkurl{jdc294@email.com}}
+Correspondence concerning this article should be addressed to Jennifer Curi. E-mail: \href{mailto:jdc294@rutgers.edu}{\nolinkurl{jdc294@rutgers.edu}}
 
 }
 
-\affiliation{\vspace{0.5cm}\textsuperscript{1} Rutgers University - New Brunswick}
+\affiliation{\vspace{0.5cm}\textsuperscript{1} Rutgers University}
 
 \abstract{%
 One or two sentences providing a \textbf{basic introduction} to the field, comprehensible to a scientist in any discipline.
@@ -242,23 +236,15 @@ We report how we determined our sample size, all data exclusions (if any), all m
 
 \subsection{Data analysis}\label{data-analysis}
 
-We used R (Version 4.3.0; R Core Team, 2023) and the R-packages \emph{papaja} (Version 0.1.3; Aust \& Barth, 2024) and \emph{tinylabels} (Version 0.2.4; Barth, 2023) for all our analyses.
+We used R (Version 4.3.0; R Core Team, 2023) and the R-packages \emph{dplyr} (Version 1.1.4; Wickham, François, Henry, Müller, \& Vaughan, 2023), \emph{forcats} (Version 1.0.0; Wickham, 2023a), \emph{ggplot2} (Version 3.5.1; Wickham, 2016), \emph{lubridate} (Version 1.9.3; Grolemund \& Wickham, 2011), \emph{papaja} (Version 0.1.3; Aust \& Barth, 2024), \emph{purrr} (Version 1.0.2; Wickham \& Henry, 2023), \emph{readr} (Version 2.1.5; Wickham, Hester, \& Bryan, 2024), \emph{stringr} (Version 1.5.1; Wickham, 2023b), \emph{tibble} (Version 3.2.1; Müller \& Wickham, 2023), \emph{tidyr} (Version 1.3.1; Wickham, Vaughan, \& Girlich, 2024), \emph{tidyverse} (Version 2.0.0; Wickham et al., 2019) and \emph{tinylabels} (Version 0.2.4; Barth, 2023) for all our analyses.
 
 \section{Results}\label{results}
 
-(ref: chick-caption) Each chick was weighted every other day from birth to day 20 and 21. This plot shows the weight of each chick (y-axis) for each day they were measured (x-axis). Each point is one measurement
 
-\begin{figure}
-\centering
-\includegraphics{Papaja_ICMA_2024-Nov-11-2024_files/figure-latex/chick-plot-1.pdf}
-\caption{\label{fig:chick-plot}then write the caption}
-\end{figure}
 
-\begin{figure}
-\centering
-\includegraphics{Papaja_ICMA_2024-Nov-11-2024_files/figure-latex/red-plot-1.pdf}
-\caption{\label{fig:red-plot}This is my red plot}
-\end{figure}
+\includegraphics{Papaja_ICMA_2024-Nov-11-2024_files/figure-latex/unnamed-chunk-1-1.pdf}
+
+\newpage
 
 \section{Discussion}\label{discussion}
 
@@ -274,8 +260,38 @@ Aust, F., \& Barth, M. (2024). \emph{{papaja}: {Prepare} reproducible {APA} jour
 \bibitem[\citeproctext]{ref-R-tinylabels}
 Barth, M. (2023). \emph{{tinylabels}: Lightweight variable labels}. Retrieved from \url{https://cran.r-project.org/package=tinylabels}
 
+\bibitem[\citeproctext]{ref-R-lubridate}
+Grolemund, G., \& Wickham, H. (2011). Dates and times made easy with {lubridate}. \emph{Journal of Statistical Software}, \emph{40}(3), 1--25. Retrieved from \url{https://www.jstatsoft.org/v40/i03/}
+
+\bibitem[\citeproctext]{ref-R-tibble}
+Müller, K., \& Wickham, H. (2023). \emph{Tibble: Simple data frames}. Retrieved from \url{https://CRAN.R-project.org/package=tibble}
+
 \bibitem[\citeproctext]{ref-R-base}
 R Core Team. (2023). \emph{R: A language and environment for statistical computing}. Vienna, Austria: R Foundation for Statistical Computing. Retrieved from \url{https://www.R-project.org/}
+
+\bibitem[\citeproctext]{ref-R-ggplot2}
+Wickham, H. (2016). \emph{ggplot2: Elegant graphics for data analysis}. Springer-Verlag New York. Retrieved from \url{https://ggplot2.tidyverse.org}
+
+\bibitem[\citeproctext]{ref-R-forcats}
+Wickham, H. (2023a). \emph{Forcats: Tools for working with categorical variables (factors)}. Retrieved from \url{https://CRAN.R-project.org/package=forcats}
+
+\bibitem[\citeproctext]{ref-R-stringr}
+Wickham, H. (2023b). \emph{Stringr: Simple, consistent wrappers for common string operations}. Retrieved from \url{https://CRAN.R-project.org/package=stringr}
+
+\bibitem[\citeproctext]{ref-R-tidyverse}
+Wickham, H., Averick, M., Bryan, J., Chang, W., McGowan, L. D., François, R., \ldots{} Yutani, H. (2019). Welcome to the {tidyverse}. \emph{Journal of Open Source Software}, \emph{4}(43), 1686. \url{https://doi.org/10.21105/joss.01686}
+
+\bibitem[\citeproctext]{ref-R-dplyr}
+Wickham, H., François, R., Henry, L., Müller, K., \& Vaughan, D. (2023). \emph{Dplyr: A grammar of data manipulation}. Retrieved from \url{https://CRAN.R-project.org/package=dplyr}
+
+\bibitem[\citeproctext]{ref-R-purrr}
+Wickham, H., \& Henry, L. (2023). \emph{Purrr: Functional programming tools}. Retrieved from \url{https://CRAN.R-project.org/package=purrr}
+
+\bibitem[\citeproctext]{ref-R-readr}
+Wickham, H., Hester, J., \& Bryan, J. (2024). \emph{Readr: Read rectangular text data}. Retrieved from \url{https://CRAN.R-project.org/package=readr}
+
+\bibitem[\citeproctext]{ref-R-tidyr}
+Wickham, H., Vaughan, D., \& Girlich, M. (2024). \emph{Tidyr: Tidy messy data}. Retrieved from \url{https://CRAN.R-project.org/package=tidyr}
 
 \end{CSLReferences}
 

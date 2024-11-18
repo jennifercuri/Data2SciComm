@@ -1,22 +1,20 @@
 ---
 title             : "I like Alo"
-shorttitle        : "Alo is the best"
+shorttitle        : "Alo is Cool"
 
 author: 
   - name          : "Jennifer Curi"
     affiliation   : "1"
     corresponding : yes    # Define only one corresponding author
-    address       : "Postal address"
-    email         : "jdc294@email.com"
+    email         : "jdc294@rutgers.edu"
     role: # Contributorship roles (e.g., CRediT, https://credit.niso.org/)
       - "Conceptualization"
       - "Writing - Original Draft Preparation"
       - "Writing - Review & Editing"
 
-
 affiliation:
   - id            : "1"
-    institution   : "Rutgers University - New Brunswick"
+    institution   : "Rutgers University"
 
 authornote: |
   Add complete departmental affiliations for each author here. Each new line herein must be indented, like this line.
@@ -39,7 +37,7 @@ wordcount         : "X"
 
 bibliography      : "r-references.bib"
 
-floatsintext      : no
+floatsintext      : yes
 linenumbers       : yes
 draft             : no
 mask              : no
@@ -54,8 +52,8 @@ output            : papaja::apa6_pdf
 
 ```{r setup, include = FALSE}
 library("papaja")
-r_refs("r-references.bib")
 library(tidyverse)
+r_refs("r-references.bib")
 ```
 
 ```{r analysis-preferences}
@@ -64,6 +62,11 @@ set.seed(42)
 knitr::opts_chunk$set(cache.extra = knitr::rand_seed)
 ```
 
+```{r chick-plot, fig.cap="(ref:chick-caption)"}
+chick_plot <- ChickWeight %>%
+  ggplot(aes(y = weight, x = Time)) +
+  geom_point()
+```
 
 
 # Methods
@@ -79,22 +82,18 @@ We report how we determined our sample size, all data exclusions (if any), all m
 We used `r cite_r("r-references.bib")` for all our analyses.
 
 
-
 # Results
-(ref: chick-caption) Each chick was weighted every other day from birth to day 20 and 21. This plot shows the weight of each chick (y-axis) for each day they were measured (x-axis). Each point is one measurement
 
-```{r chick-plot, fig.cap="then write the caption"}
-ChickWeight %>%
-  ggplot(aes(y = weight, x = Time)) +
-  geom_point()
+(ref:chick-caption) Each chick was weighed every other day from birth to day 20 and on day 21. This plot shows the weight of each chick (y-axis) for each day they were measured (x-axis). Each point is one measurement. 
+
+
+```{r}
+chick_plot
 ```
 
-```{r red-plot, fig.cap= "This is my red plot"}
-ChickWeight %>%
-  ggplot(aes(y = weight, x = Time)) +
-  geom_point(color = "red")
-```
 
+
+\newpage
 
 # Discussion
 
