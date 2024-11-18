@@ -68,8 +68,8 @@ chick_plot <- ChickWeight %>%
   geom_point()
 ```
 
-
 # Methods
+
 We report how we determined our sample size, all data exclusions (if any), all manipulations, and all measures in the study. <!-- 21-word solution (Simmons, Nelson & Simonsohn, 2012; retrieved from http://ssrn.com/abstract=2160588) -->
 
 ## Participants
@@ -79,28 +79,25 @@ We report how we determined our sample size, all data exclusions (if any), all m
 ## Procedure
 
 ## Data analysis
-We used `r cite_r("r-references.bib")` for all our analyses.
 
+We used `r cite_r("r-references.bib")` for all our analyses.
 
 # Results
 
-(ref:chick-caption) Each chick was weighed every other day from birth to day 20 and on day 21. This plot shows the weight of each chick (y-axis) for each day they were measured (x-axis). Each point is one measurement. 
-
+(ref:chick-caption) Each chick was weighed every other day from birth to day 20 and on day 21. This plot shows the weight of each chick (y-axis) for each day they were measured (x-axis). Each point is one measurement.
 
 ```{r}
 chick_plot
 ```
 
-
-
 \newpage
 
 # Discussion
-
 
 \newpage
 
 # References
 
-::: {#refs custom-style="Bibliography"}
-:::
+we can reference [@syrett]
+
+]

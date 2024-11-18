@@ -1,0 +1,41 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
+```{r set-up}
+library(tidyverse)
+library(ggdist)
+
+```
+
+```{r read-in}
+desc <- read_csv("data/desc_all.csv")
+e2error <- read_csv("data/e2_error_df.csv")
+e5error <- read_csv("data/e5_error_df.csv")
+e15error <- read_csv("data/e15_error_df.csv")
+```
+
+# Descriptives
+This is the data that tells us how many groups each participant made and the language background of that participant. This is the data w need for that first box plot. 
+
+```{r}
+#desc %>%
+ # distinct(Code, group_name)
+```
+
+```{r}
+desc %>%
+  ggplot(aes(y = no_categories)) +
+  geom_histogram(binwidth = 1,
+                 color = "white")
+  
+
+
+```
+
+
