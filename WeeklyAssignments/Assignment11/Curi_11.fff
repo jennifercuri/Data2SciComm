@@ -1,0 +1,5 @@
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\includegraphics[width=0.8\linewidth]{Curi_11_files/figure-latex/plotone-1} \caption{The plot shows the average performance for each condition with red dots, while grey dots show how individual responses are distributed around these averages. The average accuracy (proportion correct), varies slightly across different format conditions}\label{fig:plotone}
+\end{figure*}

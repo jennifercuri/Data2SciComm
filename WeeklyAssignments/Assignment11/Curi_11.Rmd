@@ -1,0 +1,238 @@
+---
+title             : "How do different visual formats affect accuracy and reaction time in proportional reasoning tasks?"
+shorttitle        : "Proportional Reasoning Across Formats"
+
+author: 
+  - name          : "Jennifer Curi"
+    affiliation   : "1"
+    corresponding : yes    # Define only one corresponding author
+    email         : "jdc294@rutgers.edu"
+   
+affiliation:
+  - id            : "1"
+    institution   : "Rutgers University"
+
+abstract: |
+ This study looks at how people compare proportions shown in different ways, like dots or blobs. We checked if these formats change how accurate or fast people are. The results show that some formats make it easier to compare proportions, and taking more time can improve accuracy. These findings help us understand how the way information is shown affects how people think.
+  
+  <!-- https://tinyurl.com/ybremelq -->
+  
+keywords          : "keywords"
+wordcount         : "X"
+
+bibliography      : "r-references.bib"
+
+floatsintext      : yes
+linenumbers       : yes
+draft             : no
+mask              : no
+
+figurelist        : no
+tablelist         : no
+footnotelist      : no
+
+classoption       : "man"
+output            : papaja::apa6_pdf
+---
+
+```{r setup, include = FALSE}
+library("papaja")
+library(tidyverse)
+library(ggdist)
+
+theme_set(theme_minimal())
+
+
+MFIndD__probtask__read__11 <- read_csv("/Users/jencuri/Documents/GitHub/Data2SciComm/WeeklyAssignments/Assignment11/data/MFIndD_probtask.csv")
+```
+
+# Introduction
+
+Comparing proportions is sometimes very hard! But, even infants seem to be able to do it a little bit. The purpose of this science project was better understand how well people compare proportions when the proportions are presented in different formats. The purpose of this class assignment is to take the R-code and plots we've been generation over the last several weeks and put it all together into poster formal.
+
+## Research Objectives
+
+1. Does average performance vary across format type?
+2. Does average performance vary across numerator congruency 
+status?
+3. Does numerator congruency vary across format type? (i.e., is
+there an interaction)
+
+
+# Methods
+
+## Participants
+```{r participants, include=FALSE}
+num_participants <- MFIndD__probtask__read__11 %>%
+  distinct(SubID) %>%
+  nrow()
+```
+
+
+A total of `r num_participants` adults participated in the study.
+
+First, participants were introduced to a story about a magic ball and that the outcome (i.e, blue or orange) depended on the proportions. They were then asked to compare the proportions of different images. 
+
+In other words, participants were shown two images of the same kind at the same time and asked to decide which had a higher proportion of the shape (or dots) colored in blue. 
+
+```{r graphicone, fig.cap="Results of visual stimuli used in the experiment."}
+knitr::include_graphics("/Users/jencuri/Documents/GitHub/Data2SciComm/WeeklyAssignments/Assignment11/images_WA10/Probtask_Trial.png")
+```
+ 
+ 
+ \newpage
+
+## Conditions
+
+There were four different conditions that changed what kinds of
+images the participants saw:
+
+• divided blobs: blue and orange were entirely separate
+
+• integrated blob: one blob, divided to be part blue and part orange
+
+• separated dots: blue and orange dots were on opposite sides of
+the image
+
+• integrated dots: blue and orange dots were intermixed
+
+```{r graphictwo, fig.cap="Types of conditions."}
+knitr::include_graphics("/Users/jencuri/Documents/GitHub/Data2SciComm/WeeklyAssignments/Assignment10/images_WA10/Probtask_formats.png")
+```
+
+\newpage
+
+# Results
+
+1. Does average performance vary across format type, ignoring all other aspects of the stimuli?
+
+```{r, plotone, warning=FALSE, fig.cap='The plot shows the average performance for each condition with red dots, while grey dots show how individual responses are distributed around these averages. The average accuracy (proportion correct), varies slightly across different format conditions', fig.height=6.5, out.width="80%"}
+
+prob__data__summarized <- MFIndD__probtask__read__11 %>%
+  group_by(SubID, condition) %>%
+  summarise(prop_corr = sum(correct == TRUE) / n())
+
+ggplot(prob__data__summarized, aes(x = condition, y = prop_corr)) +
+  stat_summary(fun = mean, geom = "point", color = "red") +
+  geom_jitter(alpha = 0.3, width = 0.1, height = 0) +
+  labs(title = "The Average Performance Across Format Type",
+       x = "Condition",
+       y = "Proportion Correct") +
+  scale_x_discrete(labels = c(
+    "dots_EqSizeSep" = "Separated Dots (Equal Size)",
+    "dots_EqSizeRand" = "Randomized Dots (Equal Size)",
+    "blob_shifted" = "Shifted Blobs",
+    "blob_stacked" = "Stacked Blobs"
+  ))
+
+```
+
+\newpage
+
+2. How are reaction time and accuracy related?
+```{r plottwo, fig.cap='The plot shows that people tend to be more accurate when they take longer to respond, with different colors showing the results for each condition.', fig.height=8, out.width="70%"}
+prob__data__summary <- MFIndD__probtask__read__11 %>%
+  group_by(SubID, condition) %>%
+  summarise(
+    rt = mean(rt, na.rm = TRUE),
+    correct = mean(correct, na.rm = TRUE)
+  ) %>%
+  mutate(
+    rt = round(rt,0),
+    correct = round(correct, 3)
+  )
+
+ggplot(prob__data__summary, aes(x = rt, y = correct, color = condition)) +
+  geom_point() +
+  labs(title = "The Relation between time and accuracy (Color Coded)",
+       x = "Average Reaction Time",
+       y = "Proportion Correct") 
+
+
+```
+\newpage 
+3. How does numerator congruency interact with format type?
+```{r plotthree, fig.cap='The plot shows that people tend to be less accurate on congruent trials (red) compared to incongruent trials (blue), and the performance varies across different conditions.', fig.height=8, out.width="70%"}
+prob__data__mod <- MFIndD__probtask__read__11 %>%
+
+#a-b.
+separate(left_stim, into = c("left_numerator", "left_other"), sep = "_") %>%
+separate(right_stim, into = c("right_numerator", "right_other"), sep = "_") %>%
+  
+mutate(
+    left_numerator = as.numeric(left_numerator),
+    left_other = as.numeric(left_other),
+    right_numerator = as.numeric(right_numerator),
+    right_other = as.numeric(right_other)
+  ) %>%
+  
+# c. 
+  mutate(
+    left_proportion_value = left_numerator / (left_numerator + left_other),
+    right_proportion_value = right_numerator / (right_numerator + right_other)
+  ) %>%
+  
+  
+# d. 
+  mutate(
+    larger_numerator = if_else(left_numerator > right_numerator, "left", "right")
+  ) %>%
+  
+# e. 
+  mutate(
+    larger_proportion = if_else(left_proportion_value > right_proportion_value, "left", "right")
+  ) %>%
+  
+# f. 
+  mutate(
+    num_congruent = larger_numerator == larger_proportion
+  )
+
+summary__prob__data__mod <- prob__data__mod %>%
+  group_by(SubID, condition, num_congruent) %>%
+  summarize(
+    proportion_correct = mean(correct, na.rm = TRUE)
+  )
+
+ggplot(summary__prob__data__mod, aes(x = condition, y = proportion_correct, color = num_congruent)) +
+  stat_halfeye(alpha = 0.7, justification = -0.1) +
+  labs(
+    title = "Proportion Correct by Condition and Numerator Congruency",
+    x = "Condition",
+    y = "Proportion Correct",
+    color = "Numerator Congruency"
+  ) +
+  scale_color_manual(values = c("TRUE" = "blue", "FALSE" = "red"), 
+                     labels = c("Congruent", "Incongruent")) 
+
+```
+
+
+\newpage
+
+# Discussion
+
+## Interpretation
+
+**Average Performance across format type:** The red dots show the average performance for each condition, while the grey dots show how individual responses vary. Some conditions have responses that are close to the average, while others show more spread, meaning participants' performance was less consistent.
+
+**The Correlation between reaction time and accuracy:** This plot shows that people are usually more accurate when they take longer to respond. The different colors represent different conditions, and while the trend generally shows better accuracy with more time, there is still some variation between the conditions.
+
+**How numerator congruency interacts with format types:** The plot compares performance on red (congruent) and blue (incongruent) trials. People tend to be less accurate on red trials compared to blue ones. The shaded areas show how much responses vary within each condition, with some conditions showing more spread than others.
+
+\newpage
+
+## Conclusion
+ 
+The tedious part of the assignment was dealing with the formatting and getting everything to look right on the poster. It took a lot of time to make sure each section was in the correct place and that the plots were accurate and displayed clearly. Because this was a new file, I had to re-summarize the prodtask data set and then graph it, which introduced some errors. 
+
+The most satisfying part was having a template to guide me, so I didn’t have to start from 0. It saved me time and made it easier to focus on putting the content together. It also felt great to see all my work come together in the end. Seeing the finished poster with everything in place was rewarding and gave me a sense of accomplishment.
+
+\newpage
+
+## Data analysis
+
+We used `r cite_r("r-references.bib")` for all our analyses.
+
+\newpage
+
