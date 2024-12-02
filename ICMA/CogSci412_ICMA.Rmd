@@ -757,4 +757,54 @@ ChickWeight %>%
 ```
 
 
-# 
+# ICMA December 2, 2024
+
+```{r}
+install.packages("forcats")
+```
+
+```{r}
+months <- c("April", "Dec", "Jan","Feb","March")
+```
+
+```{r}
+sort(months)
+```
+
+```{r}
+months_base <- factor(months,
+                 levels = c("Jan", "Feb", "March", "April", "Dec"))
+```
+
+```{r}
+months_base
+```
+
+```{r}
+library(forcats)
+```
+
+```{r}
+months_forcats <- fct(months,
+                      levels = c("Jan", "Feb", "March", "April","May","June","July", "Dec"))
+```
+
+
+```{r}
+months_forcats
+```
+
+```{r}
+factor(months,
+      levels = c("Jan", "Feb", "March", "April","May","June","July", "Dec")     
+)
+
+```
+
+
+
+
+
+
+
+
