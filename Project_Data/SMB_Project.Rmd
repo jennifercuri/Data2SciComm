@@ -1,0 +1,232 @@
+---
+main_topsize: 0.2 #percent coverage of the poster
+main_bottomsize: 0.1
+#ESSENTIALS
+
+author:
+  - name: 'Do men and women respond differently to rewards and punishments, and how does this
+influence the intensity and way they approach tasks?'
+    main: true
+  - name: Jennifer Curi
+    affil: 1
+affiliation:
+  - num: 1
+    address: Rutgers University - New Brunswick
+main_findings:
+  - "How do people respond to different types of motivational cues?"
+output: 
+  posterdown::posterdown_betterport:
+    self_contained: false
+    pandoc_args: --mathjax
+    number_sections: false
+bibliography: references.bib
+link-citations: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = FALSE,
+                      tidy = FALSE,
+                      message = FALSE,
+                      fig.align = 'center',
+                      out.width = "100%")
+options(knitr.table.format = "html") 
+library(tidyverse)
+library(ggdist)
+
+
+indexes_df <- readxl::read_excel('/Users/jencuri/Documents/GitHub/Data2SciComm/Project_Data/indexes.xlsx', sheet = 'exp1')
+indexes_df2 <- readxl::read_excel('/Users/jencuri/Documents/GitHub/Data2SciComm/Project_Data/indexes.xlsx', sheet = 'exp2')
+db_df <- read_csv('/Users/jencuri/Documents/GitHub/Data2SciComm/Project_Data/DB.csv')
+
+```
+
+```{r removeNA, include=FALSE}
+
+db_df <- na.omit(db_df)
+df_combined <- na.omit(bind_rows(
+  indexes_df %>% mutate(Experiment = "Exp 1"),
+  indexes_df2 %>% mutate(Experiment = "Exp 2")
+))
+
+```
+
+
+```{r standardizeData, include=FALSE}
+
+if("intensity_index" %in% colnames(df_combined)) {
+  df_combined <- df_combined %>%
+    group_by(Experiment) %>%
+    mutate(z_intensity_index = (intensity_index - mean(intensity_index)) / sd(intensity_index)) %>%
+    ungroup()
+}
+```
+
+
+```{r plot1_reaction_times, include=FALSE}
+plot1_reaction_times_avg <- db_df %>%
+  ggplot(aes(x = CS, y = rt, color = res)) +
+  stat_summary(fun = mean, geom = "point", size = 4) +
+  stat_summary(fun.data = mean_se, geom = "errorbar", width = 0.2, color = "black") +
+  labs(title = "Average Reaction Times by Cue Type (by Response Type)",
+       x = "Cue Type", y = "Reaction Time (ms)", color = "Response Type") +
+  theme_minimal()
+
+```
+
+```{r plot2_intensity_bias, include=FALSE}
+intensity_bias_plot <- df_combined %>%
+  ggplot(aes(x = Sex, y = z_intensity_index, fill = Sex)) +
+  stat_halfeye(
+    adjust = 0.7,
+    width = 0.6,
+    justification = -0.2,
+    alpha = 0.6
+  ) +
+  stat_summary(fun = mean, geom = "point", size = 3, color = "black") +
+  stat_summary(fun.data = mean_se, geom = "errorbar", width = 0.2) +
+  facet_wrap(~ Experiment, labeller = as_labeller(c(
+    "Exp 1" = "Food Rewards (Experiment 1)",
+    "Exp 2" = "Aversive Noises (Experiment 2)"
+  ))) +
+  labs(
+    title = "Intensity Bias by Gender and Experiment",
+    x = "Gender",
+    y = "Intensity Bias (Z-score)"
+  ) +
+  scale_fill_manual(values = c("Females" = "#F8766D", "Males" = "#00BFC4")) +
+  theme_minimal() +
+  theme(
+    strip.text = element_text(size = 12, face = "bold"),
+    axis.title = element_text(size = 12),
+    plot.title = element_text(size = 14, face = "bold", hjust = 0.5)
+  )
+```
+
+```{r plot3_direction_bias, include=FALSE}
+direction_bias_boxplot <- df_combined %>%
+  ggplot(aes(x = Sex, y = direction_index, fill = Sex)) +
+  stat_halfeye(
+    adjust = 0.7,
+    width = 0.6,
+    justification = -0.2,
+    alpha = 0.6
+  ) +
+  stat_summary(fun = mean, geom = "point", size = 3, color = "black") +
+  stat_summary(fun.data = mean_se, geom = "errorbar", width = 0.2) +
+  facet_wrap(~ Experiment, labeller = as_labeller(c(
+    "Exp 1" = "Food Rewards (Experiment 1)",
+    "Exp 2" = "Aversive Noises (Experiment 2)"
+  ))) +
+  labs(
+    title = "Direction Bias by Gender and Experiment",
+    x = "Gender",
+    y = "Direction Bias Index"
+  ) +
+  scale_fill_manual(values = c("Females" = "#F8766D", "Males" = "#00BFC4")) +
+  theme_minimal() +
+  theme(
+    strip.text = element_text(size = 12, face = "bold"),
+    axis.title = element_text(size = 12),
+    plot.title = element_text(size = 14, face = "bold", hjust = 0.5)
+  )
+```
+
+<br>
+
+# Introduction
+
+What motivates human behavior: reward or fear of punishment? This study explores how appetitive (positive) and aversive (negative) cues influence reactions, and whether these effects differ between males and females. The data comes from a study by PHD Students at the University of Bologna in Italy. *Sex differences in motivational biases over instrumental actions - Open Science Framework (OSF)* (Contributors: Luigi Degni Sara Garofalo Gianluca Finotti Francesca Starita). In this project, I will be looking at the comparison in Intensity and Direction Bias across gender and exxperiments and the reaction times per motivational cue.
+
+
+# Methods
+
+This study examined **direction bias** (how cues guide specific actions) and **intensity bias** (how hard the responses triggered by cues). Two experiments using the Pavlovian-to-Instrumental Transfer (PIT) paradigm assessed these biases:
+
+#### **Experiment 1: Appetitive Cues**
+- **Goal**: Understand how food rewards influence decisions.
+- **Setup**: Participants associated visual cues (CS+ or CS−) with rewards and response-reward pairings, then performed a transfer phase with no rewards.
+- **Measures**: Reaction times (RT) and action congruence.
+
+#### **Experiment 2: Aversive Cues**
+- **Goal**: Assess avoidance behavior in response to unpleasant noises.
+- **Setup**: Participants associated visual cues with noises and learned avoidance actions via joystick movements and grip force. The transfer phase tested cue influence without actual noises.
+- **Measures**: Grip force and action congruence.
+
+```{r tablesetup, include=FALSE}
+# Define the data for the table
+methods_data <- data.frame(
+  Aspect = c("CS+ (Motivational)", "CS− (Neutral)", "Intensity Bias", "Direction Bias", "R1 (Response 1)", "R2 (Response 2)"),
+  `Experiment 1 (Appetitive)` = c(
+    "Predicts rewards",
+    "Predicts no reward",
+    "Faster RT with CS+ vs. CS−",
+    "Congruent actions with CS+1/CS+2",
+    "Press a specific key",
+    "Press a different key"
+  ),
+  `Experiment 2 (Aversive)` = c(
+    "Predicts avoidance of noise",
+    "Predicts no noise",
+    "Stronger grip force with CS+ vs. CS−",
+    "Congruent actions with CS+1/CS+2",
+    "Move joystick left/right",
+    "Squeeze handgrip"
+  )
+)
+```
+
+```{r table}
+knitr::kable(
+  methods_data,
+  format = "html",
+  caption = "Key aspects of both experiments.",
+  align = "c",
+  col.names = c("Aspect", "Experiment 1 (Appetitive)", "Experiment 2 (Aversive)"),
+  escape = FALSE
+)
+```
+<br>
+
+
+
+**Testing Environment:**
+```{r imageone, fig.cap='Overview of experimental set up', fig.height=5}
+knitr::include_graphics("/Users/jencuri/Documents/GitHub/Data2SciComm/Project_Data/setup_image.png")
+
+```
+
+
+<br>
+
+# Results
+
+1. Average Reaction Times Across CS Types (CS-, CS1, CS2, CS3):
+
+
+```{r, plotone, fig.cap='Reaction times vary across cue types. CS1 and CS2 show more consistent and faster responses, while CS- and CS3 display greater variability, suggesting weaker influence on behavior.', out.width="80%"}
+
+plot1_reaction_times_avg
+```
+<br>
+
+
+2. Do Males and Females Differ in Intensity Bias?
+
+```{r plottwo, fig.cap='Males had a stronger reaction to motivational cues than females in both experiments. Males responded more intensely, while females had smaller changes in their response strength.', fig.height=6, out.width="80%"}
+intensity_bias_plot
+
+```
+
+3. How Do Males and Females Differ in Direction Bias?
+
+```{r, plotthree, fig.cap=" Males and females displayed similar direction bias across both experiments. There are overlapping distributions for Experiment 1 and Experiment 2, which indicates that motivational cues influence action choices equally across genders."}
+direction_bias_boxplot
+```
+# Conclusion
+
+Overall, This study found that males showed stronger reactions to motivational cues compared to females, while both sexes responded similarly in choosing actions aligned with the cues. These findings help us understand how motivation affects behavior differently for men and women, which could have important implications for areas like mental health.
+
+# References
+
+[@degni2024sex]
